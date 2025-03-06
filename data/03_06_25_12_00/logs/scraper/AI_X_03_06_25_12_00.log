@@ -1,0 +1,22 @@
+== Conducting scraping for AI on X
+== Getting initial 4 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 4: https://help.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 4: https://help.x.com/en/rules-and-policies/authenticity
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 4: https://help.x.com/en/rules-and-policies/adult-content
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 4: https://help.x.com/en/rules-and-policies/child-safety
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+==== We are at iteration 2 (tree depth).
+==== Number of new pages added: 0
+== Finished scraping X-AI in 31.6682 seconds.
+== Writing to db file
+== Done (/home/oscarc/Desktop/dev/ContentModerationWebScraper/data/03_06_25_12_00/all_htmls/AI_X_03_06_25_12_00.json)
+== Completed with Errors, search for error in logs

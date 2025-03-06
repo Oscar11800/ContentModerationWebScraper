@@ -25,7 +25,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
         RETRY_CUTOFF=retrycutoff, 
         WEBCACHE=webcache)
     
-    breakpoint()
+    # breakpoint()
 
     errors = False
 
@@ -45,7 +45,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     logger = my_custom_logger(f"{output_dir}/{date_time}/logs/scraper/{filename}.log")
 
     if not raw['site_name'] in pulled_sites:
-        pulled_sites[raw['site_name']] = {'copyright': [], 'misinformation': [], 'hatespeech': []}
+        pulled_sites[raw['site_name']] = {'AI': []}
 
     statement = f"== Conducting scraping for {area} on {raw['site_name']}"
 
@@ -57,6 +57,19 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 
     # add the first set of links downloaded
     # these are the seed links we got by hand
+    if "site_url" in raw:
+       redirected_url = driver.follow_redirect(raw["site_url"])  # Follow redirect first
+    if not redirected_url:
+        redirected_url = raw["site_url"]  # Use original URL if redirect fails
+
+    try:
+        raw['pages'][0] = {"url": redirected_url, "html": driver.get_html(redirected_url)}
+    except Exception as e:
+        print(f"Failed to scrape: {redirected_url}. Error: {e}")
+        raw['pages'][0] = {"url": redirected_url, "html": "Failed"}
+
+
+
     for page in raw['pages'].values():
         pulled_sites[raw['site_name']][area].append(page['url'])
 
@@ -223,7 +236,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                         if is_english:
                             # instead of looking in source html, just look in text (but still download all html if search term found in text)
                             page_text = next_soup.get_text()
-                            area_search_terms = search_terms[area].dropna()
+                            area_search_terms = search_terms["search_terms"].dropna()
                             # if includes this area's search terms
                             st_found = False
                             for st in area_search_terms:
@@ -246,9 +259,10 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                                     x = re.search(my_re, page_text, flags=re.IGNORECASE)
                                     if x:
                                         st_found = True
-                                if st_found:    
+                                # TODO: Switch back to if st_found
+                                if True:   
                                     break # found a search term, dont need to keep checking
-                            if st_found:
+                            if True:
                                 # build up list of new found sites 
                                 statement = f"============ New link added. Search term ({st}) found on {link}."
                                 logger.warning(statement)
@@ -335,10 +349,8 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
         pool = Pool(pools)
     # manager = Manager()  Dont need shared objects/data structures. 
     date_time = datetime.now(pytz.timezone('US/Central')).strftime('%m_%d_%y_%H_%M')
-    os.mkdir(f"{outdir}/{date_time}/")
-    os.mkdir(f"{outdir}/{date_time}/all_htmls/")
-    os.mkdir(f"{outdir}/{date_time}/logs/")
-    os.mkdir(f"{outdir}/{date_time}/logs/scraper/")
+    os.makedirs(f"{outdir}/{date_time}/all_htmls/", exist_ok=True)
+    os.makedirs(f"{outdir}/{date_time}/logs/scraper/", exist_ok=True)
     tick = time.perf_counter()
 
     high_logger = my_custom_logger(f"{outdir}/{date_time}/logs/scraper/{date_time}.log")
@@ -350,44 +362,38 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     high_logger.warning(statement)
 
     url_filter_dict = {}
-    # need to make sure the allowlist and blocklists have same sites and IDs as all sheets!!
-    df_allow = pd.read_excel(links, sheet_name='allow_list', engine='openpyxl')
-    df_block = pd.read_excel(links, sheet_name='block_list', engine='openpyxl')
-    for i in range(len(df_allow)):
-        id = df_allow.loc[i][0]
+    # OLD: need to make sure the allowlist and blocklists have same sites and IDs as all sheets!!
+    df_ai = pd.read_excel(links, sheet_name="AI", engine="openpyxl")
+    # No need for allow/block lists, only scrape AI-related sites
+    url_filter_dict = {}
+    for i in range(len(df_ai)):
+        id = df_ai.loc[i][0]
         not_empty = (not pd.isnull(id)) and (str(id).strip() != '')
 
         if not_empty:
-            allow_row = sheet_row_to_list(df_allow.loc[i][2:])
-            block_row = sheet_row_to_list(df_block.loc[i][2:])
-
-            if len(allow_row) == 0:
-                # No allows have been set up for this platform yet
-                statement = f'No Allows set for {df_allow.loc[i][1]}. Defaulted to \'.\''
-                print(statement)
-                high_logger.warning(statement)
-                allow_row = ['.']
-            site_url_filter_dict = {'allows': allow_row, 'blocks': block_row}
+            allow_row = ['.']  # Default to allowing everything
+            site_url_filter_dict = {'allows': allow_row, 'blocks': []}  # No block list
             url_filter_dict[id] = site_url_filter_dict
     
 
-    search_terms = pd.read_csv(search_terms)
+    search_terms = pd.read_csv(search_terms, names=["search_terms"], skiprows=1)
     jobs = []
-    for area in ['copyright', 'misinformation', 'hatespeech']:
-        df = pd.read_excel(links, sheet_name=area, engine='openpyxl')
+    area = "AI"  # Only scrape AI-related content
+    df = pd.read_excel(links, sheet_name="AI", engine="openpyxl")  # Read only the "AI" sheet
 
-        # for each site in area
-        for i in range(len(df)):
-            id = df.loc[i][0]
-            not_empty = (not pd.isnull(id)) and (str(id).strip() != '')
+    # Loop through the AI sheet and process each site
+    for i in range(len(df)):
+        id = df.loc[i, "site_id"]  # Ensure correct column name
+        not_empty = (not pd.isnull(id)) and (str(id).strip() != '')
 
-            if not_empty:
-                row = df.loc[i]
-                print(f"spawning job for {area} on {row['site_name']}")
-                if pools:
-                    jobs.append(pool.apply_async(run_row, args=(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations), callback=callback, error_callback=pcb))
-                else:
-                    run_row(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations)
+        if not_empty:
+            row = df.loc[i]
+            print(f"spawning job for {area} on {row['site_name']}")
+            if pools:
+                jobs.append(pool.apply_async(run_row, args=(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations), callback=callback, error_callback=pcb))
+            else:
+                run_row(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations)
+
 
     if pools:
         for job in jobs:

@@ -1,0 +1,2437 @@
+== Conducting scraping for AI on X
+== Getting initial 4 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 4: https://help.x.com/en
+====== Number of Links on this Page: 131
+======== We are on link 1 of 131
+========== raw link #twtr-main
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 131
+========== raw link https://help.x.com/en/using-x
+============ Checking for Redirections: https://help.x.com/en/using-x
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 3 of 131
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+============ Link unchanged
+========== scraping https://help.x.com/en/managing-your-account
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/managing-your-account.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 4 of 131
+========== raw link https://help.x.com/en/safety-and-security
+============ Checking for Redirections: https://help.x.com/en/safety-and-security
+============ Link unchanged
+========== scraping https://help.x.com/en/safety-and-security
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/safety-and-security.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 5 of 131
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+============ Link unchanged
+========== scraping https://help.x.com/en/rules-and-policies
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/rules-and-policies.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 6 of 131
+========== raw link https://help.x.com/en/resources/new-user-faq
+============ Checking for Redirections: https://help.x.com/en/resources/new-user-faq
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/new-user-faq
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/new-user-faq.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 7 of 131
+========== raw link https://help.x.com/en/resources/glossary
+============ Checking for Redirections: https://help.x.com/en/resources/glossary
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/glossary
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/glossary.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 8 of 131
+========== raw link https://help.x.com/en/resources/a-safer-twitter
+============ Checking for Redirections: https://help.x.com/en/resources/a-safer-twitter
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/a-safer-twitter
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/a-safer-twitter.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 9 of 131
+========== raw link https://help.x.com/en/resources/accessibility
+============ Checking for Redirections: https://help.x.com/en/resources/accessibility
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/accessibility
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/accessibility.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 10 of 131
+========== raw link https://help.x.com/en/resources/rules
+============ Checking for Redirections: https://help.x.com/en/resources/rules
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/rules
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/rules.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 11 of 131
+========== raw link https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ Checking for Redirections: https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/how-you-can-control-your-privacy.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 12 of 131
+========== raw link https://communitynotes.twitter.com/guide/en/about/introduction
+============ Checking for Redirections: https://communitynotes.twitter.com/guide/en/about/introduction
+============ Followed Redirection to https://communitynotes.x.com/guide/en/about/introduction
+============ Link after cleaning: https://communitynotes.x.com/guide/en/about/introduction
+========== scraping https://communitynotes.x.com/guide/en/about/introduction
+============ New link added. Search term (AI generated content) found on https://communitynotes.x.com/guide/en/about/introduction.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 13 of 131
+========== raw link https://help.x.com/en/resources/recommender-systems
+============ Checking for Redirections: https://help.x.com/en/resources/recommender-systems
+============ Link unchanged
+========== scraping https://help.x.com/en/resources/recommender-systems
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/resources/recommender-systems.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 14 of 131
+========== raw link https://help.x.com/forms.html
+============ Checking for Redirections: https://help.x.com/forms.html
+============ Followed Redirection to https://help.x.com/en/forms
+============ Link after cleaning: https://help.x.com/en/forms
+========== scraping https://help.x.com/en/forms
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/forms.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 15 of 131
+========== raw link https://apps.apple.com/us/app/x/id333903271?pt=9551&ct=help-center&mt=8
+============ Checking for Redirections: https://apps.apple.com/us/app/x/id333903271?pt=9551&ct=help-center&mt=8
+============ Followed Redirection to https://help.x.com/en/forms
+============ Link after cleaning: https://help.x.com/en/forms
+========== link already checked
+======== We are on link 16 of 131
+========== raw link https://play.google.com/store/apps/details?id=com.twitter.android
+============ Checking for Redirections: https://play.google.com/store/apps/details?id=com.twitter.android
+============ Link after cleaning: https://play.google.com/store/apps/details
+========== scraping https://play.google.com/store/apps/details
+============ New link added. Search term (AI generated content) found on https://play.google.com/store/apps/details.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 17 of 131
+========== raw link https://help.x.com/en/managing-your-account/suspended-x-accounts
+============ Checking for Redirections: https://help.x.com/en/managing-your-account/suspended-x-accounts
+============ Link unchanged
+========== scraping https://help.x.com/en/managing-your-account/suspended-x-accounts
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/managing-your-account/suspended-x-accounts.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 18 of 131
+========== raw link https://help.x.com/en/managing-your-account/locked-and-limited-accounts
+============ Checking for Redirections: https://help.x.com/en/managing-your-account/locked-and-limited-accounts
+============ Link unchanged
+========== scraping https://help.x.com/en/managing-your-account/locked-and-limited-accounts
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/managing-your-account/locked-and-limited-accounts.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 19 of 131
+========== raw link https://help.x.com/en/managing-your-account/how-to-add-a-phone-number-to-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account/how-to-add-a-phone-number-to-your-account
+============ Link unchanged
+========== scraping https://help.x.com/en/managing-your-account/how-to-add-a-phone-number-to-your-account
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/managing-your-account/how-to-add-a-phone-number-to-your-account.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 20 of 131
+========== raw link https://help.x.com/en/managing-your-account/how-to-update-your-email-address
+============ Checking for Redirections: https://help.x.com/en/managing-your-account/how-to-update-your-email-address
+============ Link unchanged
+========== scraping https://help.x.com/en/managing-your-account/how-to-update-your-email-address
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/managing-your-account/how-to-update-your-email-address.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 21 of 131
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+============ Link unchanged
+========== link already checked
+======== We are on link 22 of 131
+========== raw link https://help.x.com/en/using-x/how-to-post
+============ Checking for Redirections: https://help.x.com/en/using-x/how-to-post
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/how-to-post
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/how-to-post.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 23 of 131
+========== raw link https://help.x.com/en/using-x/x-supported-browsers
+============ Checking for Redirections: https://help.x.com/en/using-x/x-supported-browsers
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/x-supported-browsers
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/x-supported-browsers.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 24 of 131
+========== raw link https://help.x.com/en/using-x/direct-messages
+============ Checking for Redirections: https://help.x.com/en/using-x/direct-messages
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/direct-messages
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/direct-messages.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 25 of 131
+========== raw link https://help.x.com/en/using-x
+============ Checking for Redirections: https://help.x.com/en/using-x
+============ Link unchanged
+========== link already checked
+======== We are on link 26 of 131
+========== raw link https://help.x.com/en/safety-and-security/x-privacy-settings
+============ Checking for Redirections: https://help.x.com/en/safety-and-security/x-privacy-settings
+============ Link unchanged
+========== scraping https://help.x.com/en/safety-and-security/x-privacy-settings
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/safety-and-security/x-privacy-settings.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 27 of 131
+========== raw link https://help.x.com/en/safety-and-security/public-and-protected-posts
+============ Checking for Redirections: https://help.x.com/en/safety-and-security/public-and-protected-posts
+============ Link unchanged
+========== scraping https://help.x.com/en/safety-and-security/public-and-protected-posts
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/safety-and-security/public-and-protected-posts.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 28 of 131
+========== raw link https://help.x.com/en/safety-and-security/data-through-partnerships
+============ Checking for Redirections: https://help.x.com/en/safety-and-security/data-through-partnerships
+============ Link unchanged
+========== scraping https://help.x.com/en/safety-and-security/data-through-partnerships
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/safety-and-security/data-through-partnerships.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 29 of 131
+========== raw link https://help.x.com/en/safety-and-security/x-account-compromised
+============ Checking for Redirections: https://help.x.com/en/safety-and-security/x-account-compromised
+============ Link unchanged
+========== scraping https://help.x.com/en/safety-and-security/x-account-compromised
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/safety-and-security/x-account-compromised.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 30 of 131
+========== raw link https://help.x.com/en/safety-and-security
+============ Checking for Redirections: https://help.x.com/en/safety-and-security
+============ Link unchanged
+========== link already checked
+======== We are on link 31 of 131
+========== raw link https://help.x.com/en/resources/rules
+============ Checking for Redirections: https://help.x.com/en/resources/rules
+============ Link unchanged
+========== link already checked
+======== We are on link 32 of 131
+========== raw link https://help.x.com/en/rules-and-policies/notices-on-x
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/notices-on-x
+============ Link unchanged
+========== scraping https://help.x.com/en/rules-and-policies/notices-on-x
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/rules-and-policies/notices-on-x.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 33 of 131
+========== raw link https://help.x.com/en/rules-and-policies/x-cookies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/x-cookies
+============ Link unchanged
+========== scraping https://help.x.com/en/rules-and-policies/x-cookies
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/rules-and-policies/x-cookies.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 34 of 131
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+============ Link unchanged
+========== link already checked
+======== We are on link 35 of 131
+========== raw link https://help.x.com/en/using-x/verified-organizations
+============ Checking for Redirections: https://help.x.com/en/using-x/verified-organizations
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/verified-organizations
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/verified-organizations.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 36 of 131
+========== raw link https://help.x.com/en/using-x/verified-organizations/affiliate-benefits
+============ Checking for Redirections: https://help.x.com/en/using-x/verified-organizations/affiliate-benefits
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/verified-organizations/affiliate-benefits
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/verified-organizations/affiliate-benefits.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 37 of 131
+========== raw link https://help.x.com/en/using-x/how-to-post
+============ Checking for Redirections: https://help.x.com/en/using-x/how-to-post
+============ Link unchanged
+========== link already checked
+======== We are on link 38 of 131
+========== raw link https://help.x.com/en/using-x/x-conversations
+============ Checking for Redirections: https://help.x.com/en/using-x/x-conversations
+============ Link unchanged
+========== scraping https://help.x.com/en/using-x/x-conversations
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/x-conversations.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 39 of 131
+========== raw link https://x.com/
+============ Checking for Redirections: https://x.com/
+========== dropped link https://x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 131
+========== raw link https://docs.x.com/status/status
+============ Checking for Redirections: https://docs.x.com/status/status
+========== dropped link https://docs.x.com/status/status. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 131
+========== raw link https://help.x.com/resources/accessibility
+============ Checking for Redirections: https://help.x.com/resources/accessibility
+============ Followed Redirection to https://help.x.com/en/resources/accessibility
+============ Link after cleaning: https://help.x.com/en/resources/accessibility
+========== link already checked
+======== We are on link 42 of 131
+========== raw link https://publish.x.com
+============ Checking for Redirections: https://publish.x.com
+========== dropped link https://publish.x.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 131
+========== raw link https://privacy.x.com/
+============ Checking for Redirections: https://privacy.x.com/
+============ Followed Redirection to https://privacy.x.com/en
+============ Link after cleaning: https://privacy.x.com/en
+========== scraping https://privacy.x.com/en
+============ New link added. Search term (AI generated content) found on https://privacy.x.com/en.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 44 of 131
+========== raw link https://transparency.x.com/
+============ Checking for Redirections: https://transparency.x.com/
+============ Followed Redirection to https://transparency.x.com/en
+============ Link after cleaning: https://transparency.x.com/en
+========== scraping https://transparency.x.com/en
+============ New link added. Search term (AI generated content) found on https://transparency.x.com/en.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 45 of 131
+========== raw link https://help.x.com/using-x/download-the-x-app
+============ Checking for Redirections: https://help.x.com/using-x/download-the-x-app
+============ Followed Redirection to https://help.x.com/en/using-x/download-the-x-app
+============ Link after cleaning: https://help.x.com/en/using-x/download-the-x-app
+========== scraping https://help.x.com/en/using-x/download-the-x-app
+============ New link added. Search term (AI generated content) found on https://help.x.com/en/using-x/download-the-x-app.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 46 of 131
+========== raw link https://grok.com
+============ Checking for Redirections: https://grok.com
+========== dropped link https://grok.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 131
+========== raw link https://about.x.com/en/who-we-are/our-company.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/our-company.html
+========== dropped link https://about.x.com/en/who-we-are/our-company.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 131
+========== raw link https://blog.x.com/
+============ Checking for Redirections: https://blog.x.com/
+============ Link unchanged
+========== scraping https://blog.x.com/
+============ New link added. Search term (AI generated content) found on https://blog.x.com/.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 49 of 131
+========== raw link https://about.x.com/en/who-we-are/brand-toolkit.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/brand-toolkit.html
+============ Followed Redirection to https://about.x.com/en/who-we-are/brand-toolkit
+============ Link after cleaning: https://about.x.com/en/who-we-are/brand-toolkit
+========== scraping https://about.x.com/en/who-we-are/brand-toolkit
+============ New link added. Search term (AI generated content) found on https://about.x.com/en/who-we-are/brand-toolkit.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 50 of 131
+========== raw link https://careers.x.com/
+============ Checking for Redirections: https://careers.x.com/
+============ Followed Redirection to https://careers.x.com/en
+============ Link after cleaning: https://careers.x.com/en
+========== scraping https://careers.x.com/en
+============ New link added. Search term (AI generated content) found on https://careers.x.com/en.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 51 of 131
+========== raw link https://investor.twitterinc.com/
+============ Checking for Redirections: https://investor.twitterinc.com/
+============ Followed Redirection to https://investor.twitterinc.com/secure.aspx?return=%2fhome%2fdefault.aspx
+============ Link after cleaning: https://investor.twitterinc.com/secure.aspx
+========== scraping https://investor.twitterinc.com/secure.aspx
+============ New link added. Search term (AI generated content) found on https://investor.twitterinc.com/secure.aspx.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 52 of 131
+========== raw link https://help.x.com/
+============ Checking for Redirections: https://help.x.com/
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 53 of 131
+========== raw link https://help.x.com/en/using-twitter
+============ Checking for Redirections: https://help.x.com/en/using-twitter
+============ Followed Redirection to https://help.x.com/en/using-x
+============ Link after cleaning: https://help.x.com/en/using-x
+========== link already checked
+======== We are on link 54 of 131
+========== raw link https://create.x.com/
+============ Checking for Redirections: https://create.x.com/
+============ Followed Redirection to https://business.x.com/en
+============ Link after cleaning: https://business.x.com/en
+========== scraping https://business.x.com/en
+============ New link added. Search term (AI generated content) found on https://business.x.com/en.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 55 of 131
+========== raw link https://business.x.com/en/help.html
+============ Checking for Redirections: https://business.x.com/en/help.html
+============ Followed Redirection to https://business.x.com/en/help
+============ Link after cleaning: https://business.x.com/en/help
+========== scraping https://business.x.com/en/help
+============ New link added. Search term (AI generated content) found on https://business.x.com/en/help.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 56 of 131
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+============ Link unchanged
+========== link already checked
+======== We are on link 57 of 131
+========== raw link https://preferencecenter.x.com/
+============ Checking for Redirections: https://preferencecenter.x.com/
+============ Link unchanged
+========== scraping https://preferencecenter.x.com/
+============ New link added. Search term (AI generated content) found on https://preferencecenter.x.com/.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 58 of 131
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+============ Link unchanged
+========== link already checked
+======== We are on link 59 of 131
+========== raw link /en/forms.html
+============ Found Relative: joining https://help.x.com/en and /en/forms.html
+============ Checking for Redirections: https://help.x.com/en/forms.html
+============ Followed Redirection to https://help.x.com/en/forms
+============ Link after cleaning: https://help.x.com/en/forms
+========== link already checked
+======== We are on link 60 of 131
+========== raw link https://developer.x.com/en
+============ Checking for Redirections: https://developer.x.com/en
+============ Link unchanged
+========== scraping https://developer.x.com/en
+============ New link added. Search term (AI generated content) found on https://developer.x.com/en.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 61 of 131
+========== raw link https://developer.x.com/en/docs
+============ Checking for Redirections: https://developer.x.com/en/docs
+============ Followed Redirection to https://docs.x.com/home
+============ Link after cleaning: https://docs.x.com/home
+========== scraping https://docs.x.com/home
+============ New link added. Search term (AI generated content) found on https://docs.x.com/home.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 62 of 131
+========== raw link https://twittercommunity.com/
+============ Checking for Redirections: https://twittercommunity.com/
+============ Followed Redirection to https://devcommunity.x.com/
+============ Link after cleaning: https://devcommunity.x.com/
+========== scraping https://devcommunity.x.com/
+============ New link added. Search term (AI generated content) found on https://devcommunity.x.com/.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 63 of 131
+========== raw link https://developer.x.com/en/community
+============ Checking for Redirections: https://developer.x.com/en/community
+============ Link unchanged
+========== scraping https://developer.x.com/en/community
+============ New link added. Search term (AI generated content) found on https://developer.x.com/en/community.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 64 of 131
+========== raw link https://blog.x.com/developer/
+============ Checking for Redirections: https://blog.x.com/developer/
+============ Followed Redirection to https://developer.x.com/en/blog
+============ Link after cleaning: https://developer.x.com/en/blog
+========== scraping https://developer.x.com/en/blog
+============ New link added. Search term (AI generated content) found on https://developer.x.com/en/blog.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 65 of 131
+========== raw link https://blog.x.com/engineering/en_us.html
+============ Checking for Redirections: https://blog.x.com/engineering/en_us.html
+============ Followed Redirection to https://blog.x.com/engineering/en_us
+============ Link after cleaning: https://blog.x.com/engineering/en_us
+========== scraping https://blog.x.com/engineering/en_us
+============ New link added. Search term (AI generated content) found on https://blog.x.com/engineering/en_us.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 66 of 131
+========== raw link https://developer.x.com/en/more/developer-terms
+============ Checking for Redirections: https://developer.x.com/en/more/developer-terms
+============ Link unchanged
+========== scraping https://developer.x.com/en/more/developer-terms
+============ New link added. Search term (AI generated content) found on https://developer.x.com/en/more/developer-terms.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 67 of 131
+========== raw link https://business.x.com/en/advertising.html
+============ Checking for Redirections: https://business.x.com/en/advertising.html
+============ Followed Redirection to https://business.x.com/en/advertising
+============ Link after cleaning: https://business.x.com/en/advertising
+========== scraping https://business.x.com/en/advertising
+============ New link added. Search term (AI generated content) found on https://business.x.com/en/advertising.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 68 of 131
+========== raw link https://business.x.com/
+============ Checking for Redirections: https://business.x.com/
+============ Followed Redirection to https://business.x.com/en
+============ Link after cleaning: https://business.x.com/en
+========== link already checked
+======== We are on link 69 of 131
+========== raw link https://business.x.com/en/resources.html
+============ Checking for Redirections: https://business.x.com/en/resources.html
+============ Followed Redirection to https://business.x.com/en/resources
+============ Link after cleaning: https://business.x.com/en/resources
+========== scraping https://business.x.com/en/resources
+============ New link added. Search term (AI generated content) found on https://business.x.com/en/resources.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 70 of 131
+========== raw link https://marketing.x.com/
+============ Checking for Redirections: https://marketing.x.com/
+============ Followed Redirection to https://business.x.com/en
+============ Link after cleaning: https://business.x.com/en
+========== link already checked
+======== We are on link 71 of 131
+========== raw link https://marketing.x.com/en/insights
+============ Checking for Redirections: https://marketing.x.com/en/insights
+============ Followed Redirection to https://business.x.com/en/blog
+============ Link after cleaning: https://business.x.com/en/blog
+========== scraping https://business.x.com/en/blog
+============ New link added. Search term (AI generated content) found on https://business.x.com/en/blog.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 72 of 131
+========== raw link https://marketing.x.com/en/success-stories
+============ Checking for Redirections: https://marketing.x.com/en/success-stories
+============ Followed Redirection to https://business.x.com/en/success-stories
+============ Link after cleaning: https://business.x.com/en/success-stories
+========== scraping https://business.x.com/en/success-stories
+============ New link added. Search term (AI generated content) found on https://business.x.com/en/success-stories.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 73 of 131
+========== raw link https://www.xadsacademy.com/sl/5c3e29ed
+============ Checking for Redirections: https://www.xadsacademy.com/sl/5c3e29ed
+============ Followed Redirection to https://www.xadsacademy.com/student/catalog?utm_source=x&utm_medium=referral&utm_campaign=boilerplatefooter&utm_content=all-footer-link-na-na-na-all-all-all-2023_12_13
+============ Link after cleaning: https://www.xadsacademy.com/student/catalog
+========== scraping https://www.xadsacademy.com/student/catalog
+============ New link added. Search term (AI generated content) found on https://www.xadsacademy.com/student/catalog.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 74 of 131
+========== raw link https://help.x.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.x.com/rules-and-policies/twitter-cookies
+============ Followed Redirection to https://help.x.com/en/rules-and-policies/x-cookies
+============ Link after cleaning: https://help.x.com/en/rules-and-policies/x-cookies
+========== link already checked
+======== We are on link 75 of 131
+========== raw link https://x.com/privacy
+============ Checking for Redirections: https://x.com/privacy
+============ Followed Redirection to https://x.com/en/privacy
+============ Link after cleaning: https://x.com/en/privacy
+========== scraping https://x.com/en/privacy
+============ New link added. Search term (AI generated content) found on https://x.com/en/privacy.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 76 of 131
+========== raw link https://x.com/tos
+============ Checking for Redirections: https://x.com/tos
+============ Followed Redirection to https://x.com/en/tos
+============ Link after cleaning: https://x.com/en/tos
+========== scraping https://x.com/en/tos
+============ New link added. Search term (AI generated content) found on https://x.com/en/tos.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 77 of 131
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+============ Link unchanged
+========== link already checked
+======== We are on link 78 of 131
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+============ Link unchanged
+========== link already checked
+======== We are on link 79 of 131
+========== raw link https://help.x.com/es
+============ Checking for Redirections: https://help.x.com/es
+============ Link unchanged
+========== scraping https://help.x.com/es
+============ link is not english.
+======== We are on link 80 of 131
+========== raw link https://help.x.com/ja
+============ Checking for Redirections: https://help.x.com/ja
+============ Link unchanged
+========== scraping https://help.x.com/ja
+============ link is not english.
+======== We are on link 81 of 131
+========== raw link https://help.x.com/ko
+============ Checking for Redirections: https://help.x.com/ko
+============ Link unchanged
+========== scraping https://help.x.com/ko
+============ link is not english.
+======== We are on link 82 of 131
+========== raw link https://help.x.com/pt
+============ Checking for Redirections: https://help.x.com/pt
+============ Link unchanged
+========== scraping https://help.x.com/pt
+============ link is not english.
+======== We are on link 83 of 131
+========== raw link https://help.x.com/de
+============ Checking for Redirections: https://help.x.com/de
+============ Link unchanged
+========== scraping https://help.x.com/de
+============ link is not english.
+======== We are on link 84 of 131
+========== raw link https://help.x.com/tr
+============ Checking for Redirections: https://help.x.com/tr
+============ Link unchanged
+========== scraping https://help.x.com/tr
+============ link is not english.
+======== We are on link 85 of 131
+========== raw link https://help.x.com/fr
+============ Checking for Redirections: https://help.x.com/fr
+============ Link unchanged
+========== scraping https://help.x.com/fr
+============ link is not english.
+======== We are on link 86 of 131
+========== raw link https://help.x.com/it
+============ Checking for Redirections: https://help.x.com/it
+============ Link unchanged
+========== scraping https://help.x.com/it
+============ link is not english.
+======== We are on link 87 of 131
+========== raw link https://help.x.com/ar
+============ Checking for Redirections: https://help.x.com/ar
+============ Link unchanged
+========== scraping https://help.x.com/ar
+============ link is not english.
+======== We are on link 88 of 131
+========== raw link https://help.x.com/nl
+============ Checking for Redirections: https://help.x.com/nl
+============ Link unchanged
+========== scraping https://help.x.com/nl
+============ link is not english.
+======== We are on link 89 of 131
+========== raw link https://help.x.com/id
+============ Checking for Redirections: https://help.x.com/id
+============ Link unchanged
+========== scraping https://help.x.com/id
+============ link is not english.
+======== We are on link 90 of 131
+========== raw link https://help.x.com/ru
+============ Checking for Redirections: https://help.x.com/ru
+============ Link unchanged
+========== scraping https://help.x.com/ru
+============ link is not english.
+======== We are on link 91 of 131
+========== raw link https://help.x.com/hi
+============ Checking for Redirections: https://help.x.com/hi
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 92 of 131
+========== raw link https://help.x.com/ta
+============ Checking for Redirections: https://help.x.com/ta
+============ Link unchanged
+========== scraping https://help.x.com/ta
+============ link is not english.
+======== We are on link 93 of 131
+========== raw link https://help.x.com/he
+============ Checking for Redirections: https://help.x.com/he
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 94 of 131
+========== raw link https://help.x.com/zh-cn
+============ Checking for Redirections: https://help.x.com/zh-cn
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 95 of 131
+========== raw link https://help.x.com/zh-tw
+============ Checking for Redirections: https://help.x.com/zh-tw
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 96 of 131
+========== raw link https://help.x.com/th
+============ Checking for Redirections: https://help.x.com/th
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 97 of 131
+========== raw link https://help.x.com/vi
+============ Checking for Redirections: https://help.x.com/vi
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 98 of 131
+========== raw link https://help.x.com/ms
+============ Checking for Redirections: https://help.x.com/ms
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 99 of 131
+========== raw link https://help.x.com/bn
+============ Checking for Redirections: https://help.x.com/bn
+============ Link unchanged
+========== scraping https://help.x.com/bn
+============ link is not english.
+======== We are on link 100 of 131
+========== raw link https://help.x.com/fil
+============ Checking for Redirections: https://help.x.com/fil
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 101 of 131
+========== raw link https://help.x.com/fa
+============ Checking for Redirections: https://help.x.com/fa
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 102 of 131
+========== raw link https://help.x.com/da
+============ Checking for Redirections: https://help.x.com/da
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 103 of 131
+========== raw link https://help.x.com/fi
+============ Checking for Redirections: https://help.x.com/fi
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 104 of 131
+========== raw link https://help.x.com/sv
+============ Checking for Redirections: https://help.x.com/sv
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 105 of 131
+========== raw link https://help.x.com/no
+============ Checking for Redirections: https://help.x.com/no
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 106 of 131
+========== raw link https://help.x.com/pl
+============ Checking for Redirections: https://help.x.com/pl
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 107 of 131
+========== raw link https://help.x.com/hu
+============ Checking for Redirections: https://help.x.com/hu
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 108 of 131
+========== raw link https://help.x.com/ro
+============ Checking for Redirections: https://help.x.com/ro
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 109 of 131
+========== raw link https://help.x.com/uk
+============ Checking for Redirections: https://help.x.com/uk
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 110 of 131
+========== raw link https://help.x.com/mr
+============ Checking for Redirections: https://help.x.com/mr
+============ Link unchanged
+========== scraping https://help.x.com/mr
+============ link is not english.
+======== We are on link 111 of 131
+========== raw link https://help.x.com/gu
+============ Checking for Redirections: https://help.x.com/gu
+============ Link unchanged
+========== scraping https://help.x.com/gu
+============ link is not english.
+======== We are on link 112 of 131
+========== raw link https://help.x.com/bg
+============ Checking for Redirections: https://help.x.com/bg
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 113 of 131
+========== raw link https://help.x.com/ca
+============ Checking for Redirections: https://help.x.com/ca
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 114 of 131
+========== raw link https://help.x.com/hr
+============ Checking for Redirections: https://help.x.com/hr
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 115 of 131
+========== raw link https://help.x.com/sr
+============ Checking for Redirections: https://help.x.com/sr
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 116 of 131
+========== raw link https://help.x.com/sk
+============ Checking for Redirections: https://help.x.com/sk
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 117 of 131
+========== raw link https://help.x.com/kn
+============ Checking for Redirections: https://help.x.com/kn
+============ Link unchanged
+========== scraping https://help.x.com/kn
+============ link is not english.
+======== We are on link 118 of 131
+========== raw link https://help.x.com/ps
+============ Checking for Redirections: https://help.x.com/ps
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 119 of 131
+========== raw link https://help.x.com/fa-af
+============ Checking for Redirections: https://help.x.com/fa-af
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 120 of 131
+========== raw link https://help.x.com/om
+============ Checking for Redirections: https://help.x.com/om
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 121 of 131
+========== raw link https://help.x.com/ti
+============ Checking for Redirections: https://help.x.com/ti
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 122 of 131
+========== raw link https://help.x.com/ckb
+============ Checking for Redirections: https://help.x.com/ckb
+============ Link unchanged
+========== scraping https://help.x.com/ckb
+============ New link added. Search term (AI generated content) found on https://help.x.com/ckb.
+============== Page containing the link: https://help.x.com/en
+======== We are on link 123 of 131
+========== raw link https://help.x.com/lt
+============ Checking for Redirections: https://help.x.com/lt
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 124 of 131
+========== raw link https://help.x.com/lv
+============ Checking for Redirections: https://help.x.com/lv
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 125 of 131
+========== raw link https://help.x.com/mt
+============ Checking for Redirections: https://help.x.com/mt
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 126 of 131
+========== raw link https://help.x.com/sl
+============ Checking for Redirections: https://help.x.com/sl
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 127 of 131
+========== raw link https://help.x.com/ga
+============ Checking for Redirections: https://help.x.com/ga
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 128 of 131
+========== raw link https://help.x.com/hmn
+============ Checking for Redirections: https://help.x.com/hmn
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 129 of 131
+========== raw link https://help.x.com/hy
+============ Checking for Redirections: https://help.x.com/hy
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 130 of 131
+========== raw link https://help.x.com/km
+============ Checking for Redirections: https://help.x.com/km
+============ Followed Redirection to https://help.x.com/en
+============ Link after cleaning: https://help.x.com/en
+========== link already checked
+======== We are on link 131 of 131
+========== raw link https://help.twitter.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.twitter.com/rules-and-policies/twitter-cookies
+============ Followed Redirection to https://help.x.com/en/rules-and-policies/x-cookies
+============ Link after cleaning: https://help.x.com/en/rules-and-policies/x-cookies
+========== link already checked
+====== We are on page 2 of 4: https://help.x.com/en/rules-and-policies/authenticity
+====== Number of Links on this Page: 121
+======== We are on link 1 of 121
+========== raw link #twtr-main
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 121
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+============ Link unchanged
+========== link already checked
+======== We are on link 3 of 121
+========== raw link https://help.x.com/en/using-x
+============ Checking for Redirections: https://help.x.com/en/using-x
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 121
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+============ Link unchanged
+========== link already checked
+======== We are on link 5 of 121
+========== raw link https://help.x.com/en/safety-and-security
+============ Checking for Redirections: https://help.x.com/en/safety-and-security
+============ Link unchanged
+========== link already checked
+======== We are on link 6 of 121
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+============ Link unchanged
+========== link already checked
+======== We are on link 7 of 121
+========== raw link https://help.x.com/en/resources/new-user-faq
+============ Checking for Redirections: https://help.x.com/en/resources/new-user-faq
+========== dropped link https://help.x.com/en/resources/new-user-faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 121
+========== raw link https://help.x.com/en/resources/glossary
+============ Checking for Redirections: https://help.x.com/en/resources/glossary
+========== dropped link https://help.x.com/en/resources/glossary. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 121
+========== raw link https://help.x.com/en/resources/a-safer-twitter
+============ Checking for Redirections: https://help.x.com/en/resources/a-safer-twitter
+========== dropped link https://help.x.com/en/resources/a-safer-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 121
+========== raw link https://help.x.com/en/resources/accessibility
+============ Checking for Redirections: https://help.x.com/en/resources/accessibility
+========== dropped link https://help.x.com/en/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 121
+========== raw link https://help.x.com/en/resources/rules
+============ Checking for Redirections: https://help.x.com/en/resources/rules
+========== dropped link https://help.x.com/en/resources/rules. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 121
+========== raw link https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ Checking for Redirections: https://help.x.com/en/resources/how-you-can-control-your-privacy
+========== dropped link https://help.x.com/en/resources/how-you-can-control-your-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 121
+========== raw link https://communitynotes.twitter.com/guide/en/about/introduction
+============ Checking for Redirections: https://communitynotes.twitter.com/guide/en/about/introduction
+========== dropped link https://communitynotes.twitter.com/guide/en/about/introduction. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 121
+========== raw link https://help.x.com/en/resources/recommender-systems
+============ Checking for Redirections: https://help.x.com/en/resources/recommender-systems
+========== dropped link https://help.x.com/en/resources/recommender-systems. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 121
+========== raw link https://help.x.com/forms.html
+============ Checking for Redirections: https://help.x.com/forms.html
+========== dropped link https://help.x.com/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 121
+========== raw link #1
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 17 of 121
+========== raw link #2
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 18 of 121
+========== raw link #3
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 19 of 121
+========== raw link https://developer.twitter.com/en/developer-terms/agreement-and-policy
+============ Checking for Redirections: https://developer.twitter.com/en/developer-terms/agreement-and-policy
+========== dropped link https://developer.twitter.com/en/developer-terms/agreement-and-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 121
+========== raw link https://help.twitter.com/forms/impersonation
+============ Checking for Redirections: https://help.twitter.com/forms/impersonation
+========== dropped link https://help.twitter.com/forms/impersonation. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 121
+========== raw link https://help.x.com/en/rules-and-policies/profile-labels
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/profile-labels
+========== dropped link https://help.x.com/en/rules-and-policies/profile-labels. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 121
+========== raw link /content/help-twitter/en/managing-your-account/phone-number-faqs#:~:text=Can%20I%20add%20my%20phone,security%20features%20like%20login%20verification.
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/authenticity and /content/help-twitter/en/managing-your-account/phone-number-faqs#:~:text=Can%20I%20add%20my%20phone,security%20features%20like%20login%20verification.
+============ Checking for Redirections: https://help.x.com/content/help-twitter/en/managing-your-account/phone-number-faqs#:~:text=Can%20I%20add%20my%20phone,security%20features%20like%20login%20verification.
+========== dropped link https://help.x.com/content/help-twitter/en/managing-your-account/phone-number-faqs#:~:text=Can%20I%20add%20my%20phone,security%20features%20like%20login%20verification.. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 121
+========== raw link /en/managing-your-account/phone-number-faqs.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/authenticity and /en/managing-your-account/phone-number-faqs.html
+============ Checking for Redirections: https://help.x.com/en/managing-your-account/phone-number-faqs.html
+========== dropped link https://help.x.com/en/managing-your-account/phone-number-faqs.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 121
+========== raw link https://help.twitter.com/en/safety-and-security/account-security-tips
+============ Checking for Redirections: https://help.twitter.com/en/safety-and-security/account-security-tips
+========== dropped link https://help.twitter.com/en/safety-and-security/account-security-tips. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 121
+========== raw link https://help.twitter.com/en/safety-and-security/x-account-compromised
+============ Checking for Redirections: https://help.twitter.com/en/safety-and-security/x-account-compromised
+========== dropped link https://help.twitter.com/en/safety-and-security/x-account-compromised. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 121
+========== raw link https://help.twitter.com/en/forms/account-access/regain-access/hacked-or-compromised
+============ Checking for Redirections: https://help.twitter.com/en/forms/account-access/regain-access/hacked-or-compromised
+========== dropped link https://help.twitter.com/en/forms/account-access/regain-access/hacked-or-compromised. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 121
+========== raw link /en/safety-and-security/phishing-spam-and-malware-links.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/authenticity and /en/safety-and-security/phishing-spam-and-malware-links.html
+============ Checking for Redirections: https://help.x.com/en/safety-and-security/phishing-spam-and-malware-links.html
+========== dropped link https://help.x.com/en/safety-and-security/phishing-spam-and-malware-links.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 121
+========== raw link /en/forms/account-access/appeals.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/authenticity and /en/forms/account-access/appeals.html
+============ Checking for Redirections: https://help.x.com/en/forms/account-access/appeals.html
+========== dropped link https://help.x.com/en/forms/account-access/appeals.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 121
+========== raw link https://x.com/
+============ Checking for Redirections: https://x.com/
+========== dropped link https://x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 121
+========== raw link https://docs.x.com/status/status
+============ Checking for Redirections: https://docs.x.com/status/status
+========== dropped link https://docs.x.com/status/status. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 121
+========== raw link https://help.x.com/resources/accessibility
+============ Checking for Redirections: https://help.x.com/resources/accessibility
+========== dropped link https://help.x.com/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 121
+========== raw link https://publish.x.com
+============ Checking for Redirections: https://publish.x.com
+========== dropped link https://publish.x.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 121
+========== raw link https://privacy.x.com/
+============ Checking for Redirections: https://privacy.x.com/
+========== dropped link https://privacy.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 121
+========== raw link https://transparency.x.com/
+============ Checking for Redirections: https://transparency.x.com/
+========== dropped link https://transparency.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 121
+========== raw link https://help.x.com/using-x/download-the-x-app
+============ Checking for Redirections: https://help.x.com/using-x/download-the-x-app
+========== dropped link https://help.x.com/using-x/download-the-x-app. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 121
+========== raw link https://grok.com
+============ Checking for Redirections: https://grok.com
+========== dropped link https://grok.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 121
+========== raw link https://about.x.com/en/who-we-are/our-company.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/our-company.html
+========== dropped link https://about.x.com/en/who-we-are/our-company.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 121
+========== raw link https://blog.x.com/
+============ Checking for Redirections: https://blog.x.com/
+========== dropped link https://blog.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 121
+========== raw link https://about.x.com/en/who-we-are/brand-toolkit.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/brand-toolkit.html
+========== dropped link https://about.x.com/en/who-we-are/brand-toolkit.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 121
+========== raw link https://careers.x.com/
+============ Checking for Redirections: https://careers.x.com/
+========== dropped link https://careers.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 121
+========== raw link https://investor.twitterinc.com/
+============ Checking for Redirections: https://investor.twitterinc.com/
+========== dropped link https://investor.twitterinc.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 121
+========== raw link https://help.x.com/
+============ Checking for Redirections: https://help.x.com/
+========== dropped link https://help.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 121
+========== raw link https://help.x.com/en/using-twitter
+============ Checking for Redirections: https://help.x.com/en/using-twitter
+========== dropped link https://help.x.com/en/using-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 121
+========== raw link https://create.x.com/
+============ Checking for Redirections: https://create.x.com/
+========== dropped link https://create.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 121
+========== raw link https://business.x.com/en/help.html
+============ Checking for Redirections: https://business.x.com/en/help.html
+========== dropped link https://business.x.com/en/help.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 121
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+========== dropped link https://help.x.com/en/managing-your-account. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 121
+========== raw link https://preferencecenter.x.com/
+============ Checking for Redirections: https://preferencecenter.x.com/
+========== dropped link https://preferencecenter.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 121
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+========== dropped link https://help.x.com/en/rules-and-policies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 121
+========== raw link /en/forms.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/authenticity and /en/forms.html
+============ Checking for Redirections: https://help.x.com/en/forms.html
+========== dropped link https://help.x.com/en/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 50 of 121
+========== raw link https://developer.x.com/en
+============ Checking for Redirections: https://developer.x.com/en
+========== dropped link https://developer.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 121
+========== raw link https://developer.x.com/en/docs
+============ Checking for Redirections: https://developer.x.com/en/docs
+========== dropped link https://developer.x.com/en/docs. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 121
+========== raw link https://twittercommunity.com/
+============ Checking for Redirections: https://twittercommunity.com/
+========== dropped link https://twittercommunity.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 121
+========== raw link https://developer.x.com/en/community
+============ Checking for Redirections: https://developer.x.com/en/community
+========== dropped link https://developer.x.com/en/community. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 121
+========== raw link https://blog.x.com/developer/
+============ Checking for Redirections: https://blog.x.com/developer/
+========== dropped link https://blog.x.com/developer/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 55 of 121
+========== raw link https://blog.x.com/engineering/en_us.html
+============ Checking for Redirections: https://blog.x.com/engineering/en_us.html
+========== dropped link https://blog.x.com/engineering/en_us.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 121
+========== raw link https://developer.x.com/en/more/developer-terms
+============ Checking for Redirections: https://developer.x.com/en/more/developer-terms
+========== dropped link https://developer.x.com/en/more/developer-terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 121
+========== raw link https://business.x.com/en/advertising.html
+============ Checking for Redirections: https://business.x.com/en/advertising.html
+========== dropped link https://business.x.com/en/advertising.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 121
+========== raw link https://business.x.com/
+============ Checking for Redirections: https://business.x.com/
+========== dropped link https://business.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 121
+========== raw link https://business.x.com/en/resources.html
+============ Checking for Redirections: https://business.x.com/en/resources.html
+========== dropped link https://business.x.com/en/resources.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 121
+========== raw link https://marketing.x.com/
+============ Checking for Redirections: https://marketing.x.com/
+========== dropped link https://marketing.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 121
+========== raw link https://marketing.x.com/en/insights
+============ Checking for Redirections: https://marketing.x.com/en/insights
+========== dropped link https://marketing.x.com/en/insights. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 62 of 121
+========== raw link https://marketing.x.com/en/success-stories
+============ Checking for Redirections: https://marketing.x.com/en/success-stories
+========== dropped link https://marketing.x.com/en/success-stories. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 63 of 121
+========== raw link https://www.xadsacademy.com/sl/5c3e29ed
+============ Checking for Redirections: https://www.xadsacademy.com/sl/5c3e29ed
+========== dropped link https://www.xadsacademy.com/sl/5c3e29ed. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 64 of 121
+========== raw link https://help.x.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.x.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.x.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 65 of 121
+========== raw link https://x.com/privacy
+============ Checking for Redirections: https://x.com/privacy
+========== dropped link https://x.com/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 66 of 121
+========== raw link https://x.com/tos
+============ Checking for Redirections: https://x.com/tos
+========== dropped link https://x.com/tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 121
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+========== dropped link https://help.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 68 of 121
+========== raw link https://help.x.com/en/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/authenticity
+========== dropped link https://help.x.com/en/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 121
+========== raw link https://help.x.com/es/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/es/rules-and-policies/authenticity
+========== dropped link https://help.x.com/es/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 121
+========== raw link https://help.x.com/ja/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/ja/rules-and-policies/authenticity
+========== dropped link https://help.x.com/ja/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 121
+========== raw link https://help.x.com/ko/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/ko/rules-and-policies/authenticity
+========== dropped link https://help.x.com/ko/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 121
+========== raw link https://help.x.com/pt/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/pt/rules-and-policies/authenticity
+========== dropped link https://help.x.com/pt/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 73 of 121
+========== raw link https://help.x.com/de/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/de/rules-and-policies/authenticity
+========== dropped link https://help.x.com/de/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 121
+========== raw link https://help.x.com/tr/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/tr/rules-and-policies/authenticity
+========== dropped link https://help.x.com/tr/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 75 of 121
+========== raw link https://help.x.com/fr/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/fr/rules-and-policies/authenticity
+========== dropped link https://help.x.com/fr/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 121
+========== raw link https://help.x.com/it/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/it/rules-and-policies/authenticity
+========== dropped link https://help.x.com/it/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 121
+========== raw link https://help.x.com/ar/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/ar/rules-and-policies/authenticity
+========== dropped link https://help.x.com/ar/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 78 of 121
+========== raw link https://help.x.com/nl/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/nl/rules-and-policies/authenticity
+========== dropped link https://help.x.com/nl/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 79 of 121
+========== raw link https://help.x.com/id/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/id/rules-and-policies/authenticity
+========== dropped link https://help.x.com/id/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 80 of 121
+========== raw link https://help.x.com/ru/rules-and-policies/authenticity
+============ Checking for Redirections: https://help.x.com/ru/rules-and-policies/authenticity
+========== dropped link https://help.x.com/ru/rules-and-policies/authenticity. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 121
+========== raw link https://help.x.com/hi
+============ Checking for Redirections: https://help.x.com/hi
+========== dropped link https://help.x.com/hi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 121
+========== raw link https://help.x.com/ta
+============ Checking for Redirections: https://help.x.com/ta
+========== dropped link https://help.x.com/ta. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 83 of 121
+========== raw link https://help.x.com/he
+============ Checking for Redirections: https://help.x.com/he
+========== dropped link https://help.x.com/he. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 84 of 121
+========== raw link https://help.x.com/zh-cn
+============ Checking for Redirections: https://help.x.com/zh-cn
+========== dropped link https://help.x.com/zh-cn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 121
+========== raw link https://help.x.com/zh-tw
+============ Checking for Redirections: https://help.x.com/zh-tw
+========== dropped link https://help.x.com/zh-tw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 121
+========== raw link https://help.x.com/th
+============ Checking for Redirections: https://help.x.com/th
+========== dropped link https://help.x.com/th. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 87 of 121
+========== raw link https://help.x.com/vi
+============ Checking for Redirections: https://help.x.com/vi
+========== dropped link https://help.x.com/vi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 121
+========== raw link https://help.x.com/ms
+============ Checking for Redirections: https://help.x.com/ms
+========== dropped link https://help.x.com/ms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 121
+========== raw link https://help.x.com/bn
+============ Checking for Redirections: https://help.x.com/bn
+========== dropped link https://help.x.com/bn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 90 of 121
+========== raw link https://help.x.com/fil
+============ Checking for Redirections: https://help.x.com/fil
+========== dropped link https://help.x.com/fil. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 91 of 121
+========== raw link https://help.x.com/fa
+============ Checking for Redirections: https://help.x.com/fa
+========== dropped link https://help.x.com/fa. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 92 of 121
+========== raw link https://help.x.com/da
+============ Checking for Redirections: https://help.x.com/da
+========== dropped link https://help.x.com/da. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 93 of 121
+========== raw link https://help.x.com/fi
+============ Checking for Redirections: https://help.x.com/fi
+========== dropped link https://help.x.com/fi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 94 of 121
+========== raw link https://help.x.com/sv
+============ Checking for Redirections: https://help.x.com/sv
+========== dropped link https://help.x.com/sv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 95 of 121
+========== raw link https://help.x.com/no
+============ Checking for Redirections: https://help.x.com/no
+========== dropped link https://help.x.com/no. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 96 of 121
+========== raw link https://help.x.com/pl
+============ Checking for Redirections: https://help.x.com/pl
+========== dropped link https://help.x.com/pl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 97 of 121
+========== raw link https://help.x.com/hu
+============ Checking for Redirections: https://help.x.com/hu
+========== dropped link https://help.x.com/hu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 98 of 121
+========== raw link https://help.x.com/ro
+============ Checking for Redirections: https://help.x.com/ro
+========== dropped link https://help.x.com/ro. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 99 of 121
+========== raw link https://help.x.com/uk
+============ Checking for Redirections: https://help.x.com/uk
+========== dropped link https://help.x.com/uk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 100 of 121
+========== raw link https://help.x.com/mr
+============ Checking for Redirections: https://help.x.com/mr
+========== dropped link https://help.x.com/mr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 101 of 121
+========== raw link https://help.x.com/gu
+============ Checking for Redirections: https://help.x.com/gu
+========== dropped link https://help.x.com/gu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 121
+========== raw link https://help.x.com/bg
+============ Checking for Redirections: https://help.x.com/bg
+========== dropped link https://help.x.com/bg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 121
+========== raw link https://help.x.com/ca
+============ Checking for Redirections: https://help.x.com/ca
+========== dropped link https://help.x.com/ca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 104 of 121
+========== raw link https://help.x.com/hr
+============ Checking for Redirections: https://help.x.com/hr
+========== dropped link https://help.x.com/hr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 105 of 121
+========== raw link https://help.x.com/sr
+============ Checking for Redirections: https://help.x.com/sr
+========== dropped link https://help.x.com/sr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 106 of 121
+========== raw link https://help.x.com/sk
+============ Checking for Redirections: https://help.x.com/sk
+========== dropped link https://help.x.com/sk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 107 of 121
+========== raw link https://help.x.com/kn
+============ Checking for Redirections: https://help.x.com/kn
+========== dropped link https://help.x.com/kn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 108 of 121
+========== raw link https://help.x.com/ps
+============ Checking for Redirections: https://help.x.com/ps
+========== dropped link https://help.x.com/ps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 109 of 121
+========== raw link https://help.x.com/fa-af
+============ Checking for Redirections: https://help.x.com/fa-af
+========== dropped link https://help.x.com/fa-af. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 110 of 121
+========== raw link https://help.x.com/om
+============ Checking for Redirections: https://help.x.com/om
+========== dropped link https://help.x.com/om. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 111 of 121
+========== raw link https://help.x.com/ti
+============ Checking for Redirections: https://help.x.com/ti
+========== dropped link https://help.x.com/ti. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 112 of 121
+========== raw link https://help.x.com/ckb
+============ Checking for Redirections: https://help.x.com/ckb
+========== dropped link https://help.x.com/ckb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 113 of 121
+========== raw link https://help.x.com/lt
+============ Checking for Redirections: https://help.x.com/lt
+========== dropped link https://help.x.com/lt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 114 of 121
+========== raw link https://help.x.com/lv
+============ Checking for Redirections: https://help.x.com/lv
+========== dropped link https://help.x.com/lv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 115 of 121
+========== raw link https://help.x.com/mt
+============ Checking for Redirections: https://help.x.com/mt
+========== dropped link https://help.x.com/mt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 116 of 121
+========== raw link https://help.x.com/sl
+============ Checking for Redirections: https://help.x.com/sl
+========== dropped link https://help.x.com/sl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 117 of 121
+========== raw link https://help.x.com/ga
+============ Checking for Redirections: https://help.x.com/ga
+========== dropped link https://help.x.com/ga. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 118 of 121
+========== raw link https://help.x.com/hmn
+============ Checking for Redirections: https://help.x.com/hmn
+========== dropped link https://help.x.com/hmn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 119 of 121
+========== raw link https://help.x.com/hy
+============ Checking for Redirections: https://help.x.com/hy
+========== dropped link https://help.x.com/hy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 120 of 121
+========== raw link https://help.x.com/km
+============ Checking for Redirections: https://help.x.com/km
+========== dropped link https://help.x.com/km. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 121 of 121
+========== raw link https://help.twitter.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.twitter.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.twitter.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 3 of 4: https://help.x.com/en/rules-and-policies/adult-content
+====== Number of Links on this Page: 117
+======== We are on link 1 of 117
+========== raw link #twtr-main
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 117
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+========== dropped link https://help.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 117
+========== raw link https://help.x.com/en/using-x
+============ Checking for Redirections: https://help.x.com/en/using-x
+========== dropped link https://help.x.com/en/using-x. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 117
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+========== dropped link https://help.x.com/en/managing-your-account. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 117
+========== raw link https://help.x.com/en/safety-and-security
+============ Checking for Redirections: https://help.x.com/en/safety-and-security
+========== dropped link https://help.x.com/en/safety-and-security. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 117
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+========== dropped link https://help.x.com/en/rules-and-policies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 117
+========== raw link https://help.x.com/en/resources/new-user-faq
+============ Checking for Redirections: https://help.x.com/en/resources/new-user-faq
+========== dropped link https://help.x.com/en/resources/new-user-faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 117
+========== raw link https://help.x.com/en/resources/glossary
+============ Checking for Redirections: https://help.x.com/en/resources/glossary
+========== dropped link https://help.x.com/en/resources/glossary. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 117
+========== raw link https://help.x.com/en/resources/a-safer-twitter
+============ Checking for Redirections: https://help.x.com/en/resources/a-safer-twitter
+========== dropped link https://help.x.com/en/resources/a-safer-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 117
+========== raw link https://help.x.com/en/resources/accessibility
+============ Checking for Redirections: https://help.x.com/en/resources/accessibility
+========== dropped link https://help.x.com/en/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 117
+========== raw link https://help.x.com/en/resources/rules
+============ Checking for Redirections: https://help.x.com/en/resources/rules
+========== dropped link https://help.x.com/en/resources/rules. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 117
+========== raw link https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ Checking for Redirections: https://help.x.com/en/resources/how-you-can-control-your-privacy
+========== dropped link https://help.x.com/en/resources/how-you-can-control-your-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 117
+========== raw link https://communitynotes.twitter.com/guide/en/about/introduction
+============ Checking for Redirections: https://communitynotes.twitter.com/guide/en/about/introduction
+========== dropped link https://communitynotes.twitter.com/guide/en/about/introduction. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 117
+========== raw link https://help.x.com/en/resources/recommender-systems
+============ Checking for Redirections: https://help.x.com/en/resources/recommender-systems
+========== dropped link https://help.x.com/en/resources/recommender-systems. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 117
+========== raw link https://help.x.com/forms.html
+============ Checking for Redirections: https://help.x.com/forms.html
+========== dropped link https://help.x.com/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/intimate-media
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/intimate-media
+========== dropped link https://help.twitter.com/en/rules-and-policies/intimate-media. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/regulated-goods-services
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/regulated-goods-services
+========== dropped link https://help.twitter.com/en/rules-and-policies/regulated-goods-services. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy
+========== dropped link https://help.twitter.com/en/rules-and-policies/sexual-exploitation-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/violent-speech
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/violent-speech
+========== dropped link https://help.twitter.com/en/rules-and-policies/violent-speech. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/abusive-behavior
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/abusive-behavior
+========== dropped link https://help.twitter.com/en/rules-and-policies/abusive-behavior. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/violent-speech
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/violent-speech
+========== dropped link https://help.twitter.com/en/rules-and-policies/violent-speech. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/media-settings
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/media-settings
+========== dropped link https://help.twitter.com/en/rules-and-policies/media-settings. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 117
+========== raw link https://help.twitter.com/en/rules-and-policies/notices-on-twitter.html
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/notices-on-twitter.html
+========== dropped link https://help.twitter.com/en/rules-and-policies/notices-on-twitter.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 117
+========== raw link https://help.twitter.com/en/forms/account-access/appeals.html
+============ Checking for Redirections: https://help.twitter.com/en/forms/account-access/appeals.html
+========== dropped link https://help.twitter.com/en/forms/account-access/appeals.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 117
+========== raw link https://x.com/
+============ Checking for Redirections: https://x.com/
+========== dropped link https://x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 117
+========== raw link https://docs.x.com/status/status
+============ Checking for Redirections: https://docs.x.com/status/status
+========== dropped link https://docs.x.com/status/status. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 117
+========== raw link https://help.x.com/resources/accessibility
+============ Checking for Redirections: https://help.x.com/resources/accessibility
+========== dropped link https://help.x.com/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 117
+========== raw link https://publish.x.com
+============ Checking for Redirections: https://publish.x.com
+========== dropped link https://publish.x.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 117
+========== raw link https://privacy.x.com/
+============ Checking for Redirections: https://privacy.x.com/
+========== dropped link https://privacy.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 117
+========== raw link https://transparency.x.com/
+============ Checking for Redirections: https://transparency.x.com/
+========== dropped link https://transparency.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 117
+========== raw link https://help.x.com/using-x/download-the-x-app
+============ Checking for Redirections: https://help.x.com/using-x/download-the-x-app
+========== dropped link https://help.x.com/using-x/download-the-x-app. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 117
+========== raw link https://grok.com
+============ Checking for Redirections: https://grok.com
+========== dropped link https://grok.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 117
+========== raw link https://about.x.com/en/who-we-are/our-company.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/our-company.html
+========== dropped link https://about.x.com/en/who-we-are/our-company.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 117
+========== raw link https://blog.x.com/
+============ Checking for Redirections: https://blog.x.com/
+========== dropped link https://blog.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 117
+========== raw link https://about.x.com/en/who-we-are/brand-toolkit.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/brand-toolkit.html
+========== dropped link https://about.x.com/en/who-we-are/brand-toolkit.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 117
+========== raw link https://careers.x.com/
+============ Checking for Redirections: https://careers.x.com/
+========== dropped link https://careers.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 117
+========== raw link https://investor.twitterinc.com/
+============ Checking for Redirections: https://investor.twitterinc.com/
+========== dropped link https://investor.twitterinc.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 117
+========== raw link https://help.x.com/
+============ Checking for Redirections: https://help.x.com/
+========== dropped link https://help.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 117
+========== raw link https://help.x.com/en/using-twitter
+============ Checking for Redirections: https://help.x.com/en/using-twitter
+========== dropped link https://help.x.com/en/using-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 117
+========== raw link https://create.x.com/
+============ Checking for Redirections: https://create.x.com/
+========== dropped link https://create.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 117
+========== raw link https://business.x.com/en/help.html
+============ Checking for Redirections: https://business.x.com/en/help.html
+========== dropped link https://business.x.com/en/help.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 117
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+========== dropped link https://help.x.com/en/managing-your-account. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 117
+========== raw link https://preferencecenter.x.com/
+============ Checking for Redirections: https://preferencecenter.x.com/
+========== dropped link https://preferencecenter.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 117
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+========== dropped link https://help.x.com/en/rules-and-policies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 117
+========== raw link /en/forms.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/adult-content and /en/forms.html
+============ Checking for Redirections: https://help.x.com/en/forms.html
+========== dropped link https://help.x.com/en/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 117
+========== raw link https://developer.x.com/en
+============ Checking for Redirections: https://developer.x.com/en
+========== dropped link https://developer.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 117
+========== raw link https://developer.x.com/en/docs
+============ Checking for Redirections: https://developer.x.com/en/docs
+========== dropped link https://developer.x.com/en/docs. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 117
+========== raw link https://twittercommunity.com/
+============ Checking for Redirections: https://twittercommunity.com/
+========== dropped link https://twittercommunity.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 117
+========== raw link https://developer.x.com/en/community
+============ Checking for Redirections: https://developer.x.com/en/community
+========== dropped link https://developer.x.com/en/community. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 50 of 117
+========== raw link https://blog.x.com/developer/
+============ Checking for Redirections: https://blog.x.com/developer/
+========== dropped link https://blog.x.com/developer/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 117
+========== raw link https://blog.x.com/engineering/en_us.html
+============ Checking for Redirections: https://blog.x.com/engineering/en_us.html
+========== dropped link https://blog.x.com/engineering/en_us.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 117
+========== raw link https://developer.x.com/en/more/developer-terms
+============ Checking for Redirections: https://developer.x.com/en/more/developer-terms
+========== dropped link https://developer.x.com/en/more/developer-terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 117
+========== raw link https://business.x.com/en/advertising.html
+============ Checking for Redirections: https://business.x.com/en/advertising.html
+========== dropped link https://business.x.com/en/advertising.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 117
+========== raw link https://business.x.com/
+============ Checking for Redirections: https://business.x.com/
+========== dropped link https://business.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 55 of 117
+========== raw link https://business.x.com/en/resources.html
+============ Checking for Redirections: https://business.x.com/en/resources.html
+========== dropped link https://business.x.com/en/resources.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 117
+========== raw link https://marketing.x.com/
+============ Checking for Redirections: https://marketing.x.com/
+========== dropped link https://marketing.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 117
+========== raw link https://marketing.x.com/en/insights
+============ Checking for Redirections: https://marketing.x.com/en/insights
+========== dropped link https://marketing.x.com/en/insights. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 117
+========== raw link https://marketing.x.com/en/success-stories
+============ Checking for Redirections: https://marketing.x.com/en/success-stories
+========== dropped link https://marketing.x.com/en/success-stories. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 117
+========== raw link https://www.xadsacademy.com/sl/5c3e29ed
+============ Checking for Redirections: https://www.xadsacademy.com/sl/5c3e29ed
+========== dropped link https://www.xadsacademy.com/sl/5c3e29ed. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 117
+========== raw link https://help.x.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.x.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.x.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 117
+========== raw link https://x.com/privacy
+============ Checking for Redirections: https://x.com/privacy
+========== dropped link https://x.com/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 62 of 117
+========== raw link https://x.com/tos
+============ Checking for Redirections: https://x.com/tos
+========== dropped link https://x.com/tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 63 of 117
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+========== dropped link https://help.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 64 of 117
+========== raw link https://help.x.com/en/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/adult-content
+========== dropped link https://help.x.com/en/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 65 of 117
+========== raw link https://help.x.com/es/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/es/rules-and-policies/adult-content
+========== dropped link https://help.x.com/es/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 66 of 117
+========== raw link https://help.x.com/ja/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/ja/rules-and-policies/adult-content
+========== dropped link https://help.x.com/ja/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 117
+========== raw link https://help.x.com/ko/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/ko/rules-and-policies/adult-content
+========== dropped link https://help.x.com/ko/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 68 of 117
+========== raw link https://help.x.com/pt/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/pt/rules-and-policies/adult-content
+========== dropped link https://help.x.com/pt/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 117
+========== raw link https://help.x.com/de/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/de/rules-and-policies/adult-content
+========== dropped link https://help.x.com/de/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 117
+========== raw link https://help.x.com/tr/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/tr/rules-and-policies/adult-content
+========== dropped link https://help.x.com/tr/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 117
+========== raw link https://help.x.com/fr/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/fr/rules-and-policies/adult-content
+========== dropped link https://help.x.com/fr/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 117
+========== raw link https://help.x.com/it/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/it/rules-and-policies/adult-content
+========== dropped link https://help.x.com/it/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 73 of 117
+========== raw link https://help.x.com/ar/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/ar/rules-and-policies/adult-content
+========== dropped link https://help.x.com/ar/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 117
+========== raw link https://help.x.com/nl/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/nl/rules-and-policies/adult-content
+========== dropped link https://help.x.com/nl/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 75 of 117
+========== raw link https://help.x.com/id/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/id/rules-and-policies/adult-content
+========== dropped link https://help.x.com/id/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 117
+========== raw link https://help.x.com/ru/rules-and-policies/adult-content
+============ Checking for Redirections: https://help.x.com/ru/rules-and-policies/adult-content
+========== dropped link https://help.x.com/ru/rules-and-policies/adult-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 117
+========== raw link https://help.x.com/hi
+============ Checking for Redirections: https://help.x.com/hi
+========== dropped link https://help.x.com/hi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 78 of 117
+========== raw link https://help.x.com/ta
+============ Checking for Redirections: https://help.x.com/ta
+========== dropped link https://help.x.com/ta. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 79 of 117
+========== raw link https://help.x.com/he
+============ Checking for Redirections: https://help.x.com/he
+========== dropped link https://help.x.com/he. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 80 of 117
+========== raw link https://help.x.com/zh-cn
+============ Checking for Redirections: https://help.x.com/zh-cn
+========== dropped link https://help.x.com/zh-cn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 117
+========== raw link https://help.x.com/zh-tw
+============ Checking for Redirections: https://help.x.com/zh-tw
+========== dropped link https://help.x.com/zh-tw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 117
+========== raw link https://help.x.com/th
+============ Checking for Redirections: https://help.x.com/th
+========== dropped link https://help.x.com/th. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 83 of 117
+========== raw link https://help.x.com/vi
+============ Checking for Redirections: https://help.x.com/vi
+========== dropped link https://help.x.com/vi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 84 of 117
+========== raw link https://help.x.com/ms
+============ Checking for Redirections: https://help.x.com/ms
+========== dropped link https://help.x.com/ms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 117
+========== raw link https://help.x.com/bn
+============ Checking for Redirections: https://help.x.com/bn
+========== dropped link https://help.x.com/bn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 117
+========== raw link https://help.x.com/fil
+============ Checking for Redirections: https://help.x.com/fil
+========== dropped link https://help.x.com/fil. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 87 of 117
+========== raw link https://help.x.com/fa
+============ Checking for Redirections: https://help.x.com/fa
+========== dropped link https://help.x.com/fa. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 117
+========== raw link https://help.x.com/da
+============ Checking for Redirections: https://help.x.com/da
+========== dropped link https://help.x.com/da. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 117
+========== raw link https://help.x.com/fi
+============ Checking for Redirections: https://help.x.com/fi
+========== dropped link https://help.x.com/fi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 90 of 117
+========== raw link https://help.x.com/sv
+============ Checking for Redirections: https://help.x.com/sv
+========== dropped link https://help.x.com/sv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 91 of 117
+========== raw link https://help.x.com/no
+============ Checking for Redirections: https://help.x.com/no
+========== dropped link https://help.x.com/no. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 92 of 117
+========== raw link https://help.x.com/pl
+============ Checking for Redirections: https://help.x.com/pl
+========== dropped link https://help.x.com/pl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 93 of 117
+========== raw link https://help.x.com/hu
+============ Checking for Redirections: https://help.x.com/hu
+========== dropped link https://help.x.com/hu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 94 of 117
+========== raw link https://help.x.com/ro
+============ Checking for Redirections: https://help.x.com/ro
+========== dropped link https://help.x.com/ro. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 95 of 117
+========== raw link https://help.x.com/uk
+============ Checking for Redirections: https://help.x.com/uk
+========== dropped link https://help.x.com/uk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 96 of 117
+========== raw link https://help.x.com/mr
+============ Checking for Redirections: https://help.x.com/mr
+========== dropped link https://help.x.com/mr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 97 of 117
+========== raw link https://help.x.com/gu
+============ Checking for Redirections: https://help.x.com/gu
+========== dropped link https://help.x.com/gu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 98 of 117
+========== raw link https://help.x.com/bg
+============ Checking for Redirections: https://help.x.com/bg
+========== dropped link https://help.x.com/bg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 99 of 117
+========== raw link https://help.x.com/ca
+============ Checking for Redirections: https://help.x.com/ca
+========== dropped link https://help.x.com/ca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 100 of 117
+========== raw link https://help.x.com/hr
+============ Checking for Redirections: https://help.x.com/hr
+========== dropped link https://help.x.com/hr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 101 of 117
+========== raw link https://help.x.com/sr
+============ Checking for Redirections: https://help.x.com/sr
+========== dropped link https://help.x.com/sr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 117
+========== raw link https://help.x.com/sk
+============ Checking for Redirections: https://help.x.com/sk
+========== dropped link https://help.x.com/sk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 117
+========== raw link https://help.x.com/kn
+============ Checking for Redirections: https://help.x.com/kn
+========== dropped link https://help.x.com/kn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 104 of 117
+========== raw link https://help.x.com/ps
+============ Checking for Redirections: https://help.x.com/ps
+========== dropped link https://help.x.com/ps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 105 of 117
+========== raw link https://help.x.com/fa-af
+============ Checking for Redirections: https://help.x.com/fa-af
+========== dropped link https://help.x.com/fa-af. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 106 of 117
+========== raw link https://help.x.com/om
+============ Checking for Redirections: https://help.x.com/om
+========== dropped link https://help.x.com/om. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 107 of 117
+========== raw link https://help.x.com/ti
+============ Checking for Redirections: https://help.x.com/ti
+========== dropped link https://help.x.com/ti. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 108 of 117
+========== raw link https://help.x.com/ckb
+============ Checking for Redirections: https://help.x.com/ckb
+========== dropped link https://help.x.com/ckb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 109 of 117
+========== raw link https://help.x.com/lt
+============ Checking for Redirections: https://help.x.com/lt
+========== dropped link https://help.x.com/lt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 110 of 117
+========== raw link https://help.x.com/lv
+============ Checking for Redirections: https://help.x.com/lv
+========== dropped link https://help.x.com/lv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 111 of 117
+========== raw link https://help.x.com/mt
+============ Checking for Redirections: https://help.x.com/mt
+========== dropped link https://help.x.com/mt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 112 of 117
+========== raw link https://help.x.com/sl
+============ Checking for Redirections: https://help.x.com/sl
+========== dropped link https://help.x.com/sl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 113 of 117
+========== raw link https://help.x.com/ga
+============ Checking for Redirections: https://help.x.com/ga
+========== dropped link https://help.x.com/ga. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 114 of 117
+========== raw link https://help.x.com/hmn
+============ Checking for Redirections: https://help.x.com/hmn
+========== dropped link https://help.x.com/hmn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 115 of 117
+========== raw link https://help.x.com/hy
+============ Checking for Redirections: https://help.x.com/hy
+========== dropped link https://help.x.com/hy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 116 of 117
+========== raw link https://help.x.com/km
+============ Checking for Redirections: https://help.x.com/km
+========== dropped link https://help.x.com/km. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 117 of 117
+========== raw link https://help.twitter.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.twitter.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.twitter.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 4 of 4: https://help.x.com/en/rules-and-policies/child-safety
+====== Number of Links on this Page: 114
+======== We are on link 1 of 114
+========== raw link #twtr-main
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 114
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+========== dropped link https://help.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 114
+========== raw link https://help.x.com/en/using-x
+============ Checking for Redirections: https://help.x.com/en/using-x
+========== dropped link https://help.x.com/en/using-x. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 114
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+========== dropped link https://help.x.com/en/managing-your-account. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 114
+========== raw link https://help.x.com/en/safety-and-security
+============ Checking for Redirections: https://help.x.com/en/safety-and-security
+========== dropped link https://help.x.com/en/safety-and-security. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 114
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+========== dropped link https://help.x.com/en/rules-and-policies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 114
+========== raw link https://help.x.com/en/resources/new-user-faq
+============ Checking for Redirections: https://help.x.com/en/resources/new-user-faq
+========== dropped link https://help.x.com/en/resources/new-user-faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 114
+========== raw link https://help.x.com/en/resources/glossary
+============ Checking for Redirections: https://help.x.com/en/resources/glossary
+========== dropped link https://help.x.com/en/resources/glossary. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 114
+========== raw link https://help.x.com/en/resources/a-safer-twitter
+============ Checking for Redirections: https://help.x.com/en/resources/a-safer-twitter
+========== dropped link https://help.x.com/en/resources/a-safer-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 114
+========== raw link https://help.x.com/en/resources/accessibility
+============ Checking for Redirections: https://help.x.com/en/resources/accessibility
+========== dropped link https://help.x.com/en/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 114
+========== raw link https://help.x.com/en/resources/rules
+============ Checking for Redirections: https://help.x.com/en/resources/rules
+========== dropped link https://help.x.com/en/resources/rules. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 114
+========== raw link https://help.x.com/en/resources/how-you-can-control-your-privacy
+============ Checking for Redirections: https://help.x.com/en/resources/how-you-can-control-your-privacy
+========== dropped link https://help.x.com/en/resources/how-you-can-control-your-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 114
+========== raw link https://communitynotes.twitter.com/guide/en/about/introduction
+============ Checking for Redirections: https://communitynotes.twitter.com/guide/en/about/introduction
+========== dropped link https://communitynotes.twitter.com/guide/en/about/introduction. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 114
+========== raw link https://help.x.com/en/resources/recommender-systems
+============ Checking for Redirections: https://help.x.com/en/resources/recommender-systems
+========== dropped link https://help.x.com/en/resources/recommender-systems. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 114
+========== raw link https://help.x.com/forms.html
+============ Checking for Redirections: https://help.x.com/forms.html
+========== dropped link https://help.x.com/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 114
+========== raw link https://help.twitter.com/en/rules-and-policies/abusive-behavior
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/abusive-behavior
+========== dropped link https://help.twitter.com/en/rules-and-policies/abusive-behavior. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 114
+========== raw link https://help.twitter.com/en/rules-and-policies/media-policy
+============ Checking for Redirections: https://help.twitter.com/en/rules-and-policies/media-policy
+========== dropped link https://help.twitter.com/en/rules-and-policies/media-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 114
+========== raw link https://help.twitter.com/en/forms/safety-and-sensitive-content/cse
+============ Checking for Redirections: https://help.twitter.com/en/forms/safety-and-sensitive-content/cse
+========== dropped link https://help.twitter.com/en/forms/safety-and-sensitive-content/cse. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 114
+========== raw link https://report.cybertip.org/
+============ Checking for Redirections: https://report.cybertip.org/
+========== dropped link https://report.cybertip.org/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 114
+========== raw link https://help.twitter.com/en/forms/account-access/appeals.html
+============ Checking for Redirections: https://help.twitter.com/en/forms/account-access/appeals.html
+========== dropped link https://help.twitter.com/en/forms/account-access/appeals.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 114
+========== raw link https://blog.x.com/en_us/topics/company/2023/an-update-on-our-work-to-tackle-child-sexual-exploitation-on-x
+============ Checking for Redirections: https://blog.x.com/en_us/topics/company/2023/an-update-on-our-work-to-tackle-child-sexual-exploitation-on-x
+========== dropped link https://blog.x.com/en_us/topics/company/2023/an-update-on-our-work-to-tackle-child-sexual-exploitation-on-x. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 114
+========== raw link https://x.com/
+============ Checking for Redirections: https://x.com/
+========== dropped link https://x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 114
+========== raw link https://docs.x.com/status/status
+============ Checking for Redirections: https://docs.x.com/status/status
+========== dropped link https://docs.x.com/status/status. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 114
+========== raw link https://help.x.com/resources/accessibility
+============ Checking for Redirections: https://help.x.com/resources/accessibility
+========== dropped link https://help.x.com/resources/accessibility. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 114
+========== raw link https://publish.x.com
+============ Checking for Redirections: https://publish.x.com
+========== dropped link https://publish.x.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 114
+========== raw link https://privacy.x.com/
+============ Checking for Redirections: https://privacy.x.com/
+========== dropped link https://privacy.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 114
+========== raw link https://transparency.x.com/
+============ Checking for Redirections: https://transparency.x.com/
+========== dropped link https://transparency.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 114
+========== raw link https://help.x.com/using-x/download-the-x-app
+============ Checking for Redirections: https://help.x.com/using-x/download-the-x-app
+========== dropped link https://help.x.com/using-x/download-the-x-app. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 114
+========== raw link https://grok.com
+============ Checking for Redirections: https://grok.com
+========== dropped link https://grok.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 114
+========== raw link https://about.x.com/en/who-we-are/our-company.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/our-company.html
+========== dropped link https://about.x.com/en/who-we-are/our-company.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 114
+========== raw link https://blog.x.com/
+============ Checking for Redirections: https://blog.x.com/
+========== dropped link https://blog.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 114
+========== raw link https://about.x.com/en/who-we-are/brand-toolkit.html
+============ Checking for Redirections: https://about.x.com/en/who-we-are/brand-toolkit.html
+========== dropped link https://about.x.com/en/who-we-are/brand-toolkit.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 114
+========== raw link https://careers.x.com/
+============ Checking for Redirections: https://careers.x.com/
+========== dropped link https://careers.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 114
+========== raw link https://investor.twitterinc.com/
+============ Checking for Redirections: https://investor.twitterinc.com/
+========== dropped link https://investor.twitterinc.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 114
+========== raw link https://help.x.com/
+============ Checking for Redirections: https://help.x.com/
+========== dropped link https://help.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 114
+========== raw link https://help.x.com/en/using-twitter
+============ Checking for Redirections: https://help.x.com/en/using-twitter
+========== dropped link https://help.x.com/en/using-twitter. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 114
+========== raw link https://create.x.com/
+============ Checking for Redirections: https://create.x.com/
+========== dropped link https://create.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 114
+========== raw link https://business.x.com/en/help.html
+============ Checking for Redirections: https://business.x.com/en/help.html
+========== dropped link https://business.x.com/en/help.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 114
+========== raw link https://help.x.com/en/managing-your-account
+============ Checking for Redirections: https://help.x.com/en/managing-your-account
+========== dropped link https://help.x.com/en/managing-your-account. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 114
+========== raw link https://preferencecenter.x.com/
+============ Checking for Redirections: https://preferencecenter.x.com/
+========== dropped link https://preferencecenter.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 114
+========== raw link https://help.x.com/en/rules-and-policies
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies
+========== dropped link https://help.x.com/en/rules-and-policies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 114
+========== raw link /en/forms.html
+============ Found Relative: joining https://help.x.com/en/rules-and-policies/child-safety and /en/forms.html
+============ Checking for Redirections: https://help.x.com/en/forms.html
+========== dropped link https://help.x.com/en/forms.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 114
+========== raw link https://developer.x.com/en
+============ Checking for Redirections: https://developer.x.com/en
+========== dropped link https://developer.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 114
+========== raw link https://developer.x.com/en/docs
+============ Checking for Redirections: https://developer.x.com/en/docs
+========== dropped link https://developer.x.com/en/docs. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 114
+========== raw link https://twittercommunity.com/
+============ Checking for Redirections: https://twittercommunity.com/
+========== dropped link https://twittercommunity.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 114
+========== raw link https://developer.x.com/en/community
+============ Checking for Redirections: https://developer.x.com/en/community
+========== dropped link https://developer.x.com/en/community. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 114
+========== raw link https://blog.x.com/developer/
+============ Checking for Redirections: https://blog.x.com/developer/
+========== dropped link https://blog.x.com/developer/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 114
+========== raw link https://blog.x.com/engineering/en_us.html
+============ Checking for Redirections: https://blog.x.com/engineering/en_us.html
+========== dropped link https://blog.x.com/engineering/en_us.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 114
+========== raw link https://developer.x.com/en/more/developer-terms
+============ Checking for Redirections: https://developer.x.com/en/more/developer-terms
+========== dropped link https://developer.x.com/en/more/developer-terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 50 of 114
+========== raw link https://business.x.com/en/advertising.html
+============ Checking for Redirections: https://business.x.com/en/advertising.html
+========== dropped link https://business.x.com/en/advertising.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 114
+========== raw link https://business.x.com/
+============ Checking for Redirections: https://business.x.com/
+========== dropped link https://business.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 114
+========== raw link https://business.x.com/en/resources.html
+============ Checking for Redirections: https://business.x.com/en/resources.html
+========== dropped link https://business.x.com/en/resources.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 114
+========== raw link https://marketing.x.com/
+============ Checking for Redirections: https://marketing.x.com/
+========== dropped link https://marketing.x.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 114
+========== raw link https://marketing.x.com/en/insights
+============ Checking for Redirections: https://marketing.x.com/en/insights
+========== dropped link https://marketing.x.com/en/insights. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 55 of 114
+========== raw link https://marketing.x.com/en/success-stories
+============ Checking for Redirections: https://marketing.x.com/en/success-stories
+========== dropped link https://marketing.x.com/en/success-stories. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 114
+========== raw link https://www.xadsacademy.com/sl/5c3e29ed
+============ Checking for Redirections: https://www.xadsacademy.com/sl/5c3e29ed
+========== dropped link https://www.xadsacademy.com/sl/5c3e29ed. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 114
+========== raw link https://help.x.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.x.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.x.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 114
+========== raw link https://x.com/privacy
+============ Checking for Redirections: https://x.com/privacy
+========== dropped link https://x.com/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 114
+========== raw link https://x.com/tos
+============ Checking for Redirections: https://x.com/tos
+========== dropped link https://x.com/tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 114
+========== raw link https://help.x.com/en
+============ Checking for Redirections: https://help.x.com/en
+========== dropped link https://help.x.com/en. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 114
+========== raw link https://help.x.com/en/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/en/rules-and-policies/child-safety
+========== dropped link https://help.x.com/en/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 62 of 114
+========== raw link https://help.x.com/es/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/es/rules-and-policies/child-safety
+========== dropped link https://help.x.com/es/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 63 of 114
+========== raw link https://help.x.com/ja/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/ja/rules-and-policies/child-safety
+========== dropped link https://help.x.com/ja/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 64 of 114
+========== raw link https://help.x.com/ko/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/ko/rules-and-policies/child-safety
+========== dropped link https://help.x.com/ko/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 65 of 114
+========== raw link https://help.x.com/pt/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/pt/rules-and-policies/child-safety
+========== dropped link https://help.x.com/pt/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 66 of 114
+========== raw link https://help.x.com/de/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/de/rules-and-policies/child-safety
+========== dropped link https://help.x.com/de/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 114
+========== raw link https://help.x.com/tr/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/tr/rules-and-policies/child-safety
+========== dropped link https://help.x.com/tr/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 68 of 114
+========== raw link https://help.x.com/fr/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/fr/rules-and-policies/child-safety
+========== dropped link https://help.x.com/fr/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 114
+========== raw link https://help.x.com/it/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/it/rules-and-policies/child-safety
+========== dropped link https://help.x.com/it/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 114
+========== raw link https://help.x.com/ar/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/ar/rules-and-policies/child-safety
+========== dropped link https://help.x.com/ar/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 114
+========== raw link https://help.x.com/nl/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/nl/rules-and-policies/child-safety
+========== dropped link https://help.x.com/nl/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 114
+========== raw link https://help.x.com/id/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/id/rules-and-policies/child-safety
+========== dropped link https://help.x.com/id/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 73 of 114
+========== raw link https://help.x.com/ru/rules-and-policies/child-safety
+============ Checking for Redirections: https://help.x.com/ru/rules-and-policies/child-safety
+========== dropped link https://help.x.com/ru/rules-and-policies/child-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 114
+========== raw link https://help.x.com/hi
+============ Checking for Redirections: https://help.x.com/hi
+========== dropped link https://help.x.com/hi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 75 of 114
+========== raw link https://help.x.com/ta
+============ Checking for Redirections: https://help.x.com/ta
+========== dropped link https://help.x.com/ta. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 114
+========== raw link https://help.x.com/he
+============ Checking for Redirections: https://help.x.com/he
+========== dropped link https://help.x.com/he. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 114
+========== raw link https://help.x.com/zh-cn
+============ Checking for Redirections: https://help.x.com/zh-cn
+========== dropped link https://help.x.com/zh-cn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 78 of 114
+========== raw link https://help.x.com/zh-tw
+============ Checking for Redirections: https://help.x.com/zh-tw
+========== dropped link https://help.x.com/zh-tw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 79 of 114
+========== raw link https://help.x.com/th
+============ Checking for Redirections: https://help.x.com/th
+========== dropped link https://help.x.com/th. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 80 of 114
+========== raw link https://help.x.com/vi
+============ Checking for Redirections: https://help.x.com/vi
+========== dropped link https://help.x.com/vi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 114
+========== raw link https://help.x.com/ms
+============ Checking for Redirections: https://help.x.com/ms
+========== dropped link https://help.x.com/ms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 114
+========== raw link https://help.x.com/bn
+============ Checking for Redirections: https://help.x.com/bn
+========== dropped link https://help.x.com/bn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 83 of 114
+========== raw link https://help.x.com/fil
+============ Checking for Redirections: https://help.x.com/fil
+========== dropped link https://help.x.com/fil. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 84 of 114
+========== raw link https://help.x.com/fa
+============ Checking for Redirections: https://help.x.com/fa
+========== dropped link https://help.x.com/fa. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 114
+========== raw link https://help.x.com/da
+============ Checking for Redirections: https://help.x.com/da
+========== dropped link https://help.x.com/da. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 114
+========== raw link https://help.x.com/fi
+============ Checking for Redirections: https://help.x.com/fi
+========== dropped link https://help.x.com/fi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 87 of 114
+========== raw link https://help.x.com/sv
+============ Checking for Redirections: https://help.x.com/sv
+========== dropped link https://help.x.com/sv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 114
+========== raw link https://help.x.com/no
+============ Checking for Redirections: https://help.x.com/no
+========== dropped link https://help.x.com/no. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 114
+========== raw link https://help.x.com/pl
+============ Checking for Redirections: https://help.x.com/pl
+========== dropped link https://help.x.com/pl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 90 of 114
+========== raw link https://help.x.com/hu
+============ Checking for Redirections: https://help.x.com/hu
+========== dropped link https://help.x.com/hu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 91 of 114
+========== raw link https://help.x.com/ro
+============ Checking for Redirections: https://help.x.com/ro
+========== dropped link https://help.x.com/ro. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 92 of 114
+========== raw link https://help.x.com/uk
+============ Checking for Redirections: https://help.x.com/uk
+========== dropped link https://help.x.com/uk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 93 of 114
+========== raw link https://help.x.com/mr
+============ Checking for Redirections: https://help.x.com/mr
+========== dropped link https://help.x.com/mr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 94 of 114
+========== raw link https://help.x.com/gu
+============ Checking for Redirections: https://help.x.com/gu
+========== dropped link https://help.x.com/gu. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 95 of 114
+========== raw link https://help.x.com/bg
+============ Checking for Redirections: https://help.x.com/bg
+========== dropped link https://help.x.com/bg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 96 of 114
+========== raw link https://help.x.com/ca
+============ Checking for Redirections: https://help.x.com/ca
+========== dropped link https://help.x.com/ca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 97 of 114
+========== raw link https://help.x.com/hr
+============ Checking for Redirections: https://help.x.com/hr
+========== dropped link https://help.x.com/hr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 98 of 114
+========== raw link https://help.x.com/sr
+============ Checking for Redirections: https://help.x.com/sr
+========== dropped link https://help.x.com/sr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 99 of 114
+========== raw link https://help.x.com/sk
+============ Checking for Redirections: https://help.x.com/sk
+========== dropped link https://help.x.com/sk. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 100 of 114
+========== raw link https://help.x.com/kn
+============ Checking for Redirections: https://help.x.com/kn
+========== dropped link https://help.x.com/kn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 101 of 114
+========== raw link https://help.x.com/ps
+============ Checking for Redirections: https://help.x.com/ps
+========== dropped link https://help.x.com/ps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 114
+========== raw link https://help.x.com/fa-af
+============ Checking for Redirections: https://help.x.com/fa-af
+========== dropped link https://help.x.com/fa-af. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 114
+========== raw link https://help.x.com/om
+============ Checking for Redirections: https://help.x.com/om
+========== dropped link https://help.x.com/om. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 104 of 114
+========== raw link https://help.x.com/ti
+============ Checking for Redirections: https://help.x.com/ti
+========== dropped link https://help.x.com/ti. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 105 of 114
+========== raw link https://help.x.com/ckb
+============ Checking for Redirections: https://help.x.com/ckb
+========== dropped link https://help.x.com/ckb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 106 of 114
+========== raw link https://help.x.com/lt
+============ Checking for Redirections: https://help.x.com/lt
+========== dropped link https://help.x.com/lt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 107 of 114
+========== raw link https://help.x.com/lv
+============ Checking for Redirections: https://help.x.com/lv
+========== dropped link https://help.x.com/lv. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 108 of 114
+========== raw link https://help.x.com/mt
+============ Checking for Redirections: https://help.x.com/mt
+========== dropped link https://help.x.com/mt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 109 of 114
+========== raw link https://help.x.com/sl
+============ Checking for Redirections: https://help.x.com/sl
+========== dropped link https://help.x.com/sl. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 110 of 114
+========== raw link https://help.x.com/ga
+============ Checking for Redirections: https://help.x.com/ga
+========== dropped link https://help.x.com/ga. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 111 of 114
+========== raw link https://help.x.com/hmn
+============ Checking for Redirections: https://help.x.com/hmn
+========== dropped link https://help.x.com/hmn. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 112 of 114
+========== raw link https://help.x.com/hy
+============ Checking for Redirections: https://help.x.com/hy
+========== dropped link https://help.x.com/hy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 113 of 114
+========== raw link https://help.x.com/km
+============ Checking for Redirections: https://help.x.com/km
+========== dropped link https://help.x.com/km. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 114 of 114
+========== raw link https://help.twitter.com/rules-and-policies/twitter-cookies
+============ Checking for Redirections: https://help.twitter.com/rules-and-policies/twitter-cookies
+========== dropped link https://help.twitter.com/rules-and-policies/twitter-cookies. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 55
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 55: https://help.x.com/en/using-x
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 55: https://help.x.com/en/managing-your-account
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 55: https://help.x.com/en/safety-and-security
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 55: https://help.x.com/en/rules-and-policies
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 55: https://help.x.com/en/resources/new-user-faq
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 6 of 55: https://help.x.com/en/resources/glossary
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 7 of 55: https://help.x.com/en/resources/a-safer-twitter
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 8 of 55: https://help.x.com/en/resources/accessibility
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 9 of 55: https://help.x.com/en/resources/rules
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 10 of 55: https://help.x.com/en/resources/how-you-can-control-your-privacy
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 11 of 55: https://communitynotes.x.com/guide/en/about/introduction
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 12 of 55: https://help.x.com/en/resources/recommender-systems
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 13 of 55: https://help.x.com/en/forms
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 14 of 55: https://play.google.com/store/apps/details
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 15 of 55: https://help.x.com/en/managing-your-account/suspended-x-accounts
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 16 of 55: https://help.x.com/en/managing-your-account/locked-and-limited-accounts
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 17 of 55: https://help.x.com/en/managing-your-account/how-to-add-a-phone-number-to-your-account
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 18 of 55: https://help.x.com/en/managing-your-account/how-to-update-your-email-address
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 19 of 55: https://help.x.com/en/using-x/how-to-post
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 20 of 55: https://help.x.com/en/using-x/x-supported-browsers
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 21 of 55: https://help.x.com/en/using-x/direct-messages
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 22 of 55: https://help.x.com/en/safety-and-security/x-privacy-settings
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 23 of 55: https://help.x.com/en/safety-and-security/public-and-protected-posts
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 24 of 55: https://help.x.com/en/safety-and-security/data-through-partnerships
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 25 of 55: https://help.x.com/en/safety-and-security/x-account-compromised
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 26 of 55: https://help.x.com/en/rules-and-policies/notices-on-x
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 27 of 55: https://help.x.com/en/rules-and-policies/x-cookies
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 28 of 55: https://help.x.com/en/using-x/verified-organizations
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 29 of 55: https://help.x.com/en/using-x/verified-organizations/affiliate-benefits
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 30 of 55: https://help.x.com/en/using-x/x-conversations
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 31 of 55: https://privacy.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 32 of 55: https://transparency.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 33 of 55: https://help.x.com/en/using-x/download-the-x-app
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 34 of 55: https://blog.x.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 35 of 55: https://about.x.com/en/who-we-are/brand-toolkit
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 36 of 55: https://careers.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 37 of 55: https://investor.twitterinc.com/secure.aspx
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 38 of 55: https://business.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 39 of 55: https://business.x.com/en/help
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 40 of 55: https://preferencecenter.x.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 41 of 55: https://developer.x.com/en
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 42 of 55: https://docs.x.com/home
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 43 of 55: https://devcommunity.x.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 44 of 55: https://developer.x.com/en/community
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 45 of 55: https://developer.x.com/en/blog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 46 of 55: https://blog.x.com/engineering/en_us
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 47 of 55: https://developer.x.com/en/more/developer-terms
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 48 of 55: https://business.x.com/en/advertising
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 49 of 55: https://business.x.com/en/resources
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 50 of 55: https://business.x.com/en/blog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 51 of 55: https://business.x.com/en/success-stories
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 52 of 55: https://www.xadsacademy.com/student/catalog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 53 of 55: https://x.com/en/privacy
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 54 of 55: https://x.com/en/tos
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 55 of 55: https://help.x.com/ckb
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+== Finished scraping X-AI in 1006.4552 seconds.
+== Writing to db file
+== Done (/home/oscarc/Desktop/dev/ContentModerationWebScraper/data/03_06_25_12_13/all_htmls/AI_X_03_06_25_12_13.json)
+== Completed with Errors, search for error in logs

@@ -22,7 +22,7 @@ The scraper requires as input:
 To run the main iterative script, run
 
 ```
-$ python main_iterative.py [links] [search_terms] [OPTIONS]
+$ python main_iterative.py [links] [search_termssud] [OPTIONS]
 ```
 
 For more details about main_iterative.py positional arguments and options, run
