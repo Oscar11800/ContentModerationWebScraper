@@ -145,28 +145,40 @@ def chunk_by_search_terms(datadir, search_terms, plusminus, pools, **kwargs):
     if pools:
         pool = Pool(5)
     
+    if isinstance(search_terms, str):  
+        search_terms = pd.read_csv(search_terms, names=["search_terms"], skiprows=1)
+
     try: 
         output_dir = f"{datadir}/passages/"
-        os.mkdir(f"{output_dir}")
-    except FileExistsError as e:
+        os.makedirs(output_dir, exist_ok=True)
+    except FileExistsError:
         pass
 
     try: 
-        os.mkdir(f"{datadir}/logs/refiner/")
-    except FileExistsError as e:
+        os.makedirs(f"{datadir}/logs/refiner/", exist_ok=True)
+    except FileExistsError:
         pass
+
     log_file_path = f"{datadir}/logs/refiner/prints.log"
 
-    for area in ['copyright', 'misinformation', 'hatespeech']:
-        area_search_terms = search_terms[area].dropna()
-        try: 
-            output_dir = f"{datadir}/passages/{area}"
-            os.mkdir(f"{output_dir}")
-        except FileExistsError as e:
-            pass
-        
-        for platform in os.listdir(f"{datadir}/all_text/{area}"):
+    for area in ['AI']:  
+        if isinstance(search_terms, str):  
+            search_terms = pd.read_csv(search_terms, names=["search_terms"], skiprows=1)
 
+        area_search_terms = search_terms["search_terms"].dropna()
+
+        try:
+            os.makedirs(f"{datadir}/passages/{area}", exist_ok=True)  
+        except FileExistsError:
+            pass
+
+        correct_path = os.path.abspath(f"{datadir}/all_text/{area}")
+        print(f"Checking path: {correct_path}")  # Debugging line
+
+        if not os.path.exists(correct_path):
+            raise FileNotFoundError(f"Expected directory not found: {correct_path}")
+
+        for platform in os.listdir(correct_path):
             if pools:
                 pool.apply_async(pool_job, args=(datadir, area, platform, output_dir, area_search_terms, plusminus, log_file_path), error_callback=pcb)
             else:

@@ -65,20 +65,21 @@ def fill_dir(empties: list, htmls_path: str) -> None:
     '''
 
     start_time = time()
-    
     old_dir = os.getcwd()
     os.chdir(htmls_path)
 
     driver = setup_driver()
+
+    i = 0  # ✅ Initialize i before the loop
 
     for i, (site, area, pid, source) in enumerate(empties):
         print(i)
         try:
             fill(site, area, pid, source, driver)
         except Exception as error:
-            print(error + '\n')
+            print(error, '\n')
 
-    print(f'Done. {i} pages filled. {time() - start_time} elapsed')
+    print(f'Done. {i} pages filled. {time() - start_time} elapsed')  # ✅ Now i is always defined
 
     os.chdir(old_dir)
 

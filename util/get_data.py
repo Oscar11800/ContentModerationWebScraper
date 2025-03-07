@@ -7,36 +7,27 @@ Can be used for benchmarking, filling missing data, etc.
 '''
 
 import undetected_chromedriver as uc_webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup as Soup
+from selenium.webdriver.chrome.service import Service
+from selenium.webdriver.chrome.service import Service
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
 
 def setup_driver():
-    '''
-    Creates a Selenium driver (Chrome)
-
-    Returns:
-        Selenium driver object
-    '''
-
-    options = Options()
-
+    options = webdriver.ChromeOptions()
     options.add_argument("--headless")
-    options.add_argument('--log-level=3')
-    options.add_argument("--enable-javascript")
-    options.set_capability('unhandledPromptBehavior', 'dismiss')
-    options.add_argument("--dns-prefetch-disable")
-    options.add_argument('log-level=3')
-    options.add_argument('--ignore-certificate-errors-spki-list')
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument('--ignore-ssl-errors')
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
 
-    driver = uc_webdriver.Chrome(
+    driver = webdriver.Chrome(
+        service=Service(ChromeDriverManager().install()),
         options=options
     )
-
     return driver
 
 def driver_wait(driver):

@@ -3,3 +3,4 @@ venv/
 cmwsvenv/
 *.pyc
 __pycache__/
+data/

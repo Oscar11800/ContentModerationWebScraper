@@ -55,24 +55,17 @@ def extract_text(datadir, pools, **kwargs):
 
     try:
         os.mkdir(f"{datadir}/all_text/")
-    except FileExistsError as e:
+    except FileExistsError:
         pass
     try:
-        os.mkdir(f"{datadir}/all_text/hatespeech")
-    except FileExistsError as e:
-        pass
-    try:
-        os.mkdir(f"{datadir}/all_text/misinformation")
-    except FileExistsError as e:
-        pass
-    try:
-        os.mkdir(f"{datadir}/all_text/copyright")
-    except FileExistsError as e:
+        os.mkdir(f"{datadir}/all_text/AI")  # <== Add this line to create AI folder
+    except FileExistsError:
         pass
     try:
         os.mkdir(f"{datadir}/logs/extractor/")
-    except FileExistsError as e:
+    except FileExistsError:
         pass
+
 
     logger_path = f"{datadir}/logs/extractor/prints.log"
     high_logger = my_custom_logger(logger_path)
