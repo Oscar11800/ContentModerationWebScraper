@@ -345,8 +345,10 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 #       also iterates on links within the html data, looks for the search terms in those nested links,
 #       and adds them to the raw dataset if they include the search terms.
 def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, iterations):
+    """
     if pools:
         pool = Pool(pools)
+    """
     # manager = Manager()  Dont need shared objects/data structures. 
     date_time = datetime.now(pytz.timezone('US/Central')).strftime('%m_%d_%y_%H_%M')
     os.makedirs(f"{outdir}/{date_time}/all_htmls/", exist_ok=True)
@@ -354,6 +356,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     tick = time.perf_counter()
 
     high_logger = my_custom_logger(f"{outdir}/{date_time}/logs/scraper/{date_time}.log")
+    """
     with open(f"{outdir}/temp.txt", 'w') as f:
         f.writelines(f'{date_time}')
 
@@ -362,6 +365,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     high_logger.warning(statement)
 
     url_filter_dict = {}
+    
     # OLD: need to make sure the allowlist and blocklists have same sites and IDs as all sheets!!
     df_ai = pd.read_excel(links, sheet_name="AI", engine="openpyxl")
     # No need for allow/block lists, only scrape AI-related sites
@@ -380,7 +384,30 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     jobs = []
     area = "AI"  # Only scrape AI-related content
     df = pd.read_excel(links, sheet_name="AI", engine="openpyxl")  # Read only the "AI" sheet
+    """
+    #same as above, just gonna keep this here
+    search_terms = pd.read_csv(search_terms, names=["search_terms"], skiprows=1)
+    area = "AI_Moderation"
 
+    #just going to look at reddit for now, since the crawler operates on a dict 
+    row = {
+    'site_id': 'reddit',
+    'site_name': 'reddit.com',
+    'site_url': 'https://www.reddit.com/policies/content-policy'
+    }
+    url_filter_dict = {
+    'reddit': {
+        'allows': ['policy', 'content', 'moderation', 'rules', 'ai', 'help'],
+        'blocks': ['login', 'ads', 'chat']
+        }
+    }
+    print(f"Testing single scrape on {row['site_name']}")
+
+    run_row(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations)
+
+    print(f'Done test. Check: {outdir}/{date_time}/all_htmls/')
+    
+    """
     # Loop through the AI sheet and process each site
     for i in range(len(df)):
         id = df.loc[i, "site_id"]  # Ensure correct column name
@@ -406,6 +433,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
         pool.close()       
         pool.join()
     print(f'Done full. Total time: {time.perf_counter() - tick:0.4f}', flush=True)
+    """
 
 def callback(result):
     print('success', result)
