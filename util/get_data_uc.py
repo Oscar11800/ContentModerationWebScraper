@@ -7,6 +7,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
 
+
+
 class UC_Scraper: 
 
     def __init__(self, SIZE_CUTOFF=1000, RETRY_CUTOFF=10, WEBCACHE=True):
@@ -22,7 +24,7 @@ class UC_Scraper:
 
         chrome_driver_path = "/usr/local/bin/chromedriver"
         chrome_binary_path = "/usr/bin/google-chrome"
-
+        
         options = webdriver.ChromeOptions()
         options.headless = False  # Disable headless mode for testing
         options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
@@ -31,11 +33,9 @@ class UC_Scraper:
         options.add_argument("--no-sandbox")  
         options.add_argument("--disable-dev-shm-usage")
 
-          
-        #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-        #bypass chromedriver version
-        # AFTER (force version 114 or similar):
+      
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager(version="114.0.5735.90").install()), options=options)
+
 
         self.cur_link = ''
         self.cur_page_source = ''

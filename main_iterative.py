@@ -16,10 +16,26 @@ from multiprocessing import Process, Manager, Pool, freeze_support
 from langdetect import detect as langdetect
 from util.argparsers import main_iterative_parser as parser
 
+# get current working directory for writing/reading files
 CWD = os.getcwd()
 
+
+"""
+Args:
+    row(): a row from the "links" excel sheet representing a website
+    area(): this will always be "AI", as a category we want to scrape
+    search_terms(): keylist of words we want to find
+    date_time(): timestamp for naming output/log files
+    allow_block_dict(): dict controlling blocked and allowed URLs per site
+    output_dir(): where output and logs go
+    sizecutoff(): scraper 
+    retrycutoff(): scraper config
+    webcache(): scraper config 
+    iterations(): depth scraper should go into each site
+"""
 def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, sizecutoff, retrycutoff, webcache, iterations):
     
+    # init scraper
     driver = UC_Scraper(
         SIZE_CUTOFF=sizecutoff, 
         RETRY_CUTOFF=retrycutoff, 
@@ -31,14 +47,16 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 
     pulled_sites = {}
 
-    statement = f'Setting up logger for {row[1]}_{area}'
+    # init logger to write to logs/scraper/{date_time}.log
+    statement = f'Setting up logger for {row["site_name"]}_{area}'
     print(statement)
     high_logger = my_custom_logger(f"{output_dir}/{date_time}/logs/scraper/{date_time}.log")
     high_logger.warning(statement)
 
-    statement = f'Building initial data structures from Seed links sheet for {row[1]}_{area}'
+    statement = f'Building initial data structures from Seed links sheet for {row["site_name"]}_{area}'
     print(statement)
     high_logger.warning(statement)
+    # create dictionary with site name, id, url, and pages scraped
     raw = build_data.build_obj(row, driver)
 
     filename = f"{area}_{raw['site_name'].replace('.', '_')}_{date_time}"
