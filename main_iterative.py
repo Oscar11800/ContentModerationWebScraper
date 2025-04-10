@@ -62,8 +62,11 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     filename = f"{area}_{raw['site_name'].replace('.', '_')}_{date_time}"
     logger = my_custom_logger(f"{output_dir}/{date_time}/logs/scraper/{filename}.log")
 
-    if not raw['site_name'] in pulled_sites:
-        pulled_sites[raw['site_name']] = {'AI': []}
+    if raw['site_name'] not in pulled_sites:
+        pulled_sites[raw['site_name']] = {}
+
+    if area not in pulled_sites[raw['site_name']]:
+        pulled_sites[raw['site_name']][area] = []
 
     statement = f"== Conducting scraping for {area} on {raw['site_name']}"
 
@@ -82,6 +85,11 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 
     try:
         raw['pages'][0] = {"url": redirected_url, "html": driver.get_html(redirected_url)}
+        page_text = BeautifulSoup(raw['pages'][0]["html"], features="lxml").get_text()
+        is_english = (langdetect(page_text[:min(len(page_text)-1, 5000)]) == 'en')
+        if not is_english:
+            print(f"Initial page is not English, skipping site {raw['site_name']}")
+            return
     except Exception as e:
         print(f"Failed to scrape: {redirected_url}. Error: {e}")
         raw['pages'][0] = {"url": redirected_url, "html": "Failed"}
@@ -251,47 +259,37 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                             statement = f'============ Checking {link} for language resulted in the following exception:\n{e}'
                             logger.warning(statement)
 
-                        if is_english:
-                            # instead of looking in source html, just look in text (but still download all html if search term found in text)
-                            page_text = next_soup.get_text()
-                            area_search_terms = search_terms["search_terms"].dropna()
-                            # if includes this area's search terms
-                            st_found = False
-                            for st in area_search_terms:
-                                # Treat copyright differently for a search term using the negative regexp
-                                if 'copyright' in st.lower():
-                                    # this looks for copyright matches only if it is not followed by a year (with 0-3 wildcard spaces in between)
-                                    x = re.search("copyright(?!((.?){3}[12][0-9]{3}))", page_text, flags=re.IGNORECASE)
-                                    if x:
-                                        st_found = True
-                                elif 'trust' in st.lower():
-                                # this looks for trust matches only if not followed by key. "Trustkey" was giving false positives
-                                    x = re.search("trust(?!(key))", page_text, flags=re.IGNORECASE)
-                                    # x is none if no matches
-                                    if x:
-                                        st_found = True
-
-                                # all other search terms just search for it in text normally. But make sure that it is not preceeded by a letter
-                                else:
-                                    my_re = "(?<![a-zA-Z])" + re.escape(st)
-                                    x = re.search(my_re, page_text, flags=re.IGNORECASE)
-                                    if x:
-                                        st_found = True
-                                # TODO: Switch back to if st_found
-                                if True:   
-                                    break # found a search term, dont need to keep checking
-                            if True:
-                                # build up list of new found sites 
-                                statement = f"============ New link added. Search term ({st}) found on {link}."
-                                logger.warning(statement)
-                                statement = f"============== Page containing the link: {page['url']}"
-                                logger.warning(statement)
-                                new_links_with_search_terms.append(link)
-                            else: # after checking all Search terms, if still not found, add link to blacklist (for this platform+area combo)
-                                links_without_search_terms.append(link) 
-                        else:
-                            statement = f"============ link is not english."
+                        if not is_english:
+                            statement = f"============ Dropping non-English link: {link}"
                             logger.warning(statement)
+                            link_count += 1
+                            continue  # Skip rest of the loop
+
+                        # Rest of the code only runs if the page is English
+                        page_text = next_soup.get_text()
+                        area_search_terms = search_terms["search_terms"].dropna()
+                        st_found = False
+
+                        for st in area_search_terms:
+                            if 'copyright' in st.lower():
+                                x = re.search("copyright(?!((.?){3}[12][0-9]{3}))", page_text, flags=re.IGNORECASE)
+                            elif 'trust' in st.lower():
+                                x = re.search("trust(?!(key))", page_text, flags=re.IGNORECASE)
+                            else:
+                                my_re = "(?<![a-zA-Z])" + re.escape(st)
+                                x = re.search(my_re, page_text, flags=re.IGNORECASE)
+                            
+                            if x:
+                                st_found = True
+                                break
+
+                        if st_found:
+                            statement = f"============ New link added. Search term ({st}) found on {link}."
+                            logger.warning(statement)
+                            new_links_with_search_terms.append(link)
+                        else:
+                            links_without_search_terms.append(link)
+
                     else:
                         statement = "========== link already checked"
                         logger.warning(statement)
