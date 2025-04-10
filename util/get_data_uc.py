@@ -34,7 +34,7 @@ class UC_Scraper:
         options.add_argument("--disable-dev-shm-usage")
 
       
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager(version="114.0.5735.90").install()), options=options)
 
 
         self.cur_link = ''
