@@ -9,14 +9,12 @@ import gzip
 # OUTPUT:
 #   a dictionary containing the raw html of each link in the row's platform
 def build_obj(row, driver):
-    # print(row)
-    # print(type(row))
-    # print(row[3:])
-    raw = {'site_id': int(row[0]),
-           'site_name': row[1],
-           'site_url': row[2],
-           'pages': driver.get_htmls(row[3:])}
-
+    raw = {
+        'site_id': row[0],  # 'reddit'
+        'site_name': row[1],  # 'reddit.com'
+        'site_url': row[2],  # full URL
+        'pages': driver.get_htmls(row[3:])  # list of URLs
+    }
     return raw
 
 

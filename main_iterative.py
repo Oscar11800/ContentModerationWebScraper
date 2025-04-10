@@ -408,11 +408,11 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     area = "AI_Moderation"
 
     #just going to look at reddit for now, since the crawler operates on a dict 
-    row = {
+    row = pd.Series({
     'site_id': 'reddit',
     'site_name': 'reddit.com',
-    'site_url': 'https://www.reddit.com/policies/content-policy'
-    }
+    'site_url': 'https://www.reddit.com/policies/privacy-policy'
+    })
     url_filter_dict = {
     'reddit': {
         'allows': ['policy', 'content', 'moderation', 'rules', 'ai', 'help'],
