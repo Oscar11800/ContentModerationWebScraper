@@ -67,7 +67,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
         pulled_sites[raw['site_name']] = {'AI': []}
     """
     if raw['site_name'] not in pulled_sites:
-    pulled_sites[raw['site_name']] = {area: []}
+        pulled_sites[raw['site_name']] = {area: []}
     
     statement = f"== Conducting scraping for {area} on {raw['site_name']}"
 
