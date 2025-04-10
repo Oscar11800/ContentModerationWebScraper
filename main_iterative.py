@@ -62,9 +62,13 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     filename = f"{area}_{raw['site_name'].replace('.', '_')}_{date_time}"
     logger = my_custom_logger(f"{output_dir}/{date_time}/logs/scraper/{filename}.log")
 
+    """
     if not raw['site_name'] in pulled_sites:
         pulled_sites[raw['site_name']] = {'AI': []}
-
+    """
+    if raw['site_name'] not in pulled_sites:
+    pulled_sites[raw['site_name']] = {area: []}
+    
     statement = f"== Conducting scraping for {area} on {raw['site_name']}"
 
     tic = time.perf_counter()
