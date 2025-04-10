@@ -44,13 +44,13 @@ options:
 
 links=''
 search_terms=''
-outdir='./data'
-pools=0
-iterations=2
-size_cutoff=1000
-retry_cutoff=10
-plusminus=5
-webcache=false
+outdir='./data'          # where output goes
+pools=0                  # number of parallel processes (0 = no multiprocessing)
+iterations=2             # scraping tree depth
+size_cutoff=1000         # minimum HTML length to consider valid
+retry_cutoff=10          # attempts per link
+plusminus=5              # sentence window in extractor
+webcache=false           # enable Google WebCache fallback
 
 while getopts "hl:t:o:p:i:s:r:m:c" flag; do
     case $flag in
