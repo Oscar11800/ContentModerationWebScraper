@@ -30,13 +30,17 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     errors = False
 
     pulled_sites = {}
-
-    statement = f'Setting up logger for {row[1]}_{area}'
+    
+    #statement = f'Setting up logger for {row[1]}_{area}'
+    statement = f'Setting up logger for {row["site_name"]}_{area}'
+    
     print(statement)
     high_logger = my_custom_logger(f"{output_dir}/{date_time}/logs/scraper/{date_time}.log")
     high_logger.warning(statement)
 
-    statement = f'Building initial data structures from Seed links sheet for {row[1]}_{area}'
+    #statement = f'Building initial data structures from Seed links sheet for {row[1]}_{area}'
+    statement = f'Building initial data structures from Seed links sheet for {row["site_name"]}_{area}'
+    
     print(statement)
     high_logger.warning(statement)
     raw = build_data.build_obj(row, driver)
