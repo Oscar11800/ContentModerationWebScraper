@@ -114,53 +114,38 @@ Running pipeline..."
 
 
 #
-#
 # Main Iterative
 #
-#
+printf "\n==========Main Iterative==========\n"
 
-printf "
-
-==========Main Iterative==========
-
-"
-
-if [ $webcache = true ]; then
-    python3 main_iterative.py $links $search_terms -d $outdir -p $pools -i $iterations -s $size_cutoff -r $retry_cutoff -c
+if [ "$webcache" = true ]; then
+    python3 main_iterative.py "$links" "$search_terms" -d "$outdir" -p "$pools" -i "$iterations" -s "$size_cutoff" -r "$retry_cutoff" -c
 else
-    python3 main_iterative.py $links $search_terms -d $outdir -p $pools -i $iterations -s $size_cutoff -r $retry_cutoff
+    python3 main_iterative.py "$links" "$search_terms" -d "$outdir" -p "$pools" -i "$iterations" -s "$size_cutoff" -r "$retry_cutoff"
 fi
 
 #
+# Locate the most recent run directory that contains all_htmls/
+#
+run_dir=$(ls -td "$outdir"/*/ 2>/dev/null | head -n 1 | sed 's:/*$::')
+if [ ! -d "$run_dir/all_htmls" ]; then
+    printf "error: could not find a run folder with all_htmls/ under %s\n" "$outdir" >&2
+    exit 1
+fi
+
+printf "\nUsing run directory: $run_dir\n"
+
 #
 # Extractor
 #
-#
+printf "\n==========Extractor==========\n"
+python3 extractor.py "$run_dir" -p "$pools"
 
-printf "
-
-==========Extractor==========
-
-"
-
-
-python3 extractor.py $outdir -p $pools
-
-#
 #
 # Refiner
 #
-#
-
-printf "
-
-==========Refiner==========
-
-"
-
-
-python3 refiner.py $outdir $search_terms -p $pools -s $plusminus
-
+printf "\n==========Refiner==========\n"
+python3 refiner.py "$run_dir" "$search_terms" -p "$pools" -s "$plusminus"
 #
 #
 # Done

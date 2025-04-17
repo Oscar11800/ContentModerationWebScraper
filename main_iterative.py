@@ -407,21 +407,112 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
 
     #just going to look at reddit for now, since the crawler operates on a dict 
     row = pd.Series({
-    'site_id': 'reddit',
-    'site_name': 'reddit.com',
-    'site_url': 'https://www.reddit.com/policies/privacy-policy'
+        # 'site_id': 'linkedin',
+        # 'site_name': 'linkedin.com',
+        # 'site_url': 'https://www.linkedin.com/legal/user-agreement'
+    #     'site_id':   'tiktok',
+    #     'site_name': 'tiktok.com',
+    #     'site_url':  'https://www.tiktok.com/legal/page/us/terms-of-service/en',
+
+    #     # canonical / help / newsroom
+    #     'seed_1': 'https://support.tiktok.com/en/',
+    #     'seed_2': 'https://newsroom.tiktok.com/en-us/',
+    #     'seed_3': 'https://www.tiktok.com/safety/en',
+    #     'seed_4': 'https://www.tiktok.com/privacy/overview/en',
+    #     'seed_5': 'https://www.tiktok.com/community-guidelines/en?lang=en',
+    #     'seed_6': 'https://www.tiktok.com/transparency/en',
+
+    #     # AI‑specific seed articles
+    #     'seed_7': 'https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content',
+    #     'seed_8': 'https://newsroom.tiktok.com/en-us/new-labels-for-disclosing-ai-generated-content',
+    #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
+    # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
+    
+    
+        'site_id':   'stackoverflow',
+        'site_name': 'stackoverflow.com',
+        'site_url':  'https://policies.stackoverflow.co/teams/basic-terms-of-service/',
+
+        # canonical / help / blog / FAQ
+        'seed_1':  'https://stackoverflow.com/help',
+        'seed_2':  'https://stackoverflow.co/teams/resources/faq/',
+        'seed_3':  'https://stackoverflow.blog/',
+
+        # AI‑specific seed articles
+        'seed_4':  'https://stackoverflow.com/help/gen-ai-policy',
+        'seed_5':  'https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned',
+        'seed_6':  'https://policies.stackoverflow.co/company/consolidated-responsible-ai-policy/'
     })
+
     url_filter_dict = {
-    'reddit': {
-        'allows': ['policy', 'content', 'moderation', 'rules', 'ai', 'help'],
-        'blocks': ['login', 'ads', 'chat']
+        'stackoverflow': {
+            'allows': [
+                # policy & help centres
+                'policies.stackoverflow.co',
+                'stackoverflow.com/help',
+                'stackoverflow.co/teams/resources/faq',
+                'stackoverflow.blog',
+
+                # AI‑related articles
+                'gen-ai-policy',
+                'policy-generative-ai',
+                'responsible-ai-policy'
+            ],
+            'blocks': ['login', 'chat']   # keep generic blocks
         }
+    #    'tiktok': {
+    #         'allows': [
+    #             # policy & help centres
+    #             'tiktok.com/legal/page/us/terms-of-service',
+    #             'support.tiktok.com',
+    #             'newsroom.tiktok.com',
+    #             'tiktok.com/safety',
+    #             'tiktok.com/privacy',
+    #             'tiktok.com/community-guidelines',
+    #             'tiktok.com/transparency',
+
+    #             # AI‑related articles
+    #             'ai-generated-content',
+    #             'labels-for-disclosing-ai-generated-content',
+    #             'advance-ai-transparency',
+    #             'ads.tiktok.com/i18n/official/article?aid=10021580'
+    #         ],
+
+    #         # keep generic blocks that stop sign‑in spam, but
+    #         # **do not** block “ads” because we whitelisted a specific Ads article.
+    #         'blocks': ['login', 'chat']
+    #     }
+        # 'linkedin': {
+        #     'allows': [
+        #         'linkedin.com/blog/member',
+        #         'news.linkedin.com/news',
+        #         'linkedin.com/legal/privacy-policy',
+        #         'about.linkedin.com',
+        #         'linkedin.com/help/linkedin',
+        #         'about.linkedin.com/transparency',
+        #         'linkedin.com/legal/user-agreement',
+        #         'linkedin.com/legal/professional-community-policies',
+        #         'linkedin.com/legal/l/service-terms',
+        #         'linkedin.com/legal/jobs-terms-conditions',
+        #         'responsible-ai-principles',
+        #         'linkedin.com/pulse',
+        #         'ai'
+        #     ],
+        #     'blocks': ['login', 'ads', 'chat']
+        # }
     }
-    print(f"Testing single scrape on {row['site_name']}")
+    
+    # --- remove the Excel reload ---
+    # df = pd.read_excel(links, sheet_name="AI", engine="openpyxl")
+    # rows = df.to_dict(orient="records")
 
-    run_row(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations)
-
-    print(f'Done test. Check: {outdir}/{date_time}/all_htmls/')
+    print(f"Scraping {row['site_name']}...")
+    run_row(
+        row, area, search_terms, date_time,
+        url_filter_dict, outdir,
+        sizecutoff, retrycutoff, webcache, iterations
+    )
+    print(f"All scrapes completed. Output in: {outdir}/{date_time}/all_htmls/")
     
     """
     # Loop through the AI sheet and process each site

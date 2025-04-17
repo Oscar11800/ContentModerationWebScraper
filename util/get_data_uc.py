@@ -48,7 +48,7 @@ class UC_Scraper:
                 WebDriverWait(self.driver, timeout=15).until(
                     lambda driver: driver.execute_script("return document.readyState") == "complete"
                 )
-                time.sleep(.25) # make sure JS loads
+                time.sleep(1.0) # make sure JS loads
                 page_source = self.driver.page_source
                 text = Soup(page_source, features='lxml').get_text()
             except (TimeoutException, WebDriverException, InvalidSessionIdException) as e:

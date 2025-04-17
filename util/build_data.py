@@ -18,11 +18,10 @@ def build_obj(row, driver):
     return raw
 
 
-def build_file(data, filename):
-    with open(filename, 'a+') as fh:
-        json.dump(data, fh)
-        fh.write('\n')
-
+def build_file(raw_data, output_path):
+    # Make sure it's writing a single JSON object
+    with open(output_path, 'w', encoding='utf-8') as f:
+        json.dump(raw_data, f, indent=2, ensure_ascii=False)
 
 def zip_file(filename):
     f_in = open(filename)
