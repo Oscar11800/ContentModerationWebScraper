@@ -37,6 +37,8 @@ class UC_Scraper:
         #FOR TESTING PURPOSES WITH UPDATED CHROMEDRIVER !!!!!!!!!!!!!!!!!
         self.driver = webdriver.Chrome(service=Service("/Users/zaynacheema/ContentModerationWebScraper/chromedriver"), options=options)
 
+        #original, compatible w chrome ver 114 (would have to downgrade chrome to this version)
+        #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager(version="114.0.5735.90").install()), options=options)
 
         self.cur_link = ''
         self.cur_page_source = ''
