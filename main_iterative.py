@@ -455,7 +455,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
                 'terms',
                 'community-guidelines'
             ],
-            'blocks': ['login', 'signup', 'ads', 'chat'']   # keep generic blocks
+            'blocks': ['login', 'signup', 'ads', 'chat']   # keep generic blocks
         }
     #    'tiktok': {
     #         'allows': [
