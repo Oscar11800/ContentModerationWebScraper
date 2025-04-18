@@ -429,36 +429,33 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
     
-        'site_id':   'stackoverflow',
-        'site_name': 'stackoverflow.com',
-        'site_url':  'https://policies.stackoverflow.co/teams/basic-terms-of-service/',
-
-        # canonical / help / blog / FAQ
-        'seed_1':  'https://stackoverflow.com/help',
-        'seed_2':  'https://stackoverflow.co/teams/resources/faq/',
-        'seed_3':  'https://stackoverflow.blog/',
-
-        # AI‑specific seed articles
-        'seed_4':  'https://stackoverflow.com/help/gen-ai-policy',
-        'seed_5':  'https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned',
-        'seed_6':  'https://policies.stackoverflow.co/company/consolidated-responsible-ai-policy/'
+        'site_id': 'twitch',
+        'site_name': 'twitch.tv',
+        'site_url': 'https://www.twitch.tv',
+    
+        'seed_1': 'https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US',
+        'seed_2': 'https://legal.twitch.com/legal/terms-of-service/?utm_referrer=https://www.google.com/',
+        'seed_3': 'https://blog.twitch.tv/en/',
+        'seed_4': 'https://help.twitch.tv/s/?language=en_US',
+        'seed_5': 'https://legal.twitch.com/legal/privacy-notice/',
     })
 
     url_filter_dict = {
-        'stackoverflow': {
+        'twitch': {
             'allows': [
                 # policy & help centres
-                'policies.stackoverflow.co',
-                'stackoverflow.com/help',
-                'stackoverflow.co/teams/resources/faq',
-                'stackoverflow.blog',
-
-                # AI‑related articles
-                'gen-ai-policy',
-                'policy-generative-ai',
-                'responsible-ai-policy'
+                'twitch.tv/safety',
+                'twitch.tv/p',
+                'twitch.tv/legal',
+                'help.twitch.tv',
+                'safety.twitch.tv',
+                'legal.twitch.com',
+                'blog.twitch.tv',
+                'privacy',
+                'terms',
+                'community-guidelines'
             ],
-            'blocks': ['login', 'chat']   # keep generic blocks
+            'blocks': ['login', 'signup', 'ads', 'chat'']   # keep generic blocks
         }
     #    'tiktok': {
     #         'allows': [
