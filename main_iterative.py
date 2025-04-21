@@ -410,9 +410,9 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
         # 'site_id': 'linkedin',
         # 'site_name': 'linkedin.com',
         # 'site_url': 'https://www.linkedin.com/legal/user-agreement'
-    #     'site_id':   'tiktok',
-    #     'site_name': 'tiktok.com',
-    #     'site_url':  'https://www.tiktok.com/legal/page/us/terms-of-service/en',
+        # 'site_id':   'tiktok',
+        # 'site_name': 'tiktok.com',
+        # 'site_url':  'https://www.tiktok.com/legal/page/us/terms-of-service/en',
 
     #     # canonical / help / newsroom
     #     'seed_1': 'https://support.tiktok.com/en/',
@@ -442,9 +442,79 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
         'seed_4':  'https://stackoverflow.com/help/gen-ai-policy',
         'seed_5':  'https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned',
         'seed_6':  'https://policies.stackoverflow.co/company/consolidated-responsible-ai-policy/'
+        
+        # 'site_id':   'vimeo',
+        # 'site_name': 'vimeo.com',
+        # 'site_url':  'https://vimeo.com/terms',
+
+        # # canonical / help / blog / privacy
+        # 'seed_1':  'https://help.vimeo.com/hc/en-us',
+        # 'seed_2':  'https://vimeo.com/help/guidelines',
+        # 'seed_3':  'https://vimeo.com/privacy',
+        # 'seed_4':  'https://vimeo.com/blog',
+
+        # # AI‑specific seed articles
+        # 'seed_5': 'https://help.vimeo.com/hc/en-us/articles/25551485186833-How-do-I-label-my-videos-to-indicate-they-contain-AI-generated-content',
+        # 'seed_6': 'https://vimeo.com/blog/post/vimeos-position-on-ai',
+        # 'seed_7': 'https://vimeo.com/blog/post/introducing-ai-content-labeling'
+        
+    #     'site_id':   'x',
+    #     'site_name': 'x.com',
+    #     'site_url':  'https://x.com/en/tos',           # canonical TOS page
+
+    #     # canonical / help / blog / transparency
+    #     'seed_1':  'https://x.com/en/privacy',
+    #     'seed_2':  'https://help.x.com/en',
+    #     'seed_3':  'https://help.x.com/en/rules-and-policies',
+    #     'seed_4':  'https://transparency.x.com/en/reports/global-reports/2025-transparency-report',
+    #     'seed_5':  'https://privacy.x.com/en',
+    #     'seed_6':  'https://blog.x.com/',
+
+    #     # AI‑related seed articles
+    #     'seed_7':  'https://help.x.com/en/rules-and-policies/authenticity',
+    #     'seed_8':  'https://help.x.com/en/rules-and-policies/adult-content',
+    #     'seed_9':  'https://help.x.com/en/rules-and-policies/child-safety',
+    # 'seed_10':  'https://help.x.com/en/resources/recommender-systems/search-recommendations'
     })
 
     url_filter_dict = {
+        # 'x': {
+        #     'allows': [
+        #         # policy & help centres
+        #         'x.com/en/tos',
+        #         'x.com/en/privacy',
+        #         'help.x.com/en',
+        #         'help.x.com/en/rules-and-policies',
+        #         'transparency.x.com',
+        #         'privacy.x.com/en',
+        #         'blog.x.com',
+
+        #         # AI‑related articles
+        #         'authenticity',
+        #         'adult-content',
+        #         'child-safety',
+        #         'recommender-systems/search-recommendations'
+        #     ],
+        #     # block login / sign‑up flows and ads pages
+        #     'blocks': ['login', 'signup', 'ads']
+        # }
+        # 'vimeo': {
+        #     'allows': [
+        #         # policy & help centres
+        #         'help.vimeo.com',
+        #         'vimeo.com/help/guidelines',
+        #         'vimeo.com/terms',
+        #         'vimeo.com/blog',
+        #         'vimeo.com/privacy',
+
+        #         # AI‑related articles
+        #         'label-my-videos-to-indicate-they-contain-AI-generated-content',
+        #         'vimeos-position-on-ai',
+        #         'ai-content-labeling'
+        #     ],
+        #     # generic blocks – avoid sign‑in redirects or embedded players
+        #     'blocks': ['login', 'player', 'ads']
+        # }
         'stackoverflow': {
             'allows': [
                 # policy & help centres
@@ -458,7 +528,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
                 'policy-generative-ai',
                 'responsible-ai-policy'
             ],
-            'blocks': ['login', 'chat']   # keep generic blocks
+            'blocks': ['/login', '/chat', '/teams', 'linkedin.com', 'twitter.com', '/badges', 'systeminit.com', 'jobs.ashbyhq.com', 'discord.com', 'sofy.ai', 'wellfound.com', 'codium.ai', 'cloud.google.com', 'stackexchange.com', 'health.com']   # keep generic blocks
         }
     #    'tiktok': {
     #         'allows': [
@@ -477,9 +547,6 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #             'advance-ai-transparency',
     #             'ads.tiktok.com/i18n/official/article?aid=10021580'
     #         ],
-
-    #         # keep generic blocks that stop sign‑in spam, but
-    #         # **do not** block “ads” because we whitelisted a specific Ads article.
     #         'blocks': ['login', 'chat']
     #     }
         # 'linkedin': {
