@@ -428,27 +428,29 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'eporner',
-    'site_name': 'eporner.com',
-    'site_url': 'https://www.eporner.com',
+    'site_id': 'imgur',
+    'site_name': 'imgur.com',
+    'site_url': 'https://www.imgur.com',
 
-    'seed_1': 'https://www.eporner.com/blog/what-is-the-future-of-porn-content-generated-by-ai/',
-    'seed_2': 'https://www.eporner.com/blog/can-ai-generate-porn-videos/'
+    'seed_1': 'https://imgur.com/rules',
+    'seed_2': 'https://imgur.com/tos',
+    'seed_3': 'https://imgur.com/privacy',
+    'seed_4': 'https://help.imgur.com/hc/en-us'
     })
 
     url_filter_dict = {
-        'eporner': {
+        'imgur': {
             'allows': [
-                'eporner.com/blog',
-                'eporner.com/faq',
-                'txxx.video/terms',
-                'ai',
-                'generated',
+                'imgur.com/rules',
+                'imgur.com/tos',
+                'imgur.com/privacy',
+                'help.imgur.com',
                 'policy',
                 'terms',
-                'faq'
+                'privacy',
+                'community-guidelines'
             ],
-            'blocks': ['login', 'ads', 'popup', 'signup', 'chat']
+            'blocks': ['login', 'signup', 'ads', 'chat']
         }
     #    'tiktok': {
     #         'allows': [
