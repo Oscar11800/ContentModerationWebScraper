@@ -451,7 +451,6 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
             ],
             'blocks': ['login', 'signup', 'ads', 'chat']
         }
-        }
     #    'tiktok': {
     #         'allows': [
     #             # policy & help centres
