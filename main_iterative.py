@@ -448,7 +448,7 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
                 'policy',
                 'ai'  # just in case it’s mentioned in other URLs
             ],
-            'blocks': ['login', 'signup', 'ads', 'chat']
+            'blocks': ['login', 'signup', 'billing', 'payment', 'creator']
         }
     #    'tiktok': {
     #         'allows': [
