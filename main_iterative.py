@@ -428,26 +428,28 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'researchgate',
-    'site_name': 'researchgate.net',
-    'site_url': 'https://www.researchgate.net',
+    'site_id': 'livejournal',
+    'site_name': 'livejournal.com',
+    'site_url': 'https://www.livejournal.com',
 
-    # Canonical/policy/help links
-    'seed_1': 'https://www.researchgate.net/terms-of-service?utm_',
-    'seed_2': 'https://www.researchgate.net/ip-policy',
-    'seed_3': 'https://www.researchgate.net/researchgate-updates',
-    'seed_4': 'https://www.researchgate.net/privacy-policy',
-    'seed_5': 'https://www.researchgate.net/community-guidelines',
+    # Canonical + seed links
+    'seed_1': 'https://lj-policy.livejournal.com/#:~:text=It%20has%20been%20the%20long,our%20good%20faith%20opinion%20serve',
+    'seed_2': 'https://www.livejournal.com/support/faq/107.html',
+    'seed_3': 'https://www.livejournal.com/support/faq/',
+    'seed_4': 'https://www.livejournal.com/support/',
+    'seed_5': 'https://www.livejournal.com/legal/tos-en.bml',
+    'seed_6': 'https://www.livejournal.com/blogs/en/ai/'
     })
 
     url_filter_dict = {
-        'researchgate': {
+        'livejournal': {
             'allows': [
-                'researchgate.net/terms-of-service',
-                'researchgate.net/ip-policy',
-                'researchgate.net/researchgate-updates',
-                'researchgate.net/privacy-policy',
-                'researchgate.net/community-guidelines',
+                'lj-policy.livejournal.com',
+                'livejournal.com/support',
+                'livejournal.com/legal',
+                'livejournal.com/blogs/en/ai',
+                'tos-en.bml',
+                'faq'
             ],
             'blocks': ['login', 'signup', 'ads', 'chat']
         }
