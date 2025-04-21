@@ -428,28 +428,25 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'livejournal',
-    'site_name': 'livejournal.com',
-    'site_url': 'https://www.livejournal.com',
+    'site_id': 'onlyfans',
+    'site_name': 'onlyfans.com',
+    'site_url': 'https://onlyfans.com',
 
     # Canonical + seed links
-    'seed_1': 'https://lj-policy.livejournal.com/#:~:text=It%20has%20been%20the%20long,our%20good%20faith%20opinion%20serve',
-    'seed_2': 'https://www.livejournal.com/support/faq/107.html',
-    'seed_3': 'https://www.livejournal.com/support/faq/',
-    'seed_4': 'https://www.livejournal.com/support/',
-    'seed_5': 'https://www.livejournal.com/legal/tos-en.bml',
-    'seed_6': 'https://www.livejournal.com/blogs/en/ai/'
+    'seed_1': 'https://onlyfans.com/terms',
+    'seed_2': 'https://onlyfans.com/transparency-center/policy',
+    'seed_3': 'https://store.onlyfans.com/pages/faqs-policies'
     })
 
     url_filter_dict = {
-        'livejournal': {
+        'onlyfans': {
             'allows': [
-                'lj-policy.livejournal.com',
-                'livejournal.com/support',
-                'livejournal.com/legal',
-                'livejournal.com/blogs/en/ai',
-                'tos-en.bml',
-                'faq'
+                'onlyfans.com/terms',
+                'onlyfans.com/transparency-center',
+                'store.onlyfans.com/pages/faqs-policies',
+                'faqs-policies',
+                'policy',
+                'ai'  # just in case it’s mentioned in other URLs
             ],
             'blocks': ['login', 'signup', 'ads', 'chat']
         }
