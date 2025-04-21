@@ -428,30 +428,27 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'pixiv',
-    'site_name': 'pixiv.net',
-    'site_url': 'https://www.pixiv.net',
+    'site_id': 'eporner',
+    'site_name': 'eporner.com',
+    'site_url': 'https://www.eporner.com',
 
-    # AI-specific and seed links
-    'seed_1': 'https://policies.pixiv.net/en.html#terms',
-    'seed_2': 'https://fanbox.pixiv.help/hc/en-us/articles/13239721816217-pixivFANBOX-Guidelines',
-    'seed_3': 'https://fanbox.pixiv.help/hc/en-us/articles/20299395982489-What-is-AI-generated-content',
-    'seed_4': 'https://www.pixiv.net/terms/?page=guideline&lang=en'
+    'seed_1': 'https://www.eporner.com/blog/what-is-the-future-of-porn-content-generated-by-ai/',
+    'seed_2': 'https://www.eporner.com/blog/can-ai-generate-porn-videos/'
     })
 
     url_filter_dict = {
-        'pixiv': {
+        'eporner': {
             'allows': [
-                'pixiv.net/terms',
-                'policies.pixiv.net/en.html',
-                'policies.pixiv.net/en/privacy_policy.html',
-                'fanbox.pixiv.help',
-                'AI-generated',
-                'guideline',
+                'eporner.com/blog',
+                'eporner.com/faq',
+                'txxx.video/terms',
                 'ai',
-                'policy'
+                'generated',
+                'policy',
+                'terms',
+                'faq'
             ],
-            'blocks': ['login', 'signup', 'chat']
+            'blocks': ['login', 'ads', 'popup', 'signup', 'chat']
         }
     #    'tiktok': {
     #         'allows': [
