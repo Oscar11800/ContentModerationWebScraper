@@ -429,31 +429,24 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
     
-        'site_id': 'twitch',
-        'site_name': 'twitch.tv',
-        'site_url': 'https://www.twitch.tv',
+        'site_id': 'imgur',
+        'site_name': 'imgur.com',
+        'site_url': 'https://www.imgur.com',
     
-        'seed_1': 'https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US',
-        'seed_2': 'https://legal.twitch.com/legal/terms-of-service/?utm_referrer=https://www.google.com/',
-        'seed_3': 'https://blog.twitch.tv/en/',
-        'seed_4': 'https://help.twitch.tv/s/?language=en_US',
-        'seed_5': 'https://legal.twitch.com/legal/privacy-notice/',
+        # Canonical/help/policy links
+        'seed_1': 'https://imgur.com/rules',
+        'seed_2': 'https://imgur.com/tos',
+        'seed_3': 'https://imgur.com/privacy',
+        'seed_4': 'https://help.imgur.com/hc/en-us',
     })
 
     url_filter_dict = {
-        'twitch': {
+        'imgur': {
             'allows': [
-                # policy & help centres
-                'twitch.tv/safety',
-                'twitch.tv/p',
-                'twitch.tv/legal',
-                'help.twitch.tv',
-                'safety.twitch.tv',
-                'legal.twitch.com',
-                'blog.twitch.tv',
-                'privacy',
-                'terms',
-                'community-guidelines'
+                'imgur.com/rules',
+                'imgur.com/tos',
+                'imgur.com/privacy',
+                'help.imgur.com'
             ],
             'blocks': ['login', 'signup', 'ads', 'chat']   # keep generic blocks
         }
