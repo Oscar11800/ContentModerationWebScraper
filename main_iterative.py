@@ -438,7 +438,6 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     'seed_3': 'https://www.researchgate.net/researchgate-updates',
     'seed_4': 'https://www.researchgate.net/privacy-policy',
     'seed_5': 'https://www.researchgate.net/community-guidelines',
-})
     })
 
     url_filter_dict = {
