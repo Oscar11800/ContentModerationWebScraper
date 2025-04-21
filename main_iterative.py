@@ -428,27 +428,20 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'onlyfans',
-    'site_name': 'onlyfans.com',
-    'site_url': 'https://onlyfans.com',
-
-    # Canonical + seed links
-    'seed_1': 'https://onlyfans.com/terms',
-    'seed_2': 'https://onlyfans.com/transparency-center/policy',
-    'seed_3': 'https://store.onlyfans.com/pages/faqs-policies'
+    'site_id': 'substack',
+    'site_name': 'substack.com',
+    'site_url': 'https://substack.com',
+    'seed_1': 'https://substack.com/content'
     })
 
     url_filter_dict = {
-        'onlyfans': {
+        'substack': {
             'allows': [
-                'onlyfans.com/terms',
-                'onlyfans.com/transparency-center',
-                'store.onlyfans.com/pages/faqs-policies',
-                'faqs-policies',
-                'policy',
-                'ai'  # just in case it’s mentioned in other URLs
+                'substack.com/tos',
+                'substack.com/privacy',
+                'substack.com/content'
             ],
-            'blocks': ['login', 'signup', 'billing', 'payment', 'creator']
+            'blocks': ['login', 'subscribe', 'chat']
         }
     #    'tiktok': {
     #         'allows': [
