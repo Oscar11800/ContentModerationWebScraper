@@ -428,26 +428,28 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'bluesky',
-    'site_name': 'bsky.social',
-    'site_url': 'https://bsky.social',
+    'site_id': 'pixiv',
+    'site_name': 'pixiv.net',
+    'site_url': 'https://www.pixiv.net',
 
     # AI-specific and seed links
-    'seed_1': 'https://bsky.social/about/blog/01-17-2025-moderation-2024',
-    'seed_2': 'https://docs.bsky.app/blog/blueskys-moderation-architecture'
+    'seed_1': 'https://policies.pixiv.net/en.html#terms',
+    'seed_2': 'https://fanbox.pixiv.help/hc/en-us/articles/13239721816217-pixivFANBOX-Guidelines',
+    'seed_3': 'https://fanbox.pixiv.help/hc/en-us/articles/20299395982489-What-is-AI-generated-content',
+    'seed_4': 'https://www.pixiv.net/terms/?page=guideline&lang=en'
     })
 
     url_filter_dict = {
-        'bluesky': {
+        'pixiv': {
             'allows': [
-                'bsky.social/about/support/tos',
-                'bsky.social/about/support/community-guidelines',
-                'bsky.social/about/blog',
-                'docs.bsky.app/blog',
-                'moderation',
+                'pixiv.net/terms',
+                'policies.pixiv.net/en.html',
+                'policies.pixiv.net/en/privacy_policy.html',
+                'fanbox.pixiv.help',
+                'AI-generated',
+                'guideline',
                 'ai',
-                'generative-ai',
-                'blueskys-moderation-architecture'
+                'policy'
             ],
             'blocks': ['login', 'signup', 'chat']
         }
