@@ -428,27 +428,29 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    
-        'site_id': 'imgur',
-        'site_name': 'imgur.com',
-        'site_url': 'https://www.imgur.com',
-    
-        # Canonical/help/policy links
-        'seed_1': 'https://imgur.com/rules',
-        'seed_2': 'https://imgur.com/tos',
-        'seed_3': 'https://imgur.com/privacy',
-        'seed_4': 'https://help.imgur.com/hc/en-us',
+    'site_id': 'researchgate',
+    'site_name': 'researchgate.net',
+    'site_url': 'https://www.researchgate.net',
+
+    # Canonical/policy/help links
+    'seed_1': 'https://www.researchgate.net/terms-of-service?utm_',
+    'seed_2': 'https://www.researchgate.net/ip-policy',
+    'seed_3': 'https://www.researchgate.net/researchgate-updates',
+    'seed_4': 'https://www.researchgate.net/privacy-policy',
+    'seed_5': 'https://www.researchgate.net/community-guidelines',
+})
     })
 
     url_filter_dict = {
-        'imgur': {
+        'researchgate': {
             'allows': [
-                'imgur.com/rules',
-                'imgur.com/tos',
-                'imgur.com/privacy',
-                'help.imgur.com'
+                'researchgate.net/terms-of-service',
+                'researchgate.net/ip-policy',
+                'researchgate.net/researchgate-updates',
+                'researchgate.net/privacy-policy',
+                'researchgate.net/community-guidelines',
             ],
-            'blocks': ['login', 'signup', 'ads', 'chat']   # keep generic blocks
+            'blocks': ['login', 'signup', 'ads', 'chat']
         }
     #    'tiktok': {
     #         'allows': [
