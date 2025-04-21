@@ -428,20 +428,28 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
     # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
     
-    'site_id': 'substack',
-    'site_name': 'substack.com',
-    'site_url': 'https://substack.com',
-    'seed_1': 'https://substack.com/content'
+    'site_id': 'bluesky',
+    'site_name': 'bsky.social',
+    'site_url': 'https://bsky.social',
+
+    # AI-specific and seed links
+    'seed_1': 'https://bsky.social/about/blog/01-17-2025-moderation-2024',
+    'seed_2': 'https://docs.bsky.app/blog/blueskys-moderation-architecture'
     })
 
     url_filter_dict = {
-        'substack': {
+        'bluesky': {
             'allows': [
-                'substack.com/tos',
-                'substack.com/privacy',
-                'substack.com/content'
+                'bsky.social/about/support/tos',
+                'bsky.social/about/support/community-guidelines',
+                'bsky.social/about/blog',
+                'docs.bsky.app/blog',
+                'moderation',
+                'ai',
+                'generative-ai',
+                'blueskys-moderation-architecture'
             ],
-            'blocks': ['login', 'subscribe', 'chat']
+            'blocks': ['login', 'signup', 'chat']
         }
     #    'tiktok': {
     #         'allows': [
