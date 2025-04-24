@@ -1,4 +1,5 @@
 import pandas as pd
+import json
 import util.build_data as build_data
 from util.get_data_uc import UC_Scraper
 import os
@@ -28,17 +29,17 @@ Args:
     date_time(): timestamp for naming output/log files
     allow_block_dict(): dict controlling blocked and allowed URLs per site
     output_dir(): where output and logs go
-    sizecutoff(): scraper 
-    retrycutoff(): scraper config
+    size_cutoff(): scraper 
+    retry_cutoff(): scraper config
     webcache(): scraper config 
     iterations(): depth scraper should go into each site
 """
-def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, sizecutoff, retrycutoff, webcache, iterations):
+def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, size_cutoff, retry_cutoff, webcache, iterations):
     
     # init scraper
     driver = UC_Scraper(
-        SIZE_CUTOFF=sizecutoff, 
-        RETRY_CUTOFF=retrycutoff, 
+        SIZE_CUTOFF=size_cutoff, 
+        RETRY_CUTOFF=retry_cutoff, 
         WEBCACHE=webcache)
     
     # breakpoint()
@@ -79,20 +80,21 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     # add the first set of links downloaded
     # these are the seed links we got by hand
     if "site_url" in raw:
-       redirected_url = driver.follow_redirect(raw["site_url"])  # Follow redirect first
-    if not redirected_url:
-        redirected_url = raw["site_url"]  # Use original URL if redirect fails
+        redirected_url = driver.follow_redirect(raw["site_url"]) or raw["site_url"]
 
-    try:
-        raw['pages'][0] = {"url": redirected_url, "html": driver.get_html(redirected_url)}
-        page_text = BeautifulSoup(raw['pages'][0]["html"], features="lxml").get_text()
-        is_english = (langdetect(page_text[:min(len(page_text)-1, 5000)]) == 'en')
-        if not is_english:
-            print(f"Initial page is not English, skipping site {raw['site_name']}")
-            return
-    except Exception as e:
-        print(f"Failed to scrape: {redirected_url}. Error: {e}")
-        raw['pages'][0] = {"url": redirected_url, "html": "Failed"}
+        try:
+            html = driver.get_html(redirected_url)
+            page_text = BeautifulSoup(html, features="lxml").get_text()
+            if langdetect(page_text[:min(len(page_text)-1, 5000)]) != 'en':
+                print(f"Initial page is not English, skipping site {raw['site_name']}")
+                return
+
+            new_key = max(raw['pages'].keys(), default=-1) + 1
+            raw['pages'][new_key] = {"url": redirected_url, "html": html}
+        except Exception as e:
+            print(f"Failed to scrape: {redirected_url}. Error: {e}")
+            new_key = max(raw['pages'].keys(), default=-1) + 1
+            raw['pages'][new_key] = {"url": redirected_url, "html": "Failed"}
 
 
 
@@ -360,7 +362,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 #   builds a file (and its zipped version) containing a list of json objects storing html data
 #       also iterates on links within the html data, looks for the search terms in those nested links,
 #       and adds them to the raw dataset if they include the search terms.
-def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, iterations):
+def main(config, site, search_terms, outdir, pools, size_cutoff, retry_cutoff, webcache, iterations):
     """
     if pools:
         pool = Pool(pools)
@@ -368,6 +370,14 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     # manager = Manager()  Dont need shared objects/data structures. 
     date_time = datetime.now(pytz.timezone('US/Central')).strftime('%m_%d_%y_%H_%M')
     os.makedirs(f"{outdir}/{date_time}/all_htmls/", exist_ok=True)
+
+    # ---------- load one site from site_configs.json ----------
+    with open(config, "r", encoding="utf-8") as fh:
+        site_configs = json.load(fh)
+        
+    site_cfg        = site_configs[site]
+    row             = pd.Series(site_cfg["row"])
+    url_filter_dict = {row["site_id"]: site_cfg["filters"]}
     os.makedirs(f"{outdir}/{date_time}/logs/scraper/", exist_ok=True)
     tick = time.perf_counter()
 
@@ -405,179 +415,11 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
     search_terms = pd.read_csv(search_terms, names=["search_terms"], skiprows=1)
     area = "AI_Moderation"
 
-    #just going to look at reddit for now, since the crawler operates on a dict 
-    row = pd.Series({
-        # 'site_id': 'linkedin',
-        # 'site_name': 'linkedin.com',
-        # 'site_url': 'https://www.linkedin.com/legal/user-agreement'
-        # 'site_id':   'tiktok',
-        # 'site_name': 'tiktok.com',
-        # 'site_url':  'https://www.tiktok.com/legal/page/us/terms-of-service/en',
-
-    #     # canonical / help / newsroom
-    #     'seed_1': 'https://support.tiktok.com/en/',
-    #     'seed_2': 'https://newsroom.tiktok.com/en-us/',
-    #     'seed_3': 'https://www.tiktok.com/safety/en',
-    #     'seed_4': 'https://www.tiktok.com/privacy/overview/en',
-    #     'seed_5': 'https://www.tiktok.com/community-guidelines/en?lang=en',
-    #     'seed_6': 'https://www.tiktok.com/transparency/en',
-
-    #     # AI‑specific seed articles
-    #     'seed_7': 'https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content',
-    #     'seed_8': 'https://newsroom.tiktok.com/en-us/new-labels-for-disclosing-ai-generated-content',
-    #     'seed_9': 'https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy',
-    # 'seed_10': 'https://ads.tiktok.com/i18n/official/article?aid=10021580'
-    
-    
-        'site_id':   'stackoverflow',
-        'site_name': 'stackoverflow.com',
-        'site_url':  'https://policies.stackoverflow.co/teams/basic-terms-of-service/',
-
-        # canonical / help / blog / FAQ
-        'seed_1':  'https://stackoverflow.com/help',
-        'seed_2':  'https://stackoverflow.co/teams/resources/faq/',
-        'seed_3':  'https://stackoverflow.blog/',
-
-        # AI‑specific seed articles
-        'seed_4':  'https://stackoverflow.com/help/gen-ai-policy',
-        'seed_5':  'https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned',
-        'seed_6':  'https://policies.stackoverflow.co/company/consolidated-responsible-ai-policy/'
-        
-        # 'site_id':   'vimeo',
-        # 'site_name': 'vimeo.com',
-        # 'site_url':  'https://vimeo.com/terms',
-
-        # # canonical / help / blog / privacy
-        # 'seed_1':  'https://help.vimeo.com/hc/en-us',
-        # 'seed_2':  'https://vimeo.com/help/guidelines',
-        # 'seed_3':  'https://vimeo.com/privacy',
-        # 'seed_4':  'https://vimeo.com/blog',
-
-        # # AI‑specific seed articles
-        # 'seed_5': 'https://help.vimeo.com/hc/en-us/articles/25551485186833-How-do-I-label-my-videos-to-indicate-they-contain-AI-generated-content',
-        # 'seed_6': 'https://vimeo.com/blog/post/vimeos-position-on-ai',
-        # 'seed_7': 'https://vimeo.com/blog/post/introducing-ai-content-labeling'
-        
-    #     'site_id':   'x',
-    #     'site_name': 'x.com',
-    #     'site_url':  'https://x.com/en/tos',           # canonical TOS page
-
-    #     # canonical / help / blog / transparency
-    #     'seed_1':  'https://x.com/en/privacy',
-    #     'seed_2':  'https://help.x.com/en',
-    #     'seed_3':  'https://help.x.com/en/rules-and-policies',
-    #     'seed_4':  'https://transparency.x.com/en/reports/global-reports/2025-transparency-report',
-    #     'seed_5':  'https://privacy.x.com/en',
-    #     'seed_6':  'https://blog.x.com/',
-
-    #     # AI‑related seed articles
-    #     'seed_7':  'https://help.x.com/en/rules-and-policies/authenticity',
-    #     'seed_8':  'https://help.x.com/en/rules-and-policies/adult-content',
-    #     'seed_9':  'https://help.x.com/en/rules-and-policies/child-safety',
-    # 'seed_10':  'https://help.x.com/en/resources/recommender-systems/search-recommendations'
-    })
-
-    url_filter_dict = {
-        # 'x': {
-        #     'allows': [
-        #         # policy & help centres
-        #         'x.com/en/tos',
-        #         'x.com/en/privacy',
-        #         'help.x.com/en',
-        #         'help.x.com/en/rules-and-policies',
-        #         'transparency.x.com',
-        #         'privacy.x.com/en',
-        #         'blog.x.com',
-
-        #         # AI‑related articles
-        #         'authenticity',
-        #         'adult-content',
-        #         'child-safety',
-        #         'recommender-systems/search-recommendations'
-        #     ],
-        #     # block login / sign‑up flows and ads pages
-        #     'blocks': ['login', 'signup', 'ads']
-        # }
-        # 'vimeo': {
-        #     'allows': [
-        #         # policy & help centres
-        #         'help.vimeo.com',
-        #         'vimeo.com/help/guidelines',
-        #         'vimeo.com/terms',
-        #         'vimeo.com/blog',
-        #         'vimeo.com/privacy',
-
-        #         # AI‑related articles
-        #         'label-my-videos-to-indicate-they-contain-AI-generated-content',
-        #         'vimeos-position-on-ai',
-        #         'ai-content-labeling'
-        #     ],
-        #     # generic blocks – avoid sign‑in redirects or embedded players
-        #     'blocks': ['login', 'player', 'ads']
-        # }
-        'stackoverflow': {
-            'allows': [
-                # policy & help centres
-                'policies.stackoverflow.co',
-                'stackoverflow.com/help',
-                'stackoverflow.co/teams/resources/faq',
-                'stackoverflow.blog',
-
-                # AI‑related articles
-                'gen-ai-policy',
-                'policy-generative-ai',
-                'responsible-ai-policy'
-            ],
-            'blocks': ['/login', '/chat', '/teams', 'linkedin.com', 'twitter.com', '/badges', 'systeminit.com', 'jobs.ashbyhq.com', 'discord.com', 'sofy.ai', 'wellfound.com', 'codium.ai', 'cloud.google.com', 'stackexchange.com', 'health.com']   # keep generic blocks
-        }
-    #    'tiktok': {
-    #         'allows': [
-    #             # policy & help centres
-    #             'tiktok.com/legal/page/us/terms-of-service',
-    #             'support.tiktok.com',
-    #             'newsroom.tiktok.com',
-    #             'tiktok.com/safety',
-    #             'tiktok.com/privacy',
-    #             'tiktok.com/community-guidelines',
-    #             'tiktok.com/transparency',
-
-    #             # AI‑related articles
-    #             'ai-generated-content',
-    #             'labels-for-disclosing-ai-generated-content',
-    #             'advance-ai-transparency',
-    #             'ads.tiktok.com/i18n/official/article?aid=10021580'
-    #         ],
-    #         'blocks': ['login', 'chat']
-    #     }
-        # 'linkedin': {
-        #     'allows': [
-        #         'linkedin.com/blog/member',
-        #         'news.linkedin.com/news',
-        #         'linkedin.com/legal/privacy-policy',
-        #         'about.linkedin.com',
-        #         'linkedin.com/help/linkedin',
-        #         'about.linkedin.com/transparency',
-        #         'linkedin.com/legal/user-agreement',
-        #         'linkedin.com/legal/professional-community-policies',
-        #         'linkedin.com/legal/l/service-terms',
-        #         'linkedin.com/legal/jobs-terms-conditions',
-        #         'responsible-ai-principles',
-        #         'linkedin.com/pulse',
-        #         'ai'
-        #     ],
-        #     'blocks': ['login', 'ads', 'chat']
-        # }
-    }
-    
-    # --- remove the Excel reload ---
-    # df = pd.read_excel(links, sheet_name="AI", engine="openpyxl")
-    # rows = df.to_dict(orient="records")
-
     print(f"Scraping {row['site_name']}...")
     run_row(
         row, area, search_terms, date_time,
         url_filter_dict, outdir,
-        sizecutoff, retrycutoff, webcache, iterations
+        size_cutoff, retry_cutoff, webcache, iterations
     )
     print(f"All scrapes completed. Output in: {outdir}/{date_time}/all_htmls/")
     
@@ -591,9 +433,9 @@ def main(links, search_terms, outdir, pools, sizecutoff, retrycutoff, webcache, 
             row = df.loc[i]
             print(f"spawning job for {area} on {row['site_name']}")
             if pools:
-                jobs.append(pool.apply_async(run_row, args=(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations), callback=callback, error_callback=pcb))
+                jobs.append(pool.apply_async(run_row, args=(row, area, search_terms, date_time, url_filter_dict, outdir, size_cutoff, retry_cutoff, webcache, iterations), callback=callback, error_callback=pcb))
             else:
-                run_row(row, area, search_terms, date_time, url_filter_dict, outdir, sizecutoff, retrycutoff, webcache, iterations)
+                run_row(row, area, search_terms, date_time, url_filter_dict, outdir, size_cutoff, retry_cutoff, webcache, iterations)
 
 
     if pools:

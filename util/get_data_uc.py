@@ -29,7 +29,7 @@ class UC_Scraper:
         options.headless = False  # Disable headless mode for testing
         options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
         options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
-
+        options.add_argument("--blink-settings=imagesEnabled=false")  # disables images
         options.add_argument("--no-sandbox")  
         options.add_argument("--disable-dev-shm-usage")
 

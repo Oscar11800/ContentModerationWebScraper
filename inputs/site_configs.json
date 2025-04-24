@@ -1,0 +1,187 @@
+{
+    "stackoverflow": {
+      "row": {
+        "site_id": "stackoverflow",
+        "site_name": "stackoverflow.com",
+        "site_url": "https://policies.stackoverflow.co/teams/basic-terms-of-service/",
+        "seed_1": "https://stackoverflow.com/help",
+        "seed_2": "https://stackoverflow.co/teams/resources/faq/",
+        "seed_3": "https://stackoverflow.blog/",
+        "seed_4": "https://stackoverflow.com/help/gen-ai-policy",
+        "seed_5": "https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned",
+        "seed_6": "https://policies.stackoverflow.co/company/consolidated-responsible-ai-policy/"
+      },
+      "filters": {
+        "allows": ["stackoverflow"],
+        "blocks": [" stackoverflow.co","/login", "/chat", "/teams", "linkedin.com", "twitter.com", "stackexchange.com", "cloud.google.com"]
+      }
+    },
+  
+    "tiktok": {
+      "row": {
+        "site_id": "tiktok",
+        "site_name": "tiktok.com",
+        "site_url": "https://www.tiktok.com/legal/page/us/terms-of-service/en",
+        "seed_1": "https://support.tiktok.com/en/",
+        "seed_2": "https://newsroom.tiktok.com/en-us/",
+        "seed_3": "https://www.tiktok.com/safety/en"
+      },
+      "filters": {
+        "allows": ["tiktok"],
+        "blocks": ["login", "chat", "ads"]
+      }
+    },
+  
+    "vimeo": {
+      "row": {
+        "site_id": "vimeo",
+        "site_name": "vimeo.com",
+        "site_url": "https://vimeo.com/terms",
+        "seed_1": "https://help.vimeo.com/hc/en-us",
+        "seed_2": "https://vimeo.com/help/guidelines",
+        "seed_3": "https://vimeo.com/blog",
+        "seed_4": "https://help.vimeo.com/hc/en-us/articles/25551485186833-How-do-I-label-my-videos-to-indicate-they-contain-AI-generated-content",
+        "seed_5": "https://vimeo.com/blog/post/vimeos-position-on-ai",
+        "seed_6": "https://vimeo.com/blog/post/introducing-ai-content-labeling"
+      },
+      "filters": {
+        "allows": ["vimeo"],
+        "blocks": ["login", "player", "ads"]
+      }
+    },
+  
+    "x": {
+      "row": {
+        "site_id": "x",
+        "site_name": "x.com",
+        "site_url": "https://x.com/en/tos",
+        "seed_2": "https://help.x.com/en",
+        "seed_3": "https://help.x.com/en/rules-and-policies",
+        "seed_4": "https://transparency.x.com/en/reports/global-reports/2025-transparency-report",
+        "seed_5": "https://blog.x.com/",
+        "seed_6": "https://help.x.com/en/rules-and-policies/authenticity",
+        "seed_7": "https://help.x.com/en/rules-and-policies/adult-content",
+        "seed_8": "https://help.x.com/en/rules-and-policies/child-safety",
+        "seed_9": "https://help.x.com/en/resources/recommender-systems/search-recommendations"
+      },
+      "filters": {
+        "allows": ["x", "twitter"],
+        "blocks": ["login", "signup", "ads"]
+      }
+    },
+  
+    "pornhub": {
+      "row": {
+        "site_id": "pornhub",
+        "site_name": "pornhub.com",
+        "site_url": "https://www.pornhub.com/information/terms",
+        "seed_1": "https://help.pornhub.com/hc/en-us/categories/4419836205203-F-A-Qs",
+        "seed_2": "https://help.pornhub.com/hc/en-us/categories/4419836212499",
+        "seed_3": "https://help.pornhub.com/hc/en-us/sections/4419840866451-The-Pornhub-Community",
+        "seed_4": "https://help.pornhub.com/hc/en-us/articles/38929180749587-DSA-Transparency-report-February-2025",
+        "seed_5": "https://help.pornhub.com/hc/en-us/articles/4419900587155-Community-Guidelines",
+        "seed_6": "https://help.pornhub.com/hc/en-us/articles/19159382668435-Trust-and-Safety-Initiatives",
+        "seed_7": "https://help.pornhub.com/hc/en-us/articles/32596021061267-EU-DSA-Transparency-Report-August-2024"
+      },
+      "filters": {
+        "allows": ["pornhub"],
+        "blocks": ["login", "ads", "signup"]
+      }
+    },
+  
+    "erome": {
+      "row": {
+        "site_id": "erome",
+        "site_name": "erome.com",
+        "site_url": "https://www.erome.com/s/faq",
+        "seed_1": "https://www.erome.com/s/faq",
+        "seed_2": "https://erome.fan/terms-privacy",
+        "seed_3": "https://erome.fan/content-creator-uploader"
+      },
+      "filters": {
+        "allows": ["erome"],
+        "blocks": ["login", "signup", "ads"]
+      }
+    },
+  
+    "patreon": {
+      "row": {
+        "site_id": "patreon",
+        "site_name": "patreon.com",
+        "site_url": "https://www.patreon.com/policy",
+        "seed_1": "https://support.patreon.com/hc/en-us",
+        "seed_2": "https://privacy.patreon.com/policies/en/",
+        "seed_3": "https://www.patreon.com/policy",
+        "seed_4": "https://www.patreon.com/posts/terms-of-service-103995086",
+        "seed_5": "https://news.patreon.com/",
+        "seed_6": "https://support.patreon.com/hc/en-us/articles/34055590411789-Understanding-Patreon-s-AI-policies-for-Adult-18-creators",
+        "seed_7": "https://news.patreon.com/articles/mid-year-2024-policy-updates-shaped-by-your-feedback"
+      },
+      "filters": {
+        "allows": ["patreon"],
+        "blocks": ["login", "ads"]
+      }
+    },
+  
+    "yelp": {
+      "row": {
+        "site_id": "yelp",
+        "site_name": "yelp.com",
+        "site_url": "https://terms.yelp.com/tos/en_us/20200101_en_us/",
+        "seed_1": "https://blog.yelp.com/",
+        "seed_2": "https://terms.yelp.com/tos/en_us/20200101_en_us/",
+        "seed_3": "https://www.yelp.com/tos/privacy_en_us_20130910",
+        "seed_4": "https://trust.yelp.com/",
+        "seed_5": "https://www.yelp.com/guidelines",
+        "seed_6": "https://www.yelp-support.com/?l=en_US"
+      },
+      "filters": {
+        "allows": ["yelp"],
+        "blocks": ["login", "ads"]
+      }
+    },
+  
+    "steam": {
+      "row": {
+        "site_id": "steam",
+        "site_name": "steamcommunity.com",
+        "site_url": "https://store.steampowered.com/subscriber_agreement/",
+        "seed_1": "https://help.steampowered.com/en/faqs/view/61F0-72B7-9A18-C70B",
+        "seed_2": "https://store.steampowered.com/online_conduct/",
+        "seed_3": "https://help.steampowered.com/en/faqs/view/6862-8119-C23E-EA7B",
+        "seed_4": "https://steamcommunity.com/app/593110/allnews/",
+        "seed_5": "https://store.steampowered.com/subscriber_agreement/",
+        "seed_6": "https://steamcommunity.com/groups/steamworks/announcements"
+      },
+      "filters": {
+        "allows": ["steam"],
+        "blocks": ["login", "ads"]
+      }
+    },
+  
+    "linkedin": {
+      "row": {
+        "site_id": "linkedin",
+        "site_name" : "linkedin",
+        "site_url": "linkedin.com",
+        "seed_1": "https://www.linkedin.com/legal/user-agreement",
+        "seed_2": "https://www.linkedin.com/blog/member",
+        "seed_3": "https://news.linkedin.com/news",
+        "seed_4": "https://about.linkedin.com/",
+        "seed_5": "https://www.linkedin.com/help/linkedin",
+        "seed_6": "https://about.linkedin.com/transparency",
+        "seed_7": "https://www.linkedin.com/legal/user-agreement",
+        "seed_8": "https://www.linkedin.com/legal/professional-community-policies",
+        "seed_9": "https://www.linkedin.com/legal/l/service-terms",
+        "seed_10": "https://www.linkedin.com/legal/jobs-terms-conditions",
+        "seed_11": "https://www.linkedin.com/legal/user-agreement?trk=content_footer-user-agreement",
+        "seed_12": "https://www.linkedin.com/blog/member/trust-and-safety/responsible-ai-principles",
+        "seed_13": "https://www.linkedin.com/legal/user-agreement-summary",
+        "seed_14": "https://www.linkedin.com/pulse/building-member-trust-new-age-ai-daniel-olmedilla-gfodf/"
+      },
+      "filters": {
+        "allows": ["linkedin"],
+        "blocks": ["login", "ads", "chat", "/advice", "/pulse", "/signup"]
+      }
+    }
+  }
