@@ -183,7 +183,7 @@
         "allows": ["linkedin"],
         "blocks": ["login", "ads", "chat", "/advice", "/pulse", "/signup"]
       }
-    }
+    },
 
     
   "twitch": {
