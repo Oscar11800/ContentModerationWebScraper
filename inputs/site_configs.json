@@ -184,10 +184,8 @@
         "blocks": ["login", "ads", "chat", "/advice", "/pulse", "/signup"]
       }
     }
-  }
 
-
-{
+    
   "twitch": {
     "row": {
       "site_id": "twitch",
