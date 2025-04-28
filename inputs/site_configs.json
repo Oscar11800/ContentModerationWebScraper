@@ -24,11 +24,18 @@
         "site_url": "https://www.tiktok.com/legal/page/us/terms-of-service/en",
         "seed_1": "https://support.tiktok.com/en/",
         "seed_2": "https://newsroom.tiktok.com/en-us/",
-        "seed_3": "https://www.tiktok.com/safety/en"
+        "seed_3": "https://www.tiktok.com/safety/en",
+        "seed_4": "https://www.tiktok.com/privacy/overview/en",
+        "seed_5": "https://www.tiktok.com/community-guidelines/en?lang=en",
+        "seed_6": "https://www.tiktok.com/transparency/en",
+        "seed_7": "https://support.tiktok.com/en/using-tiktok/creating-videos/ai-generated-content",
+        "seed_8": "https://newsroom.tiktok.com/en-us/new-labels-for-disclosing-ai-generated-content",
+        "seed_9": "https://newsroom.tiktok.com/en-us/partnering-with-our-industry-to-advance-ai-transparency-and-literacy",
+        "seed_10": "https://ads.tiktok.com/i18n/official/article?aid=10021580"
       },
       "filters": {
-        "allows": ["tiktok"],
-        "blocks": ["login", "chat", "ads"]
+        "allows": ["tiktok", "en"],
+        "blocks": ["login", "chat", "ads", "x.com", "facebook.com"]
       }
     },
   
