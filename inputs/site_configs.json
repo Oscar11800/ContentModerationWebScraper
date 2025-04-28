@@ -34,8 +34,8 @@
         "seed_10": "https://ads.tiktok.com/i18n/official/article?aid=10021580"
       },
       "filters": {
-        "allows": ["tiktok", "en"],
-        "blocks": ["login", "chat", "ads", "x.com", "facebook.com"]
+        "allows": ["tiktok"],
+        "blocks": ["login", "chat", "x.com", "facebook.com"]
       }
     },
   
@@ -53,7 +53,7 @@
       },
       "filters": {
         "allows": ["vimeo"],
-        "blocks": ["login", "player", "ads"]
+        "blocks": ["login", "player"]
       }
     },
   
@@ -73,7 +73,7 @@
       },
       "filters": {
         "allows": ["x", "twitter"],
-        "blocks": ["login", "signup", "ads"]
+        "blocks": ["login", "signup"]
       }
     },
   
@@ -92,7 +92,7 @@
       },
       "filters": {
         "allows": ["pornhub"],
-        "blocks": ["login", "ads", "signup"]
+        "blocks": ["login", "signup"]
       }
     },
   
@@ -107,7 +107,7 @@
       },
       "filters": {
         "allows": ["erome"],
-        "blocks": ["login", "signup", "ads"]
+        "blocks": ["login", "signup"]
       }
     },
   
@@ -126,7 +126,7 @@
       },
       "filters": {
         "allows": ["patreon"],
-        "blocks": ["login", "ads"]
+        "blocks": ["login"]
       }
     },
   
@@ -144,7 +144,7 @@
       },
       "filters": {
         "allows": ["yelp"],
-        "blocks": ["login", "ads"]
+        "blocks": ["login"]
       }
     },
   
@@ -162,7 +162,7 @@
       },
       "filters": {
         "allows": ["steam"],
-        "blocks": ["login", "ads"]
+        "blocks": ["login"]
       }
     },
   
@@ -188,7 +188,161 @@
       },
       "filters": {
         "allows": ["linkedin"],
-        "blocks": ["login", "ads", "chat", "/advice", "/pulse", "/signup"]
+        "blocks": ["login", "chat", "/advice", "/pulse", "/signup"]
       }
+    },
+
+    
+  "twitch": {
+    "row": {
+      "site_id": "twitch",
+      "site_name": "twitch.tv",
+      "site_url": "https://safety.twitch.tv/s/article/Community-Guidelines?language=en_US",
+      "seed_1": "https://safety.twitch.tv/s/article/Sexual-Content-Policy-Update?language=en_US",
+      "seed_2": "https://legal.twitch.com/legal/terms-of-service/",
+      "seed_3": "https://blog.twitch.tv/en/",
+      "seed_4": "https://help.twitch.tv/s/?language=en_US",
+      "seed_5": "https://legal.twitch.com/legal/privacy-notice/",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["twitch.tv"],
+      "blocks": ["/login", "/directory", "/messages", "/settings", "/search", "/chat"]
+    }
+  },
+  "imgur": {
+    "row": {
+      "site_id": "imgur",
+      "site_name": "imgur.com",
+      "site_url": "https://imgur.com/rules",
+      "seed_1": "https://imgur.com/tos",
+      "seed_2": "https://imgur.com/privacy",
+      "seed_3": "https://help.imgur.com/hc/en-us",
+      "seed_4": "",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["imgur.com"],
+      "blocks": ["/login", "/signup", "/gallery", "/user"]
+    }
+  },
+  "researchgate": {
+    "row": {
+      "site_id": "researchgate",
+      "site_name": "researchgate.net",
+      "site_url": "https://www.researchgate.net/terms-of-service",
+      "seed_1": "https://www.researchgate.net/ip-policy",
+      "seed_2": "https://www.researchgate.net/researchgate-updates",
+      "seed_3": "https://www.researchgate.net/privacy-policy",
+      "seed_4": "https://www.researchgate.net/community-guidelines",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["researchgate.net"],
+      "blocks": ["/login", "/jobs", "/advertise", "/profile", "/search"]
+    }
+  },
+  "eporner": {
+    "row": {
+      "site_id": "eporner",
+      "site_name": "eporner.com",
+      "site_url": "https://www.eporner.com/faq/",
+      "seed_1": "https://www.eporner.com/blog/what-is-the-future-of-porn-content-generated-by-ai/",
+      "seed_2": "https://www.eporner.com/blog/can-ai-generate-porn-videos/",
+      "seed_3": "https://www.txxx.video/terms/",
+      "seed_4": "",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["eporner.com"],
+      "blocks": ["/login", "/categories", "/hdporn", "/model", "/pornstars"]
+    }
+  },
+  "onlyfans": {
+    "row": {
+      "site_id": "onlyfans",
+      "site_name": "onlyfans.com",
+      "site_url": "https://onlyfans.com/transparency-center/policy",
+      "seed_1": "https://onlyfans.com/terms",
+      "seed_2": "https://onlyfans.com/transparency-center/policy",
+      "seed_3": "https://store.onlyfans.com/pages/faqs-policies",
+      "seed_4": "",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["onlyfans.com"],
+      "blocks": ["/login", "/signup", "/subscriptions", "/messages"]
+    }
+  },
+  "livejournal": {
+    "row": {
+      "site_id": "livejournal",
+      "site_name": "livejournal.com",
+      "site_url": "https://lj-policy.livejournal.com/",
+      "seed_1": "https://www.livejournal.com/support/faq/107.html",
+      "seed_2": "https://www.livejournal.com/support/faq/",
+      "seed_3": "https://www.livejournal.com/support/",
+      "seed_4": "https://www.livejournal.com/legal/tos-en.bml",
+      "seed_5": "https://www.livejournal.com/blogs/en/ai/",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["livejournal.com"],
+      "blocks": ["/login", "/friends", "/calendar", "/shop"]
+    }
+  },
+  "substack": {
+    "row": {
+      "site_id": "substack",
+      "site_name": "substack.com",
+      "site_url": "https://substack.com/content",
+      "seed_1": "https://substack.com/tos",
+      "seed_2": "https://substack.com/privacy",
+      "seed_3": "https://substack.com/content",
+      "seed_4": "",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["substack.com"],
+      "blocks": ["/login", "/newsletter", "/subscribe", "/profile", "/explore"]
+    }
+  },
+  "bsky": {
+    "row": {
+      "site_id": "bsky",
+      "site_name": "bsky.app",
+      "site_url": "https://bsky.social/about/support/tos",
+      "seed_1": "https://bsky.social/about/blog/01-17-2025-moderation-2024",
+      "seed_2": "https://bsky.social/about/support/community-guidelines",
+      "seed_3": "https://docs.bsky.app/blog",
+      "seed_4": "https://bsky.social/about/blog/5-19-2023-user-faq",
+      "seed_5": "https://docs.bsky.app/blog/blueskys-moderation-architecture",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["bsky.app", "bsky.social"],
+      "blocks": ["/login", "/feed", "/explore", "/profile"]
+    }
+  },
+  "pixiv": {
+    "row": {
+      "site_id": "pixiv",
+      "site_name": "pixiv.net",
+      "site_url": "https://policies.pixiv.net/en.html#terms",
+      "seed_1": "https://policies.pixiv.net/en/privacy_policy.html",
+      "seed_2": "https://www.pixiv.net/terms/?page=guideline&lang=en",
+      "seed_3": "https://fanbox.pixiv.help/hc/en-us/articles/13239721816217-pixivFANBOX-Guidelines",
+      "seed_4": "https://fanbox.pixiv.help/hc/en-us/articles/20299395982489-What-is-AI-generated-content",
+      "seed_5": "",
+      "seed_6": ""
+    },
+    "filters": {
+      "allows": ["pixiv.net", "policies.pixiv.net", "fanbox.pixiv.help"],
+      "blocks": ["/login", "/artworks", "/tags", "/ranking"]
     }
   }
