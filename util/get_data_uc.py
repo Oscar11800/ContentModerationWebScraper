@@ -1,5 +1,7 @@
 import time
+import random
 from selenium.common.exceptions import TimeoutException, WebDriverException, InvalidSessionIdException
+from urllib3.exceptions import ReadTimeoutError
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -48,10 +50,11 @@ class UC_Scraper:
                 WebDriverWait(self.driver, timeout=15).until(
                     lambda driver: driver.execute_script("return document.readyState") == "complete"
                 )
-                # time.sleep(0.5) # make sure JS loads
+                time.sleep(random.randint(1,3)) # make sure JS loads
                 page_source = self.driver.page_source
                 text = Soup(page_source, features='lxml').get_text()
-            except (TimeoutException, WebDriverException, InvalidSessionIdException) as e:
+            except (TimeoutException, WebDriverException, InvalidSessionIdException, ReadTimeoutError) as e:
+                print("Connection Error")
                 return None
             
             if len(text) > self.SIZE_CUTOFF:
