@@ -171,21 +171,21 @@
       "row": {
         "site_id": "linkedin",
         "site_name" : "linkedin",
-        "site_url": "linkedin.com",
-        "seed_1": "https://www.linkedin.com/legal/user-agreement",
-        "seed_2": "https://www.linkedin.com/blog/member",
-        "seed_3": "https://news.linkedin.com/news",
-        "seed_4": "https://about.linkedin.com/",
-        "seed_5": "https://www.linkedin.com/help/linkedin",
-        "seed_6": "https://about.linkedin.com/transparency",
-        "seed_7": "https://www.linkedin.com/legal/user-agreement",
-        "seed_8": "https://www.linkedin.com/legal/professional-community-policies",
-        "seed_9": "https://www.linkedin.com/legal/l/service-terms",
-        "seed_10": "https://www.linkedin.com/legal/jobs-terms-conditions",
-        "seed_11": "https://www.linkedin.com/legal/user-agreement?trk=content_footer-user-agreement",
-        "seed_12": "https://www.linkedin.com/blog/member/trust-and-safety/responsible-ai-principles",
-        "seed_13": "https://www.linkedin.com/legal/user-agreement-summary",
-        "seed_14": "https://www.linkedin.com/pulse/building-member-trust-new-age-ai-daniel-olmedilla-gfodf/"
+        "site_url": "https://www.linkedin.com/help/linkedin",
+        "seed_1": "https://www.linkedin.com/blog/member",
+        "seed_2": "https://news.linkedin.com/news",
+        "seed_3": "https://www.linkedin.com/legal/user-agreement",
+        "seed_4": "https://www.linkedin.com/legal/professional-community-policies",
+        "seed_5": "https://www.linkedin.com/legal/l/service-terms",
+        "seed_6": "https://www.linkedin.com/legal/jobs-terms-conditions",
+        "seed_7": "https://www.linkedin.com/legal/user-agreement-summary",
+        "seed_8": "https://www.linkedin.com/pulse/building-member-trust-new-age-ai-daniel-olmedilla-gfodf/",
+        "seed_9": "https://www.linkedin.com/help/linkedin/answer/a6282984",
+        "seed_10": "https://www.linkedin.com/help/linkedin/answer/a1517763",
+        "seed_11": "https://www.linkedin.com/help/linkedin/answer/a1674766",
+        "seed_12": "https://www.linkedin.com/help/linkedin/answer/a1674765",
+        "seed_13": "https://www.linkedin.com/help/linkedin/answer/a1481496",
+        "seed_14": "https://www.linkedin.com/help/linkedin/answer/a1340752"
       },
       "filters": {
         "allows": ["linkedin.com"],
@@ -489,14 +489,14 @@
     "row": {
       "site_id": "fandom",
       "site_name": "fandom.com",
-      "site_url": "https://www.quora.com/about/tos",
-      "seed_1": "https://www.quora.com/about/acceptable_use",
-      "seed_2": "https://help.quora.com/hc/en-us/articles/360000470706-Platform-Policies",
-      "seed_3": "https://help.quora.com/hc/en-us/sections/360012482951-Additional-Content-Policies",
-      "seed_4": "https://help.quora.com/hc/en-us",
-      "seed_5": "https://www.quora.com/press",
-      "seed_6": "https://help.quora.com/hc/en-us/articles/15204996933780-What-are-LLMs-and-how-does-Quora-use-them",
-      "seed_7": "https://help.quora.com/hc/en-us/articles/12677380466068-What-are-Sage-and-Dragonfly-bots-on-Quora"
+      "site_url": "https://www.fandom.com/terms-of-use",
+      "seed_1": "https://www.fandom.com/terms-of-use",
+      "seed_2": "https://community.fandom.com/wiki/Community_Central",
+      "seed_3": "https://support.fandom.com/hc/en-us",
+      "seed_4": "https://about.fandom.com/newsroom",
+      "seed_5": "https://community.fandom.com/wiki/Category:Staff_blogs",
+      "seed_6": "https://community.fandom.com/wiki/User_blog:TimmyQuivy/Examining_How_Fandom_Used_Generative_AI_in_2023",
+      "seed_7": "https://about.fandom.com/news/fandom-launches-new-creator-tools-using-gen-ai-2"
     },
     "filters": {
       "allows": ["community.fandom.com", "about.fandom.com", "support.fandom.com", "www.fandom.com"],
@@ -514,5 +514,190 @@
       "allows": ["info.xvideo.com"],
       "blocks": []
     }
-  } 
+  },
+  "pinterest": {
+    "row": {
+      "site_id": "pinterest",
+      "site_name": "pinterest.com",
+      "site_url": "https://policy.pinterest.com/en/terms-of-service",
+      "seed_1": "https://policy.pinterest.com/en/community-guidelines",
+      "seed_2": "https://help.pinterest.com/en",
+      "seed_3": "https://newsroom.pinterest.com/news/",
+      "seed_4": "https://business.pinterest.com/creative-generative-ai-business-terms-of-service/",
+      "seed_5": "https://help.pinterest.com/en/article/ai-at-pinterest",
+      "seed_6": "https://help.pinterest.com/en/article/gen-ai-labels",
+      "seed_7": "https://policy.pinterest.com/en/post-election-review-european-parliament-elections-2024",
+      "seed_8": "https://newsroom.pinterest.com/news/introducing-gen-ai-labels/"
+    },
+    "filters": {
+      "allows": ["pinterest.com", "help.pinterest.com"],
+      "blocks": ["/login", "/signup", "/pin", "/explore"]
+    }
+  },
+  "reddit": {
+    "row": {
+      "site_id": "reddit",
+      "site_name": "reddit.com",
+      "site_url": "https://redditinc.com/policies/reddit-rules",
+      "seed_1": "https://redditinc.com/policies/user-agreement",
+      "seed_2": "https://redditinc.com/blog",
+      "seed_3": "https://www.reddit.com/r/announcements/",
+      "seed_4": "https://support.reddithelp.com/hc/en-us",
+      "seed_5": "https://support.reddithelp.com/hc/en-us/articles/14133664231828-Content-Guidelines",
+      "seed_6": "https://support.reddithelp.com/hc/en-us/articles/18343785363220-Mature-content-filter",
+      "seed_7": "https://support.reddithelp.com/hc/en-us/articles/14133722601748-Preparing-your-concepts",
+      "seed_8": "https://support.reddithelp.com/hc/en-us/articles/360043513411-Never-Post-Intimate-or-Sexually-Explicit-Media-of-Someone-Without-Their-Consent",
+      "seed_9": "https://support.reddithelp.com/hc/en-us/articles/360043075032-Do-not-impersonate-an-individual-or-entity",
+      "seed_10": "https://support.reddithelp.com/hc/en-us/articles/360043513951-What-should-I-do-if-someone-has-shared-or-threatened-to-share-intimate-images-of-me-or-somebody-I-know",
+      "seed_11": "https://www.reddit.com/r/reddit",
+      "seed_12": "https://www.reddit.com/r/modnews",
+      "seed_13": "https://support.reddithelp.com/hc/en-us/articles/360043075352-Do-not-share-sexual-or-suggestive-content-involving-minors-or-engage-in-any-predatory-or-inappropriate-behavior-with-minors",
+      "seed_14": "https://redditinc.com/blog/how-reddit-supports-civic-engagement-and-election-integrity-in-2024",
+      "seed_15": "https://redditinc.com/blog/keeping-our-platform-safe",
+      "seed_16": "https://redditinc.com/blog/supporting-safe-fair-elections-on-reddit",
+      "seed_17": "https://redditinc.com/blog/hearing-on-fostering-a-healthier-internet-to-protect-consumers"
+    },
+    "filters": {
+      "allows": ["redditinc.com", "reddithelp.com", "/policies/", "www.reddit.com/r/reddit", "www.reddit.com/r/announcements", "www.reddit.com/r/modnews"],
+      "blocks": ["/login", "/user/"]
+    }
+  },
+  "tumblr": {
+    "row": {
+      "site_id": "tumblr",
+      "site_name": "tumblr.com",
+      "site_url": "https://www.tumblr.com/policy/en/terms-of-service",
+      "seed_1": "https://www.tumblr.com/policy/en/user-guidelines",
+      "seed_2": "https://help.tumblr.com/",
+      "seed_3": "https://staff.tumblr.com/"
+    },
+    "filters": {
+      "allows": ["tumblr.com"],
+      "blocks": ["/login", "/signup", "/dashboard", "/explore", "/tagged", "/archive", "/post"]
+    }
+  },
+  "flickr": {
+    "row": {
+      "site_id": "flickr",
+      "site_name": "flickr.com",
+      "site_url": "https://www.flickrhelp.com/hc/en-us",
+      "seed_1": "https://blog.flickr.net/en",
+      "seed_2": "https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr",
+      "seed_3": "https://www.flickr.com/help/terms",
+      "seed_4": "https://www.flickr.com/help/guidelines",
+      "seed_5": "https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads"
+    },
+    "filters": {
+      "allows": ["flickr.com", "blog.flickr.net", "www.flickrhelp.com"],
+      "blocks": ["/login", "/photos", "/explore", "/events", "/commons", "/map", "apple.com", "facebook.com", "/cameras", "/prints", "/create", "/jobs", "/account"]
+    }
+  },
+  "medium": {
+    "medium": {
+      "row": {
+        "site_id": "medium",
+        "site_name": "medium.com",
+        "site_url": "https://help.medium.com/hc/en-us",
+        "seed_1": "https://help.medium.com/hc/en-us/articles/213481318-Medium-Terms-of-Service",
+        "seed_2": "https://help.medium.com/hc/en-us/articles/213477928-Medium-Rules",
+        "seed_3": "https://help.medium.com/hc/en-us/sections/360000705013-Content",
+        "seed_4": "https://help.medium.com/hc/en-us/articles/22576852947223-Artificial-Intelligence-AI-content-policy",
+        "seed_5": "https://blog.medium.com/",
+        "seed_6": "https://help.medium.com/hc/en-us/articles/26716922635159-Which-stories-are-eligible-to-be-Boosted",
+        "seed_7": "https://help.medium.com/hc/en-us/articles/22379888313751-Removal-from-Partner-Program",
+        "seed_8": "https://help.medium.com/hc/en-us/articles/31090080813591-Paywalled-content-eligibility",
+        "seed_9": "https://help.medium.com/hc/en-us/articles/21308869037975-Reasons-for-Suspensions-or-Restrictions",
+        "seed_10": "https://help.medium.com/hc/en-us/articles/360036691193-Calculating-earnings-in-the-Partner-Program",
+        "seed_11": "https://blog.medium.com/our-curation-teams-approach-to-keeping-ai-generated-content-out-of-your-recommendations-7e57384d897a",
+        "seed_12": "https://help.medium.com/hc/en-us/articles/360006362473-Medium-s-Distribution-Guidelines-How-curators-review-stories-for-Boost-General-and-Network-Distribution",
+        "seed_13": "https://blog.medium.com/how-were-approaching-ai-generated-writing-on-medium-16ee8cb3bc89",
+        "seed_14": "https://blog.medium.com/medium-is-for-human-storytelling-not-ai-generated-writing-b5f7ffdc96cf"
+      },
+      "filters": {
+        "allows": ["medium.com"],
+        "blocks": ["/login", "/signup", "/p/", "/tag/"]
+      }
+    }
+  },
+  "xhamster": {
+    "row": {
+      "site_id": "xhamster",
+      "site_name": "xhamster.com",
+      "site_url": "https://xhamster.com/info/terms",
+      "seed_1": "https://xhamster.com/info/faq",
+      "seed_2": "https://xhamster.com/blog",
+      "seed_3": "https://xhamster.com/media/press"
+    },
+    "filters": {
+      "allows": ["xhamster.com"],
+      "blocks": ["/forum", "/videos/"]
+    }
+  },
+  "tradingview": {
+    "row": {
+      "site_id": "tradingview",
+      "site_name": "tradingview.com",
+      "site_url": "https://www.tradingview.com/policies/",
+      "seed_1": "https://www.tradingview.com/house-rules/",
+      "seed_2": "https://www.tradingview.com/blog/en/category/social/",
+      "seed_3": "https://www.tradingview.com/support/"
+    },
+    "filters": {
+      "allows": ["tradingview.com"],
+      "blocks": ["/markets/", "/brokers/", "/pricing"]
+    }
+  },
+  "pixabay": {
+    "row": {
+      "site_id": "pixabay",
+      "site_name": "pixabay.com",
+      "site_url": "https://pixabay.com/service/terms/",
+      "seed_1": "https://pixabay.com/service/faq/",
+      "seed_2": "https://pixabay.com/blog/posts/image-quality-guidelines-22/"
+    },
+    "filters": {
+      "allows": ["pixabay.com"],
+      "blocks": ["/forum/"]
+    }
+  },
+  "deviantart": {
+    "row": {
+      "site_id": "deviantart",
+      "site_name": "deviantart.com",
+      "site_url": "https://www.deviantart.com/about/policy/service",
+      "seed_1": "https://www.deviantart.com/about/policy/etiquette",
+      "seed_2": "https://www.deviantart.com/about/policy/dreamup/",
+      "seed_3": "https://www.deviantartsupport.com/kb/en/",
+      "seed_4": "https://www.deviantart.com/team",
+      "seed_5": "https://www.deviantartsupport.com/kb/en/article/what-does-created-using-ai-tools-mean",
+      "seed_6": "https://www.deviantartsupport.com/kb/en/article/what-kind-of-images-can-i-generate-on-dreamup",
+      "seed_7": "https://www.deviantartsupport.com/kb/en/article/what-kind-of-rightscopyright-apply-to-images-generated-with-deviantart-dreamup",
+      "seed_8": "https://www.deviantartsupport.com/kb/en/article/how-can-i-adjust-my-settings-to-show-or-suppress-ai-art",
+      "seed_9": "https://www.deviantartsupport.com/kb/en/article/what-steps-does-deviantart-take-in-order-to-protect-artists-from-being-uncredited-when-referenced-in-ai-art-creations",
+      "seed_10": "https://www.deviantartsupport.com/kb/en/article/does-deviantart-tag-my-creations-as-ai-art",
+      "seed_11": "https://www.deviantartsupport.com/kb/en/article/how-can-i-customize-my-browsing-preferences",
+      "seed_12": "https://www.deviantart.com/team/journal/Create-AI-Generated-Art-Fairly-with-DreamUp-933537821",
+      "seed_13": "https://www.deviantart.com/team/journal/DreamUp-and-Our-AI-Art-Features-and-Tools-958695222"
+    },
+    "filters": {
+      "allows": ["deviantart.com", "help.deviantart.com"],
+      "blocks": ["/join/", "/forums/", "/art/", "/tag/"]
+    }
+  },
+  "behance": {
+    "row": {
+      "site_id": "behance",
+      "site_name": "behance.net",
+      "site_url": "https://www.behance.net/about?tracking_source=footer_static_search_projects",
+      "seed_1": "https://help.behance.net/hc/en-us",
+      "seed_2": "https://help.behance.net/hc/en-us/articles/360034609033-Guide-Comment-Guidelines",
+      "seed_3": "https://www.behance.net/misc/community",
+      "seed_4": "https://www.behance.net/blog",
+      "seed_5": "https://help.behance.net/hc/en-us/articles/13850092907931-Behance-and-Adobe-Firefly-FAQ"
+    },
+    "filters": {
+      "allows": ["behance.net"],
+      "blocks": ["/projects/", "/job", "/hire", "/gallery/"]
+    }
+  }
 }
