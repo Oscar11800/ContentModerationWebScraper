@@ -334,5 +334,185 @@
       "allows": ["pixiv.net", "pixiv.help"],
       "blocks": ["/login", "/artworks", "/tags", "/ranking"]
     }
-  }
+  },
+  "youtube": {
+    "row": {
+      "site_id": "youtube",
+      "site_name": "youtube.com",
+      "site_url": "https://www.youtube.com/static?template=terms",
+      "seed_1": "https://www.youtube.com/howyoutubeworks/policies/community-guidelines/",
+      "seed_2": "https://support.google.com/youtube/answer/9288567?hl=en",
+      "seed_3": "https://www.youtube.com/howyoutubeworks/our-commitments/",
+      "seed_4": "https://support.google.com/youtube/",
+      "seed_5": "https://blog.youtube/",
+      "seed_6": "https://blog.youtube/inside-youtube/our-approach-to-responsible-ai-innovation/",
+      "seed_7": "https://www.youtube.com/howyoutubeworks/our-commitments/responsible-ai/",
+      "seed_8": "https://blog.youtube/news-and-events/disclosing-ai-generated-content/",
+      "seed_9": "https://support.google.com/youtube/answer/14772770?hl=en",
+      "seed_10": "https://support.google.com/youtube/answer/15260303?hl=en",
+      "seed_11": "https://support.google.com/youtube/answer/14328491?hl=en",
+      "seed_12": "https://support.google.com/youtube/answer/15447836?hl=en",
+      "seed_13": "https://support.google.com/youtube/answer/15575509?hl=en",
+      "seed_14": "https://support.google.com/youtube/answer/14151606?hl=en",
+      "seed_15": "https://support.google.com/youtube/answer/2801895?hl=en"
+    },
+    "filters": {
+      "allows": ["www.youtube.com", "support.google.com/youtube", "blog.youtube", "policies.google.com"],
+      "blocks": ["/login", "/channel", "/shorts", "watch?v", "music", "premium", "jobs", "/@"]
+    }
+  },
+  "quora": {
+    "row": {
+      "site_id": "quora",
+      "site_name": "quora.com",
+      "site_url": "https://www.quora.com/about/tos",
+      "seed_1": "https://www.quora.com/about/acceptable_use",
+      "seed_2": "https://help.quora.com/hc/en-us/articles/360000470706-Platform-Policies",
+      "seed_3": "https://help.quora.com/hc/en-us/sections/360012482951-Additional-Content-Policies",
+      "seed_4": "https://help.quora.com/hc/en-us",
+      "seed_5": "https://www.quora.com/press",
+      "seed_6": "https://help.quora.com/hc/en-us/articles/15204996933780-What-are-LLMs-and-how-does-Quora-use-them",
+      "seed_7": "https://help.quora.com/hc/en-us/articles/12677380466068-What-are-Sage-and-Dragonfly-bots-on-Quora"
+    },
+    "filters": {
+      "allows": ["www.quora.com/about", "help.quora.com", "www.quora.com/press", "quoraadsupport"],
+      "blocks": ["careers", "twitter", "facebook", "linkedin"]
+    }
+  },
+  "dailymotion": {
+    "row": {
+      "site_id": "dailymotion",
+      "site_name": "dailymotion.com",
+      "site_url": "https://legal.dailymotion.com/en/terms-of-use/",
+      "seed_1": "https://faq.dailymotion.com/hc/en-us/categories/200290417-Community-guidelines",
+      "seed_2": "https://faq.dailymotion.com/hc/en-us",
+      "seed_3": "https://about.dailymotion.com/en/news/"
+    },
+    "filters": {
+      "allows": ["faq.dailymotion.com", "about.dailymotion.com", "legal.dailymotion.com"],
+      "blocks": []
+    }
+  },
+  "soundcloud": {
+    "row": {
+      "site_id": "soundcloud",
+      "site_name": "soundcloud.com",
+      "site_url": "https://soundcloud.com/terms-of-use",
+      "seed_1": "https://soundcloud.com/community-guidelines",
+      "seed_2": "https://help.soundcloud.com/hc/en-us",
+      "seed_3": "https://press.soundcloud.com/",
+      "seed_4": "https://help.soundcloud.com/hc/en-us/articles/32096725354779-Distributing-and-Monetizing-Content-Made-with-the-Help-of-AI",
+      "seed_5": "https://help.soundcloud.com/hc/en-us/articles/22353035482523-DAW-AI-Integrations",
+      "seed_6": "https://help.soundcloud.com/hc/en-us/articles/360051802613-What-is-Digital-Rights-Management-DRM-and-what-content-is-eligible",
+      "seed_7": "https://press.soundcloud.com/234082-soundcloud-partners-with-fadr-soundful-and-voice-swap-to-introduce-artist-first-ai-integrations",
+      "seed_8": "https://press.soundcloud.com/244375-soundcloud-unveils-six-new-ai-powered-tools-to-democratize-music-creation-for-all-artists"
+    },
+    "filters": {
+      "allows": ["soundcloud.com"],
+      "blocks": ["apps.apple", "google", "twitter", "facebook", "linkedin"]
+    }
+  },
+  "goodreads": {
+    "row": {
+      "site_id": "goodreads",
+      "site_name": "goodreads.com",
+      "site_url": "https://www.goodreads.com/about/terms",
+      "seed_1": "https://www.goodreads.com/community/guidelines",
+      "seed_2": "https://help.goodreads.com/s/announcements/a031H00000RJgbBQAT/faqs-new-goodreads-members",
+      "seed_3": "https://help.goodreads.com/s/topiccatalog",
+      "seed_4": "https://help.goodreads.com/s/allannouncements"
+    },
+    "filters": {
+      "allows": ["goodreads.com"],
+      "blocks": ["/login", "sign_up", "sign_in", "twitter", "facebook", "linkedin", "/ideas", "/question/","/suggestions/"]
+    }
+  },
+  "roblox": {
+    "row": {
+      "site_id": "roblox",
+      "site_name": "roblox.com",
+      "site_url": "https://en.help.roblox.com/hc/en-us/articles/115004647846-Roblox-Terms-of-Use",
+      "seed_1": "https://en.help.roblox.com/hc/en-us/articles/203313410-Roblox-Community-Standards",
+      "seed_2": "https://en.help.roblox.com/hc/en-us/articles/15869919570708-Restricted-Content-Policy",
+      "seed_3": "https://en.help.roblox.com/hc/en-us",
+      "seed_4": "https://corp.roblox.com/newsroom",
+      "seed_5": "https://en.help.roblox.com/hc/en-us/articles/20121392440212-AI-Based-Tools-Supplemental-Terms-and-Disclaimer",
+      "seed_6": "https://corp.roblox.com/newsroom/2023/02/generative-ai-roblox-vision-future-creation"
+    },
+    "filters": {
+      "allows": ["en.help.roblox.com", "corp.roblox.com"],
+      "blocks": ["signup", "article_attachments"]
+    }
+  },
+  "instagram_threads": {
+    "row": {
+      "site_id": "instagram_threads",
+      "site_name": "instagram.com//threads.net",
+      "site_url": "https://help.instagram.com/termsofuse",
+      "seed_1": "https://help.instagram.com/",
+      "seed_2": "https://help.instagram.com/769983657850450",
+      "seed_3": "https://help.instagram.com/761121959519495",
+      "seed_4": "https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher",
+      "seed_5": "https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher",
+      "seed_6": "https://help.instagram.com/724269355950958",
+      "seed_7": "https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher"
+    },
+    "filters": {
+      "allows": ["instagram.com", "threads.com", "threads.net"],
+      "blocks": ["/@"]
+    }
+  },
+  "facebook": {
+    "row": {
+      "site_id": "facebook",
+      "site_name": "facebook.com",
+      "site_url": "https://www.facebook.com/legal/terms",
+      "seed_1": "https://transparency.meta.com/policies/community-standards/",
+      "seed_2": "https://about.fb.com/news/",
+      "seed_3": "https://www.facebook.com/help",
+      "seed_4": "https://about.fb.com/news/2024/02/labeling-ai-generated-images-on-facebook-instagram-and-threads/",
+      "seed_5": "https://about.fb.com/news/2024/04/metas-approach-to-labeling-ai-generated-content-and-manipulated-media/",
+      "seed_6": "https://about.fb.com/news/2025/02/gen-ai-transparency-metas-ads-products/",
+      "seed_7": "https://www.facebook.com/business/help/539137881899016",
+      "seed_8": "https://www.facebook.com/business/help/1486382031937045",
+      "seed_9": "https://www.meta.com/help/artificial-intelligence/1783222608822690/?srsltid=AfmBOorG123TgDRP9JcCqsZOoHSMDVK23Vx-k_qAE8UWwW1tFQZSCZkL",
+      "seed_10": "https://www.meta.com/help/artificial-intelligence/1457466371499453/?srsltid=AfmBOoquz85bnpDR6VqyhCUycbMK9ltTebqk8nmnsJNJGHnQckEsBLpY",
+      "seed_11": "https://www.facebook.com/help/7745061278859290/?cms_platform=iphone-app&helpref=platform_switcher&_rdr",
+      "seed_12": "https://www.facebook.com/help/7434563519957988/?cms_platform=iphone-app&helpref=platform_switcher"
+    },
+    "filters": {
+      "allows": ["facebook.com", "meta.com/help", "transparency.meta.com", "about.fb.com"],
+      "blocks": ["/signup", "/login", "/journalismproject", "/formedia"]
+    }
+  },
+  "fandom": {
+    "row": {
+      "site_id": "fandom",
+      "site_name": "fandom.com",
+      "site_url": "https://www.quora.com/about/tos",
+      "seed_1": "https://www.quora.com/about/acceptable_use",
+      "seed_2": "https://help.quora.com/hc/en-us/articles/360000470706-Platform-Policies",
+      "seed_3": "https://help.quora.com/hc/en-us/sections/360012482951-Additional-Content-Policies",
+      "seed_4": "https://help.quora.com/hc/en-us",
+      "seed_5": "https://www.quora.com/press",
+      "seed_6": "https://help.quora.com/hc/en-us/articles/15204996933780-What-are-LLMs-and-how-does-Quora-use-them",
+      "seed_7": "https://help.quora.com/hc/en-us/articles/12677380466068-What-are-Sage-and-Dragonfly-bots-on-Quora"
+    },
+    "filters": {
+      "allows": ["community.fandom.com", "about.fandom.com", "support.fandom.com", "www.fandom.com"],
+      "blocks": ["/signin", "/register", "f?catId"]
+    }
+  },
+  "xvideo": {
+    "row": {
+      "site_id": "xvideo",
+      "site_name": "xvideo.com",
+      "site_url": "https://info.xvideos.net/legal/tos/",
+      "seed_1": "https://info.xvideos.net/"
+    },
+    "filters": {
+      "allows": ["info.xvideo.com"],
+      "blocks": []
+    }
+  } 
 }
