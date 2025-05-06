@@ -505,13 +505,13 @@
   },
   "xvideo": {
     "row": {
-      "site_id": "xvideo",
-      "site_name": "xvideo.com",
+      "site_id": "xvideos",
+      "site_name": "xvideos.net",
       "site_url": "https://info.xvideos.net/legal/tos/",
       "seed_1": "https://info.xvideos.net/"
     },
     "filters": {
-      "allows": ["info.xvideo.com"],
+      "allows": ["info.xvideos"],
       "blocks": []
     }
   },
