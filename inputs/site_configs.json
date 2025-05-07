@@ -424,7 +424,7 @@
     },
     "filters": {
       "allows": ["goodreads.com"],
-      "blocks": ["/login", "sign_up", "sign_in", "twitter", "facebook", "linkedin", "/ideas", "/question/","/suggestions/"]
+      "blocks": ["/login", "sign_up", "sign_in", "twitter", "facebook", "linkedin", "/Ideas", "/question/","/suggestions/"]
     }
   },
   "roblox": {
@@ -447,7 +447,7 @@
   "instagram_threads": {
     "row": {
       "site_id": "instagram_threads",
-      "site_name": "instagram.com//threads.net",
+      "site_name": "instagram.com_threads.net",
       "site_url": "https://help.instagram.com/termsofuse",
       "seed_1": "https://help.instagram.com/",
       "seed_2": "https://help.instagram.com/769983657850450",
