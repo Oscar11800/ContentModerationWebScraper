@@ -274,7 +274,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 
                         for st in area_search_terms:
                             if 'ai' in st.lower() and 'ai-' not in st.lower() and '-ai' not in st.lower():
-                                x = re.search(r'\bAI\b', page_text, flags=re.IGNORECASE)
+                                x = re.search(r'\bAIs?\b', page_text, flags=re.IGNORECASE)
                             else:
                                 my_re = "(?<![a-zA-Z])" + re.escape(st)
                                 x = re.search(my_re, page_text, flags=re.IGNORECASE)
