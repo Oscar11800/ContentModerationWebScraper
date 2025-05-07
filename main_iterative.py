@@ -273,10 +273,8 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                         st_found = False
 
                         for st in area_search_terms:
-                            if 'copyright' in st.lower():
-                                x = re.search("copyright(?!((.?){3}[12][0-9]{3}))", page_text, flags=re.IGNORECASE)
-                            elif 'trust' in st.lower():
-                                x = re.search("trust(?!(key))", page_text, flags=re.IGNORECASE)
+                            if 'ai' in st.lower() and 'ai-' not in st.lower() and '-ai' not in st.lower():
+                                x = re.search(r'\bAI\b', page_text, flags=re.IGNORECASE)
                             else:
                                 my_re = "(?<![a-zA-Z])" + re.escape(st)
                                 x = re.search(my_re, page_text, flags=re.IGNORECASE)
