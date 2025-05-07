@@ -67,7 +67,7 @@ def pool_job(datadir, area, platform, output_dir, area_search_terms, plusminus, 
                 st_found = False
                 sst = st.lower().strip()
                 if 'ai' in sst and 'ai-' not in sst and '-ai' not in sst:
-                    x = re.search(r'\bAI\b', sentences[line_num], flags=re.IGNORECASE)
+                    x = re.search(r'\bAIs?\b', sentences[line_num], flags=re.IGNORECASE)
                     if x:
                         st_found = True 
                 else:
