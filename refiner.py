@@ -66,21 +66,10 @@ def pool_job(datadir, area, platform, output_dir, area_search_terms, plusminus, 
             for st in area_search_terms:
                 st_found = False
                 sst = st.lower().strip()
-                # Treat copyright differently for a search term using the negative regexp
-                if 'copyright' in sst:
-                    # this looks for copyright matches only if it is not followed by a year (with 0-3 wildcard spaces in between)
-                    x = re.search("copyright(?!((.?){3}[12][0-9]{3}))", sentences[line_num], flags=re.IGNORECASE)
-                    # x is none if no matches
+                if 'ai' in sst and 'ai-' not in sst and '-ai' not in sst:
+                    x = re.search(r'\bAI\b', sentences[line_num], flags=re.IGNORECASE)
                     if x:
-                        st_found = True
-                elif 'trust' in sst:
-                    # this looks for trust matches only if not followed by key. "Trustkey" was giving false positives
-                    x = re.search("trust(?!(key))", sentences[line_num], flags=re.IGNORECASE)
-                    # x is none if no matches
-                    if x:
-                        st_found = True
-
-                # all other search terms just search for it in text normally. 
+                        st_found = True 
                 else:
                     # has to be start of a word
                     my_re = "(?<![a-zA-Z])" + re.escape(sst)
