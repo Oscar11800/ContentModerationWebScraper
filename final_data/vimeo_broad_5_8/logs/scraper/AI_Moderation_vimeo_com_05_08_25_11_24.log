@@ -1,0 +1,422 @@
+== Conducting scraping for AI_Moderation on vimeo.com
+== Getting initial 10 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 10: https://help.vimeo.com/hc/en-us
+====== Number of Links on this Page: 43
+======== We are on link 1 of 43
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 43
+========== raw link /hc/en-us
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us
+========== dropped link https://help.vimeo.com/hc/en-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 43
+========== raw link /hc/en-us
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us
+========== dropped link https://help.vimeo.com/hc/en-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 43
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 5 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 43
+========== raw link https://vimeo.com/help/contact
+============ Checking for Redirections: https://vimeo.com/help/contact
+========== dropped link https://vimeo.com/help/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 43
+========== raw link /hc/en-us/categories/12385896807313-Account-and-billing
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385896807313-Account-and-billing
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385896807313-Account-and-billing
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385896807313-Account-and-billing. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 43
+========== raw link /hc/en-us/categories/12385942899985-Watching-videos-and-events
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385942899985-Watching-videos-and-events
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385942899985-Watching-videos-and-events
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385942899985-Watching-videos-and-events. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 43
+========== raw link /hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 43
+========== raw link /hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 43
+========== raw link /hc/en-us/categories/12385958380945-Monetize-content
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385958380945-Monetize-content
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385958380945-Monetize-content
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385958380945-Monetize-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 43
+========== raw link /hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385938115345-Integrations-and-third-party-apps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 43
+========== raw link /hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385928365585-Policy-safety-and-copyright. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 43
+========== raw link /hc/en-us/categories/12385928406545-Developers
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/categories/12385928406545-Developers
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/categories/12385928406545-Developers
+========== dropped link https://help.vimeo.com/hc/en-us/categories/12385928406545-Developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 43
+========== raw link /hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+========== dropped link https://help.vimeo.com/hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 43
+========== raw link /hc/en-us/articles/12426815178897-About-the-video-editor
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/12426815178897-About-the-video-editor
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/12426815178897-About-the-video-editor
+========== dropped link https://help.vimeo.com/hc/en-us/articles/12426815178897-About-the-video-editor. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 43
+========== raw link /hc/en-us/articles/12426274886801-Enterprise-Team-Library
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/12426274886801-Enterprise-Team-Library
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/12426274886801-Enterprise-Team-Library
+========== dropped link https://help.vimeo.com/hc/en-us/articles/12426274886801-Enterprise-Team-Library. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 43
+========== raw link /hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+========== dropped link https://help.vimeo.com/hc/en-us/articles/12426978883217-What-is-a-virtual-venue. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 43
+========== raw link /hc/en-us/articles/31112052570513-Adding-Remote-Guests
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/31112052570513-Adding-Remote-Guests
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/31112052570513-Adding-Remote-Guests
+========== dropped link https://help.vimeo.com/hc/en-us/articles/31112052570513-Adding-Remote-Guests. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 43
+========== raw link /hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+============ Checking for Redirections: https://help.vimeo.com/hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+========== dropped link https://help.vimeo.com/hc/en-us/articles/12426980146065-What-is-Vimeo-OTT. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 43
+========== raw link https://vimeo.com/enterprise
+============ Checking for Redirections: https://vimeo.com/enterprise
+========== dropped link https://vimeo.com/enterprise. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 43
+========== raw link https://vimeo.com/solutions/small-business-solutions
+============ Checking for Redirections: https://vimeo.com/solutions/small-business-solutions
+========== dropped link https://vimeo.com/solutions/small-business-solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 43
+========== raw link https://vimeo.com/solutions/creative-professionals-solutions
+============ Checking for Redirections: https://vimeo.com/solutions/creative-professionals-solutions
+========== dropped link https://vimeo.com/solutions/creative-professionals-solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 43
+========== raw link https://vimeo.com/ott
+============ Checking for Redirections: https://vimeo.com/ott
+========== dropped link https://vimeo.com/ott. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 43
+========== raw link https://vimeo.com/about
+============ Checking for Redirections: https://vimeo.com/about
+========== dropped link https://vimeo.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 43
+========== raw link https://vimeo.com/blog
+============ Checking for Redirections: https://vimeo.com/blog
+========== dropped link https://vimeo.com/blog. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 43
+========== raw link https://vimeo.com/ondemand/startselling
+============ Checking for Redirections: https://vimeo.com/ondemand/startselling
+========== dropped link https://vimeo.com/ondemand/startselling. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 43
+========== raw link https://vimeo.com/terms
+============ Checking for Redirections: https://vimeo.com/terms
+========== dropped link https://vimeo.com/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 43
+========== raw link https://vimeo.com/privacy
+============ Checking for Redirections: https://vimeo.com/privacy
+========== dropped link https://vimeo.com/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 43
+========== raw link https://vimeo.com/privacy/us-state-privacy
+============ Checking for Redirections: https://vimeo.com/privacy/us-state-privacy
+========== dropped link https://vimeo.com/privacy/us-state-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 43
+========== raw link https://vimeo.com/dmca
+============ Checking for Redirections: https://vimeo.com/dmca
+========== dropped link https://vimeo.com/dmca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 43
+========== raw link https://vimeo.com/cookie_policy
+============ Checking for Redirections: https://vimeo.com/cookie_policy
+========== dropped link https://vimeo.com/cookie_policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 43
+========== raw link /hc/change_language/de?return_to=%2Fhc%2Fde
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/de?return_to=%2Fhc%2Fde
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/de?return_to=%2Fhc%2Fde
+========== dropped link https://help.vimeo.com/hc/change_language/de?return_to=%2Fhc%2Fde. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 43
+========== raw link /hc/change_language/es?return_to=%2Fhc%2Fes
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/es?return_to=%2Fhc%2Fes
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/es?return_to=%2Fhc%2Fes
+========== dropped link https://help.vimeo.com/hc/change_language/es?return_to=%2Fhc%2Fes. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 43
+========== raw link /hc/change_language/fr?return_to=%2Fhc%2Ffr
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/fr?return_to=%2Fhc%2Ffr
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/fr?return_to=%2Fhc%2Ffr
+========== dropped link https://help.vimeo.com/hc/change_language/fr?return_to=%2Fhc%2Ffr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 43
+========== raw link /hc/change_language/ja?return_to=%2Fhc%2Fja
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/ja?return_to=%2Fhc%2Fja
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/ja?return_to=%2Fhc%2Fja
+========== dropped link https://help.vimeo.com/hc/change_language/ja?return_to=%2Fhc%2Fja. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 43
+========== raw link /hc/change_language/ko?return_to=%2Fhc%2Fko
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/ko?return_to=%2Fhc%2Fko
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/ko?return_to=%2Fhc%2Fko
+========== dropped link https://help.vimeo.com/hc/change_language/ko?return_to=%2Fhc%2Fko. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 43
+========== raw link /hc/change_language/pt?return_to=%2Fhc%2Fpt
+============ Found Relative: joining https://help.vimeo.com/hc/en-us and /hc/change_language/pt?return_to=%2Fhc%2Fpt
+============ Checking for Redirections: https://help.vimeo.com/hc/change_language/pt?return_to=%2Fhc%2Fpt
+========== dropped link https://help.vimeo.com/hc/change_language/pt?return_to=%2Fhc%2Fpt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 2 of 10: https://vimeo.com/help/guidelines
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 10: https://vimeo.com/blog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 10: https://help.vimeo.com/hc/en-us/articles/25551485186833-How-do-I-label-my-videos-to-indicate-they-contain-AI-generated-content
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 10: https://help.vimeo.com/hc/en-us/articles/25078011225233-How-can-I-tell-if-a-video-on-Vimeo-was-generated-with-or-enhanced-by-using-AI
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 6 of 10: https://vimeo.com/blog/post/vimeos-position-on-ai
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 7 of 10: https://vimeo.com/blog/post/introducing-ai-content-labeling
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 8 of 10: https://help.vimeo.com/hc/en-us/articles/22089057744657-About-Vimeo-AI
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 9 of 10: https://help.vimeo.com/hc/en-us/articles/22089224317073-Technical-FAQs-Vimeo-AI
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 10 of 10: https://vimeo.com/terms
+====== Number of Links on this Page: 43
+======== We are on link 1 of 43
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 43
+========== raw link /hc/en-us
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us
+============ Checking for Redirections: https://vimeo.com/hc/en-us
+========== dropped link https://vimeo.com/hc/en-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 43
+========== raw link /hc/en-us
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us
+============ Checking for Redirections: https://vimeo.com/hc/en-us
+========== dropped link https://vimeo.com/hc/en-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 43
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 5 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 43
+========== raw link https://vimeo.com/help/contact
+============ Checking for Redirections: https://vimeo.com/help/contact
+========== dropped link https://vimeo.com/help/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 43
+========== raw link /hc/en-us/categories/12385896807313-Account-and-billing
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385896807313-Account-and-billing
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385896807313-Account-and-billing
+========== dropped link https://vimeo.com/hc/en-us/categories/12385896807313-Account-and-billing. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 43
+========== raw link /hc/en-us/categories/12385942899985-Watching-videos-and-events
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385942899985-Watching-videos-and-events
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385942899985-Watching-videos-and-events
+========== dropped link https://vimeo.com/hc/en-us/categories/12385942899985-Watching-videos-and-events. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 43
+========== raw link /hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos
+========== dropped link https://vimeo.com/hc/en-us/categories/12385928065809-Making-managing-and-sharing-videos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 43
+========== raw link /hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming
+========== dropped link https://vimeo.com/hc/en-us/categories/12385943005329-Virtual-events-and-livestreaming. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 43
+========== raw link /hc/en-us/categories/12385958380945-Monetize-content
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385958380945-Monetize-content
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385958380945-Monetize-content
+========== dropped link https://vimeo.com/hc/en-us/categories/12385958380945-Monetize-content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 43
+========== raw link /hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385938115345-Integrations-and-third-party-apps
+========== dropped link https://vimeo.com/hc/en-us/categories/12385938115345-Integrations-and-third-party-apps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 43
+========== raw link /hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385928365585-Policy-safety-and-copyright
+========== dropped link https://vimeo.com/hc/en-us/categories/12385928365585-Policy-safety-and-copyright. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 43
+========== raw link /hc/en-us/categories/12385928406545-Developers
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/categories/12385928406545-Developers
+============ Checking for Redirections: https://vimeo.com/hc/en-us/categories/12385928406545-Developers
+========== dropped link https://vimeo.com/hc/en-us/categories/12385928406545-Developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 43
+========== raw link /hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription
+========== dropped link https://vimeo.com/hc/en-us/articles/12425398517137-How-do-I-renew-my-subscription. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 43
+========== raw link /hc/en-us/articles/12426815178897-About-the-video-editor
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/12426815178897-About-the-video-editor
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/12426815178897-About-the-video-editor
+========== dropped link https://vimeo.com/hc/en-us/articles/12426815178897-About-the-video-editor. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 43
+========== raw link /hc/en-us/articles/12426274886801-Enterprise-Team-Library
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/12426274886801-Enterprise-Team-Library
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/12426274886801-Enterprise-Team-Library
+========== dropped link https://vimeo.com/hc/en-us/articles/12426274886801-Enterprise-Team-Library. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 43
+========== raw link /hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/12426978883217-What-is-a-virtual-venue
+========== dropped link https://vimeo.com/hc/en-us/articles/12426978883217-What-is-a-virtual-venue. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 43
+========== raw link /hc/en-us/articles/31112052570513-Adding-Remote-Guests
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/31112052570513-Adding-Remote-Guests
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/31112052570513-Adding-Remote-Guests
+========== dropped link https://vimeo.com/hc/en-us/articles/31112052570513-Adding-Remote-Guests. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 43
+========== raw link /hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+============ Found Relative: joining https://vimeo.com/terms and /hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+============ Checking for Redirections: https://vimeo.com/hc/en-us/articles/12426980146065-What-is-Vimeo-OTT
+========== dropped link https://vimeo.com/hc/en-us/articles/12426980146065-What-is-Vimeo-OTT. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 43
+========== raw link https://vimeo.com/upgrade
+============ Checking for Redirections: https://vimeo.com/upgrade
+========== dropped link https://vimeo.com/upgrade. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 43
+========== raw link https://vimeo.com/enterprise
+============ Checking for Redirections: https://vimeo.com/enterprise
+========== dropped link https://vimeo.com/enterprise. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 43
+========== raw link https://vimeo.com/solutions/small-business-solutions
+============ Checking for Redirections: https://vimeo.com/solutions/small-business-solutions
+========== dropped link https://vimeo.com/solutions/small-business-solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 43
+========== raw link https://vimeo.com/solutions/creative-professionals-solutions
+============ Checking for Redirections: https://vimeo.com/solutions/creative-professionals-solutions
+========== dropped link https://vimeo.com/solutions/creative-professionals-solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 43
+========== raw link https://vimeo.com/upload
+============ Checking for Redirections: https://vimeo.com/upload
+========== dropped link https://vimeo.com/upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 43
+========== raw link https://vimeo.com/ott
+============ Checking for Redirections: https://vimeo.com/ott
+========== dropped link https://vimeo.com/ott. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 43
+========== raw link https://vimeo.com/about
+============ Checking for Redirections: https://vimeo.com/about
+========== dropped link https://vimeo.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 43
+========== raw link https://vimeo.com/blog
+============ Checking for Redirections: https://vimeo.com/blog
+========== dropped link https://vimeo.com/blog. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 43
+========== raw link https://vimeo.com/ondemand/startselling
+============ Checking for Redirections: https://vimeo.com/ondemand/startselling
+========== dropped link https://vimeo.com/ondemand/startselling. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 43
+========== raw link https://vimeo.com/terms
+============ Checking for Redirections: https://vimeo.com/terms
+========== dropped link https://vimeo.com/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 43
+========== raw link https://vimeo.com/privacy
+============ Checking for Redirections: https://vimeo.com/privacy
+========== dropped link https://vimeo.com/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 43
+========== raw link https://vimeo.com/privacy/us-state-privacy
+============ Checking for Redirections: https://vimeo.com/privacy/us-state-privacy
+========== dropped link https://vimeo.com/privacy/us-state-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 43
+========== raw link https://vimeo.com/dmca
+============ Checking for Redirections: https://vimeo.com/dmca
+========== dropped link https://vimeo.com/dmca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 43
+========== raw link https://vimeo.com/cookie_policy
+============ Checking for Redirections: https://vimeo.com/cookie_policy
+========== dropped link https://vimeo.com/cookie_policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 43
+========== raw link /hc/change_language/de?return_to=%2Fhc%2Fde
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/de?return_to=%2Fhc%2Fde
+============ Checking for Redirections: https://vimeo.com/hc/change_language/de?return_to=%2Fhc%2Fde
+========== dropped link https://vimeo.com/hc/change_language/de?return_to=%2Fhc%2Fde. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 43
+========== raw link /hc/change_language/es?return_to=%2Fhc%2Fes
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/es?return_to=%2Fhc%2Fes
+============ Checking for Redirections: https://vimeo.com/hc/change_language/es?return_to=%2Fhc%2Fes
+========== dropped link https://vimeo.com/hc/change_language/es?return_to=%2Fhc%2Fes. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 43
+========== raw link /hc/change_language/fr?return_to=%2Fhc%2Ffr
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/fr?return_to=%2Fhc%2Ffr
+============ Checking for Redirections: https://vimeo.com/hc/change_language/fr?return_to=%2Fhc%2Ffr
+========== dropped link https://vimeo.com/hc/change_language/fr?return_to=%2Fhc%2Ffr. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 43
+========== raw link /hc/change_language/ja?return_to=%2Fhc%2Fja
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/ja?return_to=%2Fhc%2Fja
+============ Checking for Redirections: https://vimeo.com/hc/change_language/ja?return_to=%2Fhc%2Fja
+========== dropped link https://vimeo.com/hc/change_language/ja?return_to=%2Fhc%2Fja. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 43
+========== raw link /hc/change_language/ko?return_to=%2Fhc%2Fko
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/ko?return_to=%2Fhc%2Fko
+============ Checking for Redirections: https://vimeo.com/hc/change_language/ko?return_to=%2Fhc%2Fko
+========== dropped link https://vimeo.com/hc/change_language/ko?return_to=%2Fhc%2Fko. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 43
+========== raw link /hc/change_language/pt?return_to=%2Fhc%2Fpt
+============ Found Relative: joining https://vimeo.com/terms and /hc/change_language/pt?return_to=%2Fhc%2Fpt
+============ Checking for Redirections: https://vimeo.com/hc/change_language/pt?return_to=%2Fhc%2Fpt
+========== dropped link https://vimeo.com/hc/change_language/pt?return_to=%2Fhc%2Fpt. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 0
+==== We are at iteration 2 (tree depth).
+==== Number of new pages added: 0
+== Finished scraping vimeo.com-AI_Moderation in 1.5923 seconds.
+== Writing to db file
+== Done (/home/oscarc/ContentModerationWebScraper/data/05_08_25_11_24/all_htmls/AI_Moderation_vimeo_com_05_08_25_11_24.json)
+== Completed with Errors, search for error in logs
