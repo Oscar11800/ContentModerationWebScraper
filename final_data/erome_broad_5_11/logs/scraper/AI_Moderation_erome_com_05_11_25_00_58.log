@@ -1,0 +1,1823 @@
+== Conducting scraping for AI_Moderation on erome.com
+== Getting initial 3 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 3: https://erome.fan/terms-privacy
+====== Number of Links on this Page: 30
+======== We are on link 1 of 30
+========== raw link #content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 30
+========== raw link https://erome.fan/
+============ Checking for Redirections: https://erome.fan/
+========== dropped link https://erome.fan/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 30
+========== raw link /?s=erome+porn
+============ Found Relative: joining https://erome.fan/terms-privacy and /?s=erome+porn
+============ Checking for Redirections: https://erome.fan/?s=erome+porn
+============ Link after cleaning: https://erome.fan/
+========== scraping https://erome.fan/
+======== We are on link 4 of 30
+========== raw link /?s=Sophie
+============ Found Relative: joining https://erome.fan/terms-privacy and /?s=Sophie
+============ Checking for Redirections: https://erome.fan/?s=Sophie
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 5 of 30
+========== raw link /?s=yajana
+============ Found Relative: joining https://erome.fan/terms-privacy and /?s=yajana
+============ Checking for Redirections: https://erome.fan/?s=yajana
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 6 of 30
+========== raw link /search/ana+de+armas+nude
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/ana+de+armas+nude
+============ Checking for Redirections: https://erome.fan/search/ana+de+armas+nude
+============ Link after cleaning: https://erome.fan/search/ana+de+armas+nude
+========== scraping https://erome.fan/search/ana+de+armas+nude
+======== We are on link 7 of 30
+========== raw link /search/erome_porn
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/erome_porn
+============ Checking for Redirections: https://erome.fan/search/erome_porn
+============ Link after cleaning: https://erome.fan/search/erome_porn
+========== scraping https://erome.fan/search/erome_porn
+======== We are on link 8 of 30
+========== raw link /search/ambiel
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/ambiel
+============ Checking for Redirections: https://erome.fan/search/ambiel
+============ Link after cleaning: https://erome.fan/search/ambiel
+========== scraping https://erome.fan/search/ambiel
+============ Dropping non-English link: https://erome.fan/search/ambiel
+======== We are on link 9 of 30
+========== raw link /search/sydney
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/sydney
+============ Checking for Redirections: https://erome.fan/search/sydney
+============ Link after cleaning: https://erome.fan/search/sydney
+========== scraping https://erome.fan/search/sydney
+======== We are on link 10 of 30
+========== raw link https://erome.fan/a/category/badddbitchesonly
+============ Checking for Redirections: https://erome.fan/a/category/badddbitchesonly
+============ Link unchanged
+========== scraping https://erome.fan/a/category/badddbitchesonly
+======== We are on link 11 of 30
+========== raw link /search/bianca+censori
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/bianca+censori
+============ Checking for Redirections: https://erome.fan/search/bianca+censori
+============ Link after cleaning: https://erome.fan/search/bianca+censori
+========== scraping https://erome.fan/search/bianca+censori
+======== We are on link 12 of 30
+========== raw link /search/erome_asian
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/erome_asian
+============ Checking for Redirections: https://erome.fan/search/erome_asian
+============ Link after cleaning: https://erome.fan/search/erome_asian
+========== scraping https://erome.fan/search/erome_asian
+======== We are on link 13 of 30
+========== raw link /search/omegle
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/omegle
+============ Checking for Redirections: https://erome.fan/search/omegle
+============ Link after cleaning: https://erome.fan/search/omegle
+========== scraping https://erome.fan/search/omegle
+======== We are on link 14 of 30
+========== raw link /search/ero+me
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/ero+me
+============ Checking for Redirections: https://erome.fan/search/ero+me
+============ Link after cleaning: https://erome.fan/search/ero+me
+========== scraping https://erome.fan/search/ero+me
+======== We are on link 15 of 30
+========== raw link /search/femboy+porn
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/femboy+porn
+============ Checking for Redirections: https://erome.fan/search/femboy+porn
+============ Link after cleaning: https://erome.fan/search/femboy+porn
+========== scraping https://erome.fan/search/femboy+porn
+============ Dropping non-English link: https://erome.fan/search/femboy+porn
+======== We are on link 16 of 30
+========== raw link /search/legendado
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/legendado
+============ Checking for Redirections: https://erome.fan/search/legendado
+============ Link after cleaning: https://erome.fan/search/legendado
+========== scraping https://erome.fan/search/legendado
+============ Dropping non-English link: https://erome.fan/search/legendado
+======== We are on link 17 of 30
+========== raw link /search/milica
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/milica
+============ Checking for Redirections: https://erome.fan/search/milica
+============ Link after cleaning: https://erome.fan/search/milica
+========== scraping https://erome.fan/search/milica
+======== We are on link 18 of 30
+========== raw link /search/novinha+gostosa
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/novinha+gostosa
+============ Checking for Redirections: https://erome.fan/search/novinha+gostosa
+============ Link after cleaning: https://erome.fan/search/novinha+gostosa
+========== scraping https://erome.fan/search/novinha+gostosa
+============ Dropping non-English link: https://erome.fan/search/novinha+gostosa
+======== We are on link 19 of 30
+========== raw link /search/olivarez
+============ Found Relative: joining https://erome.fan/terms-privacy and /search/olivarez
+============ Checking for Redirections: https://erome.fan/search/olivarez
+============ Link after cleaning: https://erome.fan/search/olivarez
+========== scraping https://erome.fan/search/olivarez
+============ Dropping non-English link: https://erome.fan/search/olivarez
+======== We are on link 20 of 30
+========== raw link /user-upload
+============ Found Relative: joining https://erome.fan/terms-privacy and /user-upload
+============ Checking for Redirections: https://erome.fan/user-upload
+========== dropped link https://erome.fan/user-upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 30
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 22 of 30
+========== raw link https://support.google.com/analytics/answer/6004245
+========== dropped link https://support.google.com/analytics/answer/6004245. Didn't pass first allows/blocks test.
+======== We are on link 23 of 30
+========== raw link http://www.aboutads.info/choices/
+========== dropped link http://www.aboutads.info/choices/. Didn't pass first allows/blocks test.
+======== We are on link 24 of 30
+========== raw link https://erome.fan/faq
+============ Checking for Redirections: https://erome.fan/faq
+============ Link unchanged
+========== scraping https://erome.fan/faq
+======== We are on link 25 of 30
+========== raw link https://erome.fan/terms-privacy
+============ Checking for Redirections: https://erome.fan/terms-privacy
+============ Link unchanged
+========== link already checked
+======== We are on link 26 of 30
+========== raw link https://erome.fan/report-abuse
+============ Checking for Redirections: https://erome.fan/report-abuse
+============ Link unchanged
+========== scraping https://erome.fan/report-abuse
+======== We are on link 27 of 30
+========== raw link https://erome.fan/content-creator-uploader
+============ Checking for Redirections: https://erome.fan/content-creator-uploader
+============ Link unchanged
+========== link already checked
+======== We are on link 28 of 30
+========== raw link https://erome.fan/contact
+============ Checking for Redirections: https://erome.fan/contact
+========== dropped link https://erome.fan/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 30
+========== raw link https://erome.fan/explore
+============ Checking for Redirections: https://erome.fan/explore
+============ Link unchanged
+========== scraping https://erome.fan/explore
+======== We are on link 30 of 30
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+====== We are on page 2 of 3: https://erome.fan/content-creator-uploader
+====== Number of Links on this Page: 28
+======== We are on link 1 of 28
+========== raw link #content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 28
+========== raw link https://erome.fan/
+============ Checking for Redirections: https://erome.fan/
+========== dropped link https://erome.fan/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 28
+========== raw link /?s=erome+porn
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /?s=erome+porn
+============ Checking for Redirections: https://erome.fan/?s=erome+porn
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 4 of 28
+========== raw link /?s=Sophie
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /?s=Sophie
+============ Checking for Redirections: https://erome.fan/?s=Sophie
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 5 of 28
+========== raw link /?s=yajana
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /?s=yajana
+============ Checking for Redirections: https://erome.fan/?s=yajana
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 6 of 28
+========== raw link /search/ana+de+armas+nude
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/ana+de+armas+nude
+============ Checking for Redirections: https://erome.fan/search/ana+de+armas+nude
+============ Link after cleaning: https://erome.fan/search/ana+de+armas+nude
+========== link already checked
+======== We are on link 7 of 28
+========== raw link /search/erome_porn
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/erome_porn
+============ Checking for Redirections: https://erome.fan/search/erome_porn
+============ Link after cleaning: https://erome.fan/search/erome_porn
+========== link already checked
+======== We are on link 8 of 28
+========== raw link /search/ambiel
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/ambiel
+============ Checking for Redirections: https://erome.fan/search/ambiel
+============ Link after cleaning: https://erome.fan/search/ambiel
+========== scraping https://erome.fan/search/ambiel
+============ Dropping non-English link: https://erome.fan/search/ambiel
+======== We are on link 9 of 28
+========== raw link /search/sydney
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/sydney
+============ Checking for Redirections: https://erome.fan/search/sydney
+============ Link after cleaning: https://erome.fan/search/sydney
+========== link already checked
+======== We are on link 10 of 28
+========== raw link https://erome.fan/a/category/badddbitchesonly
+============ Checking for Redirections: https://erome.fan/a/category/badddbitchesonly
+============ Link unchanged
+========== link already checked
+======== We are on link 11 of 28
+========== raw link /search/bianca+censori
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/bianca+censori
+============ Checking for Redirections: https://erome.fan/search/bianca+censori
+============ Link after cleaning: https://erome.fan/search/bianca+censori
+========== link already checked
+======== We are on link 12 of 28
+========== raw link /search/erome_asian
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/erome_asian
+============ Checking for Redirections: https://erome.fan/search/erome_asian
+============ Link after cleaning: https://erome.fan/search/erome_asian
+========== link already checked
+======== We are on link 13 of 28
+========== raw link /search/omegle
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/omegle
+============ Checking for Redirections: https://erome.fan/search/omegle
+============ Link after cleaning: https://erome.fan/search/omegle
+========== link already checked
+======== We are on link 14 of 28
+========== raw link /search/ero+me
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/ero+me
+============ Checking for Redirections: https://erome.fan/search/ero+me
+============ Link after cleaning: https://erome.fan/search/ero+me
+========== link already checked
+======== We are on link 15 of 28
+========== raw link /search/femboy+porn
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/femboy+porn
+============ Checking for Redirections: https://erome.fan/search/femboy+porn
+============ Link after cleaning: https://erome.fan/search/femboy+porn
+========== scraping https://erome.fan/search/femboy+porn
+============ New link added. Search term (deepfake) found on https://erome.fan/search/femboy+porn.
+======== We are on link 16 of 28
+========== raw link /search/legendado
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/legendado
+============ Checking for Redirections: https://erome.fan/search/legendado
+============ Link after cleaning: https://erome.fan/search/legendado
+========== scraping https://erome.fan/search/legendado
+============ Dropping non-English link: https://erome.fan/search/legendado
+======== We are on link 17 of 28
+========== raw link /search/milica
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/milica
+============ Checking for Redirections: https://erome.fan/search/milica
+============ Link after cleaning: https://erome.fan/search/milica
+========== link already checked
+======== We are on link 18 of 28
+========== raw link /search/novinha+gostosa
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/novinha+gostosa
+============ Checking for Redirections: https://erome.fan/search/novinha+gostosa
+============ Link after cleaning: https://erome.fan/search/novinha+gostosa
+========== scraping https://erome.fan/search/novinha+gostosa
+============ Dropping non-English link: https://erome.fan/search/novinha+gostosa
+======== We are on link 19 of 28
+========== raw link /search/olivarez
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /search/olivarez
+============ Checking for Redirections: https://erome.fan/search/olivarez
+============ Link after cleaning: https://erome.fan/search/olivarez
+========== scraping https://erome.fan/search/olivarez
+============ Dropping non-English link: https://erome.fan/search/olivarez
+======== We are on link 20 of 28
+========== raw link /user-upload
+============ Found Relative: joining https://erome.fan/content-creator-uploader and /user-upload
+============ Checking for Redirections: https://erome.fan/user-upload
+========== dropped link https://erome.fan/user-upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 28
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 22 of 28
+========== raw link https://erome.fan/faq
+============ Checking for Redirections: https://erome.fan/faq
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 28
+========== raw link https://erome.fan/terms-privacy
+============ Checking for Redirections: https://erome.fan/terms-privacy
+============ Link unchanged
+========== link already checked
+======== We are on link 24 of 28
+========== raw link https://erome.fan/report-abuse
+============ Checking for Redirections: https://erome.fan/report-abuse
+============ Link unchanged
+========== link already checked
+======== We are on link 25 of 28
+========== raw link https://erome.fan/content-creator-uploader
+============ Checking for Redirections: https://erome.fan/content-creator-uploader
+============ Link unchanged
+========== link already checked
+======== We are on link 26 of 28
+========== raw link https://erome.fan/contact
+============ Checking for Redirections: https://erome.fan/contact
+========== dropped link https://erome.fan/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 28
+========== raw link https://erome.fan/explore
+============ Checking for Redirections: https://erome.fan/explore
+============ Link unchanged
+========== link already checked
+======== We are on link 28 of 28
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+====== We are on page 3 of 3: https://www.erome.com/s/faq
+====== Number of Links on this Page: 27
+======== We are on link 1 of 27
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 27
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+============ Followed Redirection to https://stripchat.com/girls?affiliateId=110525g3btuavaanzk3zxs2fmwh38u75bjp2vrtzq3baz139t5qrroh7qe89qlzv&campaignId=588dfb8f85d74d01639367c1da409ab2789aec1b5df1855935d6397b243d071e&realDomain=go.reebr.com&referrer=https%3A%2F%2Fwww.erome.com%2F&sound=off&stripbotVariation=NullWidget&userId=2144566bda501c797141f15d34c5ac727e0f822e30b7424c15903a7893007541&variationId=31686
+============ Link after cleaning: https://stripchat.com/girls
+============ Excluded based on allow/block list.
+======== We are on link 3 of 27
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 27
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+============ Link unchanged
+========== scraping https://www.erome.com/explore
+============ New link added. Search term (AI) found on https://www.erome.com/explore.
+======== We are on link 5 of 27
+========== raw link https://www.erome.com/version/all
+============ Checking for Redirections: https://www.erome.com/version/all
+============ Followed Redirection to https://www.erome.com/explore
+============ Link after cleaning: https://www.erome.com/explore
+========== link already checked
+======== We are on link 6 of 27
+========== raw link https://www.erome.com/version/straight
+============ Checking for Redirections: https://www.erome.com/version/straight
+============ Followed Redirection to https://www.erome.com/explore
+============ Link after cleaning: https://www.erome.com/explore
+========== link already checked
+======== We are on link 7 of 27
+========== raw link https://www.erome.com/version/trans
+============ Checking for Redirections: https://www.erome.com/version/trans
+============ Followed Redirection to https://www.erome.com/explore
+============ Link after cleaning: https://www.erome.com/explore
+========== link already checked
+======== We are on link 8 of 27
+========== raw link https://www.erome.com/version/gay
+============ Checking for Redirections: https://www.erome.com/version/gay
+============ Followed Redirection to https://www.erome.com/explore
+============ Link after cleaning: https://www.erome.com/explore
+========== link already checked
+======== We are on link 9 of 27
+========== raw link https://www.erome.com/version/hentai
+============ Checking for Redirections: https://www.erome.com/version/hentai
+============ Followed Redirection to https://www.erome.com/explore
+============ Link after cleaning: https://www.erome.com/explore
+========== link already checked
+======== We are on link 10 of 27
+========== raw link https://www.erome.com/o/menu-1
+============ Checking for Redirections: https://www.erome.com/o/menu-1
+============ Followed Redirection to https://cherry.tv/hannahdavisx?popup=800bonus&verifyage=false&utm_medium=media&aid_data=NDUwfDM3OTd8VVN8MXwyfHxjSFZpWDNwcFpBKk5USXhOek0xTmd-YjNBKk1DNHdNd35jSFZpWDJSdmJRKlpYSnZiV1V1WTI5dH5jSFZpWDJOaGRBKk5UQTR-Y0hWaVgyRjAqfmNIVmlYMk5zYVdOcmFXUSpiM0prVGxCaVNFNVNWa2hPV0ZSSVRtUlRORFZqTTFaVWVsZFZWbFoxYld4d2NIUnRkSEYwWkZCV1dsUldTelV4VlhSeWNGaFVUM0p3WkVzMlZqQnljbUZoWW01Vk1qTldNakY2VDNCMGRITnZkWFJrU3paYU1ISndXRk4xYkdSTk5sWXdjbkJ1WTFONWVtRXpZak5pZVRFNFZtRlhNR0Y2ZVhwVmVURXhNR0UyTTJOYU9GcDFaRTVQTjJOblpqazBPVkZmZFdNMllYUXdjbkJZVTNWc1pFczJWakJ5Y0ZoVVYxVXhNMVV3VmxkVVQyTTJWakJ5Y0ZoVGRXeGtTelpXTUhKd1dGTjFiV1JMTmxaNFdUSm1aR2M1TG1veFJDNDFlbTVYVjJOWVYzbzNZVEJhTUZONk0xY3pWbFJpTlROaE56WTJNREZpVjNwV01YVkVOMEV0TFF-Y0hWaVgyTnBaQSpOamcyTlRJek5BfmNIVmlYM1IwKlRtVjBkMjl5YXd8amkyMHhjc3Y5cTZrfDNhNTM3ZTY4LWQyZGMtNTJhNy04YjA1LTQyMWFjMDVjNjE0Ynx8fDE&zone_name=ExoClick+DSP+%28CherryMedia%29&pub_name=epom_ExoClick+%28CherryMedia%29&pmnt_name=ExoClick+DSP+%28CherryMedia%29+-++Models_Top200_Autoplay+-+PopPromo800&utm_source=epom_15&utm_campaign=56&campaign_id=6865234&zone_id=5217356&domain=erome.com&traffic_type=Network&pub_clickid=ordNPbHNRVHNXTHNdS45c3VTzWUVVumlpptmtqtdPVZTVK51UtrpXTOrpdK6V0rraabnU23V21zOpttsoutdK6Z0rpXSuldM6V0rpncSyza3b3by18VaW0azyzUy110a63cZ8ZudNO7cgf949Q_uc6at0rpXSuldK6V0rpXTWU13U0VWTOc6V0rpXSuldK6V0rpXSumdK6VxY2fdg9.j1D.5znWWcXWz7a0Z0Sz3W3VTb53a76601bWzV1uD7A--&cru=https%3A%2F%2Fcherrytv.media%2FzuagqnHNQJCz1UHMrcxyppsc8-TVpOd-g-tbKqYd9q96JlNZ-AYF95O65TP4wHTPutuxJo_fO1xIzAX0qE6OE_4UinNnVl90gveYgU2DfFx8n1275SMcpb7LX2Z9h84cpmaSssEcAVbvTJPRrtFMMFnLet2mpFOnBehAsFIcppBcxPutV1plYvlV0ZcN51gWIdxAxsvO3rSPQK5O2quypMfxfTtusExdVdzSJ5X9dsDNUpjPEUW8HP7MrRBWiMCbejYbL_B0Q0agnlj9Co88TGwhJs7g_XhBvVKFKsxYsVkrh51R3n1_gnbSLTqSH2zjgejMzCSp2VZhEnH01zpg2wTBIvRfqIdS_-wRy9HIUnXeJBhPP207KRfXyGPtw0hCAytNd9TkmP8zzG2fdOzK5TpBnRicKoXO3h_O-NvQJp9y3057nO2g0yPsF5j2fIfN54jhYDtEDrnVz_64z7hOQDdRZYCpTtQeu-5Pfso91z4N6weyU_IggLSm0DprGSwyly7TQAZtfwYp9Yx2qZsXWNO4kq228MhWPKYwozK6sHgO1e4vIOGg2K2XVGhTMNGcLJNY6o8c6Ge1ZkQGDbnLDccCmF8U7YwXwWYtFRuLkElNhm_FoNMHPJXEH-KW7XOS4nUhAOwKKK6ZP70Ov76Js12NybIakLOy7nrJDnC9mFV2svOwDDB0r_kfzevjnpcEOAoXzXfBCokijxsprRv1eIQjmOyAmzLkEVrnFMNqlT1WcgRmjSqVEuD7YQbOMAmY8JgfGD-H5RTxniB_v_aeLvwEPNCfqhsMmJ1ITTZPiaV1jIc5fyMmnUbbuy4gQE6AfKnlLJHM9Z5gQTavXvFIKS1NzKFbXqtvPR3nfGAV5B0_Fg7-TfYv8B-xHGr_Q_8bDDDyqNH2Iz6ZWEovOb1pjpU0jikSFGQxzRPdR1BsiE3Yvcfl4-Zb0%3FDC%3DHZFI%26u%3D&u=https%3A%2F%2Fcherry.tv%2Fpixel.gif&utm_content=hannahdavisx&utm_term=autoplay_on
+============ Link after cleaning: https://cherry.tv/hannahdavisx
+============ Excluded based on allow/block list.
+======== We are on link 11 of 27
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 27
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+============ Followed Redirection to https://stripchat.com/girls?affiliateId=110525y97wshi1fo9k9z3scai3lso8st1u5usukob8wcf0fjarcnpc79708xcyn5&campaignId=588dfb8f85d74d01639367c1da409ab2789aec1b5df1855935d6397b243d071e&realDomain=go.reebr.com&referrer=https%3A%2F%2Fwww.erome.com%2F&sound=off&stripbotVariation=NullWidget&userId=2144566bda501c797141f15d34c5ac727e0f822e30b7424c15903a7893007541&variationId=31686
+============ Link after cleaning: https://stripchat.com/girls
+============ Excluded based on allow/block list.
+======== We are on link 13 of 27
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 27
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 27
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 16 of 27
+========== raw link https://www.erome.com/login/google
+========== dropped link https://www.erome.com/login/google. Didn't pass first allows/blocks test.
+======== We are on link 17 of 27
+========== raw link https://www.erome.com/login/reddit
+========== dropped link https://www.erome.com/login/reddit. Didn't pass first allows/blocks test.
+======== We are on link 18 of 27
+========== raw link https://www.erome.com/login/twitter
+========== dropped link https://www.erome.com/login/twitter. Didn't pass first allows/blocks test.
+======== We are on link 19 of 27
+========== raw link https://www.erome.com/user/login
+========== dropped link https://www.erome.com/user/login. Didn't pass first allows/blocks test.
+======== We are on link 20 of 27
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 27
+========== raw link https://www.erome.com/user/creators
+============ Checking for Redirections: https://www.erome.com/user/creators
+========== dropped link https://www.erome.com/user/creators. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 27
+========== raw link https://www.erome.com/s/faq
+============ Checking for Redirections: https://www.erome.com/s/faq
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 27
+========== raw link https://www.erome.com/s/terms
+============ Checking for Redirections: https://www.erome.com/s/terms
+============ Link unchanged
+========== scraping https://www.erome.com/s/terms
+============ New link added. Search term (AI) found on https://www.erome.com/s/terms.
+======== We are on link 24 of 27
+========== raw link https://www.erome.com/s/report
+============ Checking for Redirections: https://www.erome.com/s/report
+============ Link unchanged
+========== scraping https://www.erome.com/s/report
+============ New link added. Search term (AI) found on https://www.erome.com/s/report.
+======== We are on link 25 of 27
+========== raw link https://www.erome.com/s/creators
+============ Checking for Redirections: https://www.erome.com/s/creators
+============ Link unchanged
+========== scraping https://www.erome.com/s/creators
+============ New link added. Search term (AI) found on https://www.erome.com/s/creators.
+======== We are on link 26 of 27
+========== raw link https://www.erome.com/s/contact
+============ Checking for Redirections: https://www.erome.com/s/contact
+========== dropped link https://www.erome.com/s/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 27
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+============ Link unchanged
+========== link already checked
+==== Number of new pages added: 5
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 5: https://erome.fan/search/femboy+porn
+====== Number of Links on this Page: 103
+======== We are on link 1 of 103
+========== raw link #content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 103
+========== raw link https://erome.fan/
+============ Checking for Redirections: https://erome.fan/
+========== dropped link https://erome.fan/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 103
+========== raw link /?s=erome+porn
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /?s=erome+porn
+============ Checking for Redirections: https://erome.fan/?s=erome+porn
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 4 of 103
+========== raw link /?s=Sophie
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /?s=Sophie
+============ Checking for Redirections: https://erome.fan/?s=Sophie
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 5 of 103
+========== raw link /?s=yajana
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /?s=yajana
+============ Checking for Redirections: https://erome.fan/?s=yajana
+============ Link after cleaning: https://erome.fan/
+========== link already checked
+======== We are on link 6 of 103
+========== raw link /search/ana+de+armas+nude
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/ana+de+armas+nude
+============ Checking for Redirections: https://erome.fan/search/ana+de+armas+nude
+============ Link after cleaning: https://erome.fan/search/ana+de+armas+nude
+========== link already checked
+======== We are on link 7 of 103
+========== raw link /search/erome_porn
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/erome_porn
+============ Checking for Redirections: https://erome.fan/search/erome_porn
+============ Link after cleaning: https://erome.fan/search/erome_porn
+========== link already checked
+======== We are on link 8 of 103
+========== raw link /search/ambiel
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/ambiel
+============ Checking for Redirections: https://erome.fan/search/ambiel
+============ Link after cleaning: https://erome.fan/search/ambiel
+========== scraping https://erome.fan/search/ambiel
+============ Dropping non-English link: https://erome.fan/search/ambiel
+======== We are on link 9 of 103
+========== raw link /search/sydney
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/sydney
+============ Checking for Redirections: https://erome.fan/search/sydney
+============ Link after cleaning: https://erome.fan/search/sydney
+========== link already checked
+======== We are on link 10 of 103
+========== raw link https://erome.fan/a/category/badddbitchesonly
+============ Checking for Redirections: https://erome.fan/a/category/badddbitchesonly
+============ Link unchanged
+========== link already checked
+======== We are on link 11 of 103
+========== raw link /search/bianca+censori
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/bianca+censori
+============ Checking for Redirections: https://erome.fan/search/bianca+censori
+============ Link after cleaning: https://erome.fan/search/bianca+censori
+========== link already checked
+======== We are on link 12 of 103
+========== raw link /search/erome_asian
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/erome_asian
+============ Checking for Redirections: https://erome.fan/search/erome_asian
+============ Link after cleaning: https://erome.fan/search/erome_asian
+========== link already checked
+======== We are on link 13 of 103
+========== raw link /search/omegle
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/omegle
+============ Checking for Redirections: https://erome.fan/search/omegle
+============ Link after cleaning: https://erome.fan/search/omegle
+========== link already checked
+======== We are on link 14 of 103
+========== raw link /search/ero+me
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/ero+me
+============ Checking for Redirections: https://erome.fan/search/ero+me
+============ Link after cleaning: https://erome.fan/search/ero+me
+========== link already checked
+======== We are on link 15 of 103
+========== raw link /search/femboy+porn
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/femboy+porn
+============ Checking for Redirections: https://erome.fan/search/femboy+porn
+============ Link after cleaning: https://erome.fan/search/femboy+porn
+========== link already checked
+======== We are on link 16 of 103
+========== raw link /search/legendado
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/legendado
+============ Checking for Redirections: https://erome.fan/search/legendado
+============ Link after cleaning: https://erome.fan/search/legendado
+========== scraping https://erome.fan/search/legendado
+============ Dropping non-English link: https://erome.fan/search/legendado
+======== We are on link 17 of 103
+========== raw link /search/milica
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/milica
+============ Checking for Redirections: https://erome.fan/search/milica
+============ Link after cleaning: https://erome.fan/search/milica
+========== link already checked
+======== We are on link 18 of 103
+========== raw link /search/novinha+gostosa
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/novinha+gostosa
+============ Checking for Redirections: https://erome.fan/search/novinha+gostosa
+============ Link after cleaning: https://erome.fan/search/novinha+gostosa
+========== scraping https://erome.fan/search/novinha+gostosa
+============ Dropping non-English link: https://erome.fan/search/novinha+gostosa
+======== We are on link 19 of 103
+========== raw link /search/olivarez
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /search/olivarez
+============ Checking for Redirections: https://erome.fan/search/olivarez
+============ Link after cleaning: https://erome.fan/search/olivarez
+========== scraping https://erome.fan/search/olivarez
+============ Dropping non-English link: https://erome.fan/search/olivarez
+======== We are on link 20 of 103
+========== raw link /user-upload
+============ Found Relative: joining https://erome.fan/search/femboy+porn and /user-upload
+============ Checking for Redirections: https://erome.fan/user-upload
+========== dropped link https://erome.fan/user-upload. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 103
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 22 of 103
+========== raw link https://erome.fan/a/15092117021698877
+============ Checking for Redirections: https://erome.fan/a/15092117021698877
+============ Link unchanged
+========== scraping https://erome.fan/a/15092117021698877
+============ Dropping non-English link: https://erome.fan/a/15092117021698877
+======== We are on link 23 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 24 of 103
+========== raw link https://erome.fan/porno-video
+============ Checking for Redirections: https://erome.fan/porno-video
+============ Link unchanged
+========== scraping https://erome.fan/porno-video
+======== We are on link 25 of 103
+========== raw link https://erome.fan/a/39094618021698985
+============ Checking for Redirections: https://erome.fan/a/39094618021698985
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313422525080339&var_3=50d486dccc9fcd0f5f6b3c5fd2eff9a0&aff_fcid=d287242fc90b402090d26a4e0841701a-1746943806236-09304-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=d287242fc90b402090d26a4e0841701a-1746943806236-09304-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 26 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 27 of 103
+========== raw link https://erome.fan/a/19092016021698823
+============ Checking for Redirections: https://erome.fan/a/19092016021698823
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313472353407461&var_3=50dcde54ab0880da89b3fa10c185d92d&aff_fcid=d62442cf055744fab898f212dedf015c-1746943815132-09394-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=d62442cf055744fab898f212dedf015c-1746943815132-09394-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 28 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 29 of 103
+========== raw link https://erome.fan/a/48093717021698917
+============ Checking for Redirections: https://erome.fan/a/48093717021698917
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313505849126922&var_3=50d52df90d20e559dd3e4eb1f95cc63a&aff_fcid=ff5d699ecc974f34835cd576e069987d-1746943823594-01058-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=ff5d699ecc974f34835cd576e069987d-1746943823594-01058-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 30 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 31 of 103
+========== raw link https://erome.fan/a/33074212052861707
+============ Checking for Redirections: https://erome.fan/a/33074212052861707
+============ Link unchanged
+========== scraping https://erome.fan/a/33074212052861707
+======== We are on link 32 of 103
+========== raw link https://erome.fan/a/category/pornactor
+============ Checking for Redirections: https://erome.fan/a/category/pornactor
+========== dropped link https://erome.fan/a/category/pornactor. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 103
+========== raw link https://erome.fan/a/02271514021940267
+============ Checking for Redirections: https://erome.fan/a/02271514021940267
+============ Link unchanged
+========== scraping https://erome.fan/a/02271514021940267
+============ Dropping non-English link: https://erome.fan/a/02271514021940267
+======== We are on link 34 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 35 of 103
+========== raw link https://erome.fan/a/21275209042724249
+============ Checking for Redirections: https://erome.fan/a/21275209042724249
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313645649469797&var_3=50dc720620a8652b79cc8e696f0473b7&aff_fcid=c26518842e5d4775a33c6fa7770722e2-1746943858284-01477-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=c26518842e5d4775a33c6fa7770722e2-1746943858284-01477-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 36 of 103
+========== raw link https://erome.fan/a/category/bhmor
+============ Checking for Redirections: https://erome.fan/a/category/bhmor
+========== dropped link https://erome.fan/a/category/bhmor. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 103
+========== raw link https://erome.fan/a/25230918042677314
+============ Checking for Redirections: https://erome.fan/a/25230918042677314
+============ Link unchanged
+========== scraping https://erome.fan/a/25230918042677314
+======== We are on link 38 of 103
+========== raw link https://erome.fan/a/category/sandralove17
+============ Checking for Redirections: https://erome.fan/a/category/sandralove17
+============ Link unchanged
+========== scraping https://erome.fan/a/category/sandralove17
+======== We are on link 39 of 103
+========== raw link https://erome.fan/a/56270513021940125
+============ Checking for Redirections: https://erome.fan/a/56270513021940125
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313779888173838&var_3=50d00d1bae77387bf43b7321c9b68c43&aff_fcid=3d1157e5202145319ffb43c6ab2cefde-1746943891382-01035-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=3d1157e5202145319ffb43c6ab2cefde-1746943891382-01035-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 40 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 41 of 103
+========== raw link https://erome.fan/a/35070714052863321
+============ Checking for Redirections: https://erome.fan/a/35070714052863321
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313826830819347&var_3=50d261c79845bb939f1915c283a2218e&aff_fcid=026c7b9941ba4948b9f5ba79b8e2482c-1746943900603-06081-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=026c7b9941ba4948b9f5ba79b8e2482c-1746943900603-06081-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 42 of 103
+========== raw link https://erome.fan/a/category/blackmancock
+============ Checking for Redirections: https://erome.fan/a/category/blackmancock
+============ Link unchanged
+========== scraping https://erome.fan/a/category/blackmancock
+======== We are on link 43 of 103
+========== raw link https://erome.fan/a/50282104051044181
+============ Checking for Redirections: https://erome.fan/a/50282104051044181
+============ Link unchanged
+========== scraping https://erome.fan/a/50282104051044181
+============ Dropping non-English link: https://erome.fan/a/50282104051044181
+======== We are on link 44 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 45 of 103
+========== raw link https://erome.fan/a/2509480703887995
+============ Checking for Redirections: https://erome.fan/a/2509480703887995
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313915087364972&var_3=50df3964b550a59b45f584b672ad4b6c&aff_fcid=7b521d80354d42f5b9ed691451d41edb-1746943923927-02045-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=7b521d80354d42f5b9ed691451d41edb-1746943923927-02045-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 46 of 103
+========== raw link https://erome.fan/a/category/comicspot
+============ Checking for Redirections: https://erome.fan/a/category/comicspot
+============ Link unchanged
+========== scraping https://erome.fan/a/category/comicspot
+======== We are on link 47 of 103
+========== raw link https://erome.fan/a/38270714021940660
+============ Checking for Redirections: https://erome.fan/a/38270714021940660
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313942258062121&var_3=50d5006fd935031acaf42bedd1487fae&aff_fcid=7e574a83e97f4b28904ad313b79d803f-1746943930242-01605-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=7e574a83e97f4b28904ad313b79d803f-1746943930242-01605-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 48 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 49 of 103
+========== raw link https://erome.fan/a/39093518021698977
+============ Checking for Redirections: https://erome.fan/a/39093518021698977
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945313989569814596&var_3=50de6e98e0159a0e34d1261c43835f91&aff_fcid=260b2955693f4f058279718d46d85ca1-1746943939202-01976-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=260b2955693f4f058279718d46d85ca1-1746943939202-01976-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 50 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 51 of 103
+========== raw link https://erome.fan/a/26252508042697308
+============ Checking for Redirections: https://erome.fan/a/26252508042697308
+============ Link unchanged
+========== scraping https://erome.fan/a/26252508042697308
+======== We are on link 52 of 103
+========== raw link https://erome.fan/a/category/choujizen
+============ Checking for Redirections: https://erome.fan/a/category/choujizen
+========== dropped link https://erome.fan/a/category/choujizen. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 103
+========== raw link https://erome.fan/a/21064010021685147
+============ Checking for Redirections: https://erome.fan/a/21064010021685147
+============ Link unchanged
+========== scraping https://erome.fan/a/21064010021685147
+============ Dropping non-English link: https://erome.fan/a/21064010021685147
+======== We are on link 54 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 55 of 103
+========== raw link https://erome.fan/a/17252923032309131
+============ Checking for Redirections: https://erome.fan/a/17252923032309131
+============ Followed Redirection to https://best.aliexpress.com/?af=9099658&dp=945314169165717517&var_3=50d5b7af252b60a1506ec3236a363e96&aff_fcid=13517142b0e34b0cad924cc2067a3fc8-1746943982017-07149-_ooXP3cN&tt=CPS_NORMAL&aff_fsk=_ooXP3cN&aff_platform=portals-promotion&sk=_ooXP3cN&aff_trace_key=13517142b0e34b0cad924cc2067a3fc8-1746943982017-07149-_ooXP3cN&terminal_id=944a56557ac6450398c42fcf706adb99
+============ Link after cleaning: https://best.aliexpress.com/
+============ Excluded based on allow/block list.
+======== We are on link 56 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 57 of 103
+========== raw link https://erome.fan/a/30090117021698899
+============ Checking for Redirections: https://erome.fan/a/30090117021698899
+============ Link unchanged
+========== scraping https://erome.fan/a/30090117021698899
+============ Dropping non-English link: https://erome.fan/a/30090117021698899
+======== We are on link 58 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 59 of 103
+========== raw link https://erome.fan/a/04252422032308213
+============ Checking for Redirections: https://erome.fan/a/04252422032308213
+============ Link unchanged
+========== scraping https://erome.fan/a/04252422032308213
+============ Dropping non-English link: https://erome.fan/a/04252422032308213
+======== We are on link 60 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 61 of 103
+========== raw link https://erome.fan/a/32062910021685158
+============ Checking for Redirections: https://erome.fan/a/32062910021685158
+============ Link unchanged
+========== scraping https://erome.fan/a/32062910021685158
+============ Dropping non-English link: https://erome.fan/a/32062910021685158
+======== We are on link 62 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 63 of 103
+========== raw link https://erome.fan/a/14050501052835665
+============ Checking for Redirections: https://erome.fan/a/14050501052835665
+============ Link unchanged
+========== scraping https://erome.fan/a/14050501052835665
+======== We are on link 64 of 103
+========== raw link https://erome.fan/a/category/supersexygirl999
+============ Checking for Redirections: https://erome.fan/a/category/supersexygirl999
+============ Link unchanged
+========== scraping https://erome.fan/a/category/supersexygirl999
+======== We are on link 65 of 103
+========== raw link https://erome.fan/a/30093817021698906
+============ Checking for Redirections: https://erome.fan/a/30093817021698906
+============ Link unchanged
+========== scraping https://erome.fan/a/30093817021698906
+============ Dropping non-English link: https://erome.fan/a/30093817021698906
+======== We are on link 66 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+============ Link unchanged
+========== scraping https://erome.fan/a/category/flogato
+============ Dropping non-English link: https://erome.fan/a/category/flogato
+======== We are on link 67 of 103
+========== raw link https://erome.fan/a/12025517042410501
+============ Checking for Redirections: https://erome.fan/a/12025517042410501
+============ Link unchanged
+========== scraping https://erome.fan/a/12025517042410501
+======== We are on link 68 of 103
+========== raw link https://erome.fan/a/category/grayhat123
+============ Checking for Redirections: https://erome.fan/a/category/grayhat123
+========== dropped link https://erome.fan/a/category/grayhat123. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 103
+========== raw link https://erome.fan/a/01275714021940252
+============ Checking for Redirections: https://erome.fan/a/01275714021940252
+========== dropped link https://erome.fan/a/01275714021940252. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+========== dropped link https://erome.fan/a/category/flogato. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 103
+========== raw link https://erome.fan/a/04070313052862177
+============ Checking for Redirections: https://erome.fan/a/04070313052862177
+========== dropped link https://erome.fan/a/04070313052862177. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 103
+========== raw link https://erome.fan/a/category/lateur
+============ Checking for Redirections: https://erome.fan/a/category/lateur
+========== dropped link https://erome.fan/a/category/lateur. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 73 of 103
+========== raw link https://erome.fan/a/03265621051041094
+============ Checking for Redirections: https://erome.fan/a/03265621051041094
+========== dropped link https://erome.fan/a/03265621051041094. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 103
+========== raw link https://erome.fan/a/category/flogato
+============ Checking for Redirections: https://erome.fan/a/category/flogato
+========== dropped link https://erome.fan/a/category/flogato. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 75 of 103
+========== raw link https://erome.fan/a/18305721042769358
+============ Checking for Redirections: https://erome.fan/a/18305721042769358
+========== dropped link https://erome.fan/a/18305721042769358. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 103
+========== raw link https://erome.fan/a/category/tomeriz
+============ Checking for Redirections: https://erome.fan/a/category/tomeriz
+========== dropped link https://erome.fan/a/category/tomeriz. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 103
+========== raw link https://erome.fan/a/48080615091366776
+============ Checking for Redirections: https://erome.fan/a/48080615091366776
+========== dropped link https://erome.fan/a/48080615091366776. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 78 of 103
+========== raw link https://erome.fan/a/category/slutgirlsboys
+============ Checking for Redirections: https://erome.fan/a/category/slutgirlsboys
+========== dropped link https://erome.fan/a/category/slutgirlsboys. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 79 of 103
+========== raw link https://erome.fan/a/02020905031988290
+============ Checking for Redirections: https://erome.fan/a/02020905031988290
+========== dropped link https://erome.fan/a/02020905031988290. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 80 of 103
+========== raw link https://erome.fan/a/category/anuschattus
+============ Checking for Redirections: https://erome.fan/a/category/anuschattus
+========== dropped link https://erome.fan/a/category/anuschattus. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 103
+========== raw link https://erome.fan/a/45010818042400190
+============ Checking for Redirections: https://erome.fan/a/45010818042400190
+========== dropped link https://erome.fan/a/45010818042400190. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 103
+========== raw link https://erome.fan/a/category/sexyfan69
+============ Checking for Redirections: https://erome.fan/a/category/sexyfan69
+========== dropped link https://erome.fan/a/category/sexyfan69. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 83 of 103
+========== raw link https://erome.fan/a/42011009042395301
+============ Checking for Redirections: https://erome.fan/a/42011009042395301
+========== dropped link https://erome.fan/a/42011009042395301. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 84 of 103
+========== raw link https://erome.fan/a/category/sexyfan69
+============ Checking for Redirections: https://erome.fan/a/category/sexyfan69
+========== dropped link https://erome.fan/a/category/sexyfan69. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 103
+========== raw link https://erome.fan/a/20253321042703263
+============ Checking for Redirections: https://erome.fan/a/20253321042703263
+========== dropped link https://erome.fan/a/20253321042703263. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 103
+========== raw link https://erome.fan/a/category/freeyunglean
+============ Checking for Redirections: https://erome.fan/a/category/freeyunglean
+========== dropped link https://erome.fan/a/category/freeyunglean. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 87 of 103
+========== raw link https://erome.fan/a/49172410011647768
+============ Checking for Redirections: https://erome.fan/a/49172410011647768
+========== dropped link https://erome.fan/a/49172410011647768. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 103
+========== raw link https://erome.fan/a/category/twitchporner
+============ Checking for Redirections: https://erome.fan/a/category/twitchporner
+========== dropped link https://erome.fan/a/category/twitchporner. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 103
+========== raw link https://erome.fan/a/57194622032231959
+============ Checking for Redirections: https://erome.fan/a/57194622032231959
+========== dropped link https://erome.fan/a/57194622032231959. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 90 of 103
+========== raw link https://erome.fan/a/category/tupytupy
+============ Checking for Redirections: https://erome.fan/a/category/tupytupy
+========== dropped link https://erome.fan/a/category/tupytupy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 91 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/2
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/2
+========== dropped link https://erome.fan/search/femboy+porn/page/2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 92 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/2
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/2
+========== dropped link https://erome.fan/search/femboy+porn/page/2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 93 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/3
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/3
+========== dropped link https://erome.fan/search/femboy+porn/page/3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 94 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/4
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/4
+========== dropped link https://erome.fan/search/femboy+porn/page/4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 95 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/29
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/29
+========== dropped link https://erome.fan/search/femboy+porn/page/29. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 96 of 103
+========== raw link https://erome.fan/search/femboy+porn/page/2
+============ Checking for Redirections: https://erome.fan/search/femboy+porn/page/2
+========== dropped link https://erome.fan/search/femboy+porn/page/2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 97 of 103
+========== raw link https://erome.fan/faq
+============ Checking for Redirections: https://erome.fan/faq
+========== dropped link https://erome.fan/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 98 of 103
+========== raw link https://erome.fan/terms-privacy
+============ Checking for Redirections: https://erome.fan/terms-privacy
+========== dropped link https://erome.fan/terms-privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 99 of 103
+========== raw link https://erome.fan/report-abuse
+============ Checking for Redirections: https://erome.fan/report-abuse
+========== dropped link https://erome.fan/report-abuse. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 100 of 103
+========== raw link https://erome.fan/content-creator-uploader
+============ Checking for Redirections: https://erome.fan/content-creator-uploader
+========== dropped link https://erome.fan/content-creator-uploader. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 101 of 103
+========== raw link https://erome.fan/contact
+============ Checking for Redirections: https://erome.fan/contact
+========== dropped link https://erome.fan/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 103
+========== raw link https://erome.fan/explore
+============ Checking for Redirections: https://erome.fan/explore
+========== dropped link https://erome.fan/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 103
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+====== We are on page 2 of 5: https://www.erome.com/explore
+====== Number of Links on this Page: 134
+======== We are on link 1 of 134
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 134
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 134
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 134
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 134
+========== raw link https://www.erome.com/version/all
+============ Checking for Redirections: https://www.erome.com/version/all
+========== dropped link https://www.erome.com/version/all. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 134
+========== raw link https://www.erome.com/version/straight
+============ Checking for Redirections: https://www.erome.com/version/straight
+========== dropped link https://www.erome.com/version/straight. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 134
+========== raw link https://www.erome.com/version/trans
+============ Checking for Redirections: https://www.erome.com/version/trans
+========== dropped link https://www.erome.com/version/trans. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 134
+========== raw link https://www.erome.com/version/gay
+============ Checking for Redirections: https://www.erome.com/version/gay
+========== dropped link https://www.erome.com/version/gay. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 134
+========== raw link https://www.erome.com/version/hentai
+============ Checking for Redirections: https://www.erome.com/version/hentai
+========== dropped link https://www.erome.com/version/hentai. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 134
+========== raw link https://www.erome.com/o/menu-1
+============ Checking for Redirections: https://www.erome.com/o/menu-1
+========== dropped link https://www.erome.com/o/menu-1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 134
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 134
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 134
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 134
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 134
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 16 of 134
+========== raw link https://www.erome.com/login/google
+========== dropped link https://www.erome.com/login/google. Didn't pass first allows/blocks test.
+======== We are on link 17 of 134
+========== raw link https://www.erome.com/login/reddit
+========== dropped link https://www.erome.com/login/reddit. Didn't pass first allows/blocks test.
+======== We are on link 18 of 134
+========== raw link https://www.erome.com/login/twitter
+========== dropped link https://www.erome.com/login/twitter. Didn't pass first allows/blocks test.
+======== We are on link 19 of 134
+========== raw link https://www.erome.com/user/login
+========== dropped link https://www.erome.com/user/login. Didn't pass first allows/blocks test.
+======== We are on link 20 of 134
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 134
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 134
+========== raw link https://www.erome.com/explore/new
+============ Checking for Redirections: https://www.erome.com/explore/new
+========== dropped link https://www.erome.com/explore/new. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 134
+========== raw link https://www.erome.com/a/xCjXKggU
+============ Checking for Redirections: https://www.erome.com/a/xCjXKggU
+========== dropped link https://www.erome.com/a/xCjXKggU. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 134
+========== raw link https://www.erome.com/a/xCjXKggU
+============ Checking for Redirections: https://www.erome.com/a/xCjXKggU
+========== dropped link https://www.erome.com/a/xCjXKggU. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 134
+========== raw link https://www.erome.com/a/QVuEPGSP
+============ Checking for Redirections: https://www.erome.com/a/QVuEPGSP
+========== dropped link https://www.erome.com/a/QVuEPGSP. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 134
+========== raw link https://www.erome.com/a/QVuEPGSP
+============ Checking for Redirections: https://www.erome.com/a/QVuEPGSP
+========== dropped link https://www.erome.com/a/QVuEPGSP. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 134
+========== raw link https://www.erome.com/a/2R0XsyE8
+============ Checking for Redirections: https://www.erome.com/a/2R0XsyE8
+========== dropped link https://www.erome.com/a/2R0XsyE8. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 134
+========== raw link https://www.erome.com/a/2R0XsyE8
+============ Checking for Redirections: https://www.erome.com/a/2R0XsyE8
+========== dropped link https://www.erome.com/a/2R0XsyE8. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 134
+========== raw link https://www.erome.com/a/rcWlLm9o
+============ Checking for Redirections: https://www.erome.com/a/rcWlLm9o
+========== dropped link https://www.erome.com/a/rcWlLm9o. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 134
+========== raw link https://www.erome.com/a/rcWlLm9o
+============ Checking for Redirections: https://www.erome.com/a/rcWlLm9o
+========== dropped link https://www.erome.com/a/rcWlLm9o. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 134
+========== raw link https://www.erome.com/a/vnYO0cMK
+============ Checking for Redirections: https://www.erome.com/a/vnYO0cMK
+========== dropped link https://www.erome.com/a/vnYO0cMK. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 134
+========== raw link https://www.erome.com/a/vnYO0cMK
+============ Checking for Redirections: https://www.erome.com/a/vnYO0cMK
+========== dropped link https://www.erome.com/a/vnYO0cMK. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 134
+========== raw link https://www.erome.com/a/SwPE1vGw
+============ Checking for Redirections: https://www.erome.com/a/SwPE1vGw
+========== dropped link https://www.erome.com/a/SwPE1vGw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 134
+========== raw link https://www.erome.com/a/SwPE1vGw
+============ Checking for Redirections: https://www.erome.com/a/SwPE1vGw
+========== dropped link https://www.erome.com/a/SwPE1vGw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 134
+========== raw link https://www.erome.com/a/jqnuk5nw
+============ Checking for Redirections: https://www.erome.com/a/jqnuk5nw
+========== dropped link https://www.erome.com/a/jqnuk5nw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 134
+========== raw link https://www.erome.com/a/jqnuk5nw
+============ Checking for Redirections: https://www.erome.com/a/jqnuk5nw
+========== dropped link https://www.erome.com/a/jqnuk5nw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 134
+========== raw link https://www.erome.com/a/ESChVC8M
+============ Checking for Redirections: https://www.erome.com/a/ESChVC8M
+========== dropped link https://www.erome.com/a/ESChVC8M. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 134
+========== raw link https://www.erome.com/a/ESChVC8M
+============ Checking for Redirections: https://www.erome.com/a/ESChVC8M
+========== dropped link https://www.erome.com/a/ESChVC8M. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 134
+========== raw link https://www.erome.com/a/al2ae7i3
+============ Checking for Redirections: https://www.erome.com/a/al2ae7i3
+========== dropped link https://www.erome.com/a/al2ae7i3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 134
+========== raw link https://www.erome.com/a/al2ae7i3
+============ Checking for Redirections: https://www.erome.com/a/al2ae7i3
+========== dropped link https://www.erome.com/a/al2ae7i3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 134
+========== raw link https://www.erome.com/a/GoprCJ2O
+============ Checking for Redirections: https://www.erome.com/a/GoprCJ2O
+========== dropped link https://www.erome.com/a/GoprCJ2O. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 134
+========== raw link https://www.erome.com/a/GoprCJ2O
+============ Checking for Redirections: https://www.erome.com/a/GoprCJ2O
+========== dropped link https://www.erome.com/a/GoprCJ2O. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 134
+========== raw link https://www.erome.com/a/pUeFecwO
+============ Checking for Redirections: https://www.erome.com/a/pUeFecwO
+========== dropped link https://www.erome.com/a/pUeFecwO. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 134
+========== raw link https://www.erome.com/a/pUeFecwO
+============ Checking for Redirections: https://www.erome.com/a/pUeFecwO
+========== dropped link https://www.erome.com/a/pUeFecwO. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 134
+========== raw link https://www.erome.com/a/0aICMdKg
+============ Checking for Redirections: https://www.erome.com/a/0aICMdKg
+========== dropped link https://www.erome.com/a/0aICMdKg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 134
+========== raw link https://www.erome.com/a/0aICMdKg
+============ Checking for Redirections: https://www.erome.com/a/0aICMdKg
+========== dropped link https://www.erome.com/a/0aICMdKg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 134
+========== raw link https://www.erome.com/a/A7ZIHE1p
+============ Checking for Redirections: https://www.erome.com/a/A7ZIHE1p
+========== dropped link https://www.erome.com/a/A7ZIHE1p. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 134
+========== raw link https://www.erome.com/a/A7ZIHE1p
+============ Checking for Redirections: https://www.erome.com/a/A7ZIHE1p
+========== dropped link https://www.erome.com/a/A7ZIHE1p. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 134
+========== raw link https://www.erome.com/a/Wj40nSc1
+============ Checking for Redirections: https://www.erome.com/a/Wj40nSc1
+========== dropped link https://www.erome.com/a/Wj40nSc1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 50 of 134
+========== raw link https://www.erome.com/a/Wj40nSc1
+============ Checking for Redirections: https://www.erome.com/a/Wj40nSc1
+========== dropped link https://www.erome.com/a/Wj40nSc1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 134
+========== raw link https://www.erome.com/a/Al7fDFzw
+============ Checking for Redirections: https://www.erome.com/a/Al7fDFzw
+========== dropped link https://www.erome.com/a/Al7fDFzw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 134
+========== raw link https://www.erome.com/a/Al7fDFzw
+============ Checking for Redirections: https://www.erome.com/a/Al7fDFzw
+========== dropped link https://www.erome.com/a/Al7fDFzw. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 134
+========== raw link https://www.erome.com/a/8Z6jgZ8f
+============ Checking for Redirections: https://www.erome.com/a/8Z6jgZ8f
+========== dropped link https://www.erome.com/a/8Z6jgZ8f. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 134
+========== raw link https://www.erome.com/a/8Z6jgZ8f
+============ Checking for Redirections: https://www.erome.com/a/8Z6jgZ8f
+========== dropped link https://www.erome.com/a/8Z6jgZ8f. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 55 of 134
+========== raw link https://www.erome.com/a/bTdtMadF
+============ Checking for Redirections: https://www.erome.com/a/bTdtMadF
+========== dropped link https://www.erome.com/a/bTdtMadF. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 134
+========== raw link https://www.erome.com/a/bTdtMadF
+============ Checking for Redirections: https://www.erome.com/a/bTdtMadF
+========== dropped link https://www.erome.com/a/bTdtMadF. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 134
+========== raw link https://www.erome.com/a/R8biXiJZ
+============ Checking for Redirections: https://www.erome.com/a/R8biXiJZ
+========== dropped link https://www.erome.com/a/R8biXiJZ. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 134
+========== raw link https://www.erome.com/a/R8biXiJZ
+============ Checking for Redirections: https://www.erome.com/a/R8biXiJZ
+========== dropped link https://www.erome.com/a/R8biXiJZ. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 134
+========== raw link https://www.erome.com/a/Co9L3Mao
+============ Checking for Redirections: https://www.erome.com/a/Co9L3Mao
+========== dropped link https://www.erome.com/a/Co9L3Mao. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 134
+========== raw link https://www.erome.com/a/Co9L3Mao
+============ Checking for Redirections: https://www.erome.com/a/Co9L3Mao
+========== dropped link https://www.erome.com/a/Co9L3Mao. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 134
+========== raw link https://www.erome.com/a/OnEV9aEI
+============ Checking for Redirections: https://www.erome.com/a/OnEV9aEI
+========== dropped link https://www.erome.com/a/OnEV9aEI. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 62 of 134
+========== raw link https://www.erome.com/a/OnEV9aEI
+============ Checking for Redirections: https://www.erome.com/a/OnEV9aEI
+========== dropped link https://www.erome.com/a/OnEV9aEI. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 63 of 134
+========== raw link https://www.erome.com/a/vNZzDzIZ
+============ Checking for Redirections: https://www.erome.com/a/vNZzDzIZ
+========== dropped link https://www.erome.com/a/vNZzDzIZ. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 64 of 134
+========== raw link https://www.erome.com/a/vNZzDzIZ
+============ Checking for Redirections: https://www.erome.com/a/vNZzDzIZ
+========== dropped link https://www.erome.com/a/vNZzDzIZ. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 65 of 134
+========== raw link https://www.erome.com/a/kNjVivVN
+============ Checking for Redirections: https://www.erome.com/a/kNjVivVN
+========== dropped link https://www.erome.com/a/kNjVivVN. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 66 of 134
+========== raw link https://www.erome.com/a/kNjVivVN
+============ Checking for Redirections: https://www.erome.com/a/kNjVivVN
+========== dropped link https://www.erome.com/a/kNjVivVN. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 134
+========== raw link https://www.erome.com/a/VgyExJHi
+============ Checking for Redirections: https://www.erome.com/a/VgyExJHi
+========== dropped link https://www.erome.com/a/VgyExJHi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 68 of 134
+========== raw link https://www.erome.com/a/VgyExJHi
+============ Checking for Redirections: https://www.erome.com/a/VgyExJHi
+========== dropped link https://www.erome.com/a/VgyExJHi. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 134
+========== raw link https://www.erome.com/a/npUrTiNY
+============ Checking for Redirections: https://www.erome.com/a/npUrTiNY
+========== dropped link https://www.erome.com/a/npUrTiNY. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 134
+========== raw link https://www.erome.com/a/npUrTiNY
+============ Checking for Redirections: https://www.erome.com/a/npUrTiNY
+========== dropped link https://www.erome.com/a/npUrTiNY. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 134
+========== raw link https://www.erome.com/a/geMrtlGm
+============ Checking for Redirections: https://www.erome.com/a/geMrtlGm
+========== dropped link https://www.erome.com/a/geMrtlGm. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 134
+========== raw link https://www.erome.com/a/geMrtlGm
+============ Checking for Redirections: https://www.erome.com/a/geMrtlGm
+========== dropped link https://www.erome.com/a/geMrtlGm. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 73 of 134
+========== raw link https://www.erome.com/a/4RhYICV7
+============ Checking for Redirections: https://www.erome.com/a/4RhYICV7
+========== dropped link https://www.erome.com/a/4RhYICV7. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 134
+========== raw link https://www.erome.com/a/4RhYICV7
+============ Checking for Redirections: https://www.erome.com/a/4RhYICV7
+========== dropped link https://www.erome.com/a/4RhYICV7. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 75 of 134
+========== raw link https://www.erome.com/a/tVsd4f3y
+============ Checking for Redirections: https://www.erome.com/a/tVsd4f3y
+========== dropped link https://www.erome.com/a/tVsd4f3y. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 134
+========== raw link https://www.erome.com/a/tVsd4f3y
+============ Checking for Redirections: https://www.erome.com/a/tVsd4f3y
+========== dropped link https://www.erome.com/a/tVsd4f3y. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 134
+========== raw link https://www.erome.com/a/bkDDb51N
+============ Checking for Redirections: https://www.erome.com/a/bkDDb51N
+========== dropped link https://www.erome.com/a/bkDDb51N. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 78 of 134
+========== raw link https://www.erome.com/a/bkDDb51N
+============ Checking for Redirections: https://www.erome.com/a/bkDDb51N
+========== dropped link https://www.erome.com/a/bkDDb51N. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 79 of 134
+========== raw link https://www.erome.com/a/6SVSw9My
+============ Checking for Redirections: https://www.erome.com/a/6SVSw9My
+========== dropped link https://www.erome.com/a/6SVSw9My. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 80 of 134
+========== raw link https://www.erome.com/a/6SVSw9My
+============ Checking for Redirections: https://www.erome.com/a/6SVSw9My
+========== dropped link https://www.erome.com/a/6SVSw9My. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 134
+========== raw link https://www.erome.com/a/Mm1yF0xS
+============ Checking for Redirections: https://www.erome.com/a/Mm1yF0xS
+========== dropped link https://www.erome.com/a/Mm1yF0xS. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 134
+========== raw link https://www.erome.com/a/Mm1yF0xS
+============ Checking for Redirections: https://www.erome.com/a/Mm1yF0xS
+========== dropped link https://www.erome.com/a/Mm1yF0xS. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 83 of 134
+========== raw link https://www.erome.com/a/Fmn3h6UD
+============ Checking for Redirections: https://www.erome.com/a/Fmn3h6UD
+========== dropped link https://www.erome.com/a/Fmn3h6UD. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 84 of 134
+========== raw link https://www.erome.com/a/Fmn3h6UD
+============ Checking for Redirections: https://www.erome.com/a/Fmn3h6UD
+========== dropped link https://www.erome.com/a/Fmn3h6UD. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 134
+========== raw link https://www.erome.com/a/PQLxrpBj
+============ Checking for Redirections: https://www.erome.com/a/PQLxrpBj
+========== dropped link https://www.erome.com/a/PQLxrpBj. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 134
+========== raw link https://www.erome.com/a/PQLxrpBj
+============ Checking for Redirections: https://www.erome.com/a/PQLxrpBj
+========== dropped link https://www.erome.com/a/PQLxrpBj. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 87 of 134
+========== raw link https://www.erome.com/a/o6KiSqcS
+============ Checking for Redirections: https://www.erome.com/a/o6KiSqcS
+========== dropped link https://www.erome.com/a/o6KiSqcS. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 134
+========== raw link https://www.erome.com/a/o6KiSqcS
+============ Checking for Redirections: https://www.erome.com/a/o6KiSqcS
+========== dropped link https://www.erome.com/a/o6KiSqcS. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 134
+========== raw link https://www.erome.com/a/GfGCFHns
+============ Checking for Redirections: https://www.erome.com/a/GfGCFHns
+========== dropped link https://www.erome.com/a/GfGCFHns. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 90 of 134
+========== raw link https://www.erome.com/a/GfGCFHns
+============ Checking for Redirections: https://www.erome.com/a/GfGCFHns
+========== dropped link https://www.erome.com/a/GfGCFHns. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 91 of 134
+========== raw link https://www.erome.com/a/4SAifjj8
+============ Checking for Redirections: https://www.erome.com/a/4SAifjj8
+========== dropped link https://www.erome.com/a/4SAifjj8. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 92 of 134
+========== raw link https://www.erome.com/a/4SAifjj8
+============ Checking for Redirections: https://www.erome.com/a/4SAifjj8
+========== dropped link https://www.erome.com/a/4SAifjj8. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 93 of 134
+========== raw link https://www.erome.com/a/cbm97gLd
+============ Checking for Redirections: https://www.erome.com/a/cbm97gLd
+========== dropped link https://www.erome.com/a/cbm97gLd. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 94 of 134
+========== raw link https://www.erome.com/a/cbm97gLd
+============ Checking for Redirections: https://www.erome.com/a/cbm97gLd
+========== dropped link https://www.erome.com/a/cbm97gLd. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 95 of 134
+========== raw link ?page=2
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=2
+============ Checking for Redirections: https://www.erome.com/explore?page=2
+========== dropped link https://www.erome.com/explore?page=2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 96 of 134
+========== raw link ?page=3
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=3
+============ Checking for Redirections: https://www.erome.com/explore?page=3
+========== dropped link https://www.erome.com/explore?page=3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 97 of 134
+========== raw link ?page=4
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=4
+============ Checking for Redirections: https://www.erome.com/explore?page=4
+========== dropped link https://www.erome.com/explore?page=4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 98 of 134
+========== raw link ?page=5
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=5
+============ Checking for Redirections: https://www.erome.com/explore?page=5
+========== dropped link https://www.erome.com/explore?page=5. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 99 of 134
+========== raw link ?page=6
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=6
+============ Checking for Redirections: https://www.erome.com/explore?page=6
+========== dropped link https://www.erome.com/explore?page=6. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 100 of 134
+========== raw link ?page=7
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=7
+============ Checking for Redirections: https://www.erome.com/explore?page=7
+========== dropped link https://www.erome.com/explore?page=7. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 101 of 134
+========== raw link ?page=8
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=8
+============ Checking for Redirections: https://www.erome.com/explore?page=8
+========== dropped link https://www.erome.com/explore?page=8. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 134
+========== raw link ?page=49
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=49
+============ Checking for Redirections: https://www.erome.com/explore?page=49
+========== dropped link https://www.erome.com/explore?page=49. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 134
+========== raw link ?page=50
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=50
+============ Checking for Redirections: https://www.erome.com/explore?page=50
+========== dropped link https://www.erome.com/explore?page=50. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 104 of 134
+========== raw link ?page=2
+============ Link starts with ?: joining https://www.erome.com/explore and ?page=2
+============ Checking for Redirections: https://www.erome.com/explore?page=2
+========== dropped link https://www.erome.com/explore?page=2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 105 of 134
+========== raw link https://www.erome.com/Rojaxxx0
+============ Checking for Redirections: https://www.erome.com/Rojaxxx0
+========== dropped link https://www.erome.com/Rojaxxx0. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 106 of 134
+========== raw link https://www.erome.com/Rojaxxx0
+============ Checking for Redirections: https://www.erome.com/Rojaxxx0
+========== dropped link https://www.erome.com/Rojaxxx0. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 107 of 134
+========== raw link https://www.erome.com/RimaRima
+============ Checking for Redirections: https://www.erome.com/RimaRima
+========== dropped link https://www.erome.com/RimaRima. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 108 of 134
+========== raw link https://www.erome.com/RimaRima
+============ Checking for Redirections: https://www.erome.com/RimaRima
+========== dropped link https://www.erome.com/RimaRima. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 109 of 134
+========== raw link https://www.erome.com/annamyra
+============ Checking for Redirections: https://www.erome.com/annamyra
+========== dropped link https://www.erome.com/annamyra. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 110 of 134
+========== raw link https://www.erome.com/annamyra
+============ Checking for Redirections: https://www.erome.com/annamyra
+========== dropped link https://www.erome.com/annamyra. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 111 of 134
+========== raw link https://www.erome.com/NaughtyMarry
+============ Checking for Redirections: https://www.erome.com/NaughtyMarry
+========== dropped link https://www.erome.com/NaughtyMarry. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 112 of 134
+========== raw link https://www.erome.com/NaughtyMarry
+============ Checking for Redirections: https://www.erome.com/NaughtyMarry
+========== dropped link https://www.erome.com/NaughtyMarry. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 113 of 134
+========== raw link https://www.erome.com/Lexcidoll
+============ Checking for Redirections: https://www.erome.com/Lexcidoll
+========== dropped link https://www.erome.com/Lexcidoll. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 114 of 134
+========== raw link https://www.erome.com/Lexcidoll
+============ Checking for Redirections: https://www.erome.com/Lexcidoll
+========== dropped link https://www.erome.com/Lexcidoll. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 115 of 134
+========== raw link https://www.erome.com/deborahdoll
+============ Checking for Redirections: https://www.erome.com/deborahdoll
+========== dropped link https://www.erome.com/deborahdoll. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 116 of 134
+========== raw link https://www.erome.com/deborahdoll
+============ Checking for Redirections: https://www.erome.com/deborahdoll
+========== dropped link https://www.erome.com/deborahdoll. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 117 of 134
+========== raw link https://www.erome.com/SlutJulieB
+============ Checking for Redirections: https://www.erome.com/SlutJulieB
+========== dropped link https://www.erome.com/SlutJulieB. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 118 of 134
+========== raw link https://www.erome.com/SlutJulieB
+============ Checking for Redirections: https://www.erome.com/SlutJulieB
+========== dropped link https://www.erome.com/SlutJulieB. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 119 of 134
+========== raw link https://www.erome.com/LilyGrace
+============ Checking for Redirections: https://www.erome.com/LilyGrace
+========== dropped link https://www.erome.com/LilyGrace. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 120 of 134
+========== raw link https://www.erome.com/LilyGrace
+============ Checking for Redirections: https://www.erome.com/LilyGrace
+========== dropped link https://www.erome.com/LilyGrace. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 121 of 134
+========== raw link https://www.erome.com/Aleksa_Vamp
+============ Checking for Redirections: https://www.erome.com/Aleksa_Vamp
+========== dropped link https://www.erome.com/Aleksa_Vamp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 122 of 134
+========== raw link https://www.erome.com/Aleksa_Vamp
+============ Checking for Redirections: https://www.erome.com/Aleksa_Vamp
+========== dropped link https://www.erome.com/Aleksa_Vamp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 123 of 134
+========== raw link https://www.erome.com/evexevecutes
+============ Checking for Redirections: https://www.erome.com/evexevecutes
+========== dropped link https://www.erome.com/evexevecutes. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 124 of 134
+========== raw link https://www.erome.com/evexevecutes
+============ Checking for Redirections: https://www.erome.com/evexevecutes
+========== dropped link https://www.erome.com/evexevecutes. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 125 of 134
+========== raw link https://www.erome.com/sweet_cherry
+============ Checking for Redirections: https://www.erome.com/sweet_cherry
+========== dropped link https://www.erome.com/sweet_cherry. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 126 of 134
+========== raw link https://www.erome.com/sweet_cherry
+============ Checking for Redirections: https://www.erome.com/sweet_cherry
+========== dropped link https://www.erome.com/sweet_cherry. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 127 of 134
+========== raw link https://www.erome.com/cristal89_
+============ Checking for Redirections: https://www.erome.com/cristal89_
+========== dropped link https://www.erome.com/cristal89_. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 128 of 134
+========== raw link https://www.erome.com/cristal89_
+============ Checking for Redirections: https://www.erome.com/cristal89_
+========== dropped link https://www.erome.com/cristal89_. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 129 of 134
+========== raw link https://www.erome.com/s/faq
+============ Checking for Redirections: https://www.erome.com/s/faq
+========== dropped link https://www.erome.com/s/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 130 of 134
+========== raw link https://www.erome.com/s/terms
+============ Checking for Redirections: https://www.erome.com/s/terms
+========== dropped link https://www.erome.com/s/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 131 of 134
+========== raw link https://www.erome.com/s/report
+============ Checking for Redirections: https://www.erome.com/s/report
+========== dropped link https://www.erome.com/s/report. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 132 of 134
+========== raw link https://www.erome.com/s/creators
+============ Checking for Redirections: https://www.erome.com/s/creators
+========== dropped link https://www.erome.com/s/creators. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 133 of 134
+========== raw link https://www.erome.com/s/contact
+============ Checking for Redirections: https://www.erome.com/s/contact
+========== dropped link https://www.erome.com/s/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 134 of 134
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 3 of 5: https://www.erome.com/s/terms
+====== Number of Links on this Page: 28
+======== We are on link 1 of 28
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 28
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 28
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 28
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 28
+========== raw link https://www.erome.com/version/all
+============ Checking for Redirections: https://www.erome.com/version/all
+========== dropped link https://www.erome.com/version/all. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 28
+========== raw link https://www.erome.com/version/straight
+============ Checking for Redirections: https://www.erome.com/version/straight
+========== dropped link https://www.erome.com/version/straight. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 28
+========== raw link https://www.erome.com/version/trans
+============ Checking for Redirections: https://www.erome.com/version/trans
+========== dropped link https://www.erome.com/version/trans. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 28
+========== raw link https://www.erome.com/version/gay
+============ Checking for Redirections: https://www.erome.com/version/gay
+========== dropped link https://www.erome.com/version/gay. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 28
+========== raw link https://www.erome.com/version/hentai
+============ Checking for Redirections: https://www.erome.com/version/hentai
+========== dropped link https://www.erome.com/version/hentai. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 28
+========== raw link https://www.erome.com/o/menu-1
+============ Checking for Redirections: https://www.erome.com/o/menu-1
+========== dropped link https://www.erome.com/o/menu-1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 28
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 28
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 28
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 28
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 28
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 16 of 28
+========== raw link https://www.erome.com/login/google
+========== dropped link https://www.erome.com/login/google. Didn't pass first allows/blocks test.
+======== We are on link 17 of 28
+========== raw link https://www.erome.com/login/reddit
+========== dropped link https://www.erome.com/login/reddit. Didn't pass first allows/blocks test.
+======== We are on link 18 of 28
+========== raw link https://www.erome.com/login/twitter
+========== dropped link https://www.erome.com/login/twitter. Didn't pass first allows/blocks test.
+======== We are on link 19 of 28
+========== raw link https://www.erome.com/user/login
+========== dropped link https://www.erome.com/user/login. Didn't pass first allows/blocks test.
+======== We are on link 20 of 28
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 28
+========== raw link https://support.google.com/analytics/answer/6004245
+========== dropped link https://support.google.com/analytics/answer/6004245. Didn't pass first allows/blocks test.
+======== We are on link 22 of 28
+========== raw link http://www.aboutads.info/choices/
+========== dropped link http://www.aboutads.info/choices/. Didn't pass first allows/blocks test.
+======== We are on link 23 of 28
+========== raw link https://www.erome.com/s/faq
+============ Checking for Redirections: https://www.erome.com/s/faq
+========== dropped link https://www.erome.com/s/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 28
+========== raw link https://www.erome.com/s/terms
+============ Checking for Redirections: https://www.erome.com/s/terms
+========== dropped link https://www.erome.com/s/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 28
+========== raw link https://www.erome.com/s/report
+============ Checking for Redirections: https://www.erome.com/s/report
+========== dropped link https://www.erome.com/s/report. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 28
+========== raw link https://www.erome.com/s/creators
+============ Checking for Redirections: https://www.erome.com/s/creators
+========== dropped link https://www.erome.com/s/creators. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 28
+========== raw link https://www.erome.com/s/contact
+============ Checking for Redirections: https://www.erome.com/s/contact
+========== dropped link https://www.erome.com/s/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 28
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 4 of 5: https://www.erome.com/s/report
+====== Number of Links on this Page: 26
+======== We are on link 1 of 26
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 26
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 26
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 26
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 26
+========== raw link https://www.erome.com/version/all
+============ Checking for Redirections: https://www.erome.com/version/all
+========== dropped link https://www.erome.com/version/all. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 26
+========== raw link https://www.erome.com/version/straight
+============ Checking for Redirections: https://www.erome.com/version/straight
+========== dropped link https://www.erome.com/version/straight. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 26
+========== raw link https://www.erome.com/version/trans
+============ Checking for Redirections: https://www.erome.com/version/trans
+========== dropped link https://www.erome.com/version/trans. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 26
+========== raw link https://www.erome.com/version/gay
+============ Checking for Redirections: https://www.erome.com/version/gay
+========== dropped link https://www.erome.com/version/gay. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 26
+========== raw link https://www.erome.com/version/hentai
+============ Checking for Redirections: https://www.erome.com/version/hentai
+========== dropped link https://www.erome.com/version/hentai. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 26
+========== raw link https://www.erome.com/o/menu-1
+============ Checking for Redirections: https://www.erome.com/o/menu-1
+========== dropped link https://www.erome.com/o/menu-1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 26
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 26
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 26
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 26
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 26
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 16 of 26
+========== raw link https://www.erome.com/login/google
+========== dropped link https://www.erome.com/login/google. Didn't pass first allows/blocks test.
+======== We are on link 17 of 26
+========== raw link https://www.erome.com/login/reddit
+========== dropped link https://www.erome.com/login/reddit. Didn't pass first allows/blocks test.
+======== We are on link 18 of 26
+========== raw link https://www.erome.com/login/twitter
+========== dropped link https://www.erome.com/login/twitter. Didn't pass first allows/blocks test.
+======== We are on link 19 of 26
+========== raw link https://www.erome.com/user/login
+========== dropped link https://www.erome.com/user/login. Didn't pass first allows/blocks test.
+======== We are on link 20 of 26
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 26
+========== raw link https://www.erome.com/s/faq
+============ Checking for Redirections: https://www.erome.com/s/faq
+========== dropped link https://www.erome.com/s/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 26
+========== raw link https://www.erome.com/s/terms
+============ Checking for Redirections: https://www.erome.com/s/terms
+========== dropped link https://www.erome.com/s/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 26
+========== raw link https://www.erome.com/s/report
+============ Checking for Redirections: https://www.erome.com/s/report
+========== dropped link https://www.erome.com/s/report. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 26
+========== raw link https://www.erome.com/s/creators
+============ Checking for Redirections: https://www.erome.com/s/creators
+========== dropped link https://www.erome.com/s/creators. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 26
+========== raw link https://www.erome.com/s/contact
+============ Checking for Redirections: https://www.erome.com/s/contact
+========== dropped link https://www.erome.com/s/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 26
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 5 of 5: https://www.erome.com/s/creators
+====== Number of Links on this Page: 26
+======== We are on link 1 of 26
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 26
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 26
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 26
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 26
+========== raw link https://www.erome.com/version/all
+============ Checking for Redirections: https://www.erome.com/version/all
+========== dropped link https://www.erome.com/version/all. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 26
+========== raw link https://www.erome.com/version/straight
+============ Checking for Redirections: https://www.erome.com/version/straight
+========== dropped link https://www.erome.com/version/straight. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 26
+========== raw link https://www.erome.com/version/trans
+============ Checking for Redirections: https://www.erome.com/version/trans
+========== dropped link https://www.erome.com/version/trans. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 26
+========== raw link https://www.erome.com/version/gay
+============ Checking for Redirections: https://www.erome.com/version/gay
+========== dropped link https://www.erome.com/version/gay. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 26
+========== raw link https://www.erome.com/version/hentai
+============ Checking for Redirections: https://www.erome.com/version/hentai
+========== dropped link https://www.erome.com/version/hentai. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 26
+========== raw link https://www.erome.com/o/menu-1
+============ Checking for Redirections: https://www.erome.com/o/menu-1
+========== dropped link https://www.erome.com/o/menu-1. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 26
+========== raw link https://www.erome.com/o/menu-2
+============ Checking for Redirections: https://www.erome.com/o/menu-2
+========== dropped link https://www.erome.com/o/menu-2. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 26
+========== raw link https://www.erome.com/o/menu-3
+============ Checking for Redirections: https://www.erome.com/o/menu-3
+========== dropped link https://www.erome.com/o/menu-3. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 26
+========== raw link https://www.erome.com/o/menu-4
+============ Checking for Redirections: https://www.erome.com/o/menu-4
+========== dropped link https://www.erome.com/o/menu-4. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 26
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 26
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 16 of 26
+========== raw link https://www.erome.com/login/google
+========== dropped link https://www.erome.com/login/google. Didn't pass first allows/blocks test.
+======== We are on link 17 of 26
+========== raw link https://www.erome.com/login/reddit
+========== dropped link https://www.erome.com/login/reddit. Didn't pass first allows/blocks test.
+======== We are on link 18 of 26
+========== raw link https://www.erome.com/login/twitter
+========== dropped link https://www.erome.com/login/twitter. Didn't pass first allows/blocks test.
+======== We are on link 19 of 26
+========== raw link https://www.erome.com/user/login
+========== dropped link https://www.erome.com/user/login. Didn't pass first allows/blocks test.
+======== We are on link 20 of 26
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 26
+========== raw link https://www.erome.com/s/faq
+============ Checking for Redirections: https://www.erome.com/s/faq
+========== dropped link https://www.erome.com/s/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 26
+========== raw link https://www.erome.com/s/terms
+============ Checking for Redirections: https://www.erome.com/s/terms
+========== dropped link https://www.erome.com/s/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 26
+========== raw link https://www.erome.com/s/report
+============ Checking for Redirections: https://www.erome.com/s/report
+========== dropped link https://www.erome.com/s/report. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 26
+========== raw link https://www.erome.com/s/creators
+============ Checking for Redirections: https://www.erome.com/s/creators
+========== dropped link https://www.erome.com/s/creators. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 26
+========== raw link https://www.erome.com/s/contact
+============ Checking for Redirections: https://www.erome.com/s/contact
+========== dropped link https://www.erome.com/s/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 26
+========== raw link https://www.erome.com/explore
+============ Checking for Redirections: https://www.erome.com/explore
+========== dropped link https://www.erome.com/explore. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 0
+== Finished scraping erome.com-AI_Moderation in 886.9717 seconds.
+== Writing to db file
+== Done (/home/oscarc/ContentModerationWebScraper/data/05_11_25_00_58/all_htmls/AI_Moderation_erome_com_05_11_25_00_58.json)

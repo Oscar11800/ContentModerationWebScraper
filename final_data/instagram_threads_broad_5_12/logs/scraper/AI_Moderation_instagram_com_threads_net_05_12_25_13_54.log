@@ -1,0 +1,1397 @@
+== Conducting scraping for AI_Moderation on instagram.com_threads.net
+== Getting initial 8 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 8: https://help.instagram.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 8: https://help.instagram.com/769983657850450
+====== Number of Links on this Page: 41
+======== We are on link 1 of 41
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 41
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 41
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 41
+========== raw link /179980294969821/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /179980294969821/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/179980294969821/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/179980294969821/
+========== scraping https://help.instagram.com/179980294969821/
+======== We are on link 5 of 41
+========== raw link /391254440276136/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /391254440276136/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/391254440276136/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/391254440276136/
+========== scraping https://help.instagram.com/391254440276136/
+======== We are on link 6 of 41
+========== raw link /703177488561974/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /703177488561974/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/703177488561974/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/703177488561974/
+========== scraping https://help.instagram.com/703177488561974/
+======== We are on link 7 of 41
+========== raw link /313609505054371/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /313609505054371/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/313609505054371/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/313609505054371/
+========== scraping https://help.instagram.com/313609505054371/
+======== We are on link 8 of 41
+========== raw link /280495901606863/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /280495901606863/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/280495901606863/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/280495901606863/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 41
+========== raw link /1417489251945243/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /1417489251945243/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 41
+========== raw link /280495901606863/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /280495901606863/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/280495901606863/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/280495901606863/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 41
+========== raw link https://help.instagram.com/1169643837975752?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/1169643837975752?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/1169643837975752
+========== scraping https://help.instagram.com/1169643837975752
+======== We are on link 12 of 41
+========== raw link https://help.instagram.com/581066165581870?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/581066165581870?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/581066165581870
+========== scraping https://help.instagram.com/581066165581870
+============ New link added. Search term (AI) found on https://help.instagram.com/581066165581870.
+======== We are on link 13 of 41
+========== raw link https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Followed Redirection to https://transparency.meta.com/policies/community-standards/
+============ Link after cleaning: https://transparency.meta.com/policies/community-standards/
+============ Excluded based on allow/block list.
+======== We are on link 14 of 41
+========== raw link https://help.instagram.com/581066165581870?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/581066165581870?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/581066165581870
+========== link already checked
+======== We are on link 15 of 41
+========== raw link https://help.instagram.com/581066165581870?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/581066165581870?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/581066165581870
+========== link already checked
+======== We are on link 16 of 41
+========== raw link https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Followed Redirection to https://transparency.meta.com/policies/community-standards/
+============ Link after cleaning: https://transparency.meta.com/policies/community-standards/
+============ Excluded based on allow/block list.
+======== We are on link 17 of 41
+========== raw link https://help.instagram.com/581066165581870?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/581066165581870?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/581066165581870
+========== link already checked
+======== We are on link 18 of 41
+========== raw link https://help.instagram.com/581066165581870/?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/581066165581870/?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== scraping https://help.instagram.com/581066165581870/
+============ New link added. Search term (AI) found on https://help.instagram.com/581066165581870/.
+======== We are on link 19 of 41
+========== raw link https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/477434105621119?ref=igtos&helpref=faq_content
+============ Followed Redirection to https://transparency.meta.com/policies/community-standards/
+============ Link after cleaning: https://transparency.meta.com/policies/community-standards/
+============ Excluded based on allow/block list.
+======== We are on link 20 of 41
+========== raw link https://help.instagram.com/?ref=igtos
+============ Checking for Redirections: https://help.instagram.com/?ref=igtos
+========== dropped link https://help.instagram.com/?ref=igtos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 41
+========== raw link https://help.instagram.com/558007373138554?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/558007373138554?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/558007373138554
+========== scraping https://help.instagram.com/558007373138554
+======== We are on link 22 of 41
+========== raw link https://help.instagram.com/313703828012423?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/313703828012423?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/313703828012423
+========== scraping https://help.instagram.com/313703828012423
+======== We are on link 23 of 41
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+============ Link unchanged
+========== scraping https://privacycenter.instagram.com/policy/
+============ New link added. Search term (artificial intelligen) found on https://privacycenter.instagram.com/policy/.
+======== We are on link 24 of 41
+========== raw link https://help.instagram.com/515230437301944?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/515230437301944?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/515230437301944
+========== scraping https://help.instagram.com/515230437301944
+======== We are on link 25 of 41
+========== raw link /788669719351544/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /788669719351544/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/788669719351544/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/788669719351544/
+========== scraping https://help.instagram.com/788669719351544/
+======== We are on link 26 of 41
+========== raw link /280495901606863/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /280495901606863/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/280495901606863/?helpref=related_articles
+========== dropped link https://help.instagram.com/280495901606863/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 41
+========== raw link /169559812696339/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /169559812696339/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/169559812696339/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/169559812696339/
+========== scraping https://help.instagram.com/169559812696339/
+======== We are on link 28 of 41
+========== raw link /1666837803804595/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /1666837803804595/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1666837803804595/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1666837803804595/
+========== scraping https://help.instagram.com/1666837803804595/
+======== We are on link 29 of 41
+========== raw link /313609505054371/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /313609505054371/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/313609505054371/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/313609505054371/
+========== link already checked
+======== We are on link 30 of 41
+========== raw link /179980294969821/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /179980294969821/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/179980294969821/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/179980294969821/
+========== link already checked
+======== We are on link 31 of 41
+========== raw link /788669719351544/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /788669719351544/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/788669719351544/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/788669719351544/
+========== link already checked
+======== We are on link 32 of 41
+========== raw link /280495901606863/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /280495901606863/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/280495901606863/?helpref=related_articles
+========== dropped link https://help.instagram.com/280495901606863/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 41
+========== raw link /169559812696339/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /169559812696339/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/169559812696339/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/169559812696339/
+========== link already checked
+======== We are on link 34 of 41
+========== raw link /1666837803804595/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /1666837803804595/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1666837803804595/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1666837803804595/
+========== link already checked
+======== We are on link 35 of 41
+========== raw link /313609505054371/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /313609505054371/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/313609505054371/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/313609505054371/
+========== link already checked
+======== We are on link 36 of 41
+========== raw link /179980294969821/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/769983657850450 and /179980294969821/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/179980294969821/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/179980294969821/
+========== link already checked
+======== We are on link 37 of 41
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+============ Link unchanged
+========== scraping https://about.instagram.com/about-us
+======== We are on link 38 of 41
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+============ Followed Redirection to https://developers.facebook.com/docs/instagram-platform
+============ Link after cleaning: https://developers.facebook.com/docs/instagram-platform
+============ Excluded based on allow/block list.
+======== We are on link 39 of 41
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+============ Link unchanged
+========== scraping https://about.instagram.com/about-us/careers/
+======== We are on link 40 of 41
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+============ Followed Redirection to https://help.instagram.com/581066165581870/
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== link already checked
+======== We are on link 41 of 41
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+============ Link unchanged
+========== scraping https://privacycenter.instagram.com/policy
+============ New link added. Search term (artificial intelligen) found on https://privacycenter.instagram.com/policy.
+====== We are on page 3 of 8: https://help.instagram.com/761121959519495
+====== Number of Links on this Page: 32
+======== We are on link 1 of 32
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 32
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 32
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 32
+========== raw link #why-label-your-ai-generated-content-on-instagram
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 5 of 32
+========== raw link https://transparency.meta.com/policies/community-standards/misinformation/
+========== dropped link https://transparency.meta.com/policies/community-standards/misinformation/. Didn't pass first allows/blocks test.
+======== We are on link 6 of 32
+========== raw link #how-ai-content-is-identified-on-instagram
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 7 of 32
+========== raw link #when-content-will-have-a-label
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 8 of 32
+========== raw link #when-the-object-object-label-is-required
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 9 of 32
+========== raw link https://transparency.fb.com/policies/community-standards/misinformation
+========== dropped link https://transparency.fb.com/policies/community-standards/misinformation. Didn't pass first allows/blocks test.
+======== We are on link 10 of 32
+========== raw link #how-to-label-your-ai-generated-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 11 of 32
+========== raw link #label-your-ai-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 12 of 32
+========== raw link https://help.instagram.com/488619974671134/?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/488619974671134/?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/488619974671134/
+========== scraping https://help.instagram.com/488619974671134/
+======== We are on link 13 of 32
+========== raw link https://help.instagram.com/1257341144298972/?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/1257341144298972/?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/1257341144298972/
+========== scraping https://help.instagram.com/1257341144298972/
+======== We are on link 14 of 32
+========== raw link https://help.instagram.com/1257341144298972/?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/1257341144298972/?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/1257341144298972/
+========== link already checked
+======== We are on link 15 of 32
+========== raw link https://help.instagram.com/270447560766967/?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/270447560766967/?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/270447560766967/
+========== scraping https://help.instagram.com/270447560766967/
+======== We are on link 16 of 32
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== scraping https://help.instagram.com/454257637526184/
+============ New link added. Search term (AI) found on https://help.instagram.com/454257637526184/.
+======== We are on link 17 of 32
+========== raw link /1109894795810258/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1109894795810258/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1109894795810258/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1109894795810258/
+========== scraping https://help.instagram.com/1109894795810258/
+======== We are on link 18 of 32
+========== raw link /450006664164235/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /450006664164235/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/450006664164235/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/450006664164235/
+========== scraping https://help.instagram.com/450006664164235/
+======== We are on link 19 of 32
+========== raw link /1123581461537025/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1123581461537025/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1123581461537025/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1123581461537025/
+========== scraping https://help.instagram.com/1123581461537025/
+======== We are on link 20 of 32
+========== raw link /1022082264667994/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1022082264667994/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1022082264667994/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1022082264667994/
+========== scraping https://help.instagram.com/1022082264667994/
+======== We are on link 21 of 32
+========== raw link /521368460486230/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /521368460486230/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/521368460486230/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/521368460486230/
+========== scraping https://help.instagram.com/521368460486230/
+======== We are on link 22 of 32
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== link already checked
+======== We are on link 23 of 32
+========== raw link /1109894795810258/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1109894795810258/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1109894795810258/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1109894795810258/
+========== link already checked
+======== We are on link 24 of 32
+========== raw link /450006664164235/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /450006664164235/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/450006664164235/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/450006664164235/
+========== link already checked
+======== We are on link 25 of 32
+========== raw link /1123581461537025/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1123581461537025/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1123581461537025/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1123581461537025/
+========== link already checked
+======== We are on link 26 of 32
+========== raw link /1022082264667994/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /1022082264667994/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1022082264667994/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1022082264667994/
+========== link already checked
+======== We are on link 27 of 32
+========== raw link /521368460486230/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/761121959519495 and /521368460486230/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/521368460486230/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/521368460486230/
+========== link already checked
+======== We are on link 28 of 32
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+============ Link unchanged
+========== link already checked
+======== We are on link 29 of 32
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+============ Followed Redirection to https://developers.facebook.com/docs/instagram-platform
+============ Link after cleaning: https://developers.facebook.com/docs/instagram-platform
+============ Excluded based on allow/block list.
+======== We are on link 30 of 32
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+============ Link unchanged
+========== link already checked
+======== We are on link 31 of 32
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+============ Followed Redirection to https://help.instagram.com/581066165581870/
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== link already checked
+======== We are on link 32 of 32
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+============ Link unchanged
+========== link already checked
+====== We are on page 4 of 8: https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher
+====== Number of Links on this Page: 42
+======== We are on link 1 of 42
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 42
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 42
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 42
+========== raw link /795416058241092/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /795416058241092/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/795416058241092/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/795416058241092/
+========== scraping https://help.instagram.com/795416058241092/
+============ New link added. Search term (AI) found on https://help.instagram.com/795416058241092/.
+======== We are on link 5 of 42
+========== raw link /183346930723987/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /183346930723987/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/183346930723987/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/183346930723987/
+========== scraping https://help.instagram.com/183346930723987/
+======== We are on link 6 of 42
+========== raw link /234796952357763/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /234796952357763/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/234796952357763/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/234796952357763/
+========== scraping https://help.instagram.com/234796952357763/
+======== We are on link 7 of 42
+========== raw link /1660482327821175/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1660482327821175/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/1660482327821175/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/1660482327821175/
+========== scraping https://help.instagram.com/1660482327821175/
+======== We are on link 8 of 42
+========== raw link /3490194014566528/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /3490194014566528/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/3490194014566528/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/3490194014566528/
+========== scraping https://help.instagram.com/3490194014566528/
+======== We are on link 9 of 42
+========== raw link /270447560766967/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /270447560766967/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/270447560766967/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/270447560766967/
+========== link already checked
+======== We are on link 10 of 42
+========== raw link /936461478584269/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /936461478584269/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/936461478584269/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/936461478584269/
+========== scraping https://help.instagram.com/936461478584269/
+======== We are on link 11 of 42
+========== raw link /1660923094227526/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1660923094227526/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/1660923094227526/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/1660923094227526/
+========== scraping https://help.instagram.com/1660923094227526/
+============ New link added. Search term (AI) found on https://help.instagram.com/1660923094227526/.
+======== We are on link 12 of 42
+========== raw link /272122157758915/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /272122157758915/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/272122157758915/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/272122157758915/
+========== scraping https://help.instagram.com/272122157758915/
+======== We are on link 13 of 42
+========== raw link /194353285783006/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /194353285783006/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/194353285783006/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/194353285783006/
+========== scraping https://help.instagram.com/194353285783006/
+======== We are on link 14 of 42
+========== raw link /357872324807367/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /357872324807367/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/357872324807367/?helpref=hc_fnav
+============ Link after cleaning: https://help.instagram.com/357872324807367/
+========== scraping https://help.instagram.com/357872324807367/
+======== We are on link 15 of 42
+========== raw link /1417489251945243/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1417489251945243/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 42
+========== raw link /1245691589716869/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1245691589716869/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1245691589716869/?helpref=breadcrumb
+============ Link after cleaning: https://help.instagram.com/1245691589716869/
+========== scraping https://help.instagram.com/1245691589716869/
+======== We are on link 17 of 42
+========== raw link https://help.instagram.com/324367014797360
+============ Checking for Redirections: https://help.instagram.com/324367014797360
+============ Link unchanged
+========== scraping https://help.instagram.com/324367014797360
+============ New link added. Search term (AI) found on https://help.instagram.com/324367014797360.
+======== We are on link 18 of 42
+========== raw link https://help.instagram.com/151273688993748
+============ Checking for Redirections: https://help.instagram.com/151273688993748
+============ Link unchanged
+========== scraping https://help.instagram.com/151273688993748
+============ New link added. Search term (AI) found on https://help.instagram.com/151273688993748.
+======== We are on link 19 of 42
+========== raw link #send-an-ai-sticker-in-a-chat
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 20 of 42
+========== raw link https://help.instagram.com/7744760808909238
+============ Checking for Redirections: https://help.instagram.com/7744760808909238
+============ Link unchanged
+========== scraping https://help.instagram.com/7744760808909238
+============ New link added. Search term (AI) found on https://help.instagram.com/7744760808909238.
+======== We are on link 21 of 42
+========== raw link #add-an-ai-sticker-to-a-story
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 22 of 42
+========== raw link https://help.instagram.com/1257341144298972?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/1257341144298972?helpref=faq_content
+============ Link after cleaning: https://help.instagram.com/1257341144298972
+========== scraping https://help.instagram.com/1257341144298972
+======== We are on link 23 of 42
+========== raw link #keep-in-mind
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 24 of 42
+========== raw link https://transparency.meta.com/policies/community-standards
+========== dropped link https://transparency.meta.com/policies/community-standards. Didn't pass first allows/blocks test.
+======== We are on link 25 of 42
+========== raw link https://help.instagram.com/581066165581870
+============ Checking for Redirections: https://help.instagram.com/581066165581870
+============ Link unchanged
+========== link already checked
+======== We are on link 26 of 42
+========== raw link https://www.facebook.com/privacy/policy
+========== dropped link https://www.facebook.com/privacy/policy. Didn't pass first allows/blocks test.
+======== We are on link 27 of 42
+========== raw link https://www.facebook.com/privacy/genai
+========== dropped link https://www.facebook.com/privacy/genai. Didn't pass first allows/blocks test.
+======== We are on link 28 of 42
+========== raw link /151273688993748/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /151273688993748/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/151273688993748/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/151273688993748/
+========== scraping https://help.instagram.com/151273688993748/
+============ New link added. Search term (AI) found on https://help.instagram.com/151273688993748/.
+======== We are on link 29 of 42
+========== raw link /1382185835750156/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1382185835750156/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1382185835750156/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1382185835750156/
+========== scraping https://help.instagram.com/1382185835750156/
+============ New link added. Search term (AI) found on https://help.instagram.com/1382185835750156/.
+======== We are on link 30 of 42
+========== raw link /2189877734682873/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /2189877734682873/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2189877734682873/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2189877734682873/
+========== scraping https://help.instagram.com/2189877734682873/
+============ New link added. Search term (AI) found on https://help.instagram.com/2189877734682873/.
+======== We are on link 31 of 42
+========== raw link /204990845482566/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /204990845482566/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/204990845482566/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/204990845482566/
+========== scraping https://help.instagram.com/204990845482566/
+============ New link added. Search term (AI) found on https://help.instagram.com/204990845482566/.
+======== We are on link 32 of 42
+========== raw link /324367014797360/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /324367014797360/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/324367014797360/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/324367014797360/
+========== scraping https://help.instagram.com/324367014797360/
+============ New link added. Search term (AI) found on https://help.instagram.com/324367014797360/.
+======== We are on link 33 of 42
+========== raw link /151273688993748/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /151273688993748/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/151273688993748/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/151273688993748/
+========== link already checked
+======== We are on link 34 of 42
+========== raw link /1382185835750156/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /1382185835750156/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1382185835750156/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1382185835750156/
+========== link already checked
+======== We are on link 35 of 42
+========== raw link /2189877734682873/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /2189877734682873/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2189877734682873/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2189877734682873/
+========== link already checked
+======== We are on link 36 of 42
+========== raw link /204990845482566/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /204990845482566/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/204990845482566/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/204990845482566/
+========== link already checked
+======== We are on link 37 of 42
+========== raw link /324367014797360/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/231732506511219/?cms_platform=android-app&helpref=platform_switcher and /324367014797360/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/324367014797360/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/324367014797360/
+========== link already checked
+======== We are on link 38 of 42
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+============ Link unchanged
+========== link already checked
+======== We are on link 39 of 42
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+============ Followed Redirection to https://developers.facebook.com/docs/instagram-platform
+============ Link after cleaning: https://developers.facebook.com/docs/instagram-platform
+============ Excluded based on allow/block list.
+======== We are on link 40 of 42
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+============ Link unchanged
+========== link already checked
+======== We are on link 41 of 42
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+============ Followed Redirection to https://help.instagram.com/581066165581870/
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== link already checked
+======== We are on link 42 of 42
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+============ Link unchanged
+========== link already checked
+====== We are on page 5 of 8: https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher
+====== Number of Links on this Page: 22
+======== We are on link 1 of 22
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 22
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 22
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 22
+========== raw link #keep-in-mind
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 5 of 22
+========== raw link https://transparency.meta.com/policies/community-standards
+========== dropped link https://transparency.meta.com/policies/community-standards. Didn't pass first allows/blocks test.
+======== We are on link 6 of 22
+========== raw link https://help.instagram.com/581066165581870
+============ Checking for Redirections: https://help.instagram.com/581066165581870
+============ Link unchanged
+========== link already checked
+======== We are on link 7 of 22
+========== raw link https://www.facebook.com/policies/other-policies/ais-terms
+========== dropped link https://www.facebook.com/policies/other-policies/ais-terms. Didn't pass first allows/blocks test.
+======== We are on link 8 of 22
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== link already checked
+======== We are on link 9 of 22
+========== raw link /2281642782069520/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /2281642782069520/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2281642782069520/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2281642782069520/
+========== scraping https://help.instagram.com/2281642782069520/
+======== We are on link 10 of 22
+========== raw link /2050445508681504/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /2050445508681504/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2050445508681504/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2050445508681504/
+========== scraping https://help.instagram.com/2050445508681504/
+============ New link added. Search term (AI) found on https://help.instagram.com/2050445508681504/.
+======== We are on link 11 of 22
+========== raw link /411192286082878/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /411192286082878/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/411192286082878/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/411192286082878/
+========== scraping https://help.instagram.com/411192286082878/
+============ New link added. Search term (AI) found on https://help.instagram.com/411192286082878/.
+======== We are on link 12 of 22
+========== raw link /3820477441501878/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /3820477441501878/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/3820477441501878/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/3820477441501878/
+========== scraping https://help.instagram.com/3820477441501878/
+============ New link added. Search term (AI) found on https://help.instagram.com/3820477441501878/.
+======== We are on link 13 of 22
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== link already checked
+======== We are on link 14 of 22
+========== raw link /2281642782069520/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /2281642782069520/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2281642782069520/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2281642782069520/
+========== link already checked
+======== We are on link 15 of 22
+========== raw link /2050445508681504/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /2050445508681504/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2050445508681504/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2050445508681504/
+========== link already checked
+======== We are on link 16 of 22
+========== raw link /411192286082878/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /411192286082878/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/411192286082878/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/411192286082878/
+========== link already checked
+======== We are on link 17 of 22
+========== raw link /3820477441501878/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/430610480097641/?cms_platform=android-app&helpref=platform_switcher and /3820477441501878/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/3820477441501878/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/3820477441501878/
+========== link already checked
+======== We are on link 18 of 22
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+============ Link unchanged
+========== link already checked
+======== We are on link 19 of 22
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+============ Followed Redirection to https://developers.facebook.com/docs/instagram-platform
+============ Link after cleaning: https://developers.facebook.com/docs/instagram-platform
+============ Excluded based on allow/block list.
+======== We are on link 20 of 22
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+============ Link unchanged
+========== link already checked
+======== We are on link 21 of 22
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+============ Followed Redirection to https://help.instagram.com/581066165581870/
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== link already checked
+======== We are on link 22 of 22
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+============ Link unchanged
+========== link already checked
+====== We are on page 6 of 8: https://help.instagram.com/724269355950958
+====== Number of Links on this Page: 20
+======== We are on link 1 of 20
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 20
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 20
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 20
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== link already checked
+======== We are on link 5 of 20
+========== raw link /1675196359893731/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1675196359893731/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1675196359893731/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1675196359893731/
+========== scraping https://help.instagram.com/1675196359893731/
+============ New link added. Search term (AI) found on https://help.instagram.com/1675196359893731/.
+======== We are on link 6 of 20
+========== raw link /2050445508681504/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /2050445508681504/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2050445508681504/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2050445508681504/
+========== link already checked
+======== We are on link 7 of 20
+========== raw link /1912013665981064/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1912013665981064/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1912013665981064/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1912013665981064/
+========== scraping https://help.instagram.com/1912013665981064/
+============ New link added. Search term (AI) found on https://help.instagram.com/1912013665981064/.
+======== We are on link 8 of 20
+========== raw link /893646515974351/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /893646515974351/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/893646515974351/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/893646515974351/
+========== scraping https://help.instagram.com/893646515974351/
+============ New link added. Search term (AI) found on https://help.instagram.com/893646515974351/.
+======== We are on link 9 of 20
+========== raw link /1016193853514958/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1016193853514958/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1016193853514958/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1016193853514958/
+========== scraping https://help.instagram.com/1016193853514958/
+============ New link added. Search term (AI) found on https://help.instagram.com/1016193853514958/.
+======== We are on link 10 of 20
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/454257637526184/
+========== link already checked
+======== We are on link 11 of 20
+========== raw link /1675196359893731/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1675196359893731/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1675196359893731/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1675196359893731/
+========== link already checked
+======== We are on link 12 of 20
+========== raw link /2050445508681504/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /2050445508681504/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2050445508681504/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/2050445508681504/
+========== link already checked
+======== We are on link 13 of 20
+========== raw link /1912013665981064/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1912013665981064/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1912013665981064/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1912013665981064/
+========== link already checked
+======== We are on link 14 of 20
+========== raw link /893646515974351/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /893646515974351/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/893646515974351/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/893646515974351/
+========== link already checked
+======== We are on link 15 of 20
+========== raw link /1016193853514958/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/724269355950958 and /1016193853514958/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1016193853514958/?helpref=related_articles
+============ Link after cleaning: https://help.instagram.com/1016193853514958/
+========== link already checked
+======== We are on link 16 of 20
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+============ Link unchanged
+========== link already checked
+======== We are on link 17 of 20
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+============ Followed Redirection to https://developers.facebook.com/docs/instagram-platform
+============ Link after cleaning: https://developers.facebook.com/docs/instagram-platform
+============ Excluded based on allow/block list.
+======== We are on link 18 of 20
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+============ Link unchanged
+========== link already checked
+======== We are on link 19 of 20
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+============ Followed Redirection to https://help.instagram.com/581066165581870/
+============ Link after cleaning: https://help.instagram.com/581066165581870/
+========== link already checked
+======== We are on link 20 of 20
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+============ Link unchanged
+========== link already checked
+====== We are on page 7 of 8: https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher
+====== Number of Links on this Page: 43
+======== We are on link 1 of 43
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 43
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 43
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 43
+========== raw link /795416058241092/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /795416058241092/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/795416058241092/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/795416058241092/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 43
+========== raw link /183346930723987/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /183346930723987/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/183346930723987/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/183346930723987/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 43
+========== raw link /234796952357763/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /234796952357763/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/234796952357763/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/234796952357763/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 43
+========== raw link /1660482327821175/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1660482327821175/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/1660482327821175/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/1660482327821175/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 43
+========== raw link /3490194014566528/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /3490194014566528/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/3490194014566528/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/3490194014566528/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 43
+========== raw link /270447560766967/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /270447560766967/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/270447560766967/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/270447560766967/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 43
+========== raw link /936461478584269/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /936461478584269/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/936461478584269/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/936461478584269/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 43
+========== raw link /1660923094227526/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1660923094227526/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/1660923094227526/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/1660923094227526/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 43
+========== raw link /272122157758915/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /272122157758915/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/272122157758915/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/272122157758915/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 43
+========== raw link /194353285783006/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /194353285783006/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/194353285783006/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/194353285783006/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 43
+========== raw link /357872324807367/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /357872324807367/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/357872324807367/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/357872324807367/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 43
+========== raw link /1417489251945243/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1417489251945243/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 43
+========== raw link /1245691589716869/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1245691589716869/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1245691589716869/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/1245691589716869/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 43
+========== raw link #use-meta-ai-on-instagram
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 18 of 43
+========== raw link #keep-in-mind
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 19 of 43
+========== raw link https://transparency.fb.com/policies/community-standards/
+========== dropped link https://transparency.fb.com/policies/community-standards/. Didn't pass first allows/blocks test.
+======== We are on link 20 of 43
+========== raw link https://www.facebook.com/legal/terms
+========== dropped link https://www.facebook.com/legal/terms. Didn't pass first allows/blocks test.
+======== We are on link 21 of 43
+========== raw link https://www.internalfb.com/help/messenger-app/786613221989782
+========== dropped link https://www.internalfb.com/help/messenger-app/786613221989782. Didn't pass first allows/blocks test.
+======== We are on link 22 of 43
+========== raw link https://www.facebook.com/legal/ai-terms
+========== dropped link https://www.facebook.com/legal/ai-terms. Didn't pass first allows/blocks test.
+======== We are on link 23 of 43
+========== raw link https://www.facebook.com/privacy/guide/location
+========== dropped link https://www.facebook.com/privacy/guide/location. Didn't pass first allows/blocks test.
+======== We are on link 24 of 43
+========== raw link https://www.facebook.com/privacy/guide/generative-ai/?entry_point=privacy_center_home
+========== dropped link https://www.facebook.com/privacy/guide/generative-ai/?entry_point=privacy_center_home. Didn't pass first allows/blocks test.
+======== We are on link 25 of 43
+========== raw link https://www.meta.com/help/accounts-center/Information-used-across-accounts/
+========== dropped link https://www.meta.com/help/accounts-center/Information-used-across-accounts/. Didn't pass first allows/blocks test.
+======== We are on link 26 of 43
+========== raw link https://www.facebook.com/help/212802592074644
+========== dropped link https://www.facebook.com/help/212802592074644. Didn't pass first allows/blocks test.
+======== We are on link 27 of 43
+========== raw link https://help.instagram.com/454257637526184
+============ Checking for Redirections: https://help.instagram.com/454257637526184
+========== dropped link https://help.instagram.com/454257637526184. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 43
+========== raw link https://help.instagram.com/536275819084477
+============ Checking for Redirections: https://help.instagram.com/536275819084477
+========== dropped link https://help.instagram.com/536275819084477. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 43
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+========== dropped link https://help.instagram.com/454257637526184/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 43
+========== raw link /1325125818682650/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1325125818682650/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1325125818682650/?helpref=related_articles
+========== dropped link https://help.instagram.com/1325125818682650/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 43
+========== raw link /1338916436473267/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1338916436473267/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1338916436473267/?helpref=related_articles
+========== dropped link https://help.instagram.com/1338916436473267/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 43
+========== raw link /1675196359893731/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1675196359893731/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1675196359893731/?helpref=related_articles
+========== dropped link https://help.instagram.com/1675196359893731/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 43
+========== raw link /1030118265547894/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1030118265547894/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1030118265547894/?helpref=related_articles
+========== dropped link https://help.instagram.com/1030118265547894/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 43
+========== raw link /454257637526184/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /454257637526184/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/454257637526184/?helpref=related_articles
+========== dropped link https://help.instagram.com/454257637526184/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 43
+========== raw link /1325125818682650/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1325125818682650/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1325125818682650/?helpref=related_articles
+========== dropped link https://help.instagram.com/1325125818682650/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 43
+========== raw link /1338916436473267/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1338916436473267/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1338916436473267/?helpref=related_articles
+========== dropped link https://help.instagram.com/1338916436473267/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 43
+========== raw link /1675196359893731/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1675196359893731/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1675196359893731/?helpref=related_articles
+========== dropped link https://help.instagram.com/1675196359893731/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 43
+========== raw link /1030118265547894/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/2050445508681504/?cms_platform=iphone-app&helpref=platform_switcher and /1030118265547894/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/1030118265547894/?helpref=related_articles
+========== dropped link https://help.instagram.com/1030118265547894/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 43
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+========== dropped link https://about.instagram.com/about-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 43
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+========== dropped link https://www.instagram.com/developer/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 43
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+========== dropped link https://about.instagram.com/about-us/careers/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 43
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+========== dropped link https://www.instagram.com/legal/terms/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 43
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+========== dropped link https://privacycenter.instagram.com/policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 8 of 8: https://help.instagram.com/termsofuse
+====== Number of Links on this Page: 70
+======== We are on link 1 of 70
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 70
+========== raw link /search/
+============ Found Relative: joining https://help.instagram.com/termsofuse and /search/
+============ Checking for Redirections: https://help.instagram.com/search/
+========== dropped link https://help.instagram.com/search/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 70
+========== raw link /1417489251945243/?helpref=hc_global_nav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /1417489251945243/?helpref=hc_global_nav
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=hc_global_nav
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=hc_global_nav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 70
+========== raw link /477434105621119/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /477434105621119/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/477434105621119/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/477434105621119/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 70
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+========== dropped link https://privacycenter.instagram.com/policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 70
+========== raw link /581066165581870/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /581066165581870/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/581066165581870/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/581066165581870/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 70
+========== raw link https://developers.facebook.com/terms
+========== dropped link https://developers.facebook.com/terms. Didn't pass first allows/blocks test.
+======== We are on link 8 of 70
+========== raw link /1896641480634370/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /1896641480634370/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/1896641480634370/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/1896641480634370/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 70
+========== raw link https://transparency.fb.com/
+========== dropped link https://transparency.fb.com/. Didn't pass first allows/blocks test.
+======== We are on link 10 of 70
+========== raw link /2136147216424213/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /2136147216424213/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/2136147216424213/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/2136147216424213/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 70
+========== raw link /300557977301126/?helpref=hc_fnav
+============ Found Relative: joining https://help.instagram.com/termsofuse and /300557977301126/?helpref=hc_fnav
+============ Checking for Redirections: https://help.instagram.com/300557977301126/?helpref=hc_fnav
+========== dropped link https://help.instagram.com/300557977301126/?helpref=hc_fnav. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 70
+========== raw link /1417489251945243/?helpref=breadcrumb
+============ Found Relative: joining https://help.instagram.com/termsofuse and /1417489251945243/?helpref=breadcrumb
+============ Checking for Redirections: https://help.instagram.com/1417489251945243/?helpref=breadcrumb
+========== dropped link https://help.instagram.com/1417489251945243/?helpref=breadcrumb. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 70
+========== raw link https://www.facebook.com/help/1561485474074139?ref=igtos&helpref=faq_content
+========== dropped link https://www.facebook.com/help/1561485474074139?ref=igtos&helpref=faq_content. Didn't pass first allows/blocks test.
+======== We are on link 14 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 15 of 70
+========== raw link https://help.instagram.com/138925576505882?ref=tou&helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/138925576505882?ref=tou&helpref=faq_content
+========== dropped link https://help.instagram.com/138925576505882?ref=tou&helpref=faq_content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 70
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+========== dropped link https://privacycenter.instagram.com/policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 70
+========== raw link https://www.facebook.com/help/195227921252400?ref=dp&helpref=faq_content
+========== dropped link https://www.facebook.com/help/195227921252400?ref=dp&helpref=faq_content. Didn't pass first allows/blocks test.
+======== We are on link 22 of 70
+========== raw link https://help.instagram.com/537518769659039?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/537518769659039?helpref=faq_content
+========== dropped link https://help.instagram.com/537518769659039?helpref=faq_content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 70
+========== raw link https://www.facebook.com/help/instagram/116947042301556?helpref=faq_content
+========== dropped link https://www.facebook.com/help/instagram/116947042301556?helpref=faq_content. Didn't pass first allows/blocks test.
+======== We are on link 24 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 25 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 70
+========== raw link https://www.facebook.com/help/1561485474074139?ref=tos&helpref=faq_content
+========== dropped link https://www.facebook.com/help/1561485474074139?ref=tos&helpref=faq_content. Didn't pass first allows/blocks test.
+======== We are on link 27 of 70
+========== raw link https://help.instagram.com/285881641526716?ref=igtos
+============ Checking for Redirections: https://help.instagram.com/285881641526716?ref=igtos
+========== dropped link https://help.instagram.com/285881641526716?ref=igtos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 29 of 70
+========== raw link https://transparency.meta.com/policies/community-standards/
+========== dropped link https://transparency.meta.com/policies/community-standards/. Didn't pass first allows/blocks test.
+======== We are on link 30 of 70
+========== raw link https://developers.facebook.com/terms
+========== dropped link https://developers.facebook.com/terms. Didn't pass first allows/blocks test.
+======== We are on link 31 of 70
+========== raw link https://www.facebook.com/legal/music_guidelines
+========== dropped link https://www.facebook.com/legal/music_guidelines. Didn't pass first allows/blocks test.
+======== We are on link 32 of 70
+========== raw link https://www.facebook.com/policies/brandedcontent/
+========== dropped link https://www.facebook.com/policies/brandedcontent/. Didn't pass first allows/blocks test.
+======== We are on link 33 of 70
+========== raw link https://help.instagram.com/
+============ Checking for Redirections: https://help.instagram.com/
+========== dropped link https://help.instagram.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 70
+========== raw link http://help.instagram.com/535503073130320?ref=igtos&helpref=faq_content
+============ Checking for Redirections: http://help.instagram.com/535503073130320?ref=igtos&helpref=faq_content
+========== dropped link http://help.instagram.com/535503073130320?ref=igtos&helpref=faq_content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 70
+========== raw link https://help.instagram.com/?ref=igtos
+============ Checking for Redirections: https://help.instagram.com/?ref=igtos
+========== dropped link https://help.instagram.com/?ref=igtos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 70
+========== raw link https://help.instagram.com/615366948510230?ref=igtos&helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/615366948510230?ref=igtos&helpref=faq_content
+========== dropped link https://help.instagram.com/615366948510230?ref=igtos&helpref=faq_content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 39 of 70
+========== raw link https://about.meta.com/brand/resources/instagram/instagram-brand/
+========== dropped link https://about.meta.com/brand/resources/instagram/instagram-brand/. Didn't pass first allows/blocks test.
+======== We are on link 40 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 41 of 70
+========== raw link https://transparency.meta.com/policies/community-standards/
+========== dropped link https://transparency.meta.com/policies/community-standards/. Didn't pass first allows/blocks test.
+======== We are on link 42 of 70
+========== raw link https://transparency.meta.com/en-gb/features/how-fact-checking-works/
+========== dropped link https://transparency.meta.com/en-gb/features/how-fact-checking-works/. Didn't pass first allows/blocks test.
+======== We are on link 43 of 70
+========== raw link https://transparency.meta.com/policies/community-standards/
+========== dropped link https://transparency.meta.com/policies/community-standards/. Didn't pass first allows/blocks test.
+======== We are on link 44 of 70
+========== raw link https://help.instagram.com/?ref=igtos
+============ Checking for Redirections: https://help.instagram.com/?ref=igtos
+========== dropped link https://help.instagram.com/?ref=igtos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 70
+========== raw link https://privacycenter.instagram.com/policy/
+============ Checking for Redirections: https://privacycenter.instagram.com/policy/
+========== dropped link https://privacycenter.instagram.com/policy/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 47 of 70
+========== raw link https://www.facebook.com/legal/music_guidelines
+========== dropped link https://www.facebook.com/legal/music_guidelines. Didn't pass first allows/blocks test.
+======== We are on link 48 of 70
+========== raw link https://developers.facebook.com/terms
+========== dropped link https://developers.facebook.com/terms. Didn't pass first allows/blocks test.
+======== We are on link 49 of 70
+========== raw link https://www.facebook.com/payments_terms
+========== dropped link https://www.facebook.com/payments_terms. Didn't pass first allows/blocks test.
+======== We are on link 50 of 70
+========== raw link https://help.instagram.com/1823196621218584?helpref=faq_content
+============ Checking for Redirections: https://help.instagram.com/1823196621218584?helpref=faq_content
+========== dropped link https://help.instagram.com/1823196621218584?helpref=faq_content. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 70
+========== raw link https://www.facebook.com/legal/ai-terms
+========== dropped link https://www.facebook.com/legal/ai-terms. Didn't pass first allows/blocks test.
+======== We are on link 52 of 70
+========== raw link #object-object
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 53 of 70
+========== raw link https://help.instagram.com/370452623149242?ref=igtos
+============ Checking for Redirections: https://help.instagram.com/370452623149242?ref=igtos
+========== dropped link https://help.instagram.com/370452623149242?ref=igtos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 70
+========== raw link /535503073130320/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /535503073130320/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/535503073130320/?helpref=related_articles
+========== dropped link https://help.instagram.com/535503073130320/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 55 of 70
+========== raw link /2281921558660165/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /2281921558660165/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2281921558660165/?helpref=related_articles
+========== dropped link https://help.instagram.com/2281921558660165/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 70
+========== raw link /740480200552298/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /740480200552298/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/740480200552298/?helpref=related_articles
+========== dropped link https://help.instagram.com/740480200552298/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 70
+========== raw link /122717417885747/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /122717417885747/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/122717417885747/?helpref=related_articles
+========== dropped link https://help.instagram.com/122717417885747/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 70
+========== raw link /272603474673152/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /272603474673152/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/272603474673152/?helpref=related_articles
+========== dropped link https://help.instagram.com/272603474673152/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 70
+========== raw link /494561080557017/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /494561080557017/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/494561080557017/?helpref=related_articles
+========== dropped link https://help.instagram.com/494561080557017/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 70
+========== raw link /535503073130320/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /535503073130320/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/535503073130320/?helpref=related_articles
+========== dropped link https://help.instagram.com/535503073130320/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 70
+========== raw link /2281921558660165/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /2281921558660165/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/2281921558660165/?helpref=related_articles
+========== dropped link https://help.instagram.com/2281921558660165/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 62 of 70
+========== raw link /740480200552298/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /740480200552298/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/740480200552298/?helpref=related_articles
+========== dropped link https://help.instagram.com/740480200552298/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 63 of 70
+========== raw link /122717417885747/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /122717417885747/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/122717417885747/?helpref=related_articles
+========== dropped link https://help.instagram.com/122717417885747/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 64 of 70
+========== raw link /272603474673152/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /272603474673152/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/272603474673152/?helpref=related_articles
+========== dropped link https://help.instagram.com/272603474673152/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 65 of 70
+========== raw link /494561080557017/?helpref=related_articles
+============ Found Relative: joining https://help.instagram.com/termsofuse and /494561080557017/?helpref=related_articles
+============ Checking for Redirections: https://help.instagram.com/494561080557017/?helpref=related_articles
+========== dropped link https://help.instagram.com/494561080557017/?helpref=related_articles. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 66 of 70
+========== raw link https://about.instagram.com/about-us
+============ Checking for Redirections: https://about.instagram.com/about-us
+========== dropped link https://about.instagram.com/about-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 70
+========== raw link https://www.instagram.com/developer/
+============ Checking for Redirections: https://www.instagram.com/developer/
+========== dropped link https://www.instagram.com/developer/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 68 of 70
+========== raw link https://about.instagram.com/about-us/careers/
+============ Checking for Redirections: https://about.instagram.com/about-us/careers/
+========== dropped link https://about.instagram.com/about-us/careers/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 69 of 70
+========== raw link https://www.instagram.com/legal/terms/
+============ Checking for Redirections: https://www.instagram.com/legal/terms/
+========== dropped link https://www.instagram.com/legal/terms/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 70 of 70
+========== raw link https://privacycenter.instagram.com/policy
+============ Checking for Redirections: https://privacycenter.instagram.com/policy
+========== dropped link https://privacycenter.instagram.com/policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 22
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 22: https://help.instagram.com/581066165581870
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 22: https://help.instagram.com/581066165581870/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 22: https://privacycenter.instagram.com/policy/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 22: https://privacycenter.instagram.com/policy
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 22: https://help.instagram.com/454257637526184/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 6 of 22: https://help.instagram.com/795416058241092/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 7 of 22: https://help.instagram.com/1660923094227526/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 8 of 22: https://help.instagram.com/324367014797360
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 9 of 22: https://help.instagram.com/151273688993748
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 10 of 22: https://help.instagram.com/7744760808909238
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 11 of 22: https://help.instagram.com/151273688993748/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 12 of 22: https://help.instagram.com/1382185835750156/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 13 of 22: https://help.instagram.com/2189877734682873/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 14 of 22: https://help.instagram.com/204990845482566/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 15 of 22: https://help.instagram.com/324367014797360/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 16 of 22: https://help.instagram.com/2050445508681504/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 17 of 22: https://help.instagram.com/411192286082878/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 18 of 22: https://help.instagram.com/3820477441501878/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 19 of 22: https://help.instagram.com/1675196359893731/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 20 of 22: https://help.instagram.com/1912013665981064/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 21 of 22: https://help.instagram.com/893646515974351/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 22 of 22: https://help.instagram.com/1016193853514958/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+== Finished scraping instagram.com_threads.net-AI_Moderation in 866.3893 seconds.
+== Writing to db file
+== Done (/home/oscarc/ContentModerationWebScraper/data/05_12_25_13_54/all_htmls/AI_Moderation_instagram_com_threads_net_05_12_25_13_54.json)
+== Completed with Errors, search for error in logs
