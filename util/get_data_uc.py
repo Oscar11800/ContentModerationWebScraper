@@ -78,7 +78,6 @@ class UC_Scraper:
     def follow_redirect(self, link):
         #sanitize malformed urls
         link = link.replace("??", "?").strip()
-        print(f"[DEBUG] Visiting: {link}")
         
         tries = 1
         while tries <= self.RETRY_CUTOFF:
