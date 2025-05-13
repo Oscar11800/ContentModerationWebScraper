@@ -1,4 +1,5 @@
 import time
+import os
 import random
 from selenium.common.exceptions import TimeoutException, WebDriverException, InvalidSessionIdException
 from urllib3.exceptions import ReadTimeoutError
