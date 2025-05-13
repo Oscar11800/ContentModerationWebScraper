@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
 import tempfile
 from pathlib import Path
+import shutil
 
 
 
@@ -45,9 +46,10 @@ class UC_Scraper:
         options.add_argument("--disable-dev-shm-usage")
 
         #create a guaranteed unique temp profile
-        temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
-        options.add_argument(f"--user-data-dir={temp_profile}")
-    
+        self.temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
+        print(f"[DEBUG] Using temp Chrome profile: {self.temp_profile}")
+        options.add_argument(f"--user-data-dir={self.temp_profile}")
+            
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
         self.driver = webdriver.Chrome(
@@ -57,6 +59,13 @@ class UC_Scraper:
 
         self.cur_link = ''
         self.cur_page_source = ''
+    
+        def __del__(self):
+            try:
+                shutil.rmtree(self.temp_profile, ignore_errors=True)
+                print(f"[DEBUG] Deleted temp profile: {self.temp_profile}")
+            except Exception as e:
+                print(f"[DEBUG] Could not delete temp profile: {e}")
 
     def follow_redirect(self, link):
         tries = 1
