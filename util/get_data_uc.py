@@ -40,6 +40,11 @@ class UC_Scraper:
         temp_profile = Path(tempfile.mkdtemp())
         options.add_argument(f"--user-data-dir={temp_profile}")
 
+        #add unique user-data-dir
+        temp_profile = Path(tempfile.mkdtemp())
+        options.add_argument(f"--user-data-dir={temp_profile}")
+
+        
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
         self.driver = webdriver.Chrome(service=Service("/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"), options=options)
