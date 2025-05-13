@@ -34,6 +34,10 @@ class UC_Scraper:
         #hardcoded paths
         chrome_driver_path = "/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"
         chrome_binary_path = "/home/zaynacheema/ContentModerationWebScraper/chrome_136/chrome-linux64/chrome"
+
+        #force correct Chrome binary at runtime
+        os.environ["GOOGLE_CHROME_BIN"] = chrome_binary_path
+
         
         options = webdriver.ChromeOptions()
         ##options.headless = False  # Disable headless mode for testing
