@@ -36,13 +36,13 @@ class UC_Scraper:
         chrome_binary_path = "/home/zaynacheema/ContentModerationWebScraper/chrome_136/chrome-linux64/chrome"
         
         options = webdriver.ChromeOptions()
-        options.headless = False  # Disable headless mode for testing
+        ##options.headless = False  # Disable headless mode for testing
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         #options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
         options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
         options.add_argument("--blink-settings=imagesEnabled=false")  # disables images
         options.add_argument("--no-sandbox")
-        options.add_argument("--headless")
+        options.add_argument("--headless=new")
         options.add_argument("--disable-dev-shm-usage")
 
         #create a guaranteed unique temp profile
