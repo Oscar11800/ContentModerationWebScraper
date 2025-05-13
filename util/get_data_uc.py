@@ -8,6 +8,8 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
+import tempfile
+from pathlib import Path
 
 
 
@@ -41,6 +43,10 @@ class UC_Scraper:
         options.add_argument("--no-sandbox")
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
+
+        #create a guaranteed unique temp profile
+        temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
+        options.add_argument(f"--user-data-dir={temp_profile}")
     
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
