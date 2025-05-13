@@ -1,6 +1,5 @@
 import time
 import random
-import tempfile
 from selenium.common.exceptions import TimeoutException, WebDriverException, InvalidSessionIdException
 from urllib3.exceptions import ReadTimeoutError
 from selenium.webdriver.support.wait import WebDriverWait
@@ -9,7 +8,6 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
-from pathlib import Path
 
 
 
@@ -39,14 +37,7 @@ class UC_Scraper:
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
 
-        temp_profile = Path(tempfile.mkdtemp())
-        options.add_argument(f"--user-data-dir={temp_profile}")
-
-        #add unique user-data-dir
-        temp_profile = Path(tempfile.mkdtemp())
-        options.add_argument(f"--user-data-dir={temp_profile}")
-
-        
+    
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
         self.driver = webdriver.Chrome(service=Service("/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"), options=options)
