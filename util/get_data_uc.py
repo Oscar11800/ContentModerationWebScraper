@@ -39,7 +39,7 @@ class UC_Scraper:
 
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
-        self.driver = webdriver.Chrome(service=Service("/Users/zaynacheema/ContentModerationWebScraper/chromedriver"), options=options)
+        self.driver = webdriver.Chrome(service=Service("/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"), options=options)
 
         self.cur_link = ''
         self.cur_page_source = ''
