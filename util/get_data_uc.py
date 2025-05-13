@@ -12,6 +12,8 @@ from fake_useragent import UserAgent
 import tempfile
 from pathlib import Path
 import shutil
+from selenium.webdriver.chrome.service import Service
+
 
 
 
@@ -50,9 +52,6 @@ class UC_Scraper:
         options.add_argument("--headless=new")
         options.add_argument("--disable-dev-shm-usage")
 
-        print("[DEBUG] Using Chrome binary:", chrome_binary_path)
-        print("[DEBUG] Using ChromeDriver:", chrome_driver_path)
-
 
         #create a guaranteed unique temp profile
         self.temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
@@ -60,10 +59,12 @@ class UC_Scraper:
             
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
-        self.driver = webdriver.Chrome(
-            service=Service(chrome_driver_path),
-            options=options
-        )
+        service = Service(executable_path=chrome_driver_path)
+        os.environ["CHROME_BINARY"] = chrome_binary_path  # <-- force env for subprocess
+        options.binary_location = chrome_binary_path
+        self.driver = webdriver.Chrome(service=service, options=options)
+
+        
 
         self.cur_link = ''
         self.cur_page_source = ''
