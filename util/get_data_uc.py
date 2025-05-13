@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
+from pathlib import Path
 
 
 
