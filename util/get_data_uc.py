@@ -49,6 +49,10 @@ class UC_Scraper:
         options.add_argument("--headless=new")
         options.add_argument("--disable-dev-shm-usage")
 
+        print("[DEBUG] Using Chrome binary:", chrome_binary_path)
+        print("[DEBUG] Using ChromeDriver:", chrome_driver_path)
+
+
         #create a guaranteed unique temp profile
         self.temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
         options.add_argument(f"--user-data-dir={self.temp_profile}")
