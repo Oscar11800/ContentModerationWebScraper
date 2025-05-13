@@ -24,6 +24,10 @@ class UC_Scraper:
         self.RETRY_CUTOFF = RETRY_CUTOFF
         self.WEBCACHE = WEBCACHE
 
+        #original
+        #chrome_driver_path = "/usr/local/bin/chromedriver"
+        #chrome_binary_path = "/usr/bin/google-chrome"
+
         #hardcoded paths
         chrome_driver_path = "/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"
         chrome_binary_path = "/home/zaynacheema/ContentModerationWebScraper/chrome_136/chrome-linux64/chrome"
@@ -37,10 +41,6 @@ class UC_Scraper:
         options.add_argument("--no-sandbox")
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
-
-        #prevent Chrome session reuse conflict
-        self.temp_profile = tempfile.mkdtemp()
-        options.add_argument(f"--user-data-dir={self.temp_profile}")
     
         #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         #FOR TESTING PURPOSESS
