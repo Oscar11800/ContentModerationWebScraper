@@ -13,6 +13,7 @@ import tempfile
 from pathlib import Path
 import shutil
 from selenium.webdriver.chrome.service import Service
+from urllib.parse import urljoin
 
 
 
@@ -75,7 +76,17 @@ class UC_Scraper:
         except Exception as e:
             pass
 
+    def is_valid_url(url):
+            parsed = urlparse(url)
+            return parsed.scheme in ("http", "https") and parsed.netloc != ""
+        
     def follow_redirect(self, link):
+        link = link.replace("??", "?").strip()
+
+        if not is_valid_url(link):
+            print(f"[SKIP] Invalid or malformed URL: {link}")
+            return None
+            
         tries = 1
         while tries <= self.RETRY_CUTOFF:
             try:
