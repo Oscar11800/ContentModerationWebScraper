@@ -1,0 +1,1576 @@
+== Conducting scraping for AI_Moderation on yelp.com
+== Getting initial 8 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 8: https://blog.yelp.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 8: https://www.yelp.com/guidelines
+====== Number of Links on this Page: 89
+======== We are on link 1 of 89
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 89
+========== raw link /writeareview
+============ Found Relative: joining https://www.yelp.com/guidelines and /writeareview
+============ Checking for Redirections: https://www.yelp.com/writeareview
+============ Link after cleaning: https://www.yelp.com/writeareview
+========== scraping https://www.yelp.com/writeareview
+======== We are on link 3 of 89
+========== raw link /login?return_url=http%3A%2F%2Fwww.yelp.com%2Fguidelines
+============ Prepended scheme.
+========== dropped link https://login?return_url=http%3A%2F%2Fwww.yelp.com%2Fguidelines. Didn't pass first allows/blocks test.
+======== We are on link 4 of 89
+========== raw link /signup?return_url=http%3A%2F%2Fwww.yelp.com%2Fguidelines
+============ Prepended scheme.
+============ Checking for Redirections: https://signup?return_url=http%3A%2F%2Fwww.yelp.com%2Fguidelines
+========== dropped link https://signup?return_url=http%3A%2F%2Fwww.yelp.com%2Fguidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 89
+========== raw link /search?find_desc=Restaurants&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Restaurants&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Restaurants&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Restaurants&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 89
+========== raw link /search?find_desc=Delivery&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Delivery&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Delivery&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Delivery&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 89
+========== raw link /search?find_desc=Burgers&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Burgers&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Burgers&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Burgers&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 89
+========== raw link /search?find_desc=Chinese&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Chinese&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Chinese&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Chinese&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 89
+========== raw link /search?find_desc=Italian&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Italian&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Italian&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Italian&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 89
+========== raw link /search?find_desc=Reservations&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Reservations&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Reservations&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Reservations&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 89
+========== raw link /search?find_desc=Japanese&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Japanese&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Japanese&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Japanese&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 89
+========== raw link /search?find_desc=Mexican&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Mexican&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Mexican&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Mexican&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 89
+========== raw link /search?find_desc=Thai&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Thai&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Thai&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Thai&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 89
+========== raw link /search?find_desc=Home+Services&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Home+Services&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Home+Services&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Home+Services&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 89
+========== raw link /search?find_desc=Contractors&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Contractors&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Contractors&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Contractors&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 89
+========== raw link /search?find_desc=Electricians&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Electricians&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Electricians&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Electricians&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 89
+========== raw link /search?find_desc=Home+Cleaners&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Home+Cleaners&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Home+Cleaners&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Home+Cleaners&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 89
+========== raw link /search?find_desc=HVAC&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=HVAC&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=HVAC&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=HVAC&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 89
+========== raw link /search?find_desc=Landscaping&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Landscaping&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Landscaping&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Landscaping&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 89
+========== raw link /search?find_desc=Locksmiths&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Locksmiths&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Locksmiths&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Locksmiths&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 89
+========== raw link /search?find_desc=Movers&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Movers&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Movers&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Movers&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 89
+========== raw link /search?find_desc=Plumbers&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Plumbers&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Plumbers&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Plumbers&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 89
+========== raw link /search?find_desc=Auto+Services&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Auto+Services&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Auto+Services&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Auto+Services&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 89
+========== raw link /search?find_desc=Auto+Repair&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Auto+Repair&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Auto+Repair&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Auto+Repair&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 89
+========== raw link /search?find_desc=Auto+Detailing&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Auto+Detailing&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Auto+Detailing&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Auto+Detailing&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 89
+========== raw link /search?find_desc=Body+Shops&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Body+Shops&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Body+Shops&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Body+Shops&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 89
+========== raw link /search?find_desc=Car+Wash&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Car+Wash&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Car+Wash&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Car+Wash&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 89
+========== raw link /search?find_desc=Car+Dealers&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Car+Dealers&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Car+Dealers&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Car+Dealers&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 89
+========== raw link /search?find_desc=Oil+Change&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Oil+Change&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Oil+Change&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Oil+Change&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 89
+========== raw link /search?find_desc=Parking&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Parking&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Parking&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Parking&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 89
+========== raw link /search?find_desc=Towing&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Towing&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Towing&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Towing&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 89
+========== raw link /search?find_desc=Dry+Cleaning&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Dry+Cleaning&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Dry+Cleaning&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Dry+Cleaning&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 89
+========== raw link /search?find_desc=Phone+Repair&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Phone+Repair&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Phone+Repair&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Phone+Repair&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 89
+========== raw link /search?find_desc=Bars&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Bars&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Bars&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Bars&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 89
+========== raw link /search?find_desc=Nightlife&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Nightlife&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Nightlife&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Nightlife&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 89
+========== raw link /search?find_desc=Hair+Salons&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Hair+Salons&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Hair+Salons&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Hair+Salons&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 89
+========== raw link /search?find_desc=Gyms&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Gyms&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Gyms&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Gyms&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 89
+========== raw link /search?find_desc=Massage&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Massage&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Massage&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Massage&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 89
+========== raw link /search?find_desc=Shopping&find_loc=Chicago%2C+IL+60608
+============ Found Relative: joining https://www.yelp.com/guidelines and /search?find_desc=Shopping&find_loc=Chicago%2C+IL+60608
+============ Checking for Redirections: https://www.yelp.com/search?find_desc=Shopping&find_loc=Chicago%2C+IL+60608
+========== dropped link https://www.yelp.com/search?find_desc=Shopping&find_loc=Chicago%2C+IL+60608. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 89
+========== raw link /about
+============ Found Relative: joining https://www.yelp.com/guidelines and /about
+============ Checking for Redirections: https://www.yelp.com/about
+============ Link after cleaning: https://www.yelp.com/about
+========== scraping https://www.yelp.com/about
+======== We are on link 41 of 89
+========== raw link /management
+============ Found Relative: joining https://www.yelp.com/guidelines and /management
+============ Checking for Redirections: https://www.yelp.com/management
+========== dropped link https://www.yelp.com/management. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 89
+========== raw link /board
+============ Found Relative: joining https://www.yelp.com/guidelines and /board
+============ Checking for Redirections: https://www.yelp.com/board
+========== dropped link https://www.yelp.com/board. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 89
+========== raw link /advertiser_faq
+============ Found Relative: joining https://www.yelp.com/guidelines and /advertiser_faq
+============ Checking for Redirections: https://www.yelp.com/advertiser_faq
+========== dropped link https://www.yelp.com/advertiser_faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 89
+========== raw link /salesforcepolicy
+============ Found Relative: joining https://www.yelp.com/guidelines and /salesforcepolicy
+============ Checking for Redirections: https://www.yelp.com/salesforcepolicy
+============ Link after cleaning: https://www.yelp.com/salesforcepolicy
+========== scraping https://www.yelp.com/salesforcepolicy
+======== We are on link 45 of 89
+========== raw link /careers
+============ Found Relative: joining https://www.yelp.com/guidelines and /careers
+============ Checking for Redirections: https://www.yelp.com/careers
+============ Followed Redirection to https://www.yelp.careers/us/en
+============ Link after cleaning: https://www.yelp.careers/us/en
+============ Excluded based on allow/block list.
+======== We are on link 46 of 89
+========== raw link /press
+============ Found Relative: joining https://www.yelp.com/guidelines and /press
+============ Checking for Redirections: https://www.yelp.com/press
+========== dropped link https://www.yelp.com/press. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 89
+========== raw link https://www.yelp-ir.com/
+========== dropped link https://www.yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 48 of 89
+========== raw link /guidelines
+============ Found Relative: joining https://www.yelp.com/guidelines and /guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+============ Link after cleaning: https://www.yelp.com/guidelines
+========== link already checked
+======== We are on link 49 of 89
+========== raw link https://www.yelp-support.com/?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== scraping https://www.yelp-support.com/
+======== We are on link 50 of 89
+========== raw link https://biz.yelp.com/support/review_solicitation?hl=en_US
+============ Checking for Redirections: https://biz.yelp.com/support/review_solicitation?hl=en_US
+============ Followed Redirection to https://www.yelp-support.com/article/Don-t-Ask-for-Reviews?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/article/Don-t-Ask-for-Reviews
+========== scraping https://www.yelp-support.com/article/Don-t-Ask-for-Reviews
+======== We are on link 51 of 89
+========== raw link /about
+============ Found Relative: joining https://www.yelp.com/guidelines and /about
+============ Checking for Redirections: https://www.yelp.com/about
+============ Link after cleaning: https://www.yelp.com/about
+========== link already checked
+======== We are on link 52 of 89
+========== raw link /careers/home
+============ Found Relative: joining https://www.yelp.com/guidelines and /careers/home
+============ Checking for Redirections: https://www.yelp.com/careers/home
+============ Followed Redirection to https://www.yelp.careers/us/en
+============ Link after cleaning: https://www.yelp.careers/us/en
+============ Excluded based on allow/block list.
+======== We are on link 53 of 89
+========== raw link /press
+============ Found Relative: joining https://www.yelp.com/guidelines and /press
+============ Checking for Redirections: https://www.yelp.com/press
+========== dropped link https://www.yelp.com/press. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 89
+========== raw link http://yelp-ir.com/
+========== dropped link http://yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 55 of 89
+========== raw link https://trust.yelp.com
+============ Checking for Redirections: https://trust.yelp.com
+========== dropped link https://trust.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 89
+========== raw link /guidelines
+============ Found Relative: joining https://www.yelp.com/guidelines and /guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+============ Link after cleaning: https://www.yelp.com/guidelines
+========== link already checked
+======== We are on link 57 of 89
+========== raw link https://www.yelp-support.com/article/Yelp-Accessibility-Statement
+============ Checking for Redirections: https://www.yelp-support.com/article/Yelp-Accessibility-Statement
+============ Link unchanged
+========== scraping https://www.yelp-support.com/article/Yelp-Accessibility-Statement
+======== We are on link 58 of 89
+========== raw link /static?p=tos
+============ Found Relative: joining https://www.yelp.com/guidelines and /static?p=tos
+============ Checking for Redirections: https://www.yelp.com/static?p=tos
+========== dropped link https://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 59 of 89
+========== raw link /tos/privacy_policy
+============ Found Relative: joining https://www.yelp.com/guidelines and /tos/privacy_policy
+============ Checking for Redirections: https://www.yelp.com/tos/privacy_policy
+========== dropped link https://www.yelp.com/tos/privacy_policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 60 of 89
+========== raw link /static?p=tos#third-parties
+============ Found Relative: joining https://www.yelp.com/guidelines and /static?p=tos#third-parties
+============ Checking for Redirections: https://www.yelp.com/static?p=tos#third-parties
+========== dropped link https://www.yelp.com/static?p=tos#third-parties. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 61 of 89
+========== raw link https://www.yelp-support.com/article/Your-Privacy-Choices?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/Your-Privacy-Choices?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/article/Your-Privacy-Choices
+========== scraping https://www.yelp-support.com/article/Your-Privacy-Choices
+======== We are on link 62 of 89
+========== raw link /costs
+============ Found Relative: joining https://www.yelp.com/guidelines and /costs
+============ Checking for Redirections: https://www.yelp.com/costs
+============ Link after cleaning: https://www.yelp.com/costs
+========== scraping https://www.yelp.com/costs
+======== We are on link 63 of 89
+========== raw link /collections
+============ Found Relative: joining https://www.yelp.com/guidelines and /collections
+============ Checking for Redirections: https://www.yelp.com/collections
+============ Followed Redirection to https://www.yelp.com/collections/city/chicago
+============ Link after cleaning: https://www.yelp.com/collections/city/chicago
+========== scraping https://www.yelp.com/collections/city/chicago
+======== We are on link 64 of 89
+========== raw link /talk
+============ Found Relative: joining https://www.yelp.com/guidelines and /talk
+============ Checking for Redirections: https://www.yelp.com/talk
+============ Followed Redirection to https://www.yelp.com/talk/chicago
+============ Link after cleaning: https://www.yelp.com/talk/chicago
+========== scraping https://www.yelp.com/talk/chicago
+======== We are on link 65 of 89
+========== raw link /events
+============ Found Relative: joining https://www.yelp.com/guidelines and /events
+============ Checking for Redirections: https://www.yelp.com/events
+============ Followed Redirection to https://www.yelp.com/events/chicago
+============ Link after cleaning: https://www.yelp.com/events/chicago
+========== scraping https://www.yelp.com/events/chicago
+======== We are on link 66 of 89
+========== raw link https://blog.yelp.com/
+============ Checking for Redirections: https://blog.yelp.com/
+========== dropped link https://blog.yelp.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 67 of 89
+========== raw link https://www.yelp-support.com/
+============ Checking for Redirections: https://www.yelp-support.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 68 of 89
+========== raw link /yelpmobile?source=footer
+============ Found Relative: joining https://www.yelp.com/guidelines and /yelpmobile?source=footer
+============ Checking for Redirections: https://www.yelp.com/yelpmobile?source=footer
+============ Followed Redirection to https://www.yelp.com/mobile
+============ Link after cleaning: https://www.yelp.com/mobile
+========== scraping https://www.yelp.com/mobile
+======== We are on link 69 of 89
+========== raw link /developers?country=US
+============ Found Relative: joining https://www.yelp.com/guidelines and /developers?country=US
+============ Checking for Redirections: https://www.yelp.com/developers?country=US
+============ Link after cleaning: https://www.yelp.com/developers
+========== scraping https://www.yelp.com/developers
+======== We are on link 70 of 89
+========== raw link /rss
+============ Found Relative: joining https://www.yelp.com/guidelines and /rss
+============ Checking for Redirections: https://www.yelp.com/rss
+============ Link after cleaning: https://www.yelp.com/rss
+========== scraping https://www.yelp.com/rss
+======== We are on link 71 of 89
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 72 of 89
+========== raw link https://biz.yelp.com/login
+========== dropped link https://biz.yelp.com/login. Didn't pass first allows/blocks test.
+======== We are on link 73 of 89
+========== raw link https://business.yelp.com?utm_source=footer&utm_medium=www&utm_content=claim_footer_link&utm_campaign=claim_business
+============ Checking for Redirections: https://business.yelp.com?utm_source=footer&utm_medium=www&utm_content=claim_footer_link&utm_campaign=claim_business
+========== dropped link https://business.yelp.com?utm_source=footer&utm_medium=www&utm_content=claim_footer_link&utm_campaign=claim_business. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 74 of 89
+========== raw link https://business.yelp.com/products/yelp-ads
+========== dropped link https://business.yelp.com/products/yelp-ads. Didn't pass first allows/blocks test.
+======== We are on link 75 of 89
+========== raw link https://restaurants.yelp.com/
+============ Checking for Redirections: https://restaurants.yelp.com/
+========== dropped link https://restaurants.yelp.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 76 of 89
+========== raw link https://restaurants.yelp.com/products/waitlist-table-management-software/
+============ Checking for Redirections: https://restaurants.yelp.com/products/waitlist-table-management-software/
+========== dropped link https://restaurants.yelp.com/products/waitlist-table-management-software/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 77 of 89
+========== raw link https://business.yelp.com/resources/case-studies
+========== dropped link https://business.yelp.com/resources/case-studies. Didn't pass first allows/blocks test.
+======== We are on link 78 of 89
+========== raw link https://www.yelp-support.com/Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_for_Business?l=en_US
+============ Followed Redirection to https://biz.yelp.com/support-center/
+============ Link after cleaning: https://biz.yelp.com/support-center/
+========== scraping https://biz.yelp.com/support-center/
+======== We are on link 79 of 89
+========== raw link https://www.yelpblog.com/section/business
+========== dropped link https://www.yelpblog.com/section/business. Didn't pass first allows/blocks test.
+======== We are on link 80 of 89
+========== raw link https://knowledge.yelp.com
+============ Checking for Redirections: https://knowledge.yelp.com
+========== dropped link https://knowledge.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 81 of 89
+========== raw link https://fusion.yelp.com
+============ Checking for Redirections: https://fusion.yelp.com
+========== dropped link https://fusion.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 82 of 89
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 83 of 89
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 84 of 89
+========== raw link /about
+============ Found Relative: joining https://www.yelp.com/guidelines and /about
+============ Checking for Redirections: https://www.yelp.com/about
+========== dropped link https://www.yelp.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 85 of 89
+========== raw link https://blog.yelp.com/
+============ Checking for Redirections: https://blog.yelp.com/
+========== dropped link https://blog.yelp.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 86 of 89
+========== raw link https://www.yelp-support.com/
+============ Checking for Redirections: https://www.yelp-support.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 87 of 89
+========== raw link /static?p=tos
+============ Found Relative: joining https://www.yelp.com/guidelines and /static?p=tos
+============ Checking for Redirections: https://www.yelp.com/static?p=tos
+========== dropped link https://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 88 of 89
+========== raw link /tos/privacy_policy
+============ Found Relative: joining https://www.yelp.com/guidelines and /tos/privacy_policy
+============ Checking for Redirections: https://www.yelp.com/tos/privacy_policy
+========== dropped link https://www.yelp.com/tos/privacy_policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 89 of 89
+========== raw link https://www.yelp-support.com/article/Your-Privacy-Choices?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/Your-Privacy-Choices?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/article/Your-Privacy-Choices
+========== link already checked
+====== We are on page 3 of 8: https://www.yelp-support.com/?l=en_US
+====== Number of Links on this Page: 80
+======== We are on link 1 of 80
+========== raw link http://www.yelp.com
+============ Checking for Redirections: http://www.yelp.com
+========== dropped link http://www.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 80
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 80
+========== raw link https://biz.yelp.com/billing/?offer_support_center_promo=true
+============ Checking for Redirections: https://biz.yelp.com/billing/?offer_support_center_promo=true
+========== dropped link https://biz.yelp.com/billing/?offer_support_center_promo=true. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 80
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 5 of 80
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 6 of 80
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Consumers?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Consumers?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Consumers
+========== scraping https://www.yelp-support.com/Consumers
+======== We are on link 7 of 80
+========== raw link /Reviews_Photos?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Reviews_Photos?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Reviews_Photos?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Reviews_Photos
+========== scraping https://www.yelp-support.com/Reviews_Photos
+======== We are on link 8 of 80
+========== raw link /Updating_Business_Information?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Updating_Business_Information?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Updating_Business_Information?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Updating_Business_Information
+========== scraping https://www.yelp-support.com/Updating_Business_Information
+======== We are on link 9 of 80
+========== raw link /Yelp_for_Business?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_for_Business?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_for_Business?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 80
+========== raw link /Advertising_on_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Advertising_on_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Advertising_on_Yelp?l=en_US
+========== dropped link https://www.yelp-support.com/Advertising_on_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 80
+========== raw link /Claiming_your_Business_Page?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Claiming_your_Business_Page?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US
+========== dropped link https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 80
+========== raw link /Yelp_Reservations?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Yelp_Reservations?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Reservations?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_Reservations?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 80
+========== raw link /Yelp_Guest_Manager?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Yelp_Guest_Manager?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Guest_Manager?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Yelp_Guest_Manager
+========== scraping https://www.yelp-support.com/Yelp_Guest_Manager
+======== We are on link 14 of 80
+========== raw link /Recommended_Reviews?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Recommended_Reviews?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Recommended_Reviews?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Recommended_Reviews
+========== scraping https://www.yelp-support.com/Recommended_Reviews
+======== We are on link 15 of 80
+========== raw link /Yelp_Elite_Squad?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Yelp_Elite_Squad?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Elite_Squad?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Yelp_Elite_Squad
+========== scraping https://www.yelp-support.com/Yelp_Elite_Squad
+======== We are on link 16 of 80
+========== raw link /Legal_Questions?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Legal_Questions?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Legal_Questions?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Legal_Questions
+========== scraping https://www.yelp-support.com/Legal_Questions
+============ New link added. Search term (AI) found on https://www.yelp-support.com/Legal_Questions.
+======== We are on link 17 of 80
+========== raw link /Searching_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Searching_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Searching_Yelp?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Searching_Yelp
+========== scraping https://www.yelp-support.com/Searching_Yelp
+======== We are on link 18 of 80
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 80
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 80
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 80
+========== raw link /Regulatory_Disclosures?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Regulatory_Disclosures?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Regulatory_Disclosures?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Regulatory_Disclosures
+========== scraping https://www.yelp-support.com/Regulatory_Disclosures
+======== We are on link 22 of 80
+========== raw link /article/How-does-billing-work?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/How-does-billing-work?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-does-billing-work?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-does-billing-work?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 80
+========== raw link /article/How-do-I-measure-the-success-of-my-Yelp-advertising?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/How-do-I-measure-the-success-of-my-Yelp-advertising?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-do-I-measure-the-success-of-my-Yelp-advertising?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-do-I-measure-the-success-of-my-Yelp-advertising?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 80
+========== raw link /article/How-do-I-update-my-business-page-to-grow-my-business-and-connect-with-customers-on-Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/How-do-I-update-my-business-page-to-grow-my-business-and-connect-with-customers-on-Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-do-I-update-my-business-page-to-grow-my-business-and-connect-with-customers-on-Yelp?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-do-I-update-my-business-page-to-grow-my-business-and-connect-with-customers-on-Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 80
+========== raw link /article/Why-aren-t-all-of-my-reviews-being-recommended?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/Why-aren-t-all-of-my-reviews-being-recommended?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/Why-aren-t-all-of-my-reviews-being-recommended?l=en_US
+========== dropped link https://www.yelp-support.com/article/Why-aren-t-all-of-my-reviews-being-recommended?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 80
+========== raw link /article/How-do-I-reply-to-a-review?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/How-do-I-reply-to-a-review?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-do-I-reply-to-a-review?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-do-I-reply-to-a-review?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 80
+========== raw link /article/How-do-I-log-in-to-my-Yelp-Business-Account?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /article/How-do-I-log-in-to-my-Yelp-Business-Account?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-do-I-log-in-to-my-Yelp-Business-Account?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-do-I-log-in-to-my-Yelp-Business-Account?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 80
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Consumers?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Consumers?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Consumers
+========== link already checked
+======== We are on link 29 of 80
+========== raw link /Yelp_for_Business?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_for_Business?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_for_Business?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 80
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 80
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 80
+========== raw link tel:8887170532
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /tel:8887170532
+============ Checking for Redirections: https://www.yelp-support.com/tel:8887170532
+========== dropped link https://www.yelp-support.com/tel:8887170532. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 80
+========== raw link http://www.yelp.com/about
+============ Checking for Redirections: http://www.yelp.com/about
+========== dropped link http://www.yelp.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 80
+========== raw link http://www.yelp.com/careers?country=US
+============ Checking for Redirections: http://www.yelp.com/careers?country=US
+========== dropped link http://www.yelp.com/careers?country=US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 80
+========== raw link http://www.yelp-press.com/news
+========== dropped link http://www.yelp-press.com/news. Didn't pass first allows/blocks test.
+======== We are on link 36 of 80
+========== raw link http://www.yelp-ir.com/
+========== dropped link http://www.yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 37 of 80
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 80
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 80
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 80
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 80
+========== raw link http://www.yelp.com/local_yelp
+============ Checking for Redirections: http://www.yelp.com/local_yelp
+========== dropped link http://www.yelp.com/local_yelp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 80
+========== raw link http://officialblog.yelp.com
+============ Checking for Redirections: http://officialblog.yelp.com
+========== dropped link http://officialblog.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 80
+========== raw link http://www.yelp-support.com/
+============ Checking for Redirections: http://www.yelp-support.com/
+============ Followed Redirection to https://www.yelp-support.com/
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 44 of 80
+========== raw link http://www.yelp.com/mobile
+============ Checking for Redirections: http://www.yelp.com/mobile
+========== dropped link http://www.yelp.com/mobile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 80
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 80
+========== raw link http://www.yelp.com/rss
+============ Checking for Redirections: http://www.yelp.com/rss
+========== dropped link http://www.yelp.com/rss. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 80
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 80
+========== raw link https://business.yelp.com/products/yelp-ads
+========== dropped link https://business.yelp.com/products/yelp-ads. Didn't pass first allows/blocks test.
+======== We are on link 49 of 80
+========== raw link http://restaurants.yelp.com
+============ Checking for Redirections: http://restaurants.yelp.com
+========== dropped link http://restaurants.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 50 of 80
+========== raw link https://business.yelp.com/resources/case-studies
+========== dropped link https://business.yelp.com/resources/case-studies. Didn't pass first allows/blocks test.
+======== We are on link 51 of 80
+========== raw link https://biz.yelp.com/support-center
+============ Checking for Redirections: https://biz.yelp.com/support-center
+========== dropped link https://biz.yelp.com/support-center. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 80
+========== raw link http://blog.yelp.com/section/business
+============ Checking for Redirections: http://blog.yelp.com/section/business
+========== dropped link http://blog.yelp.com/section/business. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 80
+========== raw link /language
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /language
+============ Checking for Redirections: https://www.yelp-support.com/language
+========== dropped link https://www.yelp-support.com/language. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 80
+========== raw link /?l=bg
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=bg
+============ Checking for Redirections: https://www.yelp-support.com/?l=bg
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 55 of 80
+========== raw link /?l=cs
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=cs
+============ Checking for Redirections: https://www.yelp-support.com/?l=cs
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 56 of 80
+========== raw link /?l=da
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=da
+============ Checking for Redirections: https://www.yelp-support.com/?l=da
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 57 of 80
+========== raw link /?l=de
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=de
+============ Checking for Redirections: https://www.yelp-support.com/?l=de
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 58 of 80
+========== raw link /?l=el
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=el
+============ Checking for Redirections: https://www.yelp-support.com/?l=el
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 59 of 80
+========== raw link /?l=en_GB
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=en_GB
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_GB
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 60 of 80
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 61 of 80
+========== raw link /?l=es
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=es
+============ Checking for Redirections: https://www.yelp-support.com/?l=es
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 62 of 80
+========== raw link /?l=et
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=et
+============ Checking for Redirections: https://www.yelp-support.com/?l=et
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 63 of 80
+========== raw link /?l=fi
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=fi
+============ Checking for Redirections: https://www.yelp-support.com/?l=fi
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 64 of 80
+========== raw link /?l=fr
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=fr
+============ Checking for Redirections: https://www.yelp-support.com/?l=fr
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 65 of 80
+========== raw link /?l=hr
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=hr
+============ Checking for Redirections: https://www.yelp-support.com/?l=hr
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 66 of 80
+========== raw link /?l=hu
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=hu
+============ Checking for Redirections: https://www.yelp-support.com/?l=hu
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 67 of 80
+========== raw link /?l=it
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=it
+============ Checking for Redirections: https://www.yelp-support.com/?l=it
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 68 of 80
+========== raw link /?l=lb
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=lb
+============ Checking for Redirections: https://www.yelp-support.com/?l=lb
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 69 of 80
+========== raw link /?l=lt
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=lt
+============ Checking for Redirections: https://www.yelp-support.com/?l=lt
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 70 of 80
+========== raw link /?l=lv
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=lv
+============ Checking for Redirections: https://www.yelp-support.com/?l=lv
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 71 of 80
+========== raw link /?l=mt
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=mt
+============ Checking for Redirections: https://www.yelp-support.com/?l=mt
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 72 of 80
+========== raw link /?l=nl_NL
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=nl_NL
+============ Checking for Redirections: https://www.yelp-support.com/?l=nl_NL
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 73 of 80
+========== raw link /?l=no
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=no
+============ Checking for Redirections: https://www.yelp-support.com/?l=no
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 74 of 80
+========== raw link /?l=pl
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=pl
+============ Checking for Redirections: https://www.yelp-support.com/?l=pl
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 75 of 80
+========== raw link /?l=pt_PT
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=pt_PT
+============ Checking for Redirections: https://www.yelp-support.com/?l=pt_PT
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 76 of 80
+========== raw link /?l=ro
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=ro
+============ Checking for Redirections: https://www.yelp-support.com/?l=ro
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 77 of 80
+========== raw link /?l=sk
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=sk
+============ Checking for Redirections: https://www.yelp-support.com/?l=sk
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 78 of 80
+========== raw link /?l=sl
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=sl
+============ Checking for Redirections: https://www.yelp-support.com/?l=sl
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 79 of 80
+========== raw link /?l=sv
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=sv
+============ Checking for Redirections: https://www.yelp-support.com/?l=sv
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 80 of 80
+========== raw link /?l=tr
+============ Found Relative: joining https://www.yelp-support.com/?l=en_US and /?l=tr
+============ Checking for Redirections: https://www.yelp-support.com/?l=tr
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+====== We are on page 4 of 8: https://blog.yelp.com/news/end-of-year-product-release-2024/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 8: https://blog.yelp.com/news/consumer-trust-survey-2024/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 6 of 8: https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US
+====== Number of Links on this Page: 48
+======== We are on link 1 of 48
+========== raw link http://www.yelp.com
+============ Checking for Redirections: http://www.yelp.com
+========== dropped link http://www.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 48
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 48
+========== raw link https://biz.yelp.com/billing/?offer_support_center_promo=true
+============ Checking for Redirections: https://biz.yelp.com/billing/?offer_support_center_promo=true
+========== dropped link https://biz.yelp.com/billing/?offer_support_center_promo=true. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 48
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 5 of 48
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/
+========== link already checked
+======== We are on link 6 of 48
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Consumers?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Consumers?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Consumers
+========== link already checked
+======== We are on link 7 of 48
+========== raw link /Reviews_Photos?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Reviews_Photos?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Reviews_Photos?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Reviews_Photos
+========== link already checked
+======== We are on link 8 of 48
+========== raw link /Updating_Business_Information?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Updating_Business_Information?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Updating_Business_Information?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Updating_Business_Information
+========== link already checked
+======== We are on link 9 of 48
+========== raw link /Yelp_for_Business?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_for_Business?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_for_Business?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 48
+========== raw link /Advertising_on_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Advertising_on_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Advertising_on_Yelp?l=en_US
+========== dropped link https://www.yelp-support.com/Advertising_on_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 48
+========== raw link /Claiming_your_Business_Page?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Claiming_your_Business_Page?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US
+========== dropped link https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 48
+========== raw link /Yelp_Reservations?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Yelp_Reservations?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Reservations?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_Reservations?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 48
+========== raw link /Yelp_Guest_Manager?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Yelp_Guest_Manager?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Guest_Manager?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Yelp_Guest_Manager
+========== link already checked
+======== We are on link 14 of 48
+========== raw link /Recommended_Reviews?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Recommended_Reviews?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Recommended_Reviews?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Recommended_Reviews
+========== link already checked
+======== We are on link 15 of 48
+========== raw link /Yelp_Elite_Squad?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Yelp_Elite_Squad?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Elite_Squad?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Yelp_Elite_Squad
+========== link already checked
+======== We are on link 16 of 48
+========== raw link /Legal_Questions?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Legal_Questions?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Legal_Questions?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Legal_Questions
+========== link already checked
+======== We are on link 17 of 48
+========== raw link /Searching_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Searching_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Searching_Yelp?l=en_US
+============ Link after cleaning: https://www.yelp-support.com/Searching_Yelp
+========== link already checked
+======== We are on link 18 of 48
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 48
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 48
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 48
+========== raw link /Regulatory_Disclosures?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Regulatory_Disclosures?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Regulatory_Disclosures?l=en_US
+========== dropped link https://www.yelp-support.com/Regulatory_Disclosures?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 48
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+========== dropped link https://www.yelp-support.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 48
+========== raw link /Legal_Questions?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /Legal_Questions?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Legal_Questions?l=en_US
+========== dropped link https://www.yelp-support.com/Legal_Questions?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 48
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 48
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 48
+========== raw link tel:8887170532
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /tel:8887170532
+============ Checking for Redirections: https://www.yelp-support.com/tel:8887170532
+========== dropped link https://www.yelp-support.com/tel:8887170532. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 48
+========== raw link http://www.yelp.com/about
+============ Checking for Redirections: http://www.yelp.com/about
+========== dropped link http://www.yelp.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 48
+========== raw link http://www.yelp.com/careers?country=US
+============ Checking for Redirections: http://www.yelp.com/careers?country=US
+========== dropped link http://www.yelp.com/careers?country=US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 48
+========== raw link http://www.yelp-press.com/news
+========== dropped link http://www.yelp-press.com/news. Didn't pass first allows/blocks test.
+======== We are on link 30 of 48
+========== raw link http://www.yelp-ir.com/
+========== dropped link http://www.yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 31 of 48
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 48
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 48
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 48
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 48
+========== raw link http://www.yelp.com/local_yelp
+============ Checking for Redirections: http://www.yelp.com/local_yelp
+========== dropped link http://www.yelp.com/local_yelp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 48
+========== raw link http://officialblog.yelp.com
+============ Checking for Redirections: http://officialblog.yelp.com
+========== dropped link http://officialblog.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 48
+========== raw link http://www.yelp-support.com/
+============ Checking for Redirections: http://www.yelp-support.com/
+========== dropped link http://www.yelp-support.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 48
+========== raw link http://www.yelp.com/mobile
+============ Checking for Redirections: http://www.yelp.com/mobile
+========== dropped link http://www.yelp.com/mobile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 48
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 48
+========== raw link http://www.yelp.com/rss
+============ Checking for Redirections: http://www.yelp.com/rss
+========== dropped link http://www.yelp.com/rss. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 48
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 48
+========== raw link https://business.yelp.com/products/yelp-ads
+========== dropped link https://business.yelp.com/products/yelp-ads. Didn't pass first allows/blocks test.
+======== We are on link 43 of 48
+========== raw link http://restaurants.yelp.com
+============ Checking for Redirections: http://restaurants.yelp.com
+========== dropped link http://restaurants.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 48
+========== raw link https://business.yelp.com/resources/case-studies
+========== dropped link https://business.yelp.com/resources/case-studies. Didn't pass first allows/blocks test.
+======== We are on link 45 of 48
+========== raw link https://biz.yelp.com/support-center
+============ Checking for Redirections: https://biz.yelp.com/support-center
+========== dropped link https://biz.yelp.com/support-center. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 48
+========== raw link http://blog.yelp.com/section/business
+============ Checking for Redirections: http://blog.yelp.com/section/business
+========== dropped link http://blog.yelp.com/section/business. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 48
+========== raw link /language
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /language
+============ Checking for Redirections: https://www.yelp-support.com/language
+========== dropped link https://www.yelp-support.com/language. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 48
+========== raw link /article/How-does-Yelp-use-Generative-AI?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US and /article/How-does-Yelp-use-Generative-AI?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US
+========== dropped link https://www.yelp-support.com/article/How-does-Yelp-use-Generative-AI?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 7 of 8: https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+====== Number of Links on this Page: 54
+======== We are on link 1 of 54
+========== raw link http://www.yelp.com
+============ Checking for Redirections: http://www.yelp.com
+========== dropped link http://www.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 54
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 54
+========== raw link https://biz.yelp.com/billing/?offer_support_center_promo=true
+============ Checking for Redirections: https://biz.yelp.com/billing/?offer_support_center_promo=true
+========== dropped link https://biz.yelp.com/billing/?offer_support_center_promo=true. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+========== dropped link https://www.yelp-support.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+========== dropped link https://www.yelp-support.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 54
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Consumers?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Consumers?l=en_US
+========== dropped link https://www.yelp-support.com/Consumers?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 54
+========== raw link /Reviews_Photos?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Reviews_Photos?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Reviews_Photos?l=en_US
+========== dropped link https://www.yelp-support.com/Reviews_Photos?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 54
+========== raw link /Updating_Business_Information?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Updating_Business_Information?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Updating_Business_Information?l=en_US
+========== dropped link https://www.yelp-support.com/Updating_Business_Information?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 54
+========== raw link /Yelp_for_Business?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_for_Business?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_for_Business?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 54
+========== raw link /Advertising_on_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Advertising_on_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Advertising_on_Yelp?l=en_US
+========== dropped link https://www.yelp-support.com/Advertising_on_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 54
+========== raw link /Claiming_your_Business_Page?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Claiming_your_Business_Page?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US
+========== dropped link https://www.yelp-support.com/Claiming_your_Business_Page?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 54
+========== raw link /Yelp_Reservations?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Yelp_Reservations?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Reservations?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_Reservations?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 54
+========== raw link /Yelp_Guest_Manager?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Yelp_Guest_Manager?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Guest_Manager?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_Guest_Manager?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 54
+========== raw link /Recommended_Reviews?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Recommended_Reviews?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Recommended_Reviews?l=en_US
+========== dropped link https://www.yelp-support.com/Recommended_Reviews?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 54
+========== raw link /Yelp_Elite_Squad?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Yelp_Elite_Squad?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Yelp_Elite_Squad?l=en_US
+========== dropped link https://www.yelp-support.com/Yelp_Elite_Squad?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 54
+========== raw link /Legal_Questions?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Legal_Questions?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Legal_Questions?l=en_US
+========== dropped link https://www.yelp-support.com/Legal_Questions?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 54
+========== raw link /Searching_Yelp?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Searching_Yelp?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Searching_Yelp?l=en_US
+========== dropped link https://www.yelp-support.com/Searching_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 54
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 54
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 54
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 54
+========== raw link /Regulatory_Disclosures?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Regulatory_Disclosures?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Regulatory_Disclosures?l=en_US
+========== dropped link https://www.yelp-support.com/Regulatory_Disclosures?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/?l=en_US
+========== dropped link https://www.yelp-support.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 54
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Consumers?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Consumers?l=en_US
+========== dropped link https://www.yelp-support.com/Consumers?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 54
+========== raw link /Posting_Photos_Videos?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /Posting_Photos_Videos?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/Posting_Photos_Videos?l=en_US
+========== dropped link https://www.yelp-support.com/Posting_Photos_Videos?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 54
+========== raw link https://www.yelp.com/guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+========== dropped link https://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 54
+========== raw link https://terms.yelp.com/
+============ Checking for Redirections: https://terms.yelp.com/
+========== dropped link https://terms.yelp.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 54
+========== raw link https://www.yelp.com/guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+========== dropped link https://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 54
+========== raw link https://trust.yelp.com/content-moderation/
+============ Checking for Redirections: https://trust.yelp.com/content-moderation/
+========== dropped link https://trust.yelp.com/content-moderation/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 54
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 54
+========== raw link tel:8777679357
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /tel:8777679357
+============ Checking for Redirections: https://www.yelp-support.com/tel:8777679357
+========== dropped link https://www.yelp-support.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 54
+========== raw link tel:8887170532
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /tel:8887170532
+============ Checking for Redirections: https://www.yelp-support.com/tel:8887170532
+========== dropped link https://www.yelp-support.com/tel:8887170532. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 54
+========== raw link http://www.yelp.com/about
+============ Checking for Redirections: http://www.yelp.com/about
+========== dropped link http://www.yelp.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 54
+========== raw link http://www.yelp.com/careers?country=US
+============ Checking for Redirections: http://www.yelp.com/careers?country=US
+========== dropped link http://www.yelp.com/careers?country=US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 54
+========== raw link http://www.yelp-press.com/news
+========== dropped link http://www.yelp-press.com/news. Didn't pass first allows/blocks test.
+======== We are on link 35 of 54
+========== raw link http://www.yelp-ir.com/
+========== dropped link http://www.yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 36 of 54
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 54
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 54
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 54
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 54
+========== raw link http://www.yelp.com/local_yelp
+============ Checking for Redirections: http://www.yelp.com/local_yelp
+========== dropped link http://www.yelp.com/local_yelp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 54
+========== raw link http://officialblog.yelp.com
+============ Checking for Redirections: http://officialblog.yelp.com
+========== dropped link http://officialblog.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 54
+========== raw link http://www.yelp-support.com/
+============ Checking for Redirections: http://www.yelp-support.com/
+========== dropped link http://www.yelp-support.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 54
+========== raw link http://www.yelp.com/mobile
+============ Checking for Redirections: http://www.yelp.com/mobile
+========== dropped link http://www.yelp.com/mobile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 54
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 54
+========== raw link http://www.yelp.com/rss
+============ Checking for Redirections: http://www.yelp.com/rss
+========== dropped link http://www.yelp.com/rss. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 54
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 54
+========== raw link https://business.yelp.com/products/yelp-ads
+========== dropped link https://business.yelp.com/products/yelp-ads. Didn't pass first allows/blocks test.
+======== We are on link 48 of 54
+========== raw link http://restaurants.yelp.com
+============ Checking for Redirections: http://restaurants.yelp.com
+========== dropped link http://restaurants.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 54
+========== raw link https://business.yelp.com/resources/case-studies
+========== dropped link https://business.yelp.com/resources/case-studies. Didn't pass first allows/blocks test.
+======== We are on link 50 of 54
+========== raw link https://biz.yelp.com/support-center
+============ Checking for Redirections: https://biz.yelp.com/support-center
+========== dropped link https://biz.yelp.com/support-center. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 54
+========== raw link http://blog.yelp.com/section/business
+============ Checking for Redirections: http://blog.yelp.com/section/business
+========== dropped link http://blog.yelp.com/section/business. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 54
+========== raw link /language
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /language
+============ Checking for Redirections: https://www.yelp-support.com/language
+========== dropped link https://www.yelp-support.com/language. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 54
+========== raw link /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+============ Checking for Redirections: https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+========== dropped link https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 54
+========== raw link /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+============ Found Relative: joining https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US and /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+============ Checking for Redirections: https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+========== dropped link https://www.yelp-support.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 8 of 8: https://terms.yelp.com/tos/en_us/20200101_en_us/
+====== Number of Links on this Page: 54
+======== We are on link 1 of 54
+========== raw link http://www.yelp.com
+============ Checking for Redirections: http://www.yelp.com
+========== dropped link http://www.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 54
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 54
+========== raw link https://biz.yelp.com/billing/?offer_support_center_promo=true
+============ Checking for Redirections: https://biz.yelp.com/billing/?offer_support_center_promo=true
+========== dropped link https://biz.yelp.com/billing/?offer_support_center_promo=true. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/?l=en_US
+========== dropped link https://terms.yelp.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/?l=en_US
+========== dropped link https://terms.yelp.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 54
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Consumers?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Consumers?l=en_US
+========== dropped link https://terms.yelp.com/Consumers?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 54
+========== raw link /Reviews_Photos?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Reviews_Photos?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Reviews_Photos?l=en_US
+========== dropped link https://terms.yelp.com/Reviews_Photos?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 54
+========== raw link /Updating_Business_Information?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Updating_Business_Information?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Updating_Business_Information?l=en_US
+========== dropped link https://terms.yelp.com/Updating_Business_Information?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 54
+========== raw link /Yelp_for_Business?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Yelp_for_Business?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Yelp_for_Business?l=en_US
+========== dropped link https://terms.yelp.com/Yelp_for_Business?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 54
+========== raw link /Advertising_on_Yelp?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Advertising_on_Yelp?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Advertising_on_Yelp?l=en_US
+========== dropped link https://terms.yelp.com/Advertising_on_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 54
+========== raw link /Claiming_your_Business_Page?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Claiming_your_Business_Page?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Claiming_your_Business_Page?l=en_US
+========== dropped link https://terms.yelp.com/Claiming_your_Business_Page?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 54
+========== raw link /Yelp_Reservations?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Yelp_Reservations?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Yelp_Reservations?l=en_US
+========== dropped link https://terms.yelp.com/Yelp_Reservations?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 54
+========== raw link /Yelp_Guest_Manager?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Yelp_Guest_Manager?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Yelp_Guest_Manager?l=en_US
+========== dropped link https://terms.yelp.com/Yelp_Guest_Manager?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 54
+========== raw link /Recommended_Reviews?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Recommended_Reviews?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Recommended_Reviews?l=en_US
+========== dropped link https://terms.yelp.com/Recommended_Reviews?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 54
+========== raw link /Yelp_Elite_Squad?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Yelp_Elite_Squad?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Yelp_Elite_Squad?l=en_US
+========== dropped link https://terms.yelp.com/Yelp_Elite_Squad?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 54
+========== raw link /Legal_Questions?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Legal_Questions?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Legal_Questions?l=en_US
+========== dropped link https://terms.yelp.com/Legal_Questions?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 54
+========== raw link /Searching_Yelp?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Searching_Yelp?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Searching_Yelp?l=en_US
+========== dropped link https://terms.yelp.com/Searching_Yelp?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 54
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 54
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 54
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 54
+========== raw link /Regulatory_Disclosures?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Regulatory_Disclosures?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Regulatory_Disclosures?l=en_US
+========== dropped link https://terms.yelp.com/Regulatory_Disclosures?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 54
+========== raw link /?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/?l=en_US
+========== dropped link https://terms.yelp.com/?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 54
+========== raw link /Consumers?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Consumers?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Consumers?l=en_US
+========== dropped link https://terms.yelp.com/Consumers?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 54
+========== raw link /Posting_Photos_Videos?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /Posting_Photos_Videos?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/Posting_Photos_Videos?l=en_US
+========== dropped link https://terms.yelp.com/Posting_Photos_Videos?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 54
+========== raw link https://www.yelp.com/guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+========== dropped link https://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 54
+========== raw link https://terms.yelp.com/
+============ Checking for Redirections: https://terms.yelp.com/
+========== dropped link https://terms.yelp.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 27 of 54
+========== raw link https://www.yelp.com/guidelines
+============ Checking for Redirections: https://www.yelp.com/guidelines
+========== dropped link https://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 28 of 54
+========== raw link https://trust.yelp.com/content-moderation/
+============ Checking for Redirections: https://trust.yelp.com/content-moderation/
+========== dropped link https://trust.yelp.com/content-moderation/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 54
+========== raw link tel:8777679357
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /tel:8777679357
+============ Checking for Redirections: https://terms.yelp.com/tel:8777679357
+========== dropped link https://terms.yelp.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 54
+========== raw link tel:8777679357
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /tel:8777679357
+============ Checking for Redirections: https://terms.yelp.com/tel:8777679357
+========== dropped link https://terms.yelp.com/tel:8777679357. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 54
+========== raw link tel:8887170532
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /tel:8887170532
+============ Checking for Redirections: https://terms.yelp.com/tel:8887170532
+========== dropped link https://terms.yelp.com/tel:8887170532. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 54
+========== raw link http://www.yelp.com/about
+============ Checking for Redirections: http://www.yelp.com/about
+========== dropped link http://www.yelp.com/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 33 of 54
+========== raw link http://www.yelp.com/careers?country=US
+============ Checking for Redirections: http://www.yelp.com/careers?country=US
+========== dropped link http://www.yelp.com/careers?country=US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 54
+========== raw link http://www.yelp-press.com/news
+========== dropped link http://www.yelp-press.com/news. Didn't pass first allows/blocks test.
+======== We are on link 35 of 54
+========== raw link http://www.yelp-ir.com/
+========== dropped link http://www.yelp-ir.com/. Didn't pass first allows/blocks test.
+======== We are on link 36 of 54
+========== raw link http://www.yelp.com/guidelines
+============ Checking for Redirections: http://www.yelp.com/guidelines
+========== dropped link http://www.yelp.com/guidelines. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 54
+========== raw link http://www.yelp.com/static?p=tos
+============ Checking for Redirections: http://www.yelp.com/static?p=tos
+========== dropped link http://www.yelp.com/static?p=tos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 54
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 54
+========== raw link http://www.yelp.com/static?p=privacy
+============ Checking for Redirections: http://www.yelp.com/static?p=privacy
+========== dropped link http://www.yelp.com/static?p=privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 54
+========== raw link http://www.yelp.com/local_yelp
+============ Checking for Redirections: http://www.yelp.com/local_yelp
+========== dropped link http://www.yelp.com/local_yelp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 54
+========== raw link http://officialblog.yelp.com
+============ Checking for Redirections: http://officialblog.yelp.com
+========== dropped link http://officialblog.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 42 of 54
+========== raw link http://www.yelp-support.com/
+============ Checking for Redirections: http://www.yelp-support.com/
+========== dropped link http://www.yelp-support.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 54
+========== raw link http://www.yelp.com/mobile
+============ Checking for Redirections: http://www.yelp.com/mobile
+========== dropped link http://www.yelp.com/mobile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 44 of 54
+========== raw link http://www.yelp.com/developers
+============ Checking for Redirections: http://www.yelp.com/developers
+========== dropped link http://www.yelp.com/developers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 45 of 54
+========== raw link http://www.yelp.com/rss
+============ Checking for Redirections: http://www.yelp.com/rss
+========== dropped link http://www.yelp.com/rss. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 46 of 54
+========== raw link https://business.yelp.com
+============ Checking for Redirections: https://business.yelp.com
+========== dropped link https://business.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 47 of 54
+========== raw link https://business.yelp.com/products/yelp-ads
+========== dropped link https://business.yelp.com/products/yelp-ads. Didn't pass first allows/blocks test.
+======== We are on link 48 of 54
+========== raw link http://restaurants.yelp.com
+============ Checking for Redirections: http://restaurants.yelp.com
+========== dropped link http://restaurants.yelp.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 49 of 54
+========== raw link https://business.yelp.com/resources/case-studies
+========== dropped link https://business.yelp.com/resources/case-studies. Didn't pass first allows/blocks test.
+======== We are on link 50 of 54
+========== raw link https://biz.yelp.com/support-center
+============ Checking for Redirections: https://biz.yelp.com/support-center
+========== dropped link https://biz.yelp.com/support-center. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 51 of 54
+========== raw link http://blog.yelp.com/section/business
+============ Checking for Redirections: http://blog.yelp.com/section/business
+========== dropped link http://blog.yelp.com/section/business. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 52 of 54
+========== raw link /language
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /language
+============ Checking for Redirections: https://terms.yelp.com/language
+========== dropped link https://terms.yelp.com/language. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 53 of 54
+========== raw link /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+============ Checking for Redirections: https://terms.yelp.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB
+========== dropped link https://terms.yelp.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_GB. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 54
+========== raw link /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+============ Found Relative: joining https://terms.yelp.com/tos/en_us/20200101_en_us/ and /article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+============ Checking for Redirections: https://terms.yelp.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US
+========== dropped link https://terms.yelp.com/article/Does-Yelp-allow-posting-reviews-generated-by-AI-software?l=en_US. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 1
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 1: https://www.yelp-support.com/Legal_Questions
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+== Finished scraping yelp.com-AI_Moderation in 4732.4266 seconds.
+== Writing to db file
+== Done (/home/oscarc/ContentModerationWebScraper/data/05_13_25_22_52/all_htmls/AI_Moderation_yelp_com_05_13_25_22_52.json)
+== Completed with Errors, search for error in logs
