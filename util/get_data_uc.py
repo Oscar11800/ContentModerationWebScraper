@@ -13,7 +13,7 @@ import tempfile
 from pathlib import Path
 import shutil
 from selenium.webdriver.chrome.service import Service
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 
 
