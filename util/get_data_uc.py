@@ -43,7 +43,7 @@ class UC_Scraper:
 
         
         options = webdriver.ChromeOptions()
-        options.headless = False  # Disable headless mode for testing
+        options.headless = True  
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
         #options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
         options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
@@ -77,7 +77,7 @@ class UC_Scraper:
 
     def follow_redirect(self, link):
         #sanitize malformed urls
-        link = link.replace("??", "?").strip()
+        #link = link.replace("??", "?").strip()
         
         tries = 1
         while tries <= self.RETRY_CUTOFF:
