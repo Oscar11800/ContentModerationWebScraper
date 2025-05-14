@@ -102,7 +102,9 @@ class UC_Scraper:
                 return None
             
             if len(text) > self.SIZE_CUTOFF:
-                self.cur_link = self.driver.current_url 
+                #original: self.cur_link = self.driver.current_url 
+                # Ensure we have a fully qualified URL 
+                self.cur_link = urljoin(link, self.driver.current_url)
                 self.cur_page_source = page_source
                 return self.cur_link
             
