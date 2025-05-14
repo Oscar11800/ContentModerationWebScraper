@@ -28,13 +28,14 @@ class UC_Scraper:
         chrome_binary_path = "/usr/bin/google-chrome"
         
         options = webdriver.ChromeOptions()
-        options.headless = False  # Disable headless mode for testing
+        #options.headless = False  # Disable headless mode for testing
         options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
         options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
         options.add_argument("--blink-settings=imagesEnabled=false")  # disables images
         options.add_argument("--no-sandbox")
-        options.add_argument("--headless")
+        options.add_argument("--headless=new")
         options.add_argument("--disable-dev-shm-usage")
+        options.add_argument('--disable-gpu')
 
         self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
@@ -50,7 +51,7 @@ class UC_Scraper:
                 WebDriverWait(self.driver, timeout=15).until(
                     lambda driver: driver.execute_script("return document.readyState") == "complete"
                 )
-                time.sleep(random.randint(1,3)) # make sure JS loads
+                time.sleep(random.randint(3,5)) # make sure JS loads
                 page_source = self.driver.page_source
                 text = Soup(page_source, features='lxml').get_text()
             except (TimeoutException, WebDriverException, InvalidSessionIdException, ReadTimeoutError) as e:
@@ -105,3 +106,16 @@ class UC_Scraper:
                         'html': 'Failed'}
             links[i] = link
         return links
+    
+    def restart(self):
+        self.driver.quit()
+        options = webdriver.ChromeOptions()
+        #options.headless = False  # Disable headless mode for testing
+        options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
+        options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
+        options.add_argument("--blink-settings=imagesEnabled=false")  # disables images
+        options.add_argument("--no-sandbox")
+        options.add_argument("--headless=new")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument('--disable-gpu')
+        self.driver = webdriver.Chrome(options=options)

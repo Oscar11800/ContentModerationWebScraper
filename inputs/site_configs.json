@@ -423,7 +423,7 @@
       "seed_4": "https://help.goodreads.com/s/allannouncements"
     },
     "filters": {
-      "allows": ["goodreads.com"],
+      "allows": ["goodreads.com/about", "help.goodreads", "/guidelines"],
       "blocks": ["/login", "sign_up", "sign_in", "twitter", "facebook", "linkedin", "/Ideas", "/question/","/suggestions/"]
     }
   },
@@ -481,7 +481,7 @@
       "seed_12": "https://www.facebook.com/help/7434563519957988/?cms_platform=iphone-app&helpref=platform_switcher"
     },
     "filters": {
-      "allows": ["facebook.com", "meta.com/help", "transparency.meta.com", "about.fb.com"],
+      "allows": ["www.facebook.com", "meta.com/help", "transparency.meta.com", "about.fb.com"],
       "blocks": ["/signup", "/login", "/journalismproject", "/formedia"]
     }
   },
@@ -490,13 +490,12 @@
       "site_id": "fandom",
       "site_name": "fandom.com",
       "site_url": "https://www.fandom.com/terms-of-use",
-      "seed_1": "https://www.fandom.com/terms-of-use",
-      "seed_2": "https://community.fandom.com/wiki/Community_Central",
-      "seed_3": "https://support.fandom.com/hc/en-us",
-      "seed_4": "https://about.fandom.com/newsroom",
-      "seed_5": "https://community.fandom.com/wiki/Category:Staff_blogs",
-      "seed_6": "https://community.fandom.com/wiki/User_blog:TimmyQuivy/Examining_How_Fandom_Used_Generative_AI_in_2023",
-      "seed_7": "https://about.fandom.com/news/fandom-launches-new-creator-tools-using-gen-ai-2"
+      "seed_1": "https://community.fandom.com/wiki/Community_Central",
+      "seed_2": "https://support.fandom.com/hc/en-us",
+      "seed_3": "https://about.fandom.com/newsroom",
+      "seed_4": "https://community.fandom.com/wiki/Category:Staff_blogs",
+      "seed_5": "https://community.fandom.com/wiki/User_blog:TimmyQuivy/Examining_How_Fandom_Used_Generative_AI_in_2023",
+      "seed_6": "https://about.fandom.com/news/fandom-launches-new-creator-tools-using-gen-ai-2"
     },
     "filters": {
       "allows": ["community.fandom.com", "about.fandom.com", "support.fandom.com", "www.fandom.com"],

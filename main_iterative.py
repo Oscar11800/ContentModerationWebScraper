@@ -145,7 +145,11 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
             logger.warning(statement)
             # keep new links that contain search terms
             link_count=0
+            
             for raw_link in all_links:
+                #restart new server after scraping 100 urls per page to avoid block and crash
+                if link_count%100==0:
+                    driver.restart()
 
                 link = raw_link
                 statement = f'======== We are on link {link_count+1} of {len(all_links)}'
