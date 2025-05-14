@@ -91,7 +91,7 @@ class UC_Scraper:
                 page_source = self.driver.page_source
                 text = Soup(page_source, features='lxml').get_text()
             except (TimeoutException, WebDriverException, InvalidSessionIdException, ReadTimeoutError) as e:
-                print("Connection Error")
+                print(f"[ERROR] Connection Error for {link}: {e.__class__.__name__} — {e}")
                 return None
             
             if len(text) > self.SIZE_CUTOFF:
