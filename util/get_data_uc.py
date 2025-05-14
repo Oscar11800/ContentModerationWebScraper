@@ -83,7 +83,7 @@ class UC_Scraper:
     def follow_redirect(self, link):
         link = link.replace("??", "?").strip()
 
-        if not is_valid_url(link):
+        if not self.is_valid_url(link):
             print(f"[SKIP] Invalid or malformed URL: {link}")
             return None
             
