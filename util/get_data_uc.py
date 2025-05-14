@@ -75,17 +75,16 @@ class UC_Scraper:
             shutil.rmtree(self.temp_profile, ignore_errors=True)
         except Exception as e:
             pass
-
-    def is_valid_url(url):
-            parsed = urlparse(url)
-            return parsed.scheme in ("http", "https") and parsed.netloc != ""
         
     def follow_redirect(self, link):
         link = link.replace("??", "?").strip()
 
-        if not self.is_valid_url(link):
+        #url validation
+        parsed = urlparse(link)
+        if parsed.scheme not in ("http", "https") or parsed.netloc == "":
             print(f"[SKIP] Invalid or malformed URL: {link}")
             return None
+            
             
         tries = 1
         while tries <= self.RETRY_CUTOFF:
