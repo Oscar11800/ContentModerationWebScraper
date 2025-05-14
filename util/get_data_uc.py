@@ -1,4 +1,5 @@
 import time
+import os
 import random
 from selenium.common.exceptions import TimeoutException, WebDriverException, InvalidSessionIdException
 from urllib3.exceptions import ReadTimeoutError
@@ -8,6 +9,12 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 from bs4 import BeautifulSoup as Soup
 from fake_useragent import UserAgent
+import tempfile
+from pathlib import Path
+import shutil
+from selenium.webdriver.chrome.service import Service
+from urllib.parse import urljoin, urlparse
+
 
 
 
@@ -24,25 +31,61 @@ class UC_Scraper:
         self.RETRY_CUTOFF = RETRY_CUTOFF
         self.WEBCACHE = WEBCACHE
 
-        chrome_driver_path = "/usr/local/bin/chromedriver"
-        chrome_binary_path = "/usr/bin/google-chrome"
+        #original
+        #chrome_driver_path = "/usr/local/bin/chromedriver"
+        #chrome_binary_path = "/usr/bin/google-chrome"
+
+        #hardcoded paths
+        chrome_driver_path = "/home/zaynacheema/ContentModerationWebScraper/chromedriver_136/chromedriver-linux64/chromedriver"
+        chrome_binary_path = "/home/zaynacheema/ContentModerationWebScraper/chrome_136/chrome-linux64/chrome"
+
+        #force correct Chrome binary at runtime
+        os.environ["GOOGLE_CHROME_BIN"] = chrome_binary_path
+
         
         options = webdriver.ChromeOptions()
-        options.headless = False  # Disable headless mode for testing
-        options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
+        options.headless = True  
+        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+        #options.add_argument(f"user-agent={UserAgent().random}")  # Random user-agent
         options.add_argument("--disable-blink-features=AutomationControlled")  # Prevent bot detection
         options.add_argument("--blink-settings=imagesEnabled=false")  # disables images
         options.add_argument("--no-sandbox")
         options.add_argument("--headless")
         options.add_argument("--disable-dev-shm-usage")
 
-        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
+        #create a guaranteed unique temp profile
+        self.temp_profile = tempfile.mkdtemp(prefix="chrome-profile-")
+        options.add_argument(f"--user-data-dir={self.temp_profile}")
+            
+        #self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+        #FOR TESTING PURPOSESS
+        service = Service(executable_path=chrome_driver_path)
+        os.environ["CHROME_BINARY"] = chrome_binary_path  # <-- force env for subprocess
+        options.binary_location = chrome_binary_path
+        self.driver = webdriver.Chrome(service=service, options=options)
+
+        
 
         self.cur_link = ''
         self.cur_page_source = ''
-
+    
+    def __del__(self):
+        try:
+            shutil.rmtree(self.temp_profile, ignore_errors=True)
+        except Exception as e:
+            pass
+        
     def follow_redirect(self, link):
+        link = link.replace("??", "?").strip()
+
+        #url validation
+        parsed = urlparse(link)
+        if parsed.scheme not in ("http", "https") or parsed.netloc == "":
+            print(f"[SKIP] Invalid or malformed URL: {link}")
+            return None
+            
+            
         tries = 1
         while tries <= self.RETRY_CUTOFF:
             try:
@@ -50,11 +93,12 @@ class UC_Scraper:
                 WebDriverWait(self.driver, timeout=15).until(
                     lambda driver: driver.execute_script("return document.readyState") == "complete"
                 )
-                time.sleep(random.randint(3,5)) # make sure JS loads
+                #time.sleep(random.randint(3,5)) # make sure JS loads
+                time.sleep(1)
                 page_source = self.driver.page_source
                 text = Soup(page_source, features='lxml').get_text()
             except (TimeoutException, WebDriverException, InvalidSessionIdException, ReadTimeoutError) as e:
-                print("Connection Error")
+                print(f"[ERROR] Connection Error for {link}: {e.__class__.__name__} — {e}")
                 return None
             
             if len(text) > self.SIZE_CUTOFF:
@@ -75,7 +119,7 @@ class UC_Scraper:
     # OUTPUT: 
     #   html page source (str)
     def get_html(self, link: str):
-        if link == (self.cur_link.split('?')[0].split('#')[0]): 
+        if link == (self.cur_link.split('?')[0].split('#')[0]):
             return self.cur_page_source
         else:
             print(f"Warning: Calling get_html() on {link} without follow_redirect(). Attempting fallback.")
