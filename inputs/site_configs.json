@@ -90,8 +90,8 @@
         "seed_5": "https://help.pornhub.com/hc/en-us/articles/4419871787027-Non-Consensual-Content-Policy"
       },
       "filters": {
-        "allows": ["help.pornhub.com", "pornhub.com/information"],
-        "blocks": ["login", "signup"]
+        "allows": ["help.pornhub.com", "pornhub.com/information", "www.pornhub.com", "en.pornhub.com"],
+        "blocks": ["login", "signup", "es.pornhub.com", "cn.pornhub.com", "jp.pornhub.com", "nl.pornhub.com", "pt.pornhub.com", "pl.pornhub.com", "cz.pornhub.com"]
       }
     },
   
@@ -145,7 +145,7 @@
       },
       "filters": {
         "allows": ["yelp.com", "yelp-support"],
-        "blocks": ["login"]
+        "blocks": ["login", "business.yelp.com/"]
       }
     },
   
