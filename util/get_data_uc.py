@@ -77,7 +77,7 @@ class UC_Scraper:
 
     def follow_redirect(self, link):
         #sanitize malformed urls
-        #link = link.replace("??", "?").strip()
+        link = link.replace("??", "?").strip()
         
         tries = 1
         while tries <= self.RETRY_CUTOFF:
@@ -111,7 +111,9 @@ class UC_Scraper:
     # OUTPUT: 
     #   html page source (str)
     def get_html(self, link: str):
-        if link == (self.cur_link.split('?')[0].split('#')[0]): 
+        clean_link = link.replace("??", "?").split('?')[0].split('#')[0]
+        cached_link = self.cur_link.replace("??", "?").split('?')[0].split('#')[0]
+        if clean_link == cached_link:
             return self.cur_page_source
         else:
             print(f"Warning: Calling get_html() on {link} without follow_redirect(). Attempting fallback.")
