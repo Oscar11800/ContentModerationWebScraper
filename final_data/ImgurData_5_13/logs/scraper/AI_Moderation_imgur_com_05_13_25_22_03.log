@@ -1,0 +1,472 @@
+== Conducting scraping for AI_Moderation on imgur.com
+== Getting initial 3 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 3: https://imgur.com/tos
+====== Number of Links on this Page: 34
+======== We are on link 1 of 34
+========== raw link /cart
+============ Found Relative: joining https://imgur.com/tos and /cart
+============ Checking for Redirections: https://imgur.com/cart
+========== dropped link https://imgur.com/cart. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 34
+========== raw link #page
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 3 of 34
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 4 of 34
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/tos and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 34
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/tos and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 34
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/tos and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 7 of 34
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/tos and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 8 of 34
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/tos and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== scraping https://imgur.com/privacy
+======== We are on link 9 of 34
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 10 of 34
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/tos and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 34
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/tos and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 34
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/tos and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 13 of 34
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/tos and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 14 of 34
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/tos and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 15 of 34
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/tos and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 34
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/tos and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 34
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/tos and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 18 of 34
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/tos and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 19 of 34
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/tos and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 20 of 34
+========== raw link https://imgur.com/rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link unchanged
+========== link already checked
+======== We are on link 21 of 34
+========== raw link https://imgur.com/privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link unchanged
+========== link already checked
+======== We are on link 22 of 34
+========== raw link https://imgur.com/privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 34
+========== raw link https://imgurinc.com/rules
+========== dropped link https://imgurinc.com/rules. Didn't pass first allows/blocks test.
+======== We are on link 24 of 34
+========== raw link mailto:abuse@imgur.com
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 25 of 34
+========== raw link http://www.copyright.gov/eco/
+========== dropped link http://www.copyright.gov/eco/. Didn't pass first allows/blocks test.
+======== We are on link 26 of 34
+========== raw link mailto:abuse@imgur.com
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 27 of 34
+========== raw link http://medialab.ai/
+========== dropped link http://medialab.ai/. Didn't pass first allows/blocks test.
+======== We are on link 28 of 34
+========== raw link https://help.imgur.com/hc/en-us/articles/26480003084699-Trademark-Use-Policy
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26480003084699-Trademark-Use-Policy
+============ Link unchanged
+========== scraping https://help.imgur.com/hc/en-us/articles/26480003084699-Trademark-Use-Policy
+======== We are on link 29 of 34
+========== raw link https://www.adr.org/
+========== dropped link https://www.adr.org/. Didn't pass first allows/blocks test.
+======== We are on link 30 of 34
+========== raw link http://www.imgur.com
+============ Checking for Redirections: http://www.imgur.com
+========== dropped link http://www.imgur.com. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 34
+========== raw link http://www.toptenreviews.com/software/security/best-internet-filter-software/
+========== dropped link http://www.toptenreviews.com/software/security/best-internet-filter-software/. Didn't pass first allows/blocks test.
+======== We are on link 32 of 34
+========== raw link /about
+============ Found Relative: joining https://imgur.com/tos and /about
+============ Checking for Redirections: https://imgur.com/about
+============ Followed Redirection to https://imgurinc.com/about
+============ Link after cleaning: https://imgurinc.com/about
+============ Excluded based on allow/block list.
+======== We are on link 33 of 34
+========== raw link /press
+============ Found Relative: joining https://imgur.com/tos and /press
+============ Checking for Redirections: https://imgur.com/press
+============ Followed Redirection to https://imgurinc.com/press
+============ Link after cleaning: https://imgurinc.com/press
+============ Excluded based on allow/block list.
+======== We are on link 34 of 34
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/tos and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 2 of 3: https://help.imgur.com/hc/en-us
+====== Number of Links on this Page: 29
+======== We are on link 1 of 29
+========== raw link /hc/en-us
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us
+============ Checking for Redirections: https://help.imgur.com/hc/en-us
+============ Link after cleaning: https://help.imgur.com/hc/en-us
+========== link already checked
+======== We are on link 2 of 29
+========== raw link /hc/en-us/requests/new
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/requests/new
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/requests/new
+========== dropped link https://help.imgur.com/hc/en-us/requests/new. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 29
+========== raw link /hc/en-us/categories/26477081223451
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/categories/26477081223451
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/categories/26477081223451
+========== dropped link https://help.imgur.com/hc/en-us/categories/26477081223451. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 29
+========== raw link /hc/en-us/categories/26477084860187
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/categories/26477084860187
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/categories/26477084860187
+============ Link after cleaning: https://help.imgur.com/hc/en-us/categories/26477084860187
+========== scraping https://help.imgur.com/hc/en-us/categories/26477084860187
+======== We are on link 5 of 29
+========== raw link /hc/en-us/categories/26477091653275
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/categories/26477091653275
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/categories/26477091653275
+========== dropped link https://help.imgur.com/hc/en-us/categories/26477091653275. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 29
+========== raw link /hc/en-us/categories/26477087623451
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/categories/26477087623451
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/categories/26477087623451
+============ Link after cleaning: https://help.imgur.com/hc/en-us/categories/26477087623451
+========== scraping https://help.imgur.com/hc/en-us/categories/26477087623451
+======== We are on link 7 of 29
+========== raw link /hc/en-us/articles/26477304144539-What-is-Imgur-Emerald
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26477304144539-What-is-Imgur-Emerald
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26477304144539-What-is-Imgur-Emerald
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26477304144539-What-is-Imgur-Emerald
+========== scraping https://help.imgur.com/hc/en-us/articles/26477304144539-What-is-Imgur-Emerald
+======== We are on link 8 of 29
+========== raw link /hc/en-us/articles/26509006740891-FAQ-for-Forum-Users
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26509006740891-FAQ-for-Forum-Users
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26509006740891-FAQ-for-Forum-Users
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26509006740891-FAQ-for-Forum-Users
+========== scraping https://help.imgur.com/hc/en-us/articles/26509006740891-FAQ-for-Forum-Users
+======== We are on link 9 of 29
+========== raw link /hc/en-us/articles/26508943104667-How-do-I-mute-or-block-a-user
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26508943104667-How-do-I-mute-or-block-a-user
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26508943104667-How-do-I-mute-or-block-a-user
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26508943104667-How-do-I-mute-or-block-a-user
+========== scraping https://help.imgur.com/hc/en-us/articles/26508943104667-How-do-I-mute-or-block-a-user
+======== We are on link 10 of 29
+========== raw link /hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit
+========== scraping https://help.imgur.com/hc/en-us/articles/26511665959579-What-files-can-I-upload-Is-there-a-size-limit
+======== We are on link 11 of 29
+========== raw link /hc/en-us/articles/28865654408347-How-to-locate-an-image-URL
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/28865654408347-How-to-locate-an-image-URL
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/28865654408347-How-to-locate-an-image-URL
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/28865654408347-How-to-locate-an-image-URL
+========== scraping https://help.imgur.com/hc/en-us/articles/28865654408347-How-to-locate-an-image-URL
+======== We are on link 12 of 29
+========== raw link /hc/en-us/articles/26516659563547-How-do-I-mark-a-post-or-comment-as-mature-content
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26516659563547-How-do-I-mark-a-post-or-comment-as-mature-content
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26516659563547-How-do-I-mark-a-post-or-comment-as-mature-content
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26516659563547-How-do-I-mark-a-post-or-comment-as-mature-content
+========== scraping https://help.imgur.com/hc/en-us/articles/26516659563547-How-do-I-mark-a-post-or-comment-as-mature-content
+======== We are on link 13 of 29
+========== raw link /hc/en-us/articles/34263017614747-Understanding-the-Difference-Between-Our-Support-Team-and-Safety-Team
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/34263017614747-Understanding-the-Difference-Between-Our-Support-Team-and-Safety-Team
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/34263017614747-Understanding-the-Difference-Between-Our-Support-Team-and-Safety-Team
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/34263017614747-Understanding-the-Difference-Between-Our-Support-Team-and-Safety-Team
+========== scraping https://help.imgur.com/hc/en-us/articles/34263017614747-Understanding-the-Difference-Between-Our-Support-Team-and-Safety-Team
+======== We are on link 14 of 29
+========== raw link /hc/en-us/articles/31844016762779-Explicit-content-on-Imgur
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/31844016762779-Explicit-content-on-Imgur
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/31844016762779-Explicit-content-on-Imgur
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/31844016762779-Explicit-content-on-Imgur
+========== scraping https://help.imgur.com/hc/en-us/articles/31844016762779-Explicit-content-on-Imgur
+======== We are on link 15 of 29
+========== raw link /hc/en-us/articles/30479085567771-Sunsetting-Secret-Santa
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/30479085567771-Sunsetting-Secret-Santa
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/30479085567771-Sunsetting-Secret-Santa
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/30479085567771-Sunsetting-Secret-Santa
+========== scraping https://help.imgur.com/hc/en-us/articles/30479085567771-Sunsetting-Secret-Santa
+======== We are on link 16 of 29
+========== raw link /hc/en-us/articles/26516935455003-Upload-to-comments-on-desktop
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26516935455003-Upload-to-comments-on-desktop
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26516935455003-Upload-to-comments-on-desktop
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26516935455003-Upload-to-comments-on-desktop
+========== scraping https://help.imgur.com/hc/en-us/articles/26516935455003-Upload-to-comments-on-desktop
+======== We are on link 17 of 29
+========== raw link /hc/en-us/articles/26516921529115-Hide-Seen-Posts
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26516921529115-Hide-Seen-Posts
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26516921529115-Hide-Seen-Posts
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26516921529115-Hide-Seen-Posts
+========== scraping https://help.imgur.com/hc/en-us/articles/26516921529115-Hide-Seen-Posts
+======== We are on link 18 of 29
+========== raw link /hc/en-us/articles/26516872870939-New-to-Android-Appreciation-Links
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26516872870939-New-to-Android-Appreciation-Links
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26516872870939-New-to-Android-Appreciation-Links
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26516872870939-New-to-Android-Appreciation-Links
+========== scraping https://help.imgur.com/hc/en-us/articles/26516872870939-New-to-Android-Appreciation-Links
+======== We are on link 19 of 29
+========== raw link http://facebook.com/imgur
+========== dropped link http://facebook.com/imgur. Didn't pass first allows/blocks test.
+======== We are on link 20 of 29
+========== raw link http://facebook.com/imgur
+========== dropped link http://facebook.com/imgur. Didn't pass first allows/blocks test.
+======== We are on link 21 of 29
+========== raw link http://twitter.com/imgur
+========== dropped link http://twitter.com/imgur. Didn't pass first allows/blocks test.
+======== We are on link 22 of 29
+========== raw link http://twitter.com/imgur
+========== dropped link http://twitter.com/imgur. Didn't pass first allows/blocks test.
+======== We are on link 23 of 29
+========== raw link http://imgur.com/privacy
+============ Checking for Redirections: http://imgur.com/privacy
+============ Followed Redirection to https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 24 of 29
+========== raw link http://imgur.com/privacy
+============ Checking for Redirections: http://imgur.com/privacy
+============ Followed Redirection to https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 25 of 29
+========== raw link http://imgur.com/tos
+============ Checking for Redirections: http://imgur.com/tos
+============ Followed Redirection to https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 26 of 29
+========== raw link http://imgur.com/tos
+============ Checking for Redirections: http://imgur.com/tos
+============ Followed Redirection to https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 27 of 29
+========== raw link /hc/en-us/articles/26478501198491
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26478501198491
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26478501198491
+============ Followed Redirection to https://help.imgur.com/hc/en-us/articles/26478501198491-Digital-Services-Act-DSA-Contact-Information-for-Imgur-Users-and-Authorities
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26478501198491-Digital-Services-Act-DSA-Contact-Information-for-Imgur-Users-and-Authorities
+========== scraping https://help.imgur.com/hc/en-us/articles/26478501198491-Digital-Services-Act-DSA-Contact-Information-for-Imgur-Users-and-Authorities
+======== We are on link 28 of 29
+========== raw link /hc/en-us/articles/26478501198491
+============ Found Relative: joining https://help.imgur.com/hc/en-us and /hc/en-us/articles/26478501198491
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26478501198491
+============ Followed Redirection to https://help.imgur.com/hc/en-us/articles/26478501198491-Digital-Services-Act-DSA-Contact-Information-for-Imgur-Users-and-Authorities
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26478501198491-Digital-Services-Act-DSA-Contact-Information-for-Imgur-Users-and-Authorities
+========== link already checked
+======== We are on link 29 of 29
+========== raw link https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=MediaLab
+========== dropped link https://www.zendesk.com/service/help-center/?utm_source=helpcenter&utm_medium=poweredbyzendesk&utm_campaign=text&utm_content=MediaLab. Didn't pass first allows/blocks test.
+====== We are on page 3 of 3: https://imgur.com/rules
+====== Number of Links on this Page: 26
+======== We are on link 1 of 26
+========== raw link /cart
+============ Found Relative: joining https://imgur.com/rules and /cart
+============ Checking for Redirections: https://imgur.com/cart
+========== dropped link https://imgur.com/cart. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 26
+========== raw link #page
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 3 of 26
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 4 of 26
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/rules and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 26
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/rules and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 26
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/rules and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 7 of 26
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/rules and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 8 of 26
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/rules and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 9 of 26
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 10 of 26
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/rules and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 26
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/rules and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 26
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/rules and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 13 of 26
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/rules and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 14 of 26
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/rules and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 15 of 26
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/rules and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 26
+========== raw link /community-resources
+============ Found Relative: joining https://imgur.com/rules and /community-resources
+============ Checking for Redirections: https://imgur.com/community-resources
+========== dropped link https://imgur.com/community-resources. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 26
+========== raw link /rules
+============ Found Relative: joining https://imgur.com/rules and /rules
+============ Checking for Redirections: https://imgur.com/rules
+============ Link after cleaning: https://imgur.com/rules
+========== link already checked
+======== We are on link 18 of 26
+========== raw link /tos
+============ Found Relative: joining https://imgur.com/rules and /tos
+============ Checking for Redirections: https://imgur.com/tos
+============ Link after cleaning: https://imgur.com/tos
+========== link already checked
+======== We are on link 19 of 26
+========== raw link /privacy
+============ Found Relative: joining https://imgur.com/rules and /privacy
+============ Checking for Redirections: https://imgur.com/privacy
+============ Link after cleaning: https://imgur.com/privacy
+========== link already checked
+======== We are on link 20 of 26
+========== raw link https://help.imgur.com/hc/en-us/articles/208582296
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/208582296
+============ Followed Redirection to https://help.imgur.com/hc/en-us/articles/26479919884059-Reporting-Content
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26479919884059-Reporting-Content
+========== scraping https://help.imgur.com/hc/en-us/articles/26479919884059-Reporting-Content
+======== We are on link 21 of 26
+========== raw link https://imgurinc.com/tos
+========== dropped link https://imgurinc.com/tos. Didn't pass first allows/blocks test.
+======== We are on link 22 of 26
+========== raw link https://help.imgur.com/hc/en-us/articles/26516942766491
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/articles/26516942766491
+============ Followed Redirection to https://help.imgur.com/hc/en-us/articles/26516942766491-How-does-moderation-and-reporting-work
+============ Link after cleaning: https://help.imgur.com/hc/en-us/articles/26516942766491-How-does-moderation-and-reporting-work
+========== scraping https://help.imgur.com/hc/en-us/articles/26516942766491-How-does-moderation-and-reporting-work
+======== We are on link 23 of 26
+========== raw link https://help.imgur.com/hc/en-us/requests/new?ticket_form_id=21879590422299
+============ Checking for Redirections: https://help.imgur.com/hc/en-us/requests/new?ticket_form_id=21879590422299
+============ Link after cleaning: https://help.imgur.com/hc/en-us/requests/new
+========== scraping https://help.imgur.com/hc/en-us/requests/new
+======== We are on link 24 of 26
+========== raw link /about
+============ Found Relative: joining https://imgur.com/rules and /about
+============ Checking for Redirections: https://imgur.com/about
+============ Followed Redirection to https://imgurinc.com/about
+============ Link after cleaning: https://imgurinc.com/about
+============ Excluded based on allow/block list.
+======== We are on link 25 of 26
+========== raw link /press
+============ Found Relative: joining https://imgur.com/rules and /press
+============ Checking for Redirections: https://imgur.com/press
+============ Followed Redirection to https://imgurinc.com/press
+============ Link after cleaning: https://imgurinc.com/press
+============ Excluded based on allow/block list.
+======== We are on link 26 of 26
+========== raw link /mobileapps
+============ Found Relative: joining https://imgur.com/rules and /mobileapps
+============ Checking for Redirections: https://imgur.com/mobileapps
+========== dropped link https://imgur.com/mobileapps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 0
+==== We are at iteration 2 (tree depth).
+==== Number of new pages added: 0
+== Finished scraping imgur.com-AI_Moderation in 390.3775 seconds.
+== Writing to db file
+== Done (/home/zaynacheema/ContentModerationWebScraper/data/05_13_25_22_03/all_htmls/AI_Moderation_imgur_com_05_13_25_22_03.json)

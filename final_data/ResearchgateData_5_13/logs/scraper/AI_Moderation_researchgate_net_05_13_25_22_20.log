@@ -1,0 +1,441 @@
+== Conducting scraping for AI_Moderation on researchgate.net
+== Getting initial 6 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 6: https://www.researchgate.net/researchgate-updates
+====== Number of Links on this Page: 45
+======== We are on link 1 of 45
+========== raw link https://www.researchgate.net/
+============ Checking for Redirections: https://www.researchgate.net/
+========== dropped link https://www.researchgate.net/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 2 of 45
+========== raw link https://www.researchgate.net/researchgate-updates
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates
+========== dropped link https://www.researchgate.net/researchgate-updates. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 45
+========== raw link https://www.researchgate.net/login
+========== dropped link https://www.researchgate.net/login. Didn't pass first allows/blocks test.
+======== We are on link 4 of 45
+========== raw link https://www.researchgate.net/signup.SignUp.html
+============ Checking for Redirections: https://www.researchgate.net/signup.SignUp.html
+========== dropped link https://www.researchgate.net/signup.SignUp.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 45
+========== raw link /researchgate-updates/weve-updated-our-terms-of-service-and-privacy-policy
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/weve-updated-our-terms-of-service-and-privacy-policy
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/weve-updated-our-terms-of-service-and-privacy-policy
+========== dropped link https://www.researchgate.net/researchgate-updates/weve-updated-our-terms-of-service-and-privacy-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 45
+========== raw link /researchgate-updates
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates
+========== dropped link https://www.researchgate.net/researchgate-updates. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 45
+========== raw link /researchgate-updates-category/announcement
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates-category/announcement
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates-category/announcement
+========== dropped link https://www.researchgate.net/researchgate-updates-category/announcement. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 45
+========== raw link /researchgate-updates-category/new-features
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates-category/new-features
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates-category/new-features
+========== dropped link https://www.researchgate.net/researchgate-updates-category/new-features. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 45
+========== raw link /researchgate-updates-category/coming-up
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates-category/coming-up
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates-category/coming-up
+========== dropped link https://www.researchgate.net/researchgate-updates-category/coming-up. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 45
+========== raw link /researchgate-updates/retiring-projects
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/retiring-projects
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/retiring-projects
+========== dropped link https://www.researchgate.net/researchgate-updates/retiring-projects. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 45
+========== raw link /researchgate-updates/content-on-rg
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/content-on-rg
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/content-on-rg
+========== dropped link https://www.researchgate.net/researchgate-updates/content-on-rg. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 45
+========== raw link /researchgate-updates/2022-review
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/2022-review
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/2022-review
+========== dropped link https://www.researchgate.net/researchgate-updates/2022-review. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 45
+========== raw link /researchgate-updates/research-interest-score
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/research-interest-score
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/research-interest-score
+========== dropped link https://www.researchgate.net/researchgate-updates/research-interest-score. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 45
+========== raw link /researchgate-updates/homefeed-email-update
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/homefeed-email-update
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/homefeed-email-update
+========== dropped link https://www.researchgate.net/researchgate-updates/homefeed-email-update. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 45
+========== raw link /researchgate-updates/research-spotlights
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/research-spotlights
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/research-spotlights
+========== dropped link https://www.researchgate.net/researchgate-updates/research-spotlights. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 45
+========== raw link /researchgate-updates/profile-updates
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/profile-updates
+========== dropped link https://www.researchgate.net/researchgate-updates/profile-updates. Didn't pass first allows/blocks test.
+======== We are on link 17 of 45
+========== raw link /researchgate-updates/removing-the-rg-score
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/removing-the-rg-score
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/removing-the-rg-score
+========== dropped link https://www.researchgate.net/researchgate-updates/removing-the-rg-score. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 45
+========== raw link /researchgate-updates/two-years-of-connecting-the-world-of-science-around-covid-19
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/two-years-of-connecting-the-world-of-science-around-covid-19
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/two-years-of-connecting-the-world-of-science-around-covid-19
+========== dropped link https://www.researchgate.net/researchgate-updates/two-years-of-connecting-the-world-of-science-around-covid-19. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 45
+========== raw link /researchgate-updates/roadmap-2022
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/roadmap-2022
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/roadmap-2022
+========== dropped link https://www.researchgate.net/researchgate-updates/roadmap-2022. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 45
+========== raw link /researchgate-updates/new-stats
+============ Found Relative: joining https://www.researchgate.net/researchgate-updates and /researchgate-updates/new-stats
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates/new-stats
+========== dropped link https://www.researchgate.net/researchgate-updates/new-stats. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 45
+========== raw link https://www.researchgate.net/
+============ Checking for Redirections: https://www.researchgate.net/
+========== dropped link https://www.researchgate.net/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 45
+========== raw link https://www.researchgate.net/about
+============ Checking for Redirections: https://www.researchgate.net/about
+========== dropped link https://www.researchgate.net/about. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 45
+========== raw link https://www.researchgate.net/careers
+============ Checking for Redirections: https://www.researchgate.net/careers
+========== dropped link https://www.researchgate.net/careers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 24 of 45
+========== raw link https://www.researchgate.net/contact
+============ Checking for Redirections: https://www.researchgate.net/contact
+========== dropped link https://www.researchgate.net/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 45
+========== raw link https://www.researchgate.net/blog
+============ Checking for Redirections: https://www.researchgate.net/blog
+========== dropped link https://www.researchgate.net/blog. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 45
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 27 of 45
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 28 of 45
+========== raw link https://www.researchgate.net/researcher-stories
+============ Checking for Redirections: https://www.researchgate.net/researcher-stories
+========== dropped link https://www.researchgate.net/researcher-stories. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 29 of 45
+========== raw link https://www.researchgate.net/researchgate-updates
+============ Checking for Redirections: https://www.researchgate.net/researchgate-updates
+========== dropped link https://www.researchgate.net/researchgate-updates. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 30 of 45
+========== raw link https://help.researchgate.net/
+============ Checking for Redirections: https://help.researchgate.net/
+============ Followed Redirection to https://help.researchgate.net/hc/en-us
+============ Link after cleaning: https://help.researchgate.net/hc/en-us
+========== link already checked
+======== We are on link 31 of 45
+========== raw link https://www.researchgate.net/press
+============ Checking for Redirections: https://www.researchgate.net/press
+========== dropped link https://www.researchgate.net/press. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 32 of 45
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 33 of 45
+========== raw link https://www.researchgate.net/marketing-solutions
+============ Checking for Redirections: https://www.researchgate.net/marketing-solutions
+========== dropped link https://www.researchgate.net/marketing-solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 34 of 45
+========== raw link https://www.researchgate.net/scientific-recruitment
+============ Checking for Redirections: https://www.researchgate.net/scientific-recruitment
+========== dropped link https://www.researchgate.net/scientific-recruitment. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 45
+========== raw link https://www.researchgate.net/journal-home
+============ Checking for Redirections: https://www.researchgate.net/journal-home
+========== dropped link https://www.researchgate.net/journal-home. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 36 of 45
+========== raw link https://www.researchgate.net/terms-of-service
+============ Checking for Redirections: https://www.researchgate.net/terms-of-service
+========== dropped link https://www.researchgate.net/terms-of-service. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 37 of 45
+========== raw link https://www.researchgate.net/privacy-policy
+============ Checking for Redirections: https://www.researchgate.net/privacy-policy
+========== dropped link https://www.researchgate.net/privacy-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 38 of 45
+========== raw link https://www.researchgate.net/ip-policy
+============ Checking for Redirections: https://www.researchgate.net/ip-policy
+========== dropped link https://www.researchgate.net/ip-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 45
+========== raw link https://www.researchgate.net/imprint
+============ Checking for Redirections: https://www.researchgate.net/imprint
+========== dropped link https://www.researchgate.net/imprint. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 45
+========== raw link https://twitter.com/ResearchGate
+========== dropped link https://twitter.com/ResearchGate. Didn't pass first allows/blocks test.
+======== We are on link 41 of 45
+========== raw link https://www.linkedin.com/company/researchgate
+========== dropped link https://www.linkedin.com/company/researchgate. Didn't pass first allows/blocks test.
+======== We are on link 42 of 45
+========== raw link https://www.facebook.com/ResearchGate
+========== dropped link https://www.facebook.com/ResearchGate. Didn't pass first allows/blocks test.
+======== We are on link 43 of 45
+========== raw link https://www.instagram.com/researchgate_official/
+========== dropped link https://www.instagram.com/researchgate_official/. Didn't pass first allows/blocks test.
+======== We are on link 44 of 45
+========== raw link https://webflow.com?utm_campaign=brandjs
+========== dropped link https://webflow.com?utm_campaign=brandjs. Didn't pass first allows/blocks test.
+======== We are on link 45 of 45
+========== raw link https://www.researchgate.net/privacy-policy
+============ Checking for Redirections: https://www.researchgate.net/privacy-policy
+========== dropped link https://www.researchgate.net/privacy-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+====== We are on page 2 of 6: https://www.researchgate.net/blog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 6: https://www.researchgate.net/press-newsroom
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 6: https://www.researchgate.net/community-guidelines
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 6: https://help.researchgate.net/hc/en-us
+====== Number of Links on this Page: 25
+======== We are on link 1 of 25
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 25
+========== raw link /hc/en-us
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us
+============ Link after cleaning: https://help.researchgate.net/hc/en-us
+========== link already checked
+======== We are on link 3 of 25
+========== raw link /hc/en-us/requests/new?ticket_form_id=13146494812305
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/requests/new?ticket_form_id=13146494812305
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/requests/new?ticket_form_id=13146494812305
+============ Link after cleaning: https://help.researchgate.net/hc/en-us/requests/new
+========== scraping https://help.researchgate.net/hc/en-us/requests/new
+======== We are on link 4 of 25
+========== raw link /hc/en-us/sections/4405078553873-Getting-Started
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/4405078553873-Getting-Started
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/4405078553873-Getting-Started
+========== dropped link https://help.researchgate.net/hc/en-us/sections/4405078553873-Getting-Started. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 25
+========== raw link /hc/en-us/sections/4405078552209-Profile
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/4405078552209-Profile
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/4405078552209-Profile
+========== dropped link https://help.researchgate.net/hc/en-us/sections/4405078552209-Profile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 25
+========== raw link /hc/en-us/sections/14292202872593-Account-Settings
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292202872593-Account-Settings
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292202872593-Account-Settings
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292202872593-Account-Settings. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 25
+========== raw link /hc/en-us/sections/14292219962385-Research-Publications
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292219962385-Research-Publications
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292219962385-Research-Publications
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292219962385-Research-Publications. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 25
+========== raw link /hc/en-us/sections/14292207026577-Labs
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292207026577-Labs
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292207026577-Labs
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292207026577-Labs. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 25
+========== raw link /hc/en-us/sections/14292208304657-Q-A
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292208304657-Q-A
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292208304657-Q-A
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292208304657-Q-A. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 25
+========== raw link /hc/en-us/sections/14292259487377-Stats
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292259487377-Stats
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292259487377-Stats
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292259487377-Stats. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 25
+========== raw link /hc/en-us/sections/14292261833745-Mobile-Apps
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292261833745-Mobile-Apps
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292261833745-Mobile-Apps
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292261833745-Mobile-Apps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 25
+========== raw link /hc/en-us/sections/14292266785809-Community
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292266785809-Community
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292266785809-Community
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292266785809-Community. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 25
+========== raw link /hc/en-us/sections/14292304833809-Marketing-Solutions
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292304833809-Marketing-Solutions
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292304833809-Marketing-Solutions
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292304833809-Marketing-Solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 25
+========== raw link /hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292307514129-Hiring-on-ResearchGate. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 25
+========== raw link /hc/en-us/sections/14292301411217-Publishers
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292301411217-Publishers
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292301411217-Publishers
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292301411217-Publishers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 25
+========== raw link /hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 25
+========== raw link /hc/en-us/sections/14292519175697-Copyright
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292519175697-Copyright
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292519175697-Copyright
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292519175697-Copyright. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 25
+========== raw link /hc/en-us/sections/14292308770705-Legal
+============ Found Relative: joining https://help.researchgate.net/hc/en-us and /hc/en-us/sections/14292308770705-Legal
+============ Checking for Redirections: https://help.researchgate.net/hc/en-us/sections/14292308770705-Legal
+========== dropped link https://help.researchgate.net/hc/en-us/sections/14292308770705-Legal. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 25
+========== raw link https://www.researchgate.net/terms-of-service
+============ Checking for Redirections: https://www.researchgate.net/terms-of-service
+========== dropped link https://www.researchgate.net/terms-of-service. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 25
+========== raw link https://www.researchgate.net/privacy-policy
+============ Checking for Redirections: https://www.researchgate.net/privacy-policy
+========== dropped link https://www.researchgate.net/privacy-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 25
+========== raw link https://www.researchgate.net/ip-policy
+============ Checking for Redirections: https://www.researchgate.net/ip-policy
+========== dropped link https://www.researchgate.net/ip-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 25
+========== raw link https://www.researchgate.net/imprint
+============ Checking for Redirections: https://www.researchgate.net/imprint
+========== dropped link https://www.researchgate.net/imprint. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 25
+========== raw link https://twitter.com/ResearchGate
+========== dropped link https://twitter.com/ResearchGate. Didn't pass first allows/blocks test.
+======== We are on link 24 of 25
+========== raw link https://www.linkedin.com/company/researchgate
+========== dropped link https://www.linkedin.com/company/researchgate. Didn't pass first allows/blocks test.
+======== We are on link 25 of 25
+========== raw link https://www.facebook.com/ResearchGate
+========== dropped link https://www.facebook.com/ResearchGate. Didn't pass first allows/blocks test.
+====== We are on page 6 of 6: https://www.researchgate.net/terms-of-service?utm_
+====== Number of Links on this Page: 25
+======== We are on link 1 of 25
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 25
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us
+========== dropped link https://www.researchgate.net/hc/en-us. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 3 of 25
+========== raw link /hc/en-us/requests/new?ticket_form_id=13146494812305
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/requests/new?ticket_form_id=13146494812305
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/requests/new?ticket_form_id=13146494812305
+========== dropped link https://www.researchgate.net/hc/en-us/requests/new?ticket_form_id=13146494812305. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 4 of 25
+========== raw link /hc/en-us/sections/4405078553873-Getting-Started
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/4405078553873-Getting-Started
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/4405078553873-Getting-Started
+========== dropped link https://www.researchgate.net/hc/en-us/sections/4405078553873-Getting-Started. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 5 of 25
+========== raw link /hc/en-us/sections/4405078552209-Profile
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/4405078552209-Profile
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/4405078552209-Profile
+========== dropped link https://www.researchgate.net/hc/en-us/sections/4405078552209-Profile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 6 of 25
+========== raw link /hc/en-us/sections/14292202872593-Account-Settings
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292202872593-Account-Settings
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292202872593-Account-Settings
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292202872593-Account-Settings. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 7 of 25
+========== raw link /hc/en-us/sections/14292219962385-Research-Publications
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292219962385-Research-Publications
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292219962385-Research-Publications
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292219962385-Research-Publications. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 8 of 25
+========== raw link /hc/en-us/sections/14292207026577-Labs
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292207026577-Labs
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292207026577-Labs
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292207026577-Labs. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 9 of 25
+========== raw link /hc/en-us/sections/14292208304657-Q-A
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292208304657-Q-A
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292208304657-Q-A
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292208304657-Q-A. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 10 of 25
+========== raw link /hc/en-us/sections/14292259487377-Stats
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292259487377-Stats
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292259487377-Stats
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292259487377-Stats. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 25
+========== raw link /hc/en-us/sections/14292261833745-Mobile-Apps
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292261833745-Mobile-Apps
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292261833745-Mobile-Apps
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292261833745-Mobile-Apps. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 12 of 25
+========== raw link /hc/en-us/sections/14292266785809-Community
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292266785809-Community
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292266785809-Community
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292266785809-Community. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 13 of 25
+========== raw link /hc/en-us/sections/14292304833809-Marketing-Solutions
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292304833809-Marketing-Solutions
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292304833809-Marketing-Solutions
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292304833809-Marketing-Solutions. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 14 of 25
+========== raw link /hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292307514129-Hiring-on-ResearchGate
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292307514129-Hiring-on-ResearchGate. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 15 of 25
+========== raw link /hc/en-us/sections/14292301411217-Publishers
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292301411217-Publishers
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292301411217-Publishers
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292301411217-Publishers. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 16 of 25
+========== raw link /hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292263546897-Reporting-content-on-ResearchGate. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 17 of 25
+========== raw link /hc/en-us/sections/14292519175697-Copyright
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292519175697-Copyright
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292519175697-Copyright
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292519175697-Copyright. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 18 of 25
+========== raw link /hc/en-us/sections/14292308770705-Legal
+============ Found Relative: joining https://www.researchgate.net/terms-of-service?utm_ and /hc/en-us/sections/14292308770705-Legal
+============ Checking for Redirections: https://www.researchgate.net/hc/en-us/sections/14292308770705-Legal
+========== dropped link https://www.researchgate.net/hc/en-us/sections/14292308770705-Legal. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 19 of 25
+========== raw link https://www.researchgate.net/terms-of-service
+============ Checking for Redirections: https://www.researchgate.net/terms-of-service
+========== dropped link https://www.researchgate.net/terms-of-service. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 20 of 25
+========== raw link https://www.researchgate.net/privacy-policy
+============ Checking for Redirections: https://www.researchgate.net/privacy-policy
+========== dropped link https://www.researchgate.net/privacy-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 21 of 25
+========== raw link https://www.researchgate.net/ip-policy
+============ Checking for Redirections: https://www.researchgate.net/ip-policy
+========== dropped link https://www.researchgate.net/ip-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 22 of 25
+========== raw link https://www.researchgate.net/imprint
+============ Checking for Redirections: https://www.researchgate.net/imprint
+========== dropped link https://www.researchgate.net/imprint. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 23 of 25
+========== raw link https://twitter.com/ResearchGate
+========== dropped link https://twitter.com/ResearchGate. Didn't pass first allows/blocks test.
+======== We are on link 24 of 25
+========== raw link https://www.linkedin.com/company/researchgate
+========== dropped link https://www.linkedin.com/company/researchgate. Didn't pass first allows/blocks test.
+======== We are on link 25 of 25
+========== raw link https://www.facebook.com/ResearchGate
+========== dropped link https://www.facebook.com/ResearchGate. Didn't pass first allows/blocks test.
+==== Number of new pages added: 0
+==== We are at iteration 2 (tree depth).
+==== Number of new pages added: 0
+== Finished scraping researchgate.net-AI_Moderation in 913.6332 seconds.
+== Writing to db file
+== Done (/home/zaynacheema/ContentModerationWebScraper/data/05_13_25_22_20/all_htmls/AI_Moderation_researchgate_net_05_13_25_22_20.json)
+== Completed with Errors, search for error in logs

@@ -1,0 +1,1165 @@
+== Conducting scraping for AI_Moderation on bsky.app
+== Getting initial 4 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 4: https://bsky.social/about/support/community-guidelines
+====== Number of Links on this Page: 34
+======== We are on link 1 of 34
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== scraping https://bsky.social/about
+======== We are on link 2 of 34
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 3 of 34
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== scraping https://bsky.social/about/faq
+======== We are on link 4 of 34
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 5 of 34
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 6 of 34
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== scraping https://bsky.app/
+======== We are on link 7 of 34
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 8 of 34
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 9 of 34
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 10 of 34
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 11 of 34
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 12 of 34
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 13 of 34
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 14 of 34
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+======== We are on link 15 of 34
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== scraping https://bsky.social/about/support
+======== We are on link 16 of 34
+========== raw link /about/support/tos
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support/tos
+============ Checking for Redirections: https://bsky.social/about/support/tos
+============ Link after cleaning: https://bsky.social/about/support/tos
+========== link already checked
+======== We are on link 17 of 34
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== scraping https://bsky.social/about/support/privacy-policy
+======== We are on link 18 of 34
+========== raw link /about/support/tos
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support/tos
+============ Checking for Redirections: https://bsky.social/about/support/tos
+============ Link after cleaning: https://bsky.social/about/support/tos
+========== link already checked
+======== We are on link 19 of 34
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 20 of 34
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 21 of 34
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 22 of 34
+========== raw link /about/blog/5-19-2023-user-faq
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/blog/5-19-2023-user-faq
+============ Checking for Redirections: https://bsky.social/about/blog/5-19-2023-user-faq
+============ Link after cleaning: https://bsky.social/about/blog/5-19-2023-user-faq
+========== link already checked
+======== We are on link 23 of 34
+========== raw link /about/blog/press-faq
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/blog/press-faq
+============ Checking for Redirections: https://bsky.social/about/blog/press-faq
+============ Link after cleaning: https://bsky.social/about/blog/press-faq
+========== scraping https://bsky.social/about/blog/press-faq
+======== We are on link 24 of 34
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== link already checked
+======== We are on link 25 of 34
+========== raw link /about/join
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/join
+============ Checking for Redirections: https://bsky.social/about/join
+========== dropped link https://bsky.social/about/join. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 26 of 34
+========== raw link /about/rss.xml
+============ Found Relative: joining https://bsky.social/about/support/community-guidelines and /about/rss.xml
+============ Checking for Redirections: https://bsky.social/about/rss.xml
+============ Link after cleaning: https://bsky.social/about/rss.xml
+========== scraping https://bsky.social/about/rss.xml
+============ New link added. Search term (AI) found on https://bsky.social/about/rss.xml.
+======== We are on link 27 of 34
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 28 of 34
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 29 of 34
+========== raw link mailto:press@blueskyweb.xyz
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 30 of 34
+========== raw link mailto:support@bsky.app
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 31 of 34
+========== raw link https://en.wikipedia.org/wiki/Benefit_corporation
+========== dropped link https://en.wikipedia.org/wiki/Benefit_corporation. Didn't pass first allows/blocks test.
+======== We are on link 32 of 34
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 33 of 34
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 34 of 34
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+====== We are on page 2 of 4: https://bsky.social/about/blog/5-19-2023-user-faq
+====== Number of Links on this Page: 56
+======== We are on link 1 of 56
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 2 of 56
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 3 of 56
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 4 of 56
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 5 of 56
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 6 of 56
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 7 of 56
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 8 of 56
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 9 of 56
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 10 of 56
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 11 of 56
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 12 of 56
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 13 of 56
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 14 of 56
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+======== We are on link 15 of 56
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 16 of 56
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 17 of 56
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 18 of 56
+========== raw link https://atproto.com/guides/faq
+========== dropped link https://atproto.com/guides/faq. Didn't pass first allows/blocks test.
+======== We are on link 19 of 56
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 20 of 56
+========== raw link https://apps.apple.com/us/app/bluesky-social/id6444370199
+========== dropped link https://apps.apple.com/us/app/bluesky-social/id6444370199. Didn't pass first allows/blocks test.
+======== We are on link 21 of 56
+========== raw link https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US
+========== dropped link https://play.google.com/store/apps/details?id=xyz.blueskyweb.app&hl=en_US. Didn't pass first allows/blocks test.
+======== We are on link 22 of 56
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 56
+========== raw link https://bsky.social/about/blog/03-12-2024-stackable-moderation
+============ Checking for Redirections: https://bsky.social/about/blog/03-12-2024-stackable-moderation
+============ Link unchanged
+========== scraping https://bsky.social/about/blog/03-12-2024-stackable-moderation
+======== We are on link 24 of 56
+========== raw link https://bsky.social/about/blog/03-12-2024-stackable-moderation
+============ Checking for Redirections: https://bsky.social/about/blog/03-12-2024-stackable-moderation
+============ Link unchanged
+========== link already checked
+======== We are on link 25 of 56
+========== raw link /about/blog/3-30-2023-algorithmic-choice
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog/3-30-2023-algorithmic-choice
+============ Checking for Redirections: https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+============ Link after cleaning: https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+========== scraping https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+============ New link added. Search term (AI) found on https://bsky.social/about/blog/3-30-2023-algorithmic-choice.
+======== We are on link 26 of 56
+========== raw link https://bsky.app/feeds
+========== dropped link https://bsky.app/feeds. Didn't pass first allows/blocks test.
+======== We are on link 27 of 56
+========== raw link https://github.com/bluesky-social/feed-generator
+========== dropped link https://github.com/bluesky-social/feed-generator. Didn't pass first allows/blocks test.
+======== We are on link 28 of 56
+========== raw link https://skyfeed.app/
+========== dropped link https://skyfeed.app/. Didn't pass first allows/blocks test.
+======== We are on link 29 of 56
+========== raw link /about/blog/4-28-2023-domain-handle-tutorial
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog/4-28-2023-domain-handle-tutorial
+============ Checking for Redirections: https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial
+============ Link after cleaning: https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial
+========== scraping https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial
+======== We are on link 30 of 56
+========== raw link https://account.bsky.app/
+============ Checking for Redirections: https://account.bsky.app/
+========== dropped link https://account.bsky.app/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 31 of 56
+========== raw link https://github.com/web3-storage/ipfs-car
+========== dropped link https://github.com/web3-storage/ipfs-car. Didn't pass first allows/blocks test.
+======== We are on link 32 of 56
+========== raw link https://github.com/bluesky-social/atproto/blob/main/lexicons/com/atproto/sync/getRepo.json
+========== dropped link https://github.com/bluesky-social/atproto/blob/main/lexicons/com/atproto/sync/getRepo.json. Didn't pass first allows/blocks test.
+======== We are on link 33 of 56
+========== raw link https://docs.bsky.app/blog/repo-export
+============ Checking for Redirections: https://docs.bsky.app/blog/repo-export
+============ Link unchanged
+========== scraping https://docs.bsky.app/blog/repo-export
+======== We are on link 34 of 56
+========== raw link https://bsky.app/support/privacy
+============ Checking for Redirections: https://bsky.app/support/privacy
+========== dropped link https://bsky.app/support/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 35 of 56
+========== raw link mailto:noreply@bsky.social
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 36 of 56
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 37 of 56
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 38 of 56
+========== raw link mailto:support@bsky.app
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 39 of 56
+========== raw link https://embed.bsky.app/
+============ Checking for Redirections: https://embed.bsky.app/
+========== dropped link https://embed.bsky.app/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 40 of 56
+========== raw link ./post-embeds-guide
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /post-embeds-guide
+============ Checking for Redirections: https://bsky.social/post-embeds-guide
+========== dropped link https://bsky.social/post-embeds-guide. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 41 of 56
+========== raw link https://docs.bsky.app/showcase?tags=bridge
+============ Checking for Redirections: https://docs.bsky.app/showcase?tags=bridge
+============ Link after cleaning: https://docs.bsky.app/showcase
+========== scraping https://docs.bsky.app/showcase
+======== We are on link 42 of 56
+========== raw link /about/join
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/join
+============ Checking for Redirections: https://bsky.social/about/join
+========== dropped link https://bsky.social/about/join. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 43 of 56
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 44 of 56
+========== raw link /about/blog/5-19-2023-user-faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog/5-19-2023-user-faq
+============ Checking for Redirections: https://bsky.social/about/blog/5-19-2023-user-faq
+============ Link after cleaning: https://bsky.social/about/blog/5-19-2023-user-faq
+========== link already checked
+======== We are on link 45 of 56
+========== raw link /about/blog/press-faq
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/blog/press-faq
+============ Checking for Redirections: https://bsky.social/about/blog/press-faq
+============ Link after cleaning: https://bsky.social/about/blog/press-faq
+========== link already checked
+======== We are on link 46 of 56
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== link already checked
+======== We are on link 47 of 56
+========== raw link /about/join
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/join
+============ Checking for Redirections: https://bsky.social/about/join
+========== dropped link https://bsky.social/about/join. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 48 of 56
+========== raw link /about/rss.xml
+============ Found Relative: joining https://bsky.social/about/blog/5-19-2023-user-faq and /about/rss.xml
+============ Checking for Redirections: https://bsky.social/about/rss.xml
+============ Link after cleaning: https://bsky.social/about/rss.xml
+========== link already checked
+======== We are on link 49 of 56
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 50 of 56
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 51 of 56
+========== raw link mailto:press@blueskyweb.xyz
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 52 of 56
+========== raw link mailto:support@bsky.app
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 53 of 56
+========== raw link https://en.wikipedia.org/wiki/Benefit_corporation
+========== dropped link https://en.wikipedia.org/wiki/Benefit_corporation. Didn't pass first allows/blocks test.
+======== We are on link 54 of 56
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 55 of 56
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 56 of 56
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+====== We are on page 3 of 4: https://bsky.social/about/blog
+====== Number of Links on this Page: 79
+======== We are on link 1 of 79
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 2 of 79
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 3 of 79
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 4 of 79
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 5 of 79
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 6 of 79
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 7 of 79
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 8 of 79
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 9 of 79
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 10 of 79
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 11 of 79
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 12 of 79
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 13 of 79
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 14 of 79
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+======== We are on link 15 of 79
+========== raw link /about/blog/04-21-2025-verification
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/04-21-2025-verification
+============ Checking for Redirections: https://bsky.social/about/blog/04-21-2025-verification
+============ Link after cleaning: https://bsky.social/about/blog/04-21-2025-verification
+========== scraping https://bsky.social/about/blog/04-21-2025-verification
+======== We are on link 16 of 79
+========== raw link /about/blog/04-01-2025-april-fools
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/04-01-2025-april-fools
+============ Checking for Redirections: https://bsky.social/about/blog/04-01-2025-april-fools
+============ Link after cleaning: https://bsky.social/about/blog/04-01-2025-april-fools
+========== scraping https://bsky.social/about/blog/04-01-2025-april-fools
+======== We are on link 17 of 79
+========== raw link /about/blog/01-17-2025-moderation-2024
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/01-17-2025-moderation-2024
+============ Checking for Redirections: https://bsky.social/about/blog/01-17-2025-moderation-2024
+============ Link after cleaning: https://bsky.social/about/blog/01-17-2025-moderation-2024
+========== scraping https://bsky.social/about/blog/01-17-2025-moderation-2024
+============ New link added. Search term (AI) found on https://bsky.social/about/blog/01-17-2025-moderation-2024.
+======== We are on link 18 of 79
+========== raw link /about/blog/12-30-2024-year-in-review
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/12-30-2024-year-in-review
+============ Checking for Redirections: https://bsky.social/about/blog/12-30-2024-year-in-review
+============ Link after cleaning: https://bsky.social/about/blog/12-30-2024-year-in-review
+========== scraping https://bsky.social/about/blog/12-30-2024-year-in-review
+======== We are on link 19 of 79
+========== raw link /about/blog/12-03-2024-altmetric
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/12-03-2024-altmetric
+============ Checking for Redirections: https://bsky.social/about/blog/12-03-2024-altmetric
+============ Link after cleaning: https://bsky.social/about/blog/12-03-2024-altmetric
+========== scraping https://bsky.social/about/blog/12-03-2024-altmetric
+======== We are on link 20 of 79
+========== raw link /about/blog/11-29-2024-engagement
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/11-29-2024-engagement
+============ Checking for Redirections: https://bsky.social/about/blog/11-29-2024-engagement
+============ Link after cleaning: https://bsky.social/about/blog/11-29-2024-engagement
+========== scraping https://bsky.social/about/blog/11-29-2024-engagement
+======== We are on link 21 of 79
+========== raw link /about/blog/10-24-2024-series-a
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/10-24-2024-series-a
+============ Checking for Redirections: https://bsky.social/about/blog/10-24-2024-series-a
+============ Link after cleaning: https://bsky.social/about/blog/10-24-2024-series-a
+========== scraping https://bsky.social/about/blog/10-24-2024-series-a
+======== We are on link 22 of 79
+========== raw link /about/blog/09-18-2024-trust-safety-update
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/09-18-2024-trust-safety-update
+============ Checking for Redirections: https://bsky.social/about/blog/09-18-2024-trust-safety-update
+============ Link after cleaning: https://bsky.social/about/blog/09-18-2024-trust-safety-update
+========== scraping https://bsky.social/about/blog/09-18-2024-trust-safety-update
+======== We are on link 23 of 79
+========== raw link /about/blog/09-11-2024-video
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/09-11-2024-video
+============ Checking for Redirections: https://bsky.social/about/blog/09-11-2024-video
+============ Link after cleaning: https://bsky.social/about/blog/09-11-2024-video
+========== scraping https://bsky.social/about/blog/09-11-2024-video
+======== We are on link 24 of 79
+========== raw link /about/blog/09-04-2024-bem-vindos
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/09-04-2024-bem-vindos
+============ Checking for Redirections: https://bsky.social/about/blog/09-04-2024-bem-vindos
+============ Link after cleaning: https://bsky.social/about/blog/09-04-2024-bem-vindos
+========== scraping https://bsky.social/about/blog/09-04-2024-bem-vindos
+============ Dropping non-English link: https://bsky.social/about/blog/09-04-2024-bem-vindos
+======== We are on link 25 of 79
+========== raw link /about/blog/09-04-2024-welcome
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/09-04-2024-welcome
+============ Checking for Redirections: https://bsky.social/about/blog/09-04-2024-welcome
+============ Link after cleaning: https://bsky.social/about/blog/09-04-2024-welcome
+========== scraping https://bsky.social/about/blog/09-04-2024-welcome
+======== We are on link 26 of 79
+========== raw link /about/blog/08-29-2024-pacotes-iniciais
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/08-29-2024-pacotes-iniciais
+============ Checking for Redirections: https://bsky.social/about/blog/08-29-2024-pacotes-iniciais
+============ Link after cleaning: https://bsky.social/about/blog/08-29-2024-pacotes-iniciais
+========== scraping https://bsky.social/about/blog/08-29-2024-pacotes-iniciais
+============ Dropping non-English link: https://bsky.social/about/blog/08-29-2024-pacotes-iniciais
+======== We are on link 27 of 79
+========== raw link /about/blog/08-28-2024-anti-toxicity-features
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/08-28-2024-anti-toxicity-features
+============ Checking for Redirections: https://bsky.social/about/blog/08-28-2024-anti-toxicity-features
+============ Link after cleaning: https://bsky.social/about/blog/08-28-2024-anti-toxicity-features
+========== scraping https://bsky.social/about/blog/08-28-2024-anti-toxicity-features
+======== We are on link 28 of 79
+========== raw link /about/blog/08-16-2024-community-starter-packs
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/08-16-2024-community-starter-packs
+============ Checking for Redirections: https://bsky.social/about/blog/08-16-2024-community-starter-packs
+============ Link after cleaning: https://bsky.social/about/blog/08-16-2024-community-starter-packs
+========== scraping https://bsky.social/about/blog/08-16-2024-community-starter-packs
+======== We are on link 29 of 79
+========== raw link /about/blog/08-06-2024-board
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/08-06-2024-board
+============ Checking for Redirections: https://bsky.social/about/blog/08-06-2024-board
+============ Link after cleaning: https://bsky.social/about/blog/08-06-2024-board
+========== scraping https://bsky.social/about/blog/08-06-2024-board
+======== We are on link 30 of 79
+========== raw link /about/blog/07-30-2024-schedule-and-crosspost-with-buffer
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/07-30-2024-schedule-and-crosspost-with-buffer
+============ Checking for Redirections: https://bsky.social/about/blog/07-30-2024-schedule-and-crosspost-with-buffer
+============ Link after cleaning: https://bsky.social/about/blog/07-30-2024-schedule-and-crosspost-with-buffer
+========== scraping https://bsky.social/about/blog/07-30-2024-schedule-and-crosspost-with-buffer
+======== We are on link 31 of 79
+========== raw link /about/blog/06-26-2024-starter-packs
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/06-26-2024-starter-packs
+============ Checking for Redirections: https://bsky.social/about/blog/06-26-2024-starter-packs
+============ Link after cleaning: https://bsky.social/about/blog/06-26-2024-starter-packs
+========== scraping https://bsky.social/about/blog/06-26-2024-starter-packs
+======== We are on link 32 of 79
+========== raw link /about/blog/05-31-2024-search
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/05-31-2024-search
+============ Checking for Redirections: https://bsky.social/about/blog/05-31-2024-search
+============ Link after cleaning: https://bsky.social/about/blog/05-31-2024-search
+========== scraping https://bsky.social/about/blog/05-31-2024-search
+======== We are on link 33 of 79
+========== raw link /about/blog/05-22-2024-direct-messages
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/05-22-2024-direct-messages
+============ Checking for Redirections: https://bsky.social/about/blog/05-22-2024-direct-messages
+============ Link after cleaning: https://bsky.social/about/blog/05-22-2024-direct-messages
+========== scraping https://bsky.social/about/blog/05-22-2024-direct-messages
+======== We are on link 34 of 79
+========== raw link /about/blog/05-07-2024-product-roadmap
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/05-07-2024-product-roadmap
+============ Checking for Redirections: https://bsky.social/about/blog/05-07-2024-product-roadmap
+============ Link after cleaning: https://bsky.social/about/blog/05-07-2024-product-roadmap
+========== scraping https://bsky.social/about/blog/05-07-2024-product-roadmap
+======== We are on link 35 of 79
+========== raw link /about/blog/post-embeds-guide
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/post-embeds-guide
+============ Checking for Redirections: https://bsky.social/about/blog/post-embeds-guide
+============ Link after cleaning: https://bsky.social/about/blog/post-embeds-guide
+========== scraping https://bsky.social/about/blog/post-embeds-guide
+======== We are on link 36 of 79
+========== raw link /about/blog/04-10-2024-user-faq-br
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/04-10-2024-user-faq-br
+============ Checking for Redirections: https://bsky.social/about/blog/04-10-2024-user-faq-br
+============ Link after cleaning: https://bsky.social/about/blog/04-10-2024-user-faq-br
+========== scraping https://bsky.social/about/blog/04-10-2024-user-faq-br
+============ Dropping non-English link: https://bsky.social/about/blog/04-10-2024-user-faq-br
+======== We are on link 37 of 79
+========== raw link /about/blog/04-01-2024-bluesky-shorts
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/04-01-2024-bluesky-shorts
+============ Checking for Redirections: https://bsky.social/about/blog/04-01-2024-bluesky-shorts
+============ Link after cleaning: https://bsky.social/about/blog/04-01-2024-bluesky-shorts
+========== scraping https://bsky.social/about/blog/04-01-2024-bluesky-shorts
+======== We are on link 38 of 79
+========== raw link /about/blog/03-12-2024-stackable-moderation
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/03-12-2024-stackable-moderation
+============ Checking for Redirections: https://bsky.social/about/blog/03-12-2024-stackable-moderation
+============ Link after cleaning: https://bsky.social/about/blog/03-12-2024-stackable-moderation
+========== link already checked
+======== We are on link 39 of 79
+========== raw link /about/blog/02-22-2024-open-social-web
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/02-22-2024-open-social-web
+============ Checking for Redirections: https://bsky.social/about/blog/02-22-2024-open-social-web
+============ Link after cleaning: https://bsky.social/about/blog/02-22-2024-open-social-web
+========== scraping https://bsky.social/about/blog/02-22-2024-open-social-web
+======== We are on link 40 of 79
+========== raw link /about/blog/02-06-2024-join-bluesky
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/02-06-2024-join-bluesky
+============ Checking for Redirections: https://bsky.social/about/blog/02-06-2024-join-bluesky
+============ Link after cleaning: https://bsky.social/about/blog/02-06-2024-join-bluesky
+========== scraping https://bsky.social/about/blog/02-06-2024-join-bluesky
+======== We are on link 41 of 79
+========== raw link /about/blog/01-16-2024-moderation-2023
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/01-16-2024-moderation-2023
+============ Checking for Redirections: https://bsky.social/about/blog/01-16-2024-moderation-2023
+============ Link after cleaning: https://bsky.social/about/blog/01-16-2024-moderation-2023
+========== scraping https://bsky.social/about/blog/01-16-2024-moderation-2023
+======== We are on link 42 of 79
+========== raw link /about/blog/12-21-2023-butterfly
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/12-21-2023-butterfly
+============ Checking for Redirections: https://bsky.social/about/blog/12-21-2023-butterfly
+============ Link after cleaning: https://bsky.social/about/blog/12-21-2023-butterfly
+========== scraping https://bsky.social/about/blog/12-21-2023-butterfly
+======== We are on link 43 of 79
+========== raw link /about/blog/11-15-2023-toward-federation
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/11-15-2023-toward-federation
+============ Checking for Redirections: https://bsky.social/about/blog/11-15-2023-toward-federation
+============ Link after cleaning: https://bsky.social/about/blog/11-15-2023-toward-federation
+========== scraping https://bsky.social/about/blog/11-15-2023-toward-federation
+======== We are on link 44 of 79
+========== raw link /about/blog/press-faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/press-faq
+============ Checking for Redirections: https://bsky.social/about/blog/press-faq
+============ Link after cleaning: https://bsky.social/about/blog/press-faq
+========== link already checked
+======== We are on link 45 of 79
+========== raw link /about/blog/9-12-2023-one-million
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/9-12-2023-one-million
+============ Checking for Redirections: https://bsky.social/about/blog/9-12-2023-one-million
+============ Link after cleaning: https://bsky.social/about/blog/9-12-2023-one-million
+========== scraping https://bsky.social/about/blog/9-12-2023-one-million
+======== We are on link 46 of 79
+========== raw link /about/blog/7-27-2023-custom-feeds
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/7-27-2023-custom-feeds
+============ Checking for Redirections: https://bsky.social/about/blog/7-27-2023-custom-feeds
+============ Link after cleaning: https://bsky.social/about/blog/7-27-2023-custom-feeds
+========== scraping https://bsky.social/about/blog/7-27-2023-custom-feeds
+======== We are on link 47 of 79
+========== raw link /about/blog/7-05-2023-business-plan
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/7-05-2023-business-plan
+============ Checking for Redirections: https://bsky.social/about/blog/7-05-2023-business-plan
+============ Link after cleaning: https://bsky.social/about/blog/7-05-2023-business-plan
+========== scraping https://bsky.social/about/blog/7-05-2023-business-plan
+======== We are on link 48 of 79
+========== raw link /about/blog/7-05-2023-namecheap
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/7-05-2023-namecheap
+============ Checking for Redirections: https://bsky.social/about/blog/7-05-2023-namecheap
+============ Link after cleaning: https://bsky.social/about/blog/7-05-2023-namecheap
+========== scraping https://bsky.social/about/blog/7-05-2023-namecheap
+======== We are on link 49 of 79
+========== raw link /about/blog/6-23-2023-moderation-proposals
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/6-23-2023-moderation-proposals
+============ Checking for Redirections: https://bsky.social/about/blog/6-23-2023-moderation-proposals
+============ Link after cleaning: https://bsky.social/about/blog/6-23-2023-moderation-proposals
+========== scraping https://bsky.social/about/blog/6-23-2023-moderation-proposals
+======== We are on link 50 of 79
+========== raw link /about/blog/6-13-2023-what-is-bluesky
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/6-13-2023-what-is-bluesky
+============ Checking for Redirections: https://bsky.social/about/blog/6-13-2023-what-is-bluesky
+============ Link after cleaning: https://bsky.social/about/blog/6-13-2023-what-is-bluesky
+========== scraping https://bsky.social/about/blog/6-13-2023-what-is-bluesky
+======== We are on link 51 of 79
+========== raw link /about/blog/6-02-2023-beta-update
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/6-02-2023-beta-update
+============ Checking for Redirections: https://bsky.social/about/blog/6-02-2023-beta-update
+============ Link after cleaning: https://bsky.social/about/blog/6-02-2023-beta-update
+========== scraping https://bsky.social/about/blog/6-02-2023-beta-update
+======== We are on link 52 of 79
+========== raw link /about/blog/5-19-2023-user-faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/5-19-2023-user-faq
+============ Checking for Redirections: https://bsky.social/about/blog/5-19-2023-user-faq
+============ Link after cleaning: https://bsky.social/about/blog/5-19-2023-user-faq
+========== link already checked
+======== We are on link 53 of 79
+========== raw link /about/blog/5-5-2023-federation-architecture
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/5-5-2023-federation-architecture
+============ Checking for Redirections: https://bsky.social/about/blog/5-5-2023-federation-architecture
+============ Link after cleaning: https://bsky.social/about/blog/5-5-2023-federation-architecture
+========== scraping https://bsky.social/about/blog/5-5-2023-federation-architecture
+======== We are on link 54 of 79
+========== raw link /about/blog/4-28-2023-domain-handle-tutorial
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/4-28-2023-domain-handle-tutorial
+============ Checking for Redirections: https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial
+============ Link after cleaning: https://bsky.social/about/blog/4-28-2023-domain-handle-tutorial
+========== link already checked
+======== We are on link 55 of 79
+========== raw link /about/blog/4-21-2023-atproto-developer-ecosystem
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/4-21-2023-atproto-developer-ecosystem
+============ Checking for Redirections: https://bsky.social/about/blog/4-21-2023-atproto-developer-ecosystem
+============ Link after cleaning: https://bsky.social/about/blog/4-21-2023-atproto-developer-ecosystem
+========== scraping https://bsky.social/about/blog/4-21-2023-atproto-developer-ecosystem
+======== We are on link 56 of 79
+========== raw link /about/blog/4-13-2023-moderation
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/4-13-2023-moderation
+============ Checking for Redirections: https://bsky.social/about/blog/4-13-2023-moderation
+============ Link after cleaning: https://bsky.social/about/blog/4-13-2023-moderation
+========== scraping https://bsky.social/about/blog/4-13-2023-moderation
+======== We are on link 57 of 79
+========== raw link /about/blog/3-30-2023-algorithmic-choice
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/3-30-2023-algorithmic-choice
+============ Checking for Redirections: https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+============ Link after cleaning: https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+========== link already checked
+======== We are on link 58 of 79
+========== raw link /about/blog/3-6-2023-domain-names-as-handles-in-bluesky
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/3-6-2023-domain-names-as-handles-in-bluesky
+============ Checking for Redirections: https://bsky.social/about/blog/3-6-2023-domain-names-as-handles-in-bluesky
+============ Link after cleaning: https://bsky.social/about/blog/3-6-2023-domain-names-as-handles-in-bluesky
+========== scraping https://bsky.social/about/blog/3-6-2023-domain-names-as-handles-in-bluesky
+======== We are on link 59 of 79
+========== raw link /about/blog/3-2-2023-bluesky-beta-app
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/3-2-2023-bluesky-beta-app
+============ Checking for Redirections: https://bsky.social/about/blog/3-2-2023-bluesky-beta-app
+============ Link after cleaning: https://bsky.social/about/blog/3-2-2023-bluesky-beta-app
+========== scraping https://bsky.social/about/blog/3-2-2023-bluesky-beta-app
+======== We are on link 60 of 79
+========== raw link /about/blog/10-18-2022-the-at-protocol
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/10-18-2022-the-at-protocol
+============ Checking for Redirections: https://bsky.social/about/blog/10-18-2022-the-at-protocol
+============ Link after cleaning: https://bsky.social/about/blog/10-18-2022-the-at-protocol
+========== scraping https://bsky.social/about/blog/10-18-2022-the-at-protocol
+======== We are on link 61 of 79
+========== raw link /about/blog/5-4-2022-working-in-public
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/5-4-2022-working-in-public
+============ Checking for Redirections: https://bsky.social/about/blog/5-4-2022-working-in-public
+============ Link after cleaning: https://bsky.social/about/blog/5-4-2022-working-in-public
+========== scraping https://bsky.social/about/blog/5-4-2022-working-in-public
+======== We are on link 62 of 79
+========== raw link /about/blog/3-6-2022-a-self-authenticating-social-protocol
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/3-6-2022-a-self-authenticating-social-protocol
+============ Checking for Redirections: https://bsky.social/about/blog/3-6-2022-a-self-authenticating-social-protocol
+============ Link after cleaning: https://bsky.social/about/blog/3-6-2022-a-self-authenticating-social-protocol
+========== scraping https://bsky.social/about/blog/3-6-2022-a-self-authenticating-social-protocol
+======== We are on link 63 of 79
+========== raw link /about/blog/2-31-2022-initial-bluesky-team
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/2-31-2022-initial-bluesky-team
+============ Checking for Redirections: https://bsky.social/about/blog/2-31-2022-initial-bluesky-team
+============ Link after cleaning: https://bsky.social/about/blog/2-31-2022-initial-bluesky-team
+========== scraping https://bsky.social/about/blog/2-31-2022-initial-bluesky-team
+======== We are on link 64 of 79
+========== raw link /about/blog/2-28-2022-how-it-started
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/2-28-2022-how-it-started
+============ Checking for Redirections: https://bsky.social/about/blog/2-28-2022-how-it-started
+============ Link after cleaning: https://bsky.social/about/blog/2-28-2022-how-it-started
+========== scraping https://bsky.social/about/blog/2-28-2022-how-it-started
+======== We are on link 65 of 79
+========== raw link /about/blog/2-7-2022-overview
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/2-7-2022-overview
+============ Checking for Redirections: https://bsky.social/about/blog/2-7-2022-overview
+============ Link after cleaning: https://bsky.social/about/blog/2-7-2022-overview
+========== scraping https://bsky.social/about/blog/2-7-2022-overview
+======== We are on link 66 of 79
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/blog and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 67 of 79
+========== raw link /about/blog/5-19-2023-user-faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/5-19-2023-user-faq
+============ Checking for Redirections: https://bsky.social/about/blog/5-19-2023-user-faq
+============ Link after cleaning: https://bsky.social/about/blog/5-19-2023-user-faq
+========== link already checked
+======== We are on link 68 of 79
+========== raw link /about/blog/press-faq
+============ Found Relative: joining https://bsky.social/about/blog and /about/blog/press-faq
+============ Checking for Redirections: https://bsky.social/about/blog/press-faq
+============ Link after cleaning: https://bsky.social/about/blog/press-faq
+========== link already checked
+======== We are on link 69 of 79
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/blog and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== link already checked
+======== We are on link 70 of 79
+========== raw link /about/join
+============ Found Relative: joining https://bsky.social/about/blog and /about/join
+============ Checking for Redirections: https://bsky.social/about/join
+========== dropped link https://bsky.social/about/join. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 71 of 79
+========== raw link /about/rss.xml
+============ Found Relative: joining https://bsky.social/about/blog and /about/rss.xml
+============ Checking for Redirections: https://bsky.social/about/rss.xml
+============ Link after cleaning: https://bsky.social/about/rss.xml
+========== link already checked
+======== We are on link 72 of 79
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 73 of 79
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 74 of 79
+========== raw link mailto:press@blueskyweb.xyz
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 75 of 79
+========== raw link mailto:support@bsky.app
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 76 of 79
+========== raw link https://en.wikipedia.org/wiki/Benefit_corporation
+========== dropped link https://en.wikipedia.org/wiki/Benefit_corporation. Didn't pass first allows/blocks test.
+======== We are on link 77 of 79
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 78 of 79
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 79 of 79
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+====== We are on page 4 of 4: https://bsky.social/about/support/tos
+====== Number of Links on this Page: 65
+======== We are on link 1 of 65
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/tos and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 2 of 65
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/tos and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 3 of 65
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 4 of 65
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 5 of 65
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 6 of 65
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 7 of 65
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 8 of 65
+========== raw link /about/faq
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/faq
+============ Checking for Redirections: https://bsky.social/about/faq
+============ Link after cleaning: https://bsky.social/about/faq
+========== link already checked
+======== We are on link 9 of 65
+========== raw link /about/blog
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/blog
+============ Checking for Redirections: https://bsky.social/about/blog
+============ Link after cleaning: https://bsky.social/about/blog
+========== link already checked
+======== We are on link 10 of 65
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 11 of 65
+========== raw link https://bsky.app
+============ Checking for Redirections: https://bsky.app
+============ Followed Redirection to https://bsky.app/
+============ Link after cleaning: https://bsky.app/
+========== link already checked
+======== We are on link 12 of 65
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 13 of 65
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 14 of 65
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+======== We are on link 15 of 65
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== link already checked
+======== We are on link 16 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 17 of 65
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 18 of 65
+========== raw link #who-can-use
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 19 of 65
+========== raw link #user-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 20 of 65
+========== raw link #general-prohibitions-enforcement
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 21 of 65
+========== raw link #termination
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 22 of 65
+========== raw link #appeals
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 23 of 65
+========== raw link #app-play-terms
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 24 of 65
+========== raw link #open-source
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 25 of 65
+========== raw link #dmca-copyright
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 26 of 65
+========== raw link #third-party
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 27 of 65
+========== raw link #updates
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 28 of 65
+========== raw link #warranty-disclaimers
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 29 of 65
+========== raw link #indemnity
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 30 of 65
+========== raw link #limitations-of-liability
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 31 of 65
+========== raw link #governing-law
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 32 of 65
+========== raw link #dispute-resolution
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 33 of 65
+========== raw link #general-terms
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 34 of 65
+========== raw link #contact
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 35 of 65
+========== raw link /about/support/tos-gov
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/tos-gov
+============ Checking for Redirections: https://bsky.social/about/support/tos-gov
+============ Link after cleaning: https://bsky.social/about/support/tos-gov
+========== scraping https://bsky.social/about/support/tos-gov
+======== We are on link 36 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 37 of 65
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 38 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 39 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 40 of 65
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 41 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 42 of 65
+========== raw link /about/support/tos
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/tos
+============ Checking for Redirections: https://bsky.social/about/support/tos
+============ Link after cleaning: https://bsky.social/about/support/tos
+========== link already checked
+======== We are on link 43 of 65
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 44 of 65
+========== raw link /about/support/copyright
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/copyright
+============ Checking for Redirections: https://bsky.social/about/support/copyright
+============ Link after cleaning: https://bsky.social/about/support/copyright
+========== scraping https://bsky.social/about/support/copyright
+======== We are on link 45 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 46 of 65
+========== raw link /about/support/copyright
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/copyright
+============ Checking for Redirections: https://bsky.social/about/support/copyright
+============ Link after cleaning: https://bsky.social/about/support/copyright
+========== link already checked
+======== We are on link 47 of 65
+========== raw link http://www.adr.org
+========== dropped link http://www.adr.org. Didn't pass first allows/blocks test.
+======== We are on link 48 of 65
+========== raw link http://www.adr.org
+========== dropped link http://www.adr.org. Didn't pass first allows/blocks test.
+======== We are on link 49 of 65
+========== raw link /about/support/community-guidelines
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/community-guidelines
+============ Checking for Redirections: https://bsky.social/about/support/community-guidelines
+============ Link after cleaning: https://bsky.social/about/support/community-guidelines
+========== link already checked
+======== We are on link 50 of 65
+========== raw link /about/support/copyright
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/copyright
+============ Checking for Redirections: https://bsky.social/about/support/copyright
+============ Link after cleaning: https://bsky.social/about/support/copyright
+========== link already checked
+======== We are on link 51 of 65
+========== raw link /about/support/privacy-policy
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support/privacy-policy
+============ Checking for Redirections: https://bsky.social/about/support/privacy-policy
+============ Link after cleaning: https://bsky.social/about/support/privacy-policy
+========== link already checked
+======== We are on link 52 of 65
+========== raw link /about
+============ Found Relative: joining https://bsky.social/about/support/tos and /about
+============ Checking for Redirections: https://bsky.social/about
+============ Link after cleaning: https://bsky.social/about
+========== link already checked
+======== We are on link 53 of 65
+========== raw link /about/blog/5-19-2023-user-faq
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/blog/5-19-2023-user-faq
+============ Checking for Redirections: https://bsky.social/about/blog/5-19-2023-user-faq
+============ Link after cleaning: https://bsky.social/about/blog/5-19-2023-user-faq
+========== link already checked
+======== We are on link 54 of 65
+========== raw link /about/blog/press-faq
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/blog/press-faq
+============ Checking for Redirections: https://bsky.social/about/blog/press-faq
+============ Link after cleaning: https://bsky.social/about/blog/press-faq
+========== link already checked
+======== We are on link 55 of 65
+========== raw link /about/support
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/support
+============ Checking for Redirections: https://bsky.social/about/support
+============ Link after cleaning: https://bsky.social/about/support
+========== link already checked
+======== We are on link 56 of 65
+========== raw link /about/join
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/join
+============ Checking for Redirections: https://bsky.social/about/join
+========== dropped link https://bsky.social/about/join. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 57 of 65
+========== raw link /about/rss.xml
+============ Found Relative: joining https://bsky.social/about/support/tos and /about/rss.xml
+============ Checking for Redirections: https://bsky.social/about/rss.xml
+========== dropped link https://bsky.social/about/rss.xml. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 58 of 65
+========== raw link https://atproto.com/
+========== dropped link https://atproto.com/. Didn't pass first allows/blocks test.
+======== We are on link 59 of 65
+========== raw link https://bsky.app/
+============ Checking for Redirections: https://bsky.app/
+============ Link unchanged
+========== link already checked
+======== We are on link 60 of 65
+========== raw link mailto:press@blueskyweb.xyz
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 61 of 65
+========== raw link mailto:support@bsky.app
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 62 of 65
+========== raw link https://en.wikipedia.org/wiki/Benefit_corporation
+========== dropped link https://en.wikipedia.org/wiki/Benefit_corporation. Didn't pass first allows/blocks test.
+======== We are on link 63 of 65
+========== raw link https://bsky.app/profile/bsky.app
+========== dropped link https://bsky.app/profile/bsky.app. Didn't pass first allows/blocks test.
+======== We are on link 64 of 65
+========== raw link https://github.com/bluesky-social
+========== dropped link https://github.com/bluesky-social. Didn't pass first allows/blocks test.
+======== We are on link 65 of 65
+========== raw link https://twitter.com/bluesky
+========== dropped link https://twitter.com/bluesky. Didn't pass first allows/blocks test.
+==== Number of new pages added: 3
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 3: https://bsky.social/about/rss.xml
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 3: https://bsky.social/about/blog/3-30-2023-algorithmic-choice
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 3: https://bsky.social/about/blog/01-17-2025-moderation-2024
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+== Finished scraping bsky.app-AI_Moderation in 341.2809 seconds.
+== Writing to db file
+== Done (/home/zaynacheema/ContentModerationWebScraper/data/05_14_25_01_32/all_htmls/AI_Moderation_bsky_app_05_14_25_01_32.json)
+== Completed with Errors, search for error in logs
