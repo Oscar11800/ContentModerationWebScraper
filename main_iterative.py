@@ -115,7 +115,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     lookup_time = datetime.now()
 
     # situation for iter=0
-    if iteration==0: 
+    if iterations==0: 
         done = True
 
     while not done:
