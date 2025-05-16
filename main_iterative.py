@@ -114,6 +114,10 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
     logger.warning(statement)
     lookup_time = datetime.now()
 
+    # situation for iter=0
+    if iterations==0: 
+        done = True
+
     while not done:
         statement = f'==== We are at iteration {iteration+1} (tree depth).'
         logger.warning(statement)
@@ -147,7 +151,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
             link_count=0
             
             for raw_link in all_links:
-                #restart new server after scraping 100 urls per page to avoid block and crash
+                #restart new driver after scraping 100 urls per page to avoid block and crash
                 if link_count%100==0:
                     driver.restart()
 
@@ -229,6 +233,7 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                     statement = f"========== dropped link {link}. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID)." # e.g. guardian sign in page
                     logger.warning(statement)
                     link_count+=1
+                    #driver.restart() #restart new driver if it is suspected to be blocked -- for some platforms can use this but frequent restart can cause program crash
                     continue
                 # drop query strings and anchor links
                 link = link.split('?')[0]
@@ -270,6 +275,32 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                             logger.warning(statement)
                             link_count += 1
                             continue  # Skip rest of the loop
+                        
+
+                        ########## Curations for different sites start ##########
+
+                        #tiktok
+                        if row["site_name"] == "tiktok.com":
+                            for tag in next_soup.find_all("ul", class_="sc-fMiknA Lhmtb"):
+                                tag.decompose()
+                            for tag in next_soup.find_all("footer", class_="post-recommend"):
+                                tag.decompose()
+                            for tag in next_soup.find_all("div", class_="header_wrapper_38Cmf"):
+                                tag.decompose()
+
+                        #facebook
+                        if row["site_name"] == "facebook.com":
+                            for tag in next_soup.find_all("div", class_="_9nwz"):
+                                tag.decompose()
+                            for tag in next_soup.find_all("footer", class_="site-footer"):
+                                tag.decompose()
+                            for tag in next_soup.find_all("header", class_="site-header"):
+                                tag.decompose()
+                            for tag in next_soup.find_all("div", class_="sidebar-container"):
+                                tag.decompose()
+                                
+                        ########## Curations for different sites end ##########
+
 
                         # Rest of the code only runs if the page is English
                         page_text = next_soup.get_text()
@@ -341,6 +372,14 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
 
         # for stopping at reached tree depth
         iteration += 1
+
+    if done and iterations == 0:
+        toc = time.perf_counter()
+        statement = f"== Finished scraping {raw['site_name']}-{area} in {toc - tic:0.4f} seconds."
+        print(statement)
+        logger.warning(statement)
+        high_logger.warning(statement)
+        
     statement = f'== Writing to db file'
     # print(statement)
     logger.warning(statement)
