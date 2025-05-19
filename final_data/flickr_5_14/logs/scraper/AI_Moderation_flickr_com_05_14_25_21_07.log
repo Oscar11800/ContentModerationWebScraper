@@ -1,0 +1,2229 @@
+== Conducting scraping for AI_Moderation on flickr.com
+== Getting initial 6 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 6: https://blog.flickr.net/en
+====== Number of Links on this Page: 72
+======== We are on link 1 of 72
+========== raw link https://blog.flickr.net/en/
+============ Checking for Redirections: https://blog.flickr.net/en/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/
+======== We are on link 2 of 72
+========== raw link #content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 3 of 72
+========== raw link #
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 4 of 72
+========== raw link https://blog.flickr.net/category/featured/weekly-snapshot-with-flickr-social/
+============ Checking for Redirections: https://blog.flickr.net/category/featured/weekly-snapshot-with-flickr-social/
+============ Link unchanged
+========== scraping https://blog.flickr.net/category/featured/weekly-snapshot-with-flickr-social/
+======== We are on link 5 of 72
+========== raw link https://blog.flickr.net/category/photographer-spotlight/
+============ Checking for Redirections: https://blog.flickr.net/category/photographer-spotlight/
+============ Link unchanged
+========== scraping https://blog.flickr.net/category/photographer-spotlight/
+======== We are on link 6 of 72
+========== raw link https://blog.flickr.net/category/flickr/release-notes/
+============ Checking for Redirections: https://blog.flickr.net/category/flickr/release-notes/
+============ Link unchanged
+========== scraping https://blog.flickr.net/category/flickr/release-notes/
+======== We are on link 7 of 72
+========== raw link https://blog.flickr.net/category/commons/
+========== dropped link https://blog.flickr.net/category/commons/. Didn't pass first allows/blocks test.
+======== We are on link 8 of 72
+========== raw link https://www.flickr.com/photos/flickr/galleries/
+========== dropped link https://www.flickr.com/photos/flickr/galleries/. Didn't pass first allows/blocks test.
+======== We are on link 9 of 72
+========== raw link https://code.flickr.net/
+========== dropped link https://code.flickr.net/. Didn't pass first allows/blocks test.
+======== We are on link 10 of 72
+========== raw link https://www.flickr.com/
+============ Checking for Redirections: https://www.flickr.com/
+============ Link unchanged
+========== scraping https://www.flickr.com/
+======== We are on link 11 of 72
+========== raw link https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+======== We are on link 12 of 72
+========== raw link https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Link unchanged
+========== link already checked
+======== We are on link 13 of 72
+========== raw link https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/13/flickr-fundamentals-explore-camera-finder/
+============ Link unchanged
+========== link already checked
+======== We are on link 14 of 72
+========== raw link https://blog.flickr.net/en/2025/05/08/announcing-flickrs-black-women-photographers-2025-grant-recipient/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/08/announcing-flickrs-black-women-photographers-2025-grant-recipient/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/08/announcing-flickrs-black-women-photographers-2025-grant-recipient/
+======== We are on link 15 of 72
+========== raw link https://blog.flickr.net/en/2025/05/08/announcing-flickrs-black-women-photographers-2025-grant-recipient/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/08/announcing-flickrs-black-women-photographers-2025-grant-recipient/
+============ Link unchanged
+========== link already checked
+======== We are on link 16 of 72
+========== raw link https://blog.flickr.net/en/2025/05/05/flickr-and-fracture-are-teaming-up-to-celebrate-what-mom-means-to-you/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/05/flickr-and-fracture-are-teaming-up-to-celebrate-what-mom-means-to-you/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/05/flickr-and-fracture-are-teaming-up-to-celebrate-what-mom-means-to-you/
+======== We are on link 17 of 72
+========== raw link https://blog.flickr.net/en/2025/05/05/flickr-and-fracture-are-teaming-up-to-celebrate-what-mom-means-to-you/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/05/flickr-and-fracture-are-teaming-up-to-celebrate-what-mom-means-to-you/
+============ Link unchanged
+========== link already checked
+======== We are on link 18 of 72
+========== raw link https://blog.flickr.net/en/2025/05/09/weekly-snapshot-with-flickr-social-5-9-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/09/weekly-snapshot-with-flickr-social-5-9-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/09/weekly-snapshot-with-flickr-social-5-9-2025/
+======== We are on link 19 of 72
+========== raw link https://blog.flickr.net/en/2025/05/09/weekly-snapshot-with-flickr-social-5-9-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/09/weekly-snapshot-with-flickr-social-5-9-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 20 of 72
+========== raw link https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+======== We are on link 21 of 72
+========== raw link https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 22 of 72
+========== raw link https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/02/weekly-snapshot-with-flickr-social-5-2-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 72
+========== raw link https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+======== We are on link 24 of 72
+========== raw link https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Link unchanged
+========== link already checked
+======== We are on link 25 of 72
+========== raw link https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/05/01/flickrs-new-monthly-photo-challenge-is-here/
+============ Link unchanged
+========== link already checked
+======== We are on link 26 of 72
+========== raw link https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+======== We are on link 27 of 72
+========== raw link https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 28 of 72
+========== raw link https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/25/weekly-snapshot-with-flickr-social-4-25-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 29 of 72
+========== raw link https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+======== We are on link 30 of 72
+========== raw link https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Link unchanged
+========== link already checked
+======== We are on link 31 of 72
+========== raw link https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/23/16-questions-1-photo-with-sapna-reddy/
+============ Link unchanged
+========== link already checked
+======== We are on link 32 of 72
+========== raw link https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+======== We are on link 33 of 72
+========== raw link https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Link unchanged
+========== link already checked
+======== We are on link 34 of 72
+========== raw link https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/22/earth-day-our-power-our-planet/
+============ Link unchanged
+========== link already checked
+======== We are on link 35 of 72
+========== raw link https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+======== We are on link 36 of 72
+========== raw link https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Link unchanged
+========== link already checked
+======== We are on link 37 of 72
+========== raw link https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/20/roidweek-is-back-celebrate-instant-film-this-spring-on-flickr/
+============ Link unchanged
+========== link already checked
+======== We are on link 38 of 72
+========== raw link https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+======== We are on link 39 of 72
+========== raw link https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 40 of 72
+========== raw link https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/18/weekly-snapshot-with-flickr-social-4-18-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 41 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+======== We are on link 42 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 43 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/icymi-flickr-news-and-updates-march-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 44 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+======== We are on link 45 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Link unchanged
+========== link already checked
+======== We are on link 46 of 72
+========== raw link https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/17/through-the-lens-film-photography-explored/
+============ Link unchanged
+========== link already checked
+======== We are on link 47 of 72
+========== raw link https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+======== We are on link 48 of 72
+========== raw link https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 49 of 72
+========== raw link https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/16/in-frame-with-flickr-street-photography-review-4-16-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 50 of 72
+========== raw link https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+======== We are on link 51 of 72
+========== raw link https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Link unchanged
+========== link already checked
+======== We are on link 52 of 72
+========== raw link https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/15/service-update-original-large-size-download-limitations-on-free-accounts/
+============ Link unchanged
+========== link already checked
+======== We are on link 53 of 72
+========== raw link https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+======== We are on link 54 of 72
+========== raw link https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 55 of 72
+========== raw link https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/11/weekly-snapshot-with-flickr-social-4-11-2025/
+============ Link unchanged
+========== link already checked
+======== We are on link 56 of 72
+========== raw link https://blog.flickr.net/en/page/2/
+============ Checking for Redirections: https://blog.flickr.net/en/page/2/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/page/2/
+======== We are on link 57 of 72
+========== raw link https://blog.flickr.net/en/2025/04/09/photographer-spotlight-with-emma-k-alexandra/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/09/photographer-spotlight-with-emma-k-alexandra/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2025/04/09/photographer-spotlight-with-emma-k-alexandra/
+======== We are on link 58 of 72
+========== raw link https://blog.flickr.net/en/2025/04/09/photographer-spotlight-with-emma-k-alexandra/
+============ Checking for Redirections: https://blog.flickr.net/en/2025/04/09/photographer-spotlight-with-emma-k-alexandra/
+============ Link unchanged
+========== link already checked
+======== We are on link 59 of 72
+========== raw link https://www.flickr.com/photos/emma-k-alexandra/
+========== dropped link https://www.flickr.com/photos/emma-k-alexandra/. Didn't pass first allows/blocks test.
+======== We are on link 60 of 72
+========== raw link https://www.facebook.com/flickr/
+========== dropped link https://www.facebook.com/flickr/. Didn't pass first allows/blocks test.
+======== We are on link 61 of 72
+========== raw link https://blog.flickr.net/de
+============ Checking for Redirections: https://blog.flickr.net/de
+============ Link unchanged
+========== scraping https://blog.flickr.net/de
+============ Dropping non-English link: https://blog.flickr.net/de
+======== We are on link 62 of 72
+========== raw link https://blog.flickr.net/en
+============ Checking for Redirections: https://blog.flickr.net/en
+============ Link unchanged
+========== link already checked
+======== We are on link 63 of 72
+========== raw link https://blog.flickr.net/es
+============ Checking for Redirections: https://blog.flickr.net/es
+============ Link unchanged
+========== scraping https://blog.flickr.net/es
+============ Dropping non-English link: https://blog.flickr.net/es
+======== We are on link 64 of 72
+========== raw link https://blog.flickr.net/fr
+============ Checking for Redirections: https://blog.flickr.net/fr
+============ Link unchanged
+========== scraping https://blog.flickr.net/fr
+============ Dropping non-English link: https://blog.flickr.net/fr
+======== We are on link 65 of 72
+========== raw link https://blog.flickr.net/id
+============ Checking for Redirections: https://blog.flickr.net/id
+============ Link unchanged
+========== scraping https://blog.flickr.net/id
+============ Dropping non-English link: https://blog.flickr.net/id
+======== We are on link 66 of 72
+========== raw link https://blog.flickr.net/it
+============ Checking for Redirections: https://blog.flickr.net/it
+============ Link unchanged
+========== scraping https://blog.flickr.net/it
+============ Dropping non-English link: https://blog.flickr.net/it
+======== We are on link 67 of 72
+========== raw link https://blog.flickr.net/ko
+============ Checking for Redirections: https://blog.flickr.net/ko
+============ Link unchanged
+========== scraping https://blog.flickr.net/ko
+======== We are on link 68 of 72
+========== raw link https://blog.flickr.net/pt
+============ Checking for Redirections: https://blog.flickr.net/pt
+============ Link unchanged
+========== scraping https://blog.flickr.net/pt
+============ Dropping non-English link: https://blog.flickr.net/pt
+======== We are on link 69 of 72
+========== raw link https://blog.flickr.net/vi
+============ Checking for Redirections: https://blog.flickr.net/vi
+============ Link unchanged
+========== scraping https://blog.flickr.net/vi
+============ Dropping non-English link: https://blog.flickr.net/vi
+======== We are on link 70 of 72
+========== raw link https://blog.flickr.net/zh
+============ Checking for Redirections: https://blog.flickr.net/zh
+============ Link unchanged
+========== scraping https://blog.flickr.net/zh
+======== We are on link 71 of 72
+========== raw link https://www.awesome.co
+========== dropped link https://www.awesome.co. Didn't pass first allows/blocks test.
+======== We are on link 72 of 72
+========== raw link http://vip.wordpress.com
+========== dropped link http://vip.wordpress.com. Didn't pass first allows/blocks test.
+====== We are on page 2 of 6: https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr
+====== Number of Links on this Page: 28
+======== We are on link 1 of 28
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 28
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 3 of 28
+========== raw link https://www.flickr.com/
+============ Checking for Redirections: https://www.flickr.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 28
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 5 of 28
+========== raw link /hc/en-us/categories/4771822168084-Safety-Reporting
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/categories/4771822168084-Safety-Reporting
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+======== We are on link 6 of 28
+========== raw link /hc/en-us/sections/4772787928340-Rules-Policies
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/sections/4772787928340-Rules-Policies
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4772787928340-Rules-Policies
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4772787928340-Rules-Policies
+========== scraping https://www.flickrhelp.com/hc/en-us/sections/4772787928340-Rules-Policies
+======== We are on link 7 of 28
+========== raw link /hc/en-us/articles/35346014272916-Request-to-Memorialize-or-Delete-an-account-of-a-deceased-member
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/35346014272916-Request-to-Memorialize-or-Delete-an-account-of-a-deceased-member
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/35346014272916-Request-to-Memorialize-or-Delete-an-account-of-a-deceased-member
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/35346014272916-Request-to-Memorialize-or-Delete-an-account-of-a-deceased-member
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/35346014272916-Request-to-Memorialize-or-Delete-an-account-of-a-deceased-member
+======== We are on link 8 of 28
+========== raw link /hc/en-us/articles/28522993154324-Guidelines-for-Law-Enforcement
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/28522993154324-Guidelines-for-Law-Enforcement
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/28522993154324-Guidelines-for-Law-Enforcement
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/28522993154324-Guidelines-for-Law-Enforcement
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/28522993154324-Guidelines-for-Law-Enforcement
+======== We are on link 9 of 28
+========== raw link /hc/en-us/articles/20529310987796-The-rules-of-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/20529310987796-The-rules-of-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr
+========== link already checked
+======== We are on link 10 of 28
+========== raw link /hc/en-us/articles/21408093965972-Spam-on-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/21408093965972-Spam-on-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/21408093965972-Spam-on-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/21408093965972-Spam-on-Flickr
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/21408093965972-Spam-on-Flickr
+======== We are on link 11 of 28
+========== raw link /hc/en-us/articles/21343857042836-Uploading-content-to-Flickr-that-you-do-not-own
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/21343857042836-Uploading-content-to-Flickr-that-you-do-not-own
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/21343857042836-Uploading-content-to-Flickr-that-you-do-not-own
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/21343857042836-Uploading-content-to-Flickr-that-you-do-not-own
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/21343857042836-Uploading-content-to-Flickr-that-you-do-not-own
+======== We are on link 12 of 28
+========== raw link /hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/16048737757716-Digital-Services-Act-Information-on-Active-Monthly-Users-in-the-European-Union
+======== We are on link 13 of 28
+========== raw link /hc/en-us/articles/4404071066260-Brand-guidelines
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/4404071066260-Brand-guidelines
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404071066260-Brand-guidelines
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404071066260-Brand-guidelines
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404071066260-Brand-guidelines
+======== We are on link 14 of 28
+========== raw link /hc/en-us/articles/4404058002580-File-a-Counter-Notification
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/4404058002580-File-a-Counter-Notification
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058002580-File-a-Counter-Notification
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058002580-File-a-Counter-Notification
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058002580-File-a-Counter-Notification
+======== We are on link 15 of 28
+========== raw link /hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+======== We are on link 16 of 28
+========== raw link /hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+======== We are on link 17 of 28
+========== raw link /hc/en-us/sections/4772787928340-Rules-Policies
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr and /hc/en-us/sections/4772787928340-Rules-Policies
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4772787928340-Rules-Policies
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4772787928340-Rules-Policies
+========== link already checked
+======== We are on link 18 of 28
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404064374164-Set-the-Safety-Levels-of-Your-Flickr-Content-or-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064374164-Set-the-Safety-Levels-of-Your-Flickr-Content-or-Account
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404064374164-Set-the-Safety-Levels-of-Your-Flickr-Content-or-Account
+======== We are on link 19 of 28
+========== raw link https://www.flickr.com/help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== scraping https://www.flickr.com/browser/upgrade/
+======== We are on link 20 of 28
+========== raw link https://www.flickr.com/help/guidelines/
+============ Checking for Redirections: https://www.flickr.com/help/guidelines/
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 21 of 28
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4419502786580-Combatting-child-sexual-abuse-material
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4419502786580-Combatting-child-sexual-abuse-material
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4419502786580-Combatting-child-sexual-abuse-material
+======== We are on link 22 of 28
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4419502786580-Combatting-child-sexual-abuse-material
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4419502786580-Combatting-child-sexual-abuse-material
+============ Link unchanged
+========== link already checked
+======== We are on link 23 of 28
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+============ New link added. Search term (AI) found on https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters.
+======== We are on link 24 of 28
+========== raw link 
+                        https://www.flickr.com/account/upgrade/pro
+                      
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 25 of 28
+========== raw link 
+                        https://www.flickr.com/people/flickr/
+                      
+============ Checking for Redirections: https://www.flickr.com/people/flickr/
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 26 of 28
+========== raw link 
+                        https://www.flickr.com/prints
+                      
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 27 of 28
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 28 of 28
+========== raw link https://www.instagram.com/flickr/?hl=en
+========== dropped link https://www.instagram.com/flickr/?hl=en. Didn't pass first allows/blocks test.
+====== We are on page 3 of 6: https://www.flickr.com/help/terms
+====== Number of Links on this Page: 112
+======== We are on link 1 of 112
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 112
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/terms and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 3 of 112
+========== raw link /explore/discover
+============ Found Relative: joining https://www.flickr.com/help/terms and /explore/discover
+========== dropped link https://www.flickr.com/explore/discover. Didn't pass first allows/blocks test.
+======== We are on link 4 of 112
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/terms and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 5 of 112
+========== raw link /photos/tags
+============ Found Relative: joining https://www.flickr.com/help/terms and /photos/tags
+========== dropped link https://www.flickr.com/photos/tags. Didn't pass first allows/blocks test.
+======== We are on link 6 of 112
+========== raw link /events
+============ Found Relative: joining https://www.flickr.com/help/terms and /events
+========== dropped link https://www.flickr.com/events. Didn't pass first allows/blocks test.
+======== We are on link 7 of 112
+========== raw link /commons
+============ Found Relative: joining https://www.flickr.com/help/terms and /commons
+========== dropped link https://www.flickr.com/commons. Didn't pass first allows/blocks test.
+======== We are on link 8 of 112
+========== raw link /galleries
+============ Found Relative: joining https://www.flickr.com/help/terms and /galleries
+============ Checking for Redirections: https://www.flickr.com/galleries
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 9 of 112
+========== raw link /map
+============ Found Relative: joining https://www.flickr.com/help/terms and /map
+========== dropped link https://www.flickr.com/map. Didn't pass first allows/blocks test.
+======== We are on link 10 of 112
+========== raw link /cameras
+============ Found Relative: joining https://www.flickr.com/help/terms and /cameras
+========== dropped link https://www.flickr.com/cameras. Didn't pass first allows/blocks test.
+======== We are on link 11 of 112
+========== raw link https://blog.flickr.net/
+============ Checking for Redirections: https://blog.flickr.net/
+============ Followed Redirection to https://blog.flickr.net/en
+============ Link after cleaning: https://blog.flickr.net/en
+========== link already checked
+======== We are on link 12 of 112
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/terms and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 13 of 112
+========== raw link /prints/discover
+============ Found Relative: joining https://www.flickr.com/help/terms and /prints/discover
+========== dropped link https://www.flickr.com/prints/discover. Didn't pass first allows/blocks test.
+======== We are on link 14 of 112
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/terms and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 15 of 112
+========== raw link /create
+============ Found Relative: joining https://www.flickr.com/help/terms and /create
+========== dropped link https://www.flickr.com/create. Didn't pass first allows/blocks test.
+======== We are on link 16 of 112
+========== raw link /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+============ Found Relative: joining https://www.flickr.com/help/terms and /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+========== dropped link https://www.flickr.com/account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro. Didn't pass first allows/blocks test.
+======== We are on link 17 of 112
+========== raw link /account/upgrade/pro
+============ Found Relative: joining https://www.flickr.com/help/terms and /account/upgrade/pro
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 18 of 112
+========== raw link /photos/me/stats
+============ Found Relative: joining https://www.flickr.com/help/terms and /photos/me/stats
+========== dropped link https://www.flickr.com/photos/me/stats. Didn't pass first allows/blocks test.
+======== We are on link 19 of 112
+========== raw link /tools
+============ Found Relative: joining https://www.flickr.com/help/terms and /tools
+============ Checking for Redirections: https://www.flickr.com/tools
+============ Followed Redirection to https://www.flickr.com/tools/
+============ Link after cleaning: https://www.flickr.com/tools/
+========== scraping https://www.flickr.com/tools/
+======== We are on link 20 of 112
+========== raw link /upload
+============ Found Relative: joining https://www.flickr.com/help/terms and /upload
+============ Checking for Redirections: https://www.flickr.com/upload
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=b95d888d
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 21 of 112
+========== raw link /signin
+============ Found Relative: joining https://www.flickr.com/help/terms and /signin
+============ Checking for Redirections: https://www.flickr.com/signin
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=30df94c1
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 22 of 112
+========== raw link /signup
+============ Found Relative: joining https://www.flickr.com/help/terms and /signup
+============ Checking for Redirections: https://www.flickr.com/signup
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=bef9bd36
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 23 of 112
+========== raw link /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+============ Found Relative: joining https://www.flickr.com/help/terms and /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+========== dropped link https://www.flickr.com/account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro. Didn't pass first allows/blocks test.
+======== We are on link 24 of 112
+========== raw link /signin
+============ Found Relative: joining https://www.flickr.com/help/terms and /signin
+============ Checking for Redirections: https://www.flickr.com/signin
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=d0a41217
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 25 of 112
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/terms and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 26 of 112
+========== raw link /explore/discover
+============ Found Relative: joining https://www.flickr.com/help/terms and /explore/discover
+========== dropped link https://www.flickr.com/explore/discover. Didn't pass first allows/blocks test.
+======== We are on link 27 of 112
+========== raw link /cameras
+============ Found Relative: joining https://www.flickr.com/help/terms and /cameras
+========== dropped link https://www.flickr.com/cameras. Didn't pass first allows/blocks test.
+======== We are on link 28 of 112
+========== raw link /photos/tags
+============ Found Relative: joining https://www.flickr.com/help/terms and /photos/tags
+========== dropped link https://www.flickr.com/photos/tags. Didn't pass first allows/blocks test.
+======== We are on link 29 of 112
+========== raw link /events
+============ Found Relative: joining https://www.flickr.com/help/terms and /events
+========== dropped link https://www.flickr.com/events. Didn't pass first allows/blocks test.
+======== We are on link 30 of 112
+========== raw link /commons
+============ Found Relative: joining https://www.flickr.com/help/terms and /commons
+========== dropped link https://www.flickr.com/commons. Didn't pass first allows/blocks test.
+======== We are on link 31 of 112
+========== raw link /galleries
+============ Found Relative: joining https://www.flickr.com/help/terms and /galleries
+============ Checking for Redirections: https://www.flickr.com/galleries
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 32 of 112
+========== raw link https://blog.flickr.net/
+============ Checking for Redirections: https://blog.flickr.net/
+============ Followed Redirection to https://blog.flickr.net/en
+============ Link after cleaning: https://blog.flickr.net/en
+========== link already checked
+======== We are on link 33 of 112
+========== raw link /prints/discover
+============ Found Relative: joining https://www.flickr.com/help/terms and /prints/discover
+========== dropped link https://www.flickr.com/prints/discover. Didn't pass first allows/blocks test.
+======== We are on link 34 of 112
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/terms and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 35 of 112
+========== raw link /create
+============ Found Relative: joining https://www.flickr.com/help/terms and /create
+========== dropped link https://www.flickr.com/create. Didn't pass first allows/blocks test.
+======== We are on link 36 of 112
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/terms and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== scraping https://www.flickr.com/about
+======== We are on link 37 of 112
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/terms and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 38 of 112
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/terms and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== scraping https://www.flickr.com/blog.flickr.net/en
+======== We are on link 39 of 112
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 40 of 112
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/terms and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== scraping https://www.flickr.com/services/developer
+======== We are on link 41 of 112
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 42 of 112
+========== raw link //flickrhelp.com
+============ Prepended scheme.
+========== dropped link https://flickrhelp.com. Didn't pass first allows/blocks test.
+======== We are on link 43 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 44 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 45 of 112
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 46 of 112
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/terms and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 47 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 48 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 49 of 112
+========== raw link /help/terms/api
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms/api
+============ Checking for Redirections: https://www.flickr.com/help/terms/api
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 50 of 112
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 51 of 112
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 52 of 112
+========== raw link /help/dpa
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/dpa
+============ Checking for Redirections: https://www.flickr.com/help/dpa
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 53 of 112
+========== raw link https://www.smugmug.com/about/terms
+========== dropped link https://www.smugmug.com/about/terms. Didn't pass first allows/blocks test.
+======== We are on link 54 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 55 of 112
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 56 of 112
+========== raw link https://www.flickr.com/help/dpa
+============ Checking for Redirections: https://www.flickr.com/help/dpa
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 57 of 112
+========== raw link /account/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /account/privacy
+========== dropped link https://www.flickr.com/account/privacy. Didn't pass first allows/blocks test.
+======== We are on link 58 of 112
+========== raw link https://flickrhelp.com/hc/en-us/requests/new
+========== dropped link https://flickrhelp.com/hc/en-us/requests/new. Didn't pass first allows/blocks test.
+======== We are on link 59 of 112
+========== raw link https://flickrhelp.com/hc/en-us/requests/new
+========== dropped link https://flickrhelp.com/hc/en-us/requests/new. Didn't pass first allows/blocks test.
+======== We are on link 60 of 112
+========== raw link https://flickrhelp.com/hc/en-us/requests/new
+========== dropped link https://flickrhelp.com/hc/en-us/requests/new. Didn't pass first allows/blocks test.
+======== We are on link 61 of 112
+========== raw link https://flickrhelp.com/hc/en-us/requests/new
+========== dropped link https://flickrhelp.com/hc/en-us/requests/new. Didn't pass first allows/blocks test.
+======== We are on link 62 of 112
+========== raw link http://www.copyright.gov/legislation/pl105-304.pdf
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 63 of 112
+========== raw link mailto:dmca@flickr.com
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 64 of 112
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/terms and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== link already checked
+======== We are on link 65 of 112
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/terms and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 66 of 112
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/terms and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== link already checked
+======== We are on link 67 of 112
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 68 of 112
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/terms and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== link already checked
+======== We are on link 69 of 112
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 70 of 112
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 71 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 72 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 73 of 112
+========== raw link //flickrhelp.com
+============ Prepended scheme.
+========== dropped link https://flickrhelp.com. Didn't pass first allows/blocks test.
+======== We are on link 74 of 112
+========== raw link /abuse
+============ Found Relative: joining https://www.flickr.com/help/terms and /abuse
+============ Checking for Redirections: https://www.flickr.com/abuse
+============ Link after cleaning: https://www.flickr.com/abuse
+========== scraping https://www.flickr.com/abuse
+======== We are on link 75 of 112
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/terms and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 76 of 112
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 77 of 112
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 78 of 112
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 79 of 112
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+======== We are on link 80 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 81 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 82 of 112
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 83 of 112
+========== raw link https://www.onepercentfortheplanet.org/
+========== dropped link https://www.onepercentfortheplanet.org/. Didn't pass first allows/blocks test.
+======== We are on link 84 of 112
+========== raw link https://www.greatplacetowork.com/certified-company/7051750
+========== dropped link https://www.greatplacetowork.com/certified-company/7051750. Didn't pass first allows/blocks test.
+======== We are on link 85 of 112
+========== raw link https://www.climateneutral.org/brand/flickr
+========== dropped link https://www.climateneutral.org/brand/flickr. Didn't pass first allows/blocks test.
+======== We are on link 86 of 112
+========== raw link https://www.conservationalliance.com/
+========== dropped link https://www.conservationalliance.com/. Didn't pass first allows/blocks test.
+======== We are on link 87 of 112
+========== raw link https://www.tugboatinstitute.com/certified-evergreen/
+========== dropped link https://www.tugboatinstitute.com/certified-evergreen/. Didn't pass first allows/blocks test.
+======== We are on link 88 of 112
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 89 of 112
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 90 of 112
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+======== We are on link 91 of 112
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/terms and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== link already checked
+======== We are on link 92 of 112
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/terms and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 93 of 112
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/terms and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== link already checked
+======== We are on link 94 of 112
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 95 of 112
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/terms and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== link already checked
+======== We are on link 96 of 112
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 97 of 112
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 98 of 112
+========== raw link /abuse
+============ Found Relative: joining https://www.flickr.com/help/terms and /abuse
+============ Checking for Redirections: https://www.flickr.com/abuse
+============ Link after cleaning: https://www.flickr.com/abuse
+========== link already checked
+======== We are on link 99 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 100 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 101 of 112
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/terms and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 102 of 112
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 103 of 112
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/terms and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 104 of 112
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 105 of 112
+========== raw link https://www.onepercentfortheplanet.org/
+========== dropped link https://www.onepercentfortheplanet.org/. Didn't pass first allows/blocks test.
+======== We are on link 106 of 112
+========== raw link https://www.greatplacetowork.com/certified-company/7051750
+========== dropped link https://www.greatplacetowork.com/certified-company/7051750. Didn't pass first allows/blocks test.
+======== We are on link 107 of 112
+========== raw link https://www.climateneutral.org/brand/flickr
+========== dropped link https://www.climateneutral.org/brand/flickr. Didn't pass first allows/blocks test.
+======== We are on link 108 of 112
+========== raw link https://www.conservationalliance.com/
+========== dropped link https://www.conservationalliance.com/. Didn't pass first allows/blocks test.
+======== We are on link 109 of 112
+========== raw link https://www.tugboatinstitute.com/certified-evergreen/
+========== dropped link https://www.tugboatinstitute.com/certified-evergreen/. Didn't pass first allows/blocks test.
+======== We are on link 110 of 112
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 111 of 112
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 112 of 112
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+====== We are on page 4 of 6: https://www.flickr.com/help/guidelines
+====== Number of Links on this Page: 102
+======== We are on link 1 of 102
+========== raw link /
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 102
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 3 of 102
+========== raw link /explore/discover
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /explore/discover
+========== dropped link https://www.flickr.com/explore/discover. Didn't pass first allows/blocks test.
+======== We are on link 4 of 102
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 5 of 102
+========== raw link /photos/tags
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /photos/tags
+========== dropped link https://www.flickr.com/photos/tags. Didn't pass first allows/blocks test.
+======== We are on link 6 of 102
+========== raw link /events
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /events
+========== dropped link https://www.flickr.com/events. Didn't pass first allows/blocks test.
+======== We are on link 7 of 102
+========== raw link /commons
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /commons
+========== dropped link https://www.flickr.com/commons. Didn't pass first allows/blocks test.
+======== We are on link 8 of 102
+========== raw link /galleries
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /galleries
+============ Checking for Redirections: https://www.flickr.com/galleries
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 9 of 102
+========== raw link /map
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /map
+========== dropped link https://www.flickr.com/map. Didn't pass first allows/blocks test.
+======== We are on link 10 of 102
+========== raw link /cameras
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /cameras
+========== dropped link https://www.flickr.com/cameras. Didn't pass first allows/blocks test.
+======== We are on link 11 of 102
+========== raw link https://blog.flickr.net/
+============ Checking for Redirections: https://blog.flickr.net/
+============ Followed Redirection to https://blog.flickr.net/en
+============ Link after cleaning: https://blog.flickr.net/en
+========== link already checked
+======== We are on link 12 of 102
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 13 of 102
+========== raw link /prints/discover
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /prints/discover
+========== dropped link https://www.flickr.com/prints/discover. Didn't pass first allows/blocks test.
+======== We are on link 14 of 102
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 15 of 102
+========== raw link /create
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /create
+========== dropped link https://www.flickr.com/create. Didn't pass first allows/blocks test.
+======== We are on link 16 of 102
+========== raw link /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+========== dropped link https://www.flickr.com/account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro. Didn't pass first allows/blocks test.
+======== We are on link 17 of 102
+========== raw link /account/upgrade/pro
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /account/upgrade/pro
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 18 of 102
+========== raw link /photos/me/stats
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /photos/me/stats
+========== dropped link https://www.flickr.com/photos/me/stats. Didn't pass first allows/blocks test.
+======== We are on link 19 of 102
+========== raw link /tools
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /tools
+============ Checking for Redirections: https://www.flickr.com/tools
+============ Followed Redirection to https://www.flickr.com/tools/
+============ Link after cleaning: https://www.flickr.com/tools/
+========== link already checked
+======== We are on link 20 of 102
+========== raw link /upload
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /upload
+============ Checking for Redirections: https://www.flickr.com/upload
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=cd335eab
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 21 of 102
+========== raw link /signin
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /signin
+============ Checking for Redirections: https://www.flickr.com/signin
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=2062c908
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 22 of 102
+========== raw link /signup
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /signup
+============ Checking for Redirections: https://www.flickr.com/signup
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=11415dce
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 23 of 102
+========== raw link /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro
+========== dropped link https://www.flickr.com/account/upgrade/pro?utm_campaign=web&utm_source=desktop&utm_medium=gn&utm_content=Get%20Pro. Didn't pass first allows/blocks test.
+======== We are on link 24 of 102
+========== raw link /signin
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /signin
+============ Checking for Redirections: https://www.flickr.com/signin
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/?ref=login&rid=110f4e36
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 25 of 102
+========== raw link /explore
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /explore
+========== dropped link https://www.flickr.com/explore. Didn't pass first allows/blocks test.
+======== We are on link 26 of 102
+========== raw link /explore/discover
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /explore/discover
+========== dropped link https://www.flickr.com/explore/discover. Didn't pass first allows/blocks test.
+======== We are on link 27 of 102
+========== raw link /cameras
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /cameras
+========== dropped link https://www.flickr.com/cameras. Didn't pass first allows/blocks test.
+======== We are on link 28 of 102
+========== raw link /photos/tags
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /photos/tags
+========== dropped link https://www.flickr.com/photos/tags. Didn't pass first allows/blocks test.
+======== We are on link 29 of 102
+========== raw link /events
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /events
+========== dropped link https://www.flickr.com/events. Didn't pass first allows/blocks test.
+======== We are on link 30 of 102
+========== raw link /commons
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /commons
+========== dropped link https://www.flickr.com/commons. Didn't pass first allows/blocks test.
+======== We are on link 31 of 102
+========== raw link /galleries
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /galleries
+============ Checking for Redirections: https://www.flickr.com/galleries
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 32 of 102
+========== raw link https://blog.flickr.net/
+============ Checking for Redirections: https://blog.flickr.net/
+============ Followed Redirection to https://blog.flickr.net/en
+============ Link after cleaning: https://blog.flickr.net/en
+========== link already checked
+======== We are on link 33 of 102
+========== raw link /prints/discover
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /prints/discover
+========== dropped link https://www.flickr.com/prints/discover. Didn't pass first allows/blocks test.
+======== We are on link 34 of 102
+========== raw link /prints
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /prints
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 35 of 102
+========== raw link /create
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /create
+========== dropped link https://www.flickr.com/create. Didn't pass first allows/blocks test.
+======== We are on link 36 of 102
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== link already checked
+======== We are on link 37 of 102
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 38 of 102
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== link already checked
+======== We are on link 39 of 102
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 40 of 102
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== link already checked
+======== We are on link 41 of 102
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 42 of 102
+========== raw link //flickrhelp.com
+============ Prepended scheme.
+========== dropped link https://flickrhelp.com. Didn't pass first allows/blocks test.
+======== We are on link 43 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 44 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 45 of 102
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 46 of 102
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 47 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 48 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 49 of 102
+========== raw link /help/terms/api
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms/api
+============ Checking for Redirections: https://www.flickr.com/help/terms/api
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 50 of 102
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 51 of 102
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 52 of 102
+========== raw link /help/dpa
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/dpa
+============ Checking for Redirections: https://www.flickr.com/help/dpa
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 53 of 102
+========== raw link https://combo.staticflickr.com/ap/build/pdfs/help/en-us/guidelines.pdf#toolbar=0&view=FitH
+============ Checking for Redirections: https://combo.staticflickr.com/ap/build/pdfs/help/en-us/guidelines.pdf#toolbar=0&view=FitH
+========== dropped link https://combo.staticflickr.com/ap/build/pdfs/help/en-us/guidelines.pdf#toolbar=0&view=FitH. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 54 of 102
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== link already checked
+======== We are on link 55 of 102
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 56 of 102
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== link already checked
+======== We are on link 57 of 102
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 58 of 102
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== link already checked
+======== We are on link 59 of 102
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 60 of 102
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 61 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 62 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 63 of 102
+========== raw link //flickrhelp.com
+============ Prepended scheme.
+========== dropped link https://flickrhelp.com. Didn't pass first allows/blocks test.
+======== We are on link 64 of 102
+========== raw link /abuse
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /abuse
+============ Checking for Redirections: https://www.flickr.com/abuse
+============ Link after cleaning: https://www.flickr.com/abuse
+========== link already checked
+======== We are on link 65 of 102
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 66 of 102
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 67 of 102
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 68 of 102
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 69 of 102
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+======== We are on link 70 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 71 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 72 of 102
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 73 of 102
+========== raw link https://www.onepercentfortheplanet.org/
+========== dropped link https://www.onepercentfortheplanet.org/. Didn't pass first allows/blocks test.
+======== We are on link 74 of 102
+========== raw link https://www.greatplacetowork.com/certified-company/7051750
+========== dropped link https://www.greatplacetowork.com/certified-company/7051750. Didn't pass first allows/blocks test.
+======== We are on link 75 of 102
+========== raw link https://www.climateneutral.org/brand/flickr
+========== dropped link https://www.climateneutral.org/brand/flickr. Didn't pass first allows/blocks test.
+======== We are on link 76 of 102
+========== raw link https://www.conservationalliance.com/
+========== dropped link https://www.conservationalliance.com/. Didn't pass first allows/blocks test.
+======== We are on link 77 of 102
+========== raw link https://www.tugboatinstitute.com/certified-evergreen/
+========== dropped link https://www.tugboatinstitute.com/certified-evergreen/. Didn't pass first allows/blocks test.
+======== We are on link 78 of 102
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 79 of 102
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 80 of 102
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+======== We are on link 81 of 102
+========== raw link /about
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /about
+============ Checking for Redirections: https://www.flickr.com/about
+============ Link after cleaning: https://www.flickr.com/about
+========== link already checked
+======== We are on link 82 of 102
+========== raw link /jobs
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /jobs
+========== dropped link https://www.flickr.com/jobs. Didn't pass first allows/blocks test.
+======== We are on link 83 of 102
+========== raw link //blog.flickr.net/en
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /blog.flickr.net/en
+============ Checking for Redirections: https://www.flickr.com/blog.flickr.net/en
+============ Link after cleaning: https://www.flickr.com/blog.flickr.net/en
+========== link already checked
+======== We are on link 84 of 102
+========== raw link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer
+========== dropped link https://www.flickrads.com?utm_source=flickr&utm_campaign=footer. Didn't pass first allows/blocks test.
+======== We are on link 85 of 102
+========== raw link /services/developer
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /services/developer
+============ Checking for Redirections: https://www.flickr.com/services/developer
+============ Link after cleaning: https://www.flickr.com/services/developer
+========== link already checked
+======== We are on link 86 of 102
+========== raw link /help/cookies
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/cookies
+============ Checking for Redirections: https://www.flickr.com/help/cookies
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 87 of 102
+========== raw link /help/guidelines
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 88 of 102
+========== raw link /abuse
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /abuse
+============ Checking for Redirections: https://www.flickr.com/abuse
+============ Link after cleaning: https://www.flickr.com/abuse
+========== link already checked
+======== We are on link 89 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 90 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 91 of 102
+========== raw link /change_language.gne?lang=en-US&csrf=
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /change_language.gne?lang=en-US&csrf=
+============ Checking for Redirections: https://www.flickr.com/change_language.gne?lang=en-US&csrf=
+============ Followed Redirection to https://www.flickr.com/
+============ Link after cleaning: https://www.flickr.com/
+========== link already checked
+======== We are on link 92 of 102
+========== raw link /help/privacy
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/privacy
+============ Checking for Redirections: https://www.flickr.com/help/privacy
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 93 of 102
+========== raw link /help/terms
+============ Found Relative: joining https://www.flickr.com/help/guidelines and /help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 94 of 102
+========== raw link https://www.awesome.co/
+========== dropped link https://www.awesome.co/. Didn't pass first allows/blocks test.
+======== We are on link 95 of 102
+========== raw link https://www.onepercentfortheplanet.org/
+========== dropped link https://www.onepercentfortheplanet.org/. Didn't pass first allows/blocks test.
+======== We are on link 96 of 102
+========== raw link https://www.greatplacetowork.com/certified-company/7051750
+========== dropped link https://www.greatplacetowork.com/certified-company/7051750. Didn't pass first allows/blocks test.
+======== We are on link 97 of 102
+========== raw link https://www.climateneutral.org/brand/flickr
+========== dropped link https://www.climateneutral.org/brand/flickr. Didn't pass first allows/blocks test.
+======== We are on link 98 of 102
+========== raw link https://www.conservationalliance.com/
+========== dropped link https://www.conservationalliance.com/. Didn't pass first allows/blocks test.
+======== We are on link 99 of 102
+========== raw link https://www.tugboatinstitute.com/certified-evergreen/
+========== dropped link https://www.tugboatinstitute.com/certified-evergreen/. Didn't pass first allows/blocks test.
+======== We are on link 100 of 102
+========== raw link https://www.facebook.com/flickr
+========== dropped link https://www.facebook.com/flickr. Didn't pass first allows/blocks test.
+======== We are on link 101 of 102
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 102 of 102
+========== raw link https://www.instagram.com/flickr/
+========== dropped link https://www.instagram.com/flickr/. Didn't pass first allows/blocks test.
+====== We are on page 5 of 6: https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+====== Number of Links on this Page: 31
+======== We are on link 1 of 31
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 31
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 3 of 31
+========== raw link https://www.flickr.com/
+============ Checking for Redirections: https://www.flickr.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+======== We are on link 5 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+======== We are on link 6 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+======== We are on link 7 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Link unchanged
+========== link already checked
+======== We are on link 8 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+======== We are on link 9 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+======== We are on link 10 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+========== dropped link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 31
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 12 of 31
+========== raw link /hc/en-us/categories/4403944762388-Using-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+========== link already checked
+======== We are on link 13 of 31
+========== raw link /hc/en-us/sections/4404058035604-Manage-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/sections/4404058035604-Manage-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+========== scraping https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+======== We are on link 14 of 31
+========== raw link /hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+======== We are on link 15 of 31
+========== raw link /hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+======== We are on link 16 of 31
+========== raw link /hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+========== link already checked
+======== We are on link 17 of 31
+========== raw link /hc/en-us/articles/4404064206996-Content-filters
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404064206996-Content-filters
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+========== link already checked
+======== We are on link 18 of 31
+========== raw link /hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+======== We are on link 19 of 31
+========== raw link /hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+======== We are on link 20 of 31
+========== raw link /hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+======== We are on link 21 of 31
+========== raw link /hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+======== We are on link 22 of 31
+========== raw link /hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+======== We are on link 23 of 31
+========== raw link /hc/en-us/articles/4404058722836-Galleries-Overview
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/articles/4404058722836-Galleries-Overview
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058722836-Galleries-Overview
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058722836-Galleries-Overview
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404058722836-Galleries-Overview
+======== We are on link 24 of 31
+========== raw link /hc/en-us/sections/4404058035604-Manage-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads and /hc/en-us/sections/4404058035604-Manage-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+========== link already checked
+======== We are on link 25 of 31
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404063895956
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404063895956
+============ Followed Redirection to https://www.flickrhelp.com/hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404063895956-Copyright-and-Intellectual-Property-Policy
+========== link already checked
+======== We are on link 26 of 31
+========== raw link https://www.flickr.com/account
+========== dropped link https://www.flickr.com/account. Didn't pass first allows/blocks test.
+======== We are on link 27 of 31
+========== raw link 
+                        https://www.flickr.com/account/upgrade/pro
+                      
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 28 of 31
+========== raw link 
+                        https://www.flickr.com/people/flickr/
+                      
+============ Checking for Redirections: https://www.flickr.com/people/flickr/
+============ Followed Redirection to https://www.flickr.com/browser/upgrade/
+============ Link after cleaning: https://www.flickr.com/browser/upgrade/
+========== link already checked
+======== We are on link 29 of 31
+========== raw link 
+                        https://www.flickr.com/prints
+                      
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 30 of 31
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 31 of 31
+========== raw link https://www.instagram.com/flickr/?hl=en
+========== dropped link https://www.instagram.com/flickr/?hl=en. Didn't pass first allows/blocks test.
+====== We are on page 6 of 6: https://www.flickrhelp.com/hc/en-us
+====== Number of Links on this Page: 60
+======== We are on link 1 of 60
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 60
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 3 of 60
+========== raw link https://www.flickr.com/
+============ Checking for Redirections: https://www.flickr.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link unchanged
+========== link already checked
+======== We are on link 5 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Link unchanged
+========== link already checked
+======== We are on link 6 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Link unchanged
+========== link already checked
+======== We are on link 7 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Link unchanged
+========== link already checked
+======== We are on link 8 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Link unchanged
+========== link already checked
+======== We are on link 9 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Link unchanged
+========== link already checked
+======== We are on link 10 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+========== dropped link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/search?query=Upgrade%20to%20Pro
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/search?query=Upgrade%20to%20Pro
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/search
+========== scraping https://www.flickrhelp.com/hc/en-us/search
+======== We are on link 12 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/search?query=Account%20Access
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/search?query=Account%20Access
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/search
+========== link already checked
+======== We are on link 13 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/search?query=Free%20Account%20Limit
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/search?query=Free%20Account%20Limit
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/search
+========== link already checked
+======== We are on link 14 of 60
+========== raw link https://status.flickr.net/
+========== dropped link https://status.flickr.net/. Didn't pass first allows/blocks test.
+======== We are on link 15 of 60
+========== raw link 
+                      
+                        
+                          https://www.flickrhelp.com/hc/en-us/requests/new
+                        
+                      
+                    
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/requests/new
+========== scraping https://www.flickrhelp.com/hc/en-us/requests/new
+======== We are on link 16 of 60
+========== raw link 
+                      
+                        
+                          https://blog.flickr.net/en
+                        
+                      
+                    
+============ Checking for Redirections: https://blog.flickr.net/en
+============ Link after cleaning: https://blog.flickr.net/en
+========== link already checked
+======== We are on link 17 of 60
+========== raw link 
+                        
+                          
+                            https://status.flickr.net/
+                          
+                        
+                    
+========== dropped link https://status.flickr.net/. Didn't pass first allows/blocks test.
+======== We are on link 18 of 60
+========== raw link /hc/en-us/categories/4403944762388-Using-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+========== link already checked
+======== We are on link 19 of 60
+========== raw link /hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+========== link already checked
+======== We are on link 20 of 60
+========== raw link /hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+========== link already checked
+======== We are on link 21 of 60
+========== raw link /hc/en-us/categories/4771822168084-Safety-Reporting
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4771822168084-Safety-Reporting
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+========== link already checked
+======== We are on link 22 of 60
+========== raw link /hc/en-us/categories/4403944770068-Privacy-Security
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403944770068-Privacy-Security
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+========== link already checked
+======== We are on link 23 of 60
+========== raw link /hc/en-us/categories/4403944788628-Flickr-Prints
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403944788628-Flickr-Prints
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+========== link already checked
+======== We are on link 24 of 60
+========== raw link /hc/en-us/categories/4403944776596-Account-Access
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us and /hc/en-us/categories/4403944776596-Account-Access
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+========== dropped link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 25 of 60
+========== raw link https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/
+============ Checking for Redirections: https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/
+============ Link unchanged
+========== scraping https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/
+======== We are on link 26 of 60
+========== raw link https://flickr.com/account/upgrade/pro?utm_campaign=flickrhelp&utm_content=free_limit_change&utm_source=help_article
+========== dropped link https://flickr.com/account/upgrade/pro?utm_campaign=flickrhelp&utm_content=free_limit_change&utm_source=help_article. Didn't pass first allows/blocks test.
+======== We are on link 27 of 60
+========== raw link https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/
+============ Checking for Redirections: https://blog.flickr.net/en/2022/03/17/flickr-forever-2022/
+============ Link unchanged
+========== link already checked
+======== We are on link 28 of 60
+========== raw link https://flickr.com/account/upgrade/pro
+========== dropped link https://flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 29 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-privacy-settings
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-privacy-settings
+============ Followed Redirection to https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-Privacy-Settings
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-Privacy-Settings
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-Privacy-Settings
+======== We are on link 30 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404079675156-Downloading-content-from-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404079675156-Downloading-content-from-Flickr
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404079675156-Downloading-content-from-Flickr
+======== We are on link 31 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Link unchanged
+========== link already checked
+======== We are on link 32 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/requests/new
+========== link already checked
+======== We are on link 33 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/9099749005716-How-to-locate-non-public-and-or-moderate-or-restricted-content-on-your-Flickr-account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/9099749005716-How-to-locate-non-public-and-or-moderate-or-restricted-content-on-your-Flickr-account
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/9099749005716-How-to-locate-non-public-and-or-moderate-or-restricted-content-on-your-Flickr-account
+======== We are on link 34 of 60
+========== raw link https://www.flickr.com/help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Link unchanged
+========== link already checked
+======== We are on link 35 of 60
+========== raw link https://www.flickr.com/help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Link unchanged
+========== link already checked
+======== We are on link 36 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-privacy-settings
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-privacy-settings
+============ Followed Redirection to https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-Privacy-Settings
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404078163732-Change-your-Privacy-Settings
+========== link already checked
+======== We are on link 37 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Link unchanged
+========== link already checked
+======== We are on link 38 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/requests/new
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new
+============ Link unchanged
+========== link already checked
+======== We are on link 39 of 60
+========== raw link https://flickr.com/account/upgrade/pro
+========== dropped link https://flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 40 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404064001812-Pricing-FAQ
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064001812-Pricing-FAQ
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404064001812-Pricing-FAQ
+======== We are on link 41 of 60
+========== raw link #h_01FWEQ180V469A5AZPXW3AD002
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 42 of 60
+========== raw link https://flickr.com/
+============ Checking for Redirections: https://flickr.com/
+============ Link unchanged
+========== scraping https://flickr.com/
+======== We are on link 43 of 60
+========== raw link https://www.flickr.com/account
+========== dropped link https://www.flickr.com/account. Didn't pass first allows/blocks test.
+======== We are on link 44 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404078147860-Search-engines-index
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404078147860-Search-engines-index
+============ Link unchanged
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/4404078147860-Search-engines-index
+======== We are on link 45 of 60
+========== raw link https://www.flickr.com/help/terms
+============ Checking for Redirections: https://www.flickr.com/help/terms
+============ Link unchanged
+========== link already checked
+======== We are on link 46 of 60
+========== raw link https://www.flickr.com/help/guidelines
+============ Checking for Redirections: https://www.flickr.com/help/guidelines
+============ Link unchanged
+========== link already checked
+======== We are on link 47 of 60
+========== raw link https://www.flickr.com/account/upgrade/pro
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 48 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/requests/new
+========== link already checked
+======== We are on link 49 of 60
+========== raw link https://www.flickr.com/account/upgrade/pro
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 50 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/requests/new
+========== link already checked
+======== We are on link 51 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/requests/new?tf_360045441472=trust___safety&tf_1900000078047=account_review
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/requests/new
+========== link already checked
+======== We are on link 52 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/20529310987796-The-rules-of-Flickr
+============ Link unchanged
+========== link already checked
+======== We are on link 53 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404064374164-Set-the-Safety-Levels-of-Your-Flickr-Content-or-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064374164-Set-the-Safety-Levels-of-Your-Flickr-Content-or-Account
+============ Link unchanged
+========== link already checked
+======== We are on link 54 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404057965332-Flickr-commercial-use-policy
+============ Link unchanged
+========== link already checked
+======== We are on link 55 of 60
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/21344081310100-Types-of-enforcement-actions-taken-by-the-Trust-Safety-team
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/21344081310100-Types-of-enforcement-actions-taken-by-the-Trust-Safety-team
+========== dropped link https://www.flickrhelp.com/hc/en-us/articles/21344081310100-Types-of-enforcement-actions-taken-by-the-Trust-Safety-team. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 56 of 60
+========== raw link 
+                          https://www.flickr.com/account/upgrade/pro
+                        
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 57 of 60
+========== raw link 
+                          https://www.flickr.com/people/flickr/
+                        
+============ Checking for Redirections: https://www.flickr.com/people/flickr/
+============ Link after cleaning: https://www.flickr.com/people/flickr/
+========== scraping https://www.flickr.com/people/flickr/
+======== We are on link 58 of 60
+========== raw link 
+                          https://www.flickr.com/prints
+                        
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 59 of 60
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 60 of 60
+========== raw link https://www.instagram.com/flickr/?hl=en
+========== dropped link https://www.instagram.com/flickr/?hl=en. Didn't pass first allows/blocks test.
+==== Number of new pages added: 1
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 1: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+====== Number of Links on this Page: 36
+======== We are on link 1 of 36
+========== raw link #main-content
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 2 of 36
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 3 of 36
+========== raw link https://www.flickr.com/
+============ Checking for Redirections: https://www.flickr.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link unchanged
+========== link already checked
+======== We are on link 5 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944755476-Subscriptions-Billing
+============ Link unchanged
+========== link already checked
+======== We are on link 6 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403952553108-Managing-Your-Account
+============ Link unchanged
+========== link already checked
+======== We are on link 7 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4771822168084-Safety-Reporting
+============ Link unchanged
+========== link already checked
+======== We are on link 8 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944770068-Privacy-Security
+============ Link unchanged
+========== link already checked
+======== We are on link 9 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944788628-Flickr-Prints
+============ Link unchanged
+========== link already checked
+======== We are on link 10 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access
+========== dropped link https://www.flickrhelp.com/hc/en-us/categories/4403944776596-Account-Access. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 11 of 36
+========== raw link /hc/en-us
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us
+========== link already checked
+======== We are on link 12 of 36
+========== raw link /hc/en-us/categories/4403944762388-Using-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/categories/4403944762388-Using-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/categories/4403944762388-Using-Flickr
+========== link already checked
+======== We are on link 13 of 36
+========== raw link /hc/en-us/sections/4404058035604-Manage-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/sections/4404058035604-Manage-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+========== link already checked
+======== We are on link 14 of 36
+========== raw link /hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058763796-View-and-manage-your-photos-with-the-Organizr
+========== link already checked
+======== We are on link 15 of 36
+========== raw link /hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064213524-Keep-your-Flickr-photos-and-videos-organized
+========== link already checked
+======== We are on link 16 of 36
+========== raw link /hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058750740-Set-the-Content-Type-for-your-Flickr-uploads
+========== link already checked
+======== We are on link 17 of 36
+========== raw link /hc/en-us/articles/4404064206996-Content-filters
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404064206996-Content-filters
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters
+========== link already checked
+======== We are on link 18 of 36
+========== raw link /hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058338708-How-to-delete-photos-or-videos
+========== link already checked
+======== We are on link 19 of 36
+========== raw link /hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058694164-Add-People-to-your-Flickr-Content
+========== link already checked
+======== We are on link 20 of 36
+========== raw link /hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404064179220-Mark-or-unmark-a-photo-as-a-favorite-in-Flickr
+========== link already checked
+======== We are on link 21 of 36
+========== raw link /hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404078540052-Change-the-cover-photo-of-an-album
+========== link already checked
+======== We are on link 22 of 36
+========== raw link /hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058738580-How-to-find-your-photo-count
+========== link already checked
+======== We are on link 23 of 36
+========== raw link /hc/en-us/articles/4404058722836-Galleries-Overview
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/articles/4404058722836-Galleries-Overview
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/4404058722836-Galleries-Overview
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/4404058722836-Galleries-Overview
+========== link already checked
+======== We are on link 24 of 36
+========== raw link /hc/en-us/sections/4404058035604-Manage-Content
+============ Found Relative: joining https://www.flickrhelp.com/hc/en-us/articles/4404064206996-Content-filters and /hc/en-us/sections/4404058035604-Manage-Content
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/sections/4404058035604-Manage-Content
+========== link already checked
+======== We are on link 25 of 36
+========== raw link https://www.flickr.com/account/upgrade/pro
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 26 of 36
+========== raw link https://www.flickrhelp.com/hc/en-us/articles/23250290741908
+============ Checking for Redirections: https://www.flickrhelp.com/hc/en-us/articles/23250290741908
+============ Followed Redirection to https://www.flickrhelp.com/hc/en-us/articles/23250290741908-Guide-to-Safety-Levels-for-Nudity-Sexual-Content
+============ Link after cleaning: https://www.flickrhelp.com/hc/en-us/articles/23250290741908-Guide-to-Safety-Levels-for-Nudity-Sexual-Content
+========== scraping https://www.flickrhelp.com/hc/en-us/articles/23250290741908-Guide-to-Safety-Levels-for-Nudity-Sexual-Content
+======== We are on link 27 of 36
+========== raw link http://flickr.com/terms.gne
+============ Checking for Redirections: http://flickr.com/terms.gne
+============ Followed Redirection to https://www.flickr.com/help/terms
+============ Link after cleaning: https://www.flickr.com/help/terms
+========== link already checked
+======== We are on link 28 of 36
+========== raw link http://flickr.com/guidelines.gne
+============ Checking for Redirections: http://flickr.com/guidelines.gne
+============ Followed Redirection to https://www.flickr.com/help/guidelines/
+============ Link after cleaning: https://www.flickr.com/help/guidelines/
+========== scraping https://www.flickr.com/help/guidelines/
+======== We are on link 29 of 36
+========== raw link http://flickr.com/account/prefs/filters/?from=privacy
+========== dropped link http://flickr.com/account/prefs/filters/?from=privacy. Didn't pass first allows/blocks test.
+======== We are on link 30 of 36
+========== raw link http://flickr.com/account/prefs/safesearch/?from=privacy
+========== dropped link http://flickr.com/account/prefs/safesearch/?from=privacy. Didn't pass first allows/blocks test.
+======== We are on link 31 of 36
+========== raw link http://flickr.com/account/prefs/optout/?from=privacy
+========== dropped link http://flickr.com/account/prefs/optout/?from=privacy. Didn't pass first allows/blocks test.
+======== We are on link 32 of 36
+========== raw link 
+                        https://www.flickr.com/account/upgrade/pro
+                      
+========== dropped link https://www.flickr.com/account/upgrade/pro. Didn't pass first allows/blocks test.
+======== We are on link 33 of 36
+========== raw link 
+                        https://www.flickr.com/people/flickr/
+                      
+============ Checking for Redirections: https://www.flickr.com/people/flickr/
+============ Link after cleaning: https://www.flickr.com/people/flickr/
+========== link already checked
+======== We are on link 34 of 36
+========== raw link 
+                        https://www.flickr.com/prints
+                      
+========== dropped link https://www.flickr.com/prints. Didn't pass first allows/blocks test.
+======== We are on link 35 of 36
+========== raw link https://www.youtube.com/user/smugmug
+========== dropped link https://www.youtube.com/user/smugmug. Didn't pass first allows/blocks test.
+======== We are on link 36 of 36
+========== raw link https://www.instagram.com/flickr/?hl=en
+========== dropped link https://www.instagram.com/flickr/?hl=en. Didn't pass first allows/blocks test.
+==== Number of new pages added: 0
+== Finished scraping flickr.com-AI_Moderation in 1529.0451 seconds.
+== Writing to db file
+== Done (/home/margauxreyl/ContentMod/data/05_14_25_21_07/all_htmls/AI_Moderation_flickr_com_05_14_25_21_07.json)

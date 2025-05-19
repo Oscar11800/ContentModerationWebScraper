@@ -1,0 +1,1832 @@
+== Conducting scraping for AI_Moderation on xhamster.com
+== Getting initial 4 pages in sheet
+==== We are at iteration 1 (tree depth).
+====== We are on page 1 of 4: https://xhamster.com/info/faq
+====== Number of Links on this Page: 168
+======== We are on link 1 of 168
+========== raw link https://xhamster.com/
+============ Checking for Redirections: https://xhamster.com/
+============ Link unchanged
+========== scraping https://xhamster.com/
+============ New link added. Search term (AI) found on https://xhamster.com/.
+======== We are on link 2 of 168
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 3 of 168
+========== raw link https://xhamster.com/gay
+============ Checking for Redirections: https://xhamster.com/gay
+============ Link unchanged
+========== scraping https://xhamster.com/gay
+============ New link added. Search term (AI) found on https://xhamster.com/gay.
+======== We are on link 4 of 168
+========== raw link https://xhamster.com/shemale
+============ Checking for Redirections: https://xhamster.com/shemale
+============ Link unchanged
+========== scraping https://xhamster.com/shemale
+============ New link added. Search term (AI) found on https://xhamster.com/shemale.
+======== We are on link 5 of 168
+========== raw link https://id.xhamster.com/info/faq
+============ Checking for Redirections: https://id.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 6 of 168
+========== raw link https://my.xhamster.com/info/faq
+============ Checking for Redirections: https://my.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 7 of 168
+========== raw link https://bg.xhamster.com/info/faq
+============ Checking for Redirections: https://bg.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 8 of 168
+========== raw link https://cz.xhamster.com/info/faq
+============ Checking for Redirections: https://cz.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 9 of 168
+========== raw link https://ge.xhamster.com/info/faq
+============ Checking for Redirections: https://ge.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 10 of 168
+========== raw link https://xhamster.com/info/faq
+============ Checking for Redirections: https://xhamster.com/info/faq
+============ Link unchanged
+========== link already checked
+======== We are on link 11 of 168
+========== raw link https://es.xhamster.com/info/faq
+============ Checking for Redirections: https://es.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 12 of 168
+========== raw link https://fra.xhamster.com/info/faq
+============ Checking for Redirections: https://fra.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 13 of 168
+========== raw link https://hr.xhamster.com/info/faq
+============ Checking for Redirections: https://hr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 14 of 168
+========== raw link https://ita.xhamster.com/info/faq
+============ Checking for Redirections: https://ita.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 15 of 168
+========== raw link https://hu.xhamster.com/info/faq
+============ Checking for Redirections: https://hu.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 16 of 168
+========== raw link https://nl.xhamster.com/info/faq
+============ Checking for Redirections: https://nl.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 17 of 168
+========== raw link https://pl.xhamster.com/info/faq
+============ Checking for Redirections: https://pl.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 18 of 168
+========== raw link https://pt.xhamster.com/info/faq
+============ Checking for Redirections: https://pt.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 19 of 168
+========== raw link https://br.xhamster.com/info/faq
+============ Checking for Redirections: https://br.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 20 of 168
+========== raw link https://ro.xhamster.com/info/faq
+============ Checking for Redirections: https://ro.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 21 of 168
+========== raw link https://rs.xhamster.com/info/faq
+============ Checking for Redirections: https://rs.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 22 of 168
+========== raw link https://sv.xhamster.com/info/faq
+============ Checking for Redirections: https://sv.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 23 of 168
+========== raw link https://vi.xhamster.com/info/faq
+============ Checking for Redirections: https://vi.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 24 of 168
+========== raw link https://tr.xhamster.com/info/faq
+============ Checking for Redirections: https://tr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 25 of 168
+========== raw link https://gr.xhamster.com/info/faq
+============ Checking for Redirections: https://gr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 26 of 168
+========== raw link https://ru.xhamster.com/info/faq
+============ Checking for Redirections: https://ru.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 27 of 168
+========== raw link https://ua.xhamster.com/info/faq
+============ Checking for Redirections: https://ua.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 28 of 168
+========== raw link https://he.xhamster.com/info/faq
+============ Checking for Redirections: https://he.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 29 of 168
+========== raw link https://ara.xhamster.com/info/faq
+============ Checking for Redirections: https://ara.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 30 of 168
+========== raw link https://hi.xhamster.com/info/faq
+============ Checking for Redirections: https://hi.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 31 of 168
+========== raw link https://hil.xhamster.com/info/faq
+============ Checking for Redirections: https://hil.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 32 of 168
+========== raw link https://th.xhamster.com/info/faq
+============ Checking for Redirections: https://th.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 33 of 168
+========== raw link https://ko.xhamster.com/info/faq
+============ Checking for Redirections: https://ko.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 34 of 168
+========== raw link https://zh.xhamster.com/info/faq
+============ Checking for Redirections: https://zh.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 35 of 168
+========== raw link https://tw.xhamster.com/info/faq
+============ Checking for Redirections: https://tw.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 36 of 168
+========== raw link https://jp.xhamster.com/info/faq
+============ Checking for Redirections: https://jp.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 37 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+============ Link unchanged
+========== scraping https://xhamster.com/password-recovery
+============ New link added. Search term (AI) found on https://xhamster.com/password-recovery.
+======== We are on link 38 of 168
+========== raw link https://xhamster.com/login-google?source=base
+============ Checking for Redirections: https://xhamster.com/login-google?source=base
+========== dropped link https://xhamster.com/login-google?source=base. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 168
+========== raw link https://xhamster.com/login-twitter?source=base
+============ Checking for Redirections: https://xhamster.com/login-twitter?source=base
+============ Followed Redirection to https://api.x.com/oauth/authenticate?oauth_token=_CetvgAAAAABHklxAAABluatXbE
+============ Link after cleaning: https://api.x.com/oauth/authenticate
+============ Excluded based on allow/block list.
+======== We are on link 40 of 168
+========== raw link https://xhamster.com/signup?source=menuSignup
+============ Checking for Redirections: https://xhamster.com/signup?source=menuSignup
+============ Link after cleaning: https://xhamster.com/signup
+========== scraping https://xhamster.com/signup
+============ New link added. Search term (AI) found on https://xhamster.com/signup.
+======== We are on link 41 of 168
+========== raw link https://xhamster.com/
+============ Checking for Redirections: https://xhamster.com/
+============ Followed Redirection to https://xhamster.com/shemale
+============ Link after cleaning: https://xhamster.com/shemale
+========== link already checked
+======== We are on link 42 of 168
+========== raw link https://xhamster.com/best/weekly
+============ Checking for Redirections: https://xhamster.com/best/weekly
+============ Followed Redirection to https://xhamster.com/shemale/best/weekly
+============ Link after cleaning: https://xhamster.com/shemale/best/weekly
+========== scraping https://xhamster.com/shemale/best/weekly
+============ New link added. Search term (AI) found on https://xhamster.com/shemale/best/weekly.
+======== We are on link 43 of 168
+========== raw link https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-and-assjob-anal-and-pussy-creampie-xhGsdRC
+============ Checking for Redirections: https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-and-assjob-anal-and-pussy-creampie-xhGsdRC
+============ Followed Redirection to https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+============ Link after cleaning: https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+========== scraping https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+============ New link added. Search term (AI) found on https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC.
+======== We are on link 44 of 168
+========== raw link https://xhamster.com/my/watch-history
+============ Checking for Redirections: https://xhamster.com/my/watch-history
+============ Link unchanged
+========== scraping https://xhamster.com/my/watch-history
+============ New link added. Search term (AI) found on https://xhamster.com/my/watch-history.
+======== We are on link 45 of 168
+========== raw link https://xhamster.com/categories/american
+============ Checking for Redirections: https://xhamster.com/categories/american
+============ Link unchanged
+========== scraping https://xhamster.com/categories/american
+============ New link added. Search term (AI) found on https://xhamster.com/categories/american.
+======== We are on link 46 of 168
+========== raw link https://xhamster.com/categories/amateur
+============ Checking for Redirections: https://xhamster.com/categories/amateur
+============ Link unchanged
+========== scraping https://xhamster.com/categories/amateur
+============ New link added. Search term (AI) found on https://xhamster.com/categories/amateur.
+======== We are on link 47 of 168
+========== raw link https://xhamster.com/categories/mature
+============ Checking for Redirections: https://xhamster.com/categories/mature
+============ Link unchanged
+========== scraping https://xhamster.com/categories/mature
+============ New link added. Search term (AI) found on https://xhamster.com/categories/mature.
+======== We are on link 48 of 168
+========== raw link https://xhamster.com/categories/old-young
+============ Checking for Redirections: https://xhamster.com/categories/old-young
+============ Link unchanged
+========== scraping https://xhamster.com/categories/old-young
+============ New link added. Search term (AI) found on https://xhamster.com/categories/old-young.
+======== We are on link 49 of 168
+========== raw link https://xhamster.com/categories/lesbian
+============ Checking for Redirections: https://xhamster.com/categories/lesbian
+============ Link unchanged
+========== scraping https://xhamster.com/categories/lesbian
+============ New link added. Search term (AI) found on https://xhamster.com/categories/lesbian.
+======== We are on link 50 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== scraping https://xhamster.com/categories
+============ New link added. Search term (AI) found on https://xhamster.com/categories.
+======== We are on link 51 of 168
+========== raw link https://xhamsterlive.com/girls?userId=aad1b133c9c4764c297d099d98d58aef&memberId=&utm_source=xhamster&utm_medium=widgets&sourceId=widgets&platform=desktop&landing=WidgetXH&domain=xhamsterlive&orientation=straight&pageType=otherPages&logged=0&retargeted=0&adblocked=0&widgetName=mainMenu-LiveSex&widgetElement=tab&isUserLogged=0&isUserRetargeted=0&p1=cold&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D&xhStatsUid=682aaa694a0058.30329266db2&xhSessionToken=d130f9051797c3dc7c83795c0cf189c8d6236912&xhSessionStartedAt=1747626601
+========== dropped link https://xhamsterlive.com/girls?userId=aad1b133c9c4764c297d099d98d58aef&memberId=&utm_source=xhamster&utm_medium=widgets&sourceId=widgets&platform=desktop&landing=WidgetXH&domain=xhamsterlive&orientation=straight&pageType=otherPages&logged=0&retargeted=0&adblocked=0&widgetName=mainMenu-LiveSex&widgetElement=tab&isUserLogged=0&isUserRetargeted=0&p1=cold&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D&xhStatsUid=682aaa694a0058.30329266db2&xhSessionToken=d130f9051797c3dc7c83795c0cf189c8d6236912&xhSessionStartedAt=1747626601. Didn't pass first allows/blocks test.
+======== We are on link 52 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 53 of 168
+========== raw link https://xhamster.com/categories/mature
+============ Checking for Redirections: https://xhamster.com/categories/mature
+============ Link unchanged
+========== link already checked
+======== We are on link 54 of 168
+========== raw link https://xhamster.com/categories/amateur
+============ Checking for Redirections: https://xhamster.com/categories/amateur
+============ Link unchanged
+========== link already checked
+======== We are on link 55 of 168
+========== raw link https://xhamster.com/categories/homemade
+============ Checking for Redirections: https://xhamster.com/categories/homemade
+============ Link unchanged
+========== scraping https://xhamster.com/categories/homemade
+============ New link added. Search term (AI) found on https://xhamster.com/categories/homemade.
+======== We are on link 56 of 168
+========== raw link https://xhamster.com/categories/anal
+============ Checking for Redirections: https://xhamster.com/categories/anal
+============ Link unchanged
+========== scraping https://xhamster.com/categories/anal
+============ New link added. Search term (AI) found on https://xhamster.com/categories/anal.
+======== We are on link 57 of 168
+========== raw link https://xhamster.com/categories/18-year-old
+============ Checking for Redirections: https://xhamster.com/categories/18-year-old
+============ Link unchanged
+========== scraping https://xhamster.com/categories/18-year-old
+============ New link added. Search term (AI) found on https://xhamster.com/categories/18-year-old.
+======== We are on link 58 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 59 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== scraping https://xhamster.com/pornstars
+============ New link added. Search term (AI) found on https://xhamster.com/pornstars.
+======== We are on link 60 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== link already checked
+======== We are on link 61 of 168
+========== raw link https://xhamster.com/celebrities
+============ Checking for Redirections: https://xhamster.com/celebrities
+============ Link unchanged
+========== scraping https://xhamster.com/celebrities
+============ New link added. Search term (AI) found on https://xhamster.com/celebrities.
+======== We are on link 62 of 168
+========== raw link https://xhamster.com/pornstars/all/countries
+============ Checking for Redirections: https://xhamster.com/pornstars/all/countries
+============ Link unchanged
+========== scraping https://xhamster.com/pornstars/all/countries
+============ New link added. Search term (AI) found on https://xhamster.com/pornstars/all/countries.
+======== We are on link 63 of 168
+========== raw link https://xhamster.com/creators
+============ Checking for Redirections: https://xhamster.com/creators
+============ Link unchanged
+========== scraping https://xhamster.com/creators
+============ New link added. Search term (AI) found on https://xhamster.com/creators.
+======== We are on link 64 of 168
+========== raw link https://xhamster.com/creators/contest/naoc
+============ Checking for Redirections: https://xhamster.com/creators/contest/naoc
+============ Link unchanged
+========== scraping https://xhamster.com/creators/contest/naoc
+============ New link added. Search term (AI) found on https://xhamster.com/creators/contest/naoc.
+======== We are on link 65 of 168
+========== raw link https://xhamster.com/creators/contest/naoc
+============ Checking for Redirections: https://xhamster.com/creators/contest/naoc
+============ Link unchanged
+========== link already checked
+======== We are on link 66 of 168
+========== raw link https://xhamster.com/creators/videos/naoc
+========== dropped link https://xhamster.com/creators/videos/naoc. Didn't pass first allows/blocks test.
+======== We are on link 67 of 168
+========== raw link https://xhamster.com/awards?source=sidebar&medium=tab
+============ Checking for Redirections: https://xhamster.com/awards?source=sidebar&medium=tab
+============ Link after cleaning: https://xhamster.com/awards
+========== scraping https://xhamster.com/awards
+============ New link added. Search term (AI) found on https://xhamster.com/awards.
+======== We are on link 68 of 168
+========== raw link https://xhamster.com/creators
+============ Checking for Redirections: https://xhamster.com/creators
+============ Link unchanged
+========== link already checked
+======== We are on link 69 of 168
+========== raw link https://xhamster.com/creators/all/countries
+============ Checking for Redirections: https://xhamster.com/creators/all/countries
+============ Link unchanged
+========== scraping https://xhamster.com/creators/all/countries
+============ New link added. Search term (AI) found on https://xhamster.com/creators/all/countries.
+======== We are on link 70 of 168
+========== raw link https://xhamster.com/creator-signup?source=creators
+============ Checking for Redirections: https://xhamster.com/creator-signup?source=creators
+============ Followed Redirection to https://xhamster.com/creator?source=creators
+============ Link after cleaning: https://xhamster.com/creator
+========== scraping https://xhamster.com/creator
+============ New link added. Search term (AI) found on https://xhamster.com/creator.
+======== We are on link 71 of 168
+========== raw link https://xhamster.com/channels
+============ Checking for Redirections: https://xhamster.com/channels
+============ Link unchanged
+========== scraping https://xhamster.com/channels
+============ New link added. Search term (AI) found on https://xhamster.com/channels.
+======== We are on link 72 of 168
+========== raw link https://xhamster.com/photos
+============ Checking for Redirections: https://xhamster.com/photos
+============ Link unchanged
+========== scraping https://xhamster.com/photos
+============ New link added. Search term (AI) found on https://xhamster.com/photos.
+======== We are on link 73 of 168
+========== raw link https://xhamster.com/photos/categories/mature
+============ Checking for Redirections: https://xhamster.com/photos/categories/mature
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories/mature
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories/mature.
+======== We are on link 74 of 168
+========== raw link https://xhamster.com/photos/categories/milf
+============ Checking for Redirections: https://xhamster.com/photos/categories/milf
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories/milf
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories/milf.
+======== We are on link 75 of 168
+========== raw link https://xhamster.com/photos/categories/hentai
+============ Checking for Redirections: https://xhamster.com/photos/categories/hentai
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories/hentai
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories/hentai.
+======== We are on link 76 of 168
+========== raw link https://xhamster.com/photos/categories/big-tits
+============ Checking for Redirections: https://xhamster.com/photos/categories/big-tits
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories/big-tits
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories/big-tits.
+======== We are on link 77 of 168
+========== raw link https://xhamster.com/photos/categories/granny
+============ Checking for Redirections: https://xhamster.com/photos/categories/granny
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories/granny
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories/granny.
+======== We are on link 78 of 168
+========== raw link https://xhamster.com/photos/categories
+============ Checking for Redirections: https://xhamster.com/photos/categories
+============ Link unchanged
+========== scraping https://xhamster.com/photos/categories
+============ New link added. Search term (AI) found on https://xhamster.com/photos/categories.
+======== We are on link 79 of 168
+========== raw link /ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Found Relative: joining https://xhamster.com/info/faq and /ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Checking for Redirections: https://xhamster.com/ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Followed Redirection to https://flirtify.com/?utm_campaign=guest&utm_content=otherPages&utm_medium=menu&utm_source=xhamster&xhExp=%257B%25223001%2522%253A%257B%2522group%2522%253A%2522g%2522%252C%2522version%2522%253A8%257D%252C%25223005%2522%253A%257B%2522group%2522%253A%2522a%2522%252C%2522version%2522%253A2%257D%252C%25228031%2522%253A%257B%2522group%2522%253A%2522a%2522%252C%2522version%2522%253A1%257D%257D&xhStatsUid=682aaa694a0058.30329266db2
+============ Link after cleaning: https://flirtify.com/
+============ Excluded based on allow/block list.
+======== We are on link 80 of 168
+========== raw link https://faphouse.com/?utm_term=en-us&utm_source=xhamster&utm_medium=button&utm_campaign=guest&utm_content=landingpage&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D
+========== dropped link https://faphouse.com/?utm_term=en-us&utm_source=xhamster&utm_medium=button&utm_campaign=guest&utm_content=landingpage&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D. Didn't pass first allows/blocks test.
+======== We are on link 81 of 168
+========== raw link https://xhamster.com/dating
+============ Checking for Redirections: https://xhamster.com/dating
+============ Link unchanged
+========== scraping https://xhamster.com/dating
+============ New link added. Search term (AI) found on https://xhamster.com/dating.
+======== We are on link 82 of 168
+========== raw link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink
+========== dropped link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink. Didn't pass first allows/blocks test.
+======== We are on link 83 of 168
+========== raw link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g
+========== dropped link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g. Didn't pass first allows/blocks test.
+======== We are on link 84 of 168
+========== raw link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0
+========== dropped link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0. Didn't pass first allows/blocks test.
+======== We are on link 85 of 168
+========== raw link https://xhamster.com/my/subscriptions
+============ Checking for Redirections: https://xhamster.com/my/subscriptions
+============ Link unchanged
+========== scraping https://xhamster.com/my/subscriptions
+============ New link added. Search term (AI) found on https://xhamster.com/my/subscriptions.
+======== We are on link 86 of 168
+========== raw link https://xhamster.com/photos
+============ Checking for Redirections: https://xhamster.com/photos
+============ Link unchanged
+========== link already checked
+======== We are on link 87 of 168
+========== raw link https://xhamster.com/dating
+============ Checking for Redirections: https://xhamster.com/dating
+============ Link unchanged
+========== link already checked
+======== We are on link 88 of 168
+========== raw link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink
+========== dropped link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink. Didn't pass first allows/blocks test.
+======== We are on link 89 of 168
+========== raw link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g
+========== dropped link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g. Didn't pass first allows/blocks test.
+======== We are on link 90 of 168
+========== raw link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0
+========== dropped link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0. Didn't pass first allows/blocks test.
+======== We are on link 91 of 168
+========== raw link https://xhamster.com/my/subscriptions
+============ Checking for Redirections: https://xhamster.com/my/subscriptions
+============ Link unchanged
+========== link already checked
+======== We are on link 92 of 168
+========== raw link https://xhamster.com/creator-signup?source=uploadHeader
+============ Checking for Redirections: https://xhamster.com/creator-signup?source=uploadHeader
+============ Followed Redirection to https://xhamster.com/creator?source=uploadHeader
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 93 of 168
+========== raw link https://faphouse.com/?utm_source=xhamster-headline&utm_campaign=seasonofsavings-2025&utm_medium=desktop-headline
+========== dropped link https://faphouse.com/?utm_source=xhamster-headline&utm_campaign=seasonofsavings-2025&utm_medium=desktop-headline. Didn't pass first allows/blocks test.
+======== We are on link 94 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== scraping https://xhamster.com/info/contact
+============ New link added. Search term (AI) found on https://xhamster.com/info/contact.
+======== We are on link 95 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 96 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+============ Link unchanged
+========== scraping https://xhamster.com/info/dmca
+============ New link added. Search term (AI) found on https://xhamster.com/info/dmca.
+======== We are on link 97 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 98 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+============ Link unchanged
+========== link already checked
+======== We are on link 99 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 100 of 168
+========== raw link https://xhamster.com/app
+============ Checking for Redirections: https://xhamster.com/app
+============ Link unchanged
+========== scraping https://xhamster.com/app
+============ New link added. Search term (AI) found on https://xhamster.com/app.
+======== We are on link 101 of 168
+========== raw link https://xhamster.com/notifications
+============ Checking for Redirections: https://xhamster.com/notifications
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== scraping https://xhamster.com/login
+============ New link added. Search term (AI) found on https://xhamster.com/login.
+======== We are on link 102 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+============ Link unchanged
+========== link already checked
+======== We are on link 103 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 104 of 168
+========== raw link https://xhamster.com/blocked_users.php
+============ Checking for Redirections: https://xhamster.com/blocked_users.php
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 105 of 168
+========== raw link https://xhamster.com/my/edit/profile
+============ Checking for Redirections: https://xhamster.com/my/edit/profile
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 106 of 168
+========== raw link https://xhamster.com/info/privacy
+============ Checking for Redirections: https://xhamster.com/info/privacy
+============ Link unchanged
+========== scraping https://xhamster.com/info/privacy
+============ New link added. Search term (AI) found on https://xhamster.com/info/privacy.
+======== We are on link 107 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 108 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== link already checked
+======== We are on link 109 of 168
+========== raw link https://xhamsterlive.com/girls/pornstars
+========== dropped link https://xhamsterlive.com/girls/pornstars. Didn't pass first allows/blocks test.
+======== We are on link 110 of 168
+========== raw link mailto:pornstar@stripchat.com
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 111 of 168
+========== raw link https://xhamster.com/info/contact?subject=ccp&requestType=ccp
+============ Checking for Redirections: https://xhamster.com/info/contact?subject=ccp&requestType=ccp
+============ Link after cleaning: https://xhamster.com/info/contact
+========== link already checked
+======== We are on link 112 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== link already checked
+======== We are on link 113 of 168
+========== raw link https://www.xHamsterLive.com/girls/pornstars
+========== dropped link https://www.xHamsterLive.com/girls/pornstars. Didn't pass first allows/blocks test.
+======== We are on link 114 of 168
+========== raw link https://xhamster.com/account_settings.php?tab=email
+============ Checking for Redirections: https://xhamster.com/account_settings.php?tab=email
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 115 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 116 of 168
+========== raw link https://m.xhamster.com/
+============ Checking for Redirections: https://m.xhamster.com/
+============ Followed Redirection to https://xhamster.com/
+============ Link after cleaning: https://xhamster.com/
+========== link already checked
+======== We are on link 117 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 118 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+============ Link unchanged
+========== link already checked
+======== We are on link 119 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+============ Link unchanged
+========== scraping https://xhamster.com/info/cookie-policy
+============ New link added. Search term (AI) found on https://xhamster.com/info/cookie-policy.
+======== We are on link 120 of 168
+========== raw link https://www.google.com/cookies.html
+========== dropped link https://www.google.com/cookies.html. Didn't pass first allows/blocks test.
+======== We are on link 121 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 122 of 168
+========== raw link https://xhamster.com/creator-signup
+============ Checking for Redirections: https://xhamster.com/creator-signup
+============ Followed Redirection to https://xhamster.com/creator
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 123 of 168
+========== raw link https://xhamster.com/my/favorites/videos
+============ Checking for Redirections: https://xhamster.com/my/favorites/videos
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 124 of 168
+========== raw link https://xhamster.com/my/favorites/galleries
+============ Checking for Redirections: https://xhamster.com/my/favorites/galleries
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 125 of 168
+========== raw link https://xhamster.com/my/favorites/photos
+============ Checking for Redirections: https://xhamster.com/my/favorites/photos
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 126 of 168
+========== raw link https://xhamster.com/edit_profile.php
+============ Checking for Redirections: https://xhamster.com/edit_profile.php
+============ Link unchanged
+========== scraping https://xhamster.com/edit_profile.php
+============ New link added. Search term (AI) found on https://xhamster.com/edit_profile.php.
+======== We are on link 127 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+============ Link unchanged
+========== link already checked
+======== We are on link 128 of 168
+========== raw link https://xhamster.com/my_vids/public/1.html
+============ Checking for Redirections: https://xhamster.com/my_vids/public/1.html
+============ Link unchanged
+========== scraping https://xhamster.com/my_vids/public/1.html
+============ New link added. Search term (AI) found on https://xhamster.com/my_vids/public/1.html.
+======== We are on link 129 of 168
+========== raw link https://xhamster.com/codecs.php
+============ Checking for Redirections: https://xhamster.com/codecs.php
+============ Link unchanged
+========== scraping https://xhamster.com/codecs.php
+============ New link added. Search term (AI) found on https://xhamster.com/codecs.php.
+======== We are on link 130 of 168
+========== raw link https://www.videohelp.com/tools/sections/codec-video-identifiers
+========== dropped link https://www.videohelp.com/tools/sections/codec-video-identifiers. Didn't pass first allows/blocks test.
+======== We are on link 131 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 132 of 168
+========== raw link https://xhamster.com/my/videos
+============ Checking for Redirections: https://xhamster.com/my/videos
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 133 of 168
+========== raw link https://xhamster.com/creator-signup
+============ Checking for Redirections: https://xhamster.com/creator-signup
+============ Followed Redirection to https://xhamster.com/creator
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 134 of 168
+========== raw link https://xhamster.com/my/edit/introduction
+============ Checking for Redirections: https://xhamster.com/my/edit/introduction
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 135 of 168
+========== raw link https://xhamster.com/my/photos
+============ Checking for Redirections: https://xhamster.com/my/photos
+============ Followed Redirection to https://xhamster.com/login?source=minorSecureRoutes
+============ Link after cleaning: https://xhamster.com/login
+========== link already checked
+======== We are on link 136 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+============ Link unchanged
+========== link already checked
+======== We are on link 137 of 168
+========== raw link https://xhamstershop.com/?utm_medium=footer&utm_source=xhamster
+========== dropped link https://xhamstershop.com/?utm_medium=footer&utm_source=xhamster. Didn't pass first allows/blocks test.
+======== We are on link 138 of 168
+========== raw link https://xhamster.com/media/press
+============ Checking for Redirections: https://xhamster.com/media/press
+============ Link unchanged
+========== link already checked
+======== We are on link 139 of 168
+========== raw link https://xhamster.com/blog
+============ Checking for Redirections: https://xhamster.com/blog
+============ Followed Redirection to https://xhamster.com/blog?x_pt=1
+============ Link unchanged
+========== link already checked
+======== We are on link 140 of 168
+========== raw link https://xhamstercreators.com
+========== dropped link https://xhamstercreators.com. Didn't pass first allows/blocks test.
+======== We are on link 141 of 168
+========== raw link https://trafficstars.com/product/xhamster-ads?p1=xHAdsBy&utm_source=xhamster&utm_medium=referral&utm_campaign=adsbyadult
+========== dropped link https://trafficstars.com/product/xhamster-ads?p1=xHAdsBy&utm_source=xhamster&utm_medium=referral&utm_campaign=adsbyadult. Didn't pass first allows/blocks test.
+======== We are on link 142 of 168
+========== raw link https://xhamsternft.com
+========== dropped link https://xhamsternft.com. Didn't pass first allows/blocks test.
+======== We are on link 143 of 168
+========== raw link https://xhamster.com/awards/2024
+============ Checking for Redirections: https://xhamster.com/awards/2024
+============ Link unchanged
+========== scraping https://xhamster.com/awards/2024
+============ New link added. Search term (AI) found on https://xhamster.com/awards/2024.
+======== We are on link 144 of 168
+========== raw link https://xhamster.com/info/faq
+============ Checking for Redirections: https://xhamster.com/info/faq
+============ Link unchanged
+========== link already checked
+======== We are on link 145 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 146 of 168
+========== raw link https://xhamster.com/info/contact?subject=abuse
+============ Checking for Redirections: https://xhamster.com/info/contact?subject=abuse
+============ Link after cleaning: https://xhamster.com/info/contact
+========== link already checked
+======== We are on link 147 of 168
+========== raw link https://xhamster.uservoice.com
+========== dropped link https://xhamster.uservoice.com. Didn't pass first allows/blocks test.
+======== We are on link 148 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+============ Link unchanged
+========== link already checked
+======== We are on link 149 of 168
+========== raw link https://xhamster.com/info/privacy
+============ Checking for Redirections: https://xhamster.com/info/privacy
+============ Link unchanged
+========== link already checked
+======== We are on link 150 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+============ Link unchanged
+========== link already checked
+======== We are on link 151 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+============ Link unchanged
+========== link already checked
+======== We are on link 152 of 168
+========== raw link https://xhamster.com/info/parentalcontrol
+============ Checking for Redirections: https://xhamster.com/info/parentalcontrol
+============ Link unchanged
+========== scraping https://xhamster.com/info/parentalcontrol
+============ New link added. Search term (AI) found on https://xhamster.com/info/parentalcontrol.
+======== We are on link 153 of 168
+========== raw link https://xhamster.com/info/eu-digital-services-act
+============ Checking for Redirections: https://xhamster.com/info/eu-digital-services-act
+============ Link unchanged
+========== scraping https://xhamster.com/info/eu-digital-services-act
+============ New link added. Search term (AI) found on https://xhamster.com/info/eu-digital-services-act.
+======== We are on link 154 of 168
+========== raw link https://xhamster.com/info/trust-and-safety
+============ Checking for Redirections: https://xhamster.com/info/trust-and-safety
+============ Link unchanged
+========== scraping https://xhamster.com/info/trust-and-safety
+============ New link added. Search term (AI) found on https://xhamster.com/info/trust-and-safety.
+======== We are on link 155 of 168
+========== raw link https://xhamster.com/ff/out?base=join&utm_medium=footer&utm_source=xhamster-desktop
+============ Checking for Redirections: https://xhamster.com/ff/out?base=join&utm_medium=footer&utm_source=xhamster-desktop
+============ Followed Redirection to https://flirtify.com/?utm_medium=footer&utm_source=xhamster-desktop
+============ Link after cleaning: https://flirtify.com/
+============ Excluded based on allow/block list.
+======== We are on link 156 of 168
+========== raw link https://xhamster.com/creators/contest
+============ Checking for Redirections: https://xhamster.com/creators/contest
+============ Link unchanged
+========== scraping https://xhamster.com/creators/contest
+============ New link added. Search term (AI) found on https://xhamster.com/creators/contest.
+======== We are on link 157 of 168
+========== raw link https://xhamster.com/creator?source=footerCcp
+============ Checking for Redirections: https://xhamster.com/creator?source=footerCcp
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 158 of 168
+========== raw link https://xhamster.com/creator?source=footerBecomeACreator
+============ Checking for Redirections: https://xhamster.com/creator?source=footerBecomeACreator
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 159 of 168
+========== raw link https://xhamster.com/info/faq?x_platform_switch=mobile
+============ Checking for Redirections: https://xhamster.com/info/faq?x_platform_switch=mobile
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 160 of 168
+========== raw link https://twitter.com/xhamstercom
+========== dropped link https://twitter.com/xhamstercom. Didn't pass first allows/blocks test.
+======== We are on link 161 of 168
+========== raw link https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+========== dropped link https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA. Didn't pass first allows/blocks test.
+======== We are on link 162 of 168
+========== raw link https://discord.gg/xHamsterNFT
+========== dropped link https://discord.gg/xHamsterNFT. Didn't pass first allows/blocks test.
+======== We are on link 163 of 168
+========== raw link https://twitter.com/xHamsterNFTcom
+========== dropped link https://twitter.com/xHamsterNFTcom. Didn't pass first allows/blocks test.
+======== We are on link 164 of 168
+========== raw link https://xhamster.com/info/2257
+============ Checking for Redirections: https://xhamster.com/info/2257
+============ Link unchanged
+========== scraping https://xhamster.com/info/2257
+============ New link added. Search term (AI) found on https://xhamster.com/info/2257.
+======== We are on link 165 of 168
+========== raw link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa
+========== dropped link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa. Didn't pass first allows/blocks test.
+======== We are on link 166 of 168
+========== raw link https://xhamster.com/info/parentalcontrol
+============ Checking for Redirections: https://xhamster.com/info/parentalcontrol
+============ Link unchanged
+========== link already checked
+======== We are on link 167 of 168
+========== raw link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa
+========== dropped link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa. Didn't pass first allows/blocks test.
+======== We are on link 168 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+============ Link unchanged
+========== link already checked
+====== We are on page 2 of 4: https://xhamster.com/blog
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 4: https://xhamster.com/media/press
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 4: https://xhamster.com/info/terms
+====== Number of Links on this Page: 168
+======== We are on link 1 of 168
+========== raw link https://xhamster.com/
+============ Checking for Redirections: https://xhamster.com/
+============ Link unchanged
+========== link already checked
+======== We are on link 2 of 168
+========== raw link 
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 3 of 168
+========== raw link https://xhamster.com/gay
+============ Checking for Redirections: https://xhamster.com/gay
+============ Link unchanged
+========== link already checked
+======== We are on link 4 of 168
+========== raw link https://xhamster.com/shemale
+============ Checking for Redirections: https://xhamster.com/shemale
+============ Link unchanged
+========== link already checked
+======== We are on link 5 of 168
+========== raw link https://id.xhamster.com/info/faq
+============ Checking for Redirections: https://id.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 6 of 168
+========== raw link https://my.xhamster.com/info/faq
+============ Checking for Redirections: https://my.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 7 of 168
+========== raw link https://bg.xhamster.com/info/faq
+============ Checking for Redirections: https://bg.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 8 of 168
+========== raw link https://cz.xhamster.com/info/faq
+============ Checking for Redirections: https://cz.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 9 of 168
+========== raw link https://ge.xhamster.com/info/faq
+============ Checking for Redirections: https://ge.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 10 of 168
+========== raw link https://xhamster.com/info/faq
+============ Checking for Redirections: https://xhamster.com/info/faq
+============ Link unchanged
+========== link already checked
+======== We are on link 11 of 168
+========== raw link https://es.xhamster.com/info/faq
+============ Checking for Redirections: https://es.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 12 of 168
+========== raw link https://fra.xhamster.com/info/faq
+============ Checking for Redirections: https://fra.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 13 of 168
+========== raw link https://hr.xhamster.com/info/faq
+============ Checking for Redirections: https://hr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 14 of 168
+========== raw link https://ita.xhamster.com/info/faq
+============ Checking for Redirections: https://ita.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 15 of 168
+========== raw link https://hu.xhamster.com/info/faq
+============ Checking for Redirections: https://hu.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 16 of 168
+========== raw link https://nl.xhamster.com/info/faq
+============ Checking for Redirections: https://nl.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 17 of 168
+========== raw link https://pl.xhamster.com/info/faq
+============ Checking for Redirections: https://pl.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 18 of 168
+========== raw link https://pt.xhamster.com/info/faq
+============ Checking for Redirections: https://pt.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 19 of 168
+========== raw link https://br.xhamster.com/info/faq
+============ Checking for Redirections: https://br.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 20 of 168
+========== raw link https://ro.xhamster.com/info/faq
+============ Checking for Redirections: https://ro.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 21 of 168
+========== raw link https://rs.xhamster.com/info/faq
+============ Checking for Redirections: https://rs.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 22 of 168
+========== raw link https://sv.xhamster.com/info/faq
+============ Checking for Redirections: https://sv.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 23 of 168
+========== raw link https://vi.xhamster.com/info/faq
+============ Checking for Redirections: https://vi.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 24 of 168
+========== raw link https://tr.xhamster.com/info/faq
+============ Checking for Redirections: https://tr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 25 of 168
+========== raw link https://gr.xhamster.com/info/faq
+============ Checking for Redirections: https://gr.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 26 of 168
+========== raw link https://ru.xhamster.com/info/faq
+============ Checking for Redirections: https://ru.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 27 of 168
+========== raw link https://ua.xhamster.com/info/faq
+============ Checking for Redirections: https://ua.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 28 of 168
+========== raw link https://he.xhamster.com/info/faq
+============ Checking for Redirections: https://he.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 29 of 168
+========== raw link https://ara.xhamster.com/info/faq
+============ Checking for Redirections: https://ara.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 30 of 168
+========== raw link https://hi.xhamster.com/info/faq
+============ Checking for Redirections: https://hi.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 31 of 168
+========== raw link https://hil.xhamster.com/info/faq
+============ Checking for Redirections: https://hil.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 32 of 168
+========== raw link https://th.xhamster.com/info/faq
+============ Checking for Redirections: https://th.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 33 of 168
+========== raw link https://ko.xhamster.com/info/faq
+============ Checking for Redirections: https://ko.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 34 of 168
+========== raw link https://zh.xhamster.com/info/faq
+============ Checking for Redirections: https://zh.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 35 of 168
+========== raw link https://tw.xhamster.com/info/faq
+============ Checking for Redirections: https://tw.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 36 of 168
+========== raw link https://jp.xhamster.com/info/faq
+============ Checking for Redirections: https://jp.xhamster.com/info/faq
+============ Followed Redirection to https://xhamster.com/info/faq
+============ Link after cleaning: https://xhamster.com/info/faq
+========== link already checked
+======== We are on link 37 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+============ Link unchanged
+========== link already checked
+======== We are on link 38 of 168
+========== raw link https://xhamster.com/login-google?source=base
+============ Checking for Redirections: https://xhamster.com/login-google?source=base
+========== dropped link https://xhamster.com/login-google?source=base. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 39 of 168
+========== raw link https://xhamster.com/login-twitter?source=base
+============ Checking for Redirections: https://xhamster.com/login-twitter?source=base
+============ Followed Redirection to https://api.x.com/oauth/authenticate?oauth_token=QLJ9AAAAAAABHklxAAABlua4w2o
+============ Link after cleaning: https://api.x.com/oauth/authenticate
+============ Excluded based on allow/block list.
+======== We are on link 40 of 168
+========== raw link https://xhamster.com/signup?source=menuSignup
+============ Checking for Redirections: https://xhamster.com/signup?source=menuSignup
+============ Link after cleaning: https://xhamster.com/signup
+========== link already checked
+======== We are on link 41 of 168
+========== raw link https://xhamster.com/
+============ Checking for Redirections: https://xhamster.com/
+============ Followed Redirection to https://xhamster.com/shemale
+============ Link after cleaning: https://xhamster.com/shemale
+========== link already checked
+======== We are on link 42 of 168
+========== raw link https://xhamster.com/best/weekly
+============ Checking for Redirections: https://xhamster.com/best/weekly
+============ Followed Redirection to https://xhamster.com/shemale/best/weekly
+============ Link after cleaning: https://xhamster.com/shemale/best/weekly
+========== link already checked
+======== We are on link 43 of 168
+========== raw link https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-and-assjob-anal-and-pussy-creampie-xhGsdRC
+============ Checking for Redirections: https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-and-assjob-anal-and-pussy-creampie-xhGsdRC
+============ Followed Redirection to https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+============ Link after cleaning: https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+========== link already checked
+======== We are on link 44 of 168
+========== raw link https://xhamster.com/my/watch-history
+============ Checking for Redirections: https://xhamster.com/my/watch-history
+============ Link unchanged
+========== link already checked
+======== We are on link 45 of 168
+========== raw link https://xhamster.com/categories/american
+============ Checking for Redirections: https://xhamster.com/categories/american
+============ Link unchanged
+========== link already checked
+======== We are on link 46 of 168
+========== raw link https://xhamster.com/categories/amateur
+============ Checking for Redirections: https://xhamster.com/categories/amateur
+============ Link unchanged
+========== link already checked
+======== We are on link 47 of 168
+========== raw link https://xhamster.com/categories/mature
+============ Checking for Redirections: https://xhamster.com/categories/mature
+============ Link unchanged
+========== link already checked
+======== We are on link 48 of 168
+========== raw link https://xhamster.com/categories/old-young
+============ Checking for Redirections: https://xhamster.com/categories/old-young
+============ Link unchanged
+========== link already checked
+======== We are on link 49 of 168
+========== raw link https://xhamster.com/categories/lesbian
+============ Checking for Redirections: https://xhamster.com/categories/lesbian
+============ Link unchanged
+========== link already checked
+======== We are on link 50 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 51 of 168
+========== raw link https://xhamsterlive.com/girls?userId=aad1b133c9c4764c297d099d98d58aef&memberId=&utm_source=xhamster&utm_medium=widgets&sourceId=widgets&platform=desktop&landing=WidgetXH&domain=xhamsterlive&orientation=straight&pageType=otherPages&logged=0&retargeted=0&adblocked=0&widgetName=mainMenu-LiveSex&widgetElement=tab&isUserLogged=0&isUserRetargeted=0&p1=cold&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D&xhStatsUid=682aaa694a0058.30329266db2&xhSessionToken=d130f9051797c3dc7c83795c0cf189c8d6236912&xhSessionStartedAt=1747626601
+========== dropped link https://xhamsterlive.com/girls?userId=aad1b133c9c4764c297d099d98d58aef&memberId=&utm_source=xhamster&utm_medium=widgets&sourceId=widgets&platform=desktop&landing=WidgetXH&domain=xhamsterlive&orientation=straight&pageType=otherPages&logged=0&retargeted=0&adblocked=0&widgetName=mainMenu-LiveSex&widgetElement=tab&isUserLogged=0&isUserRetargeted=0&p1=cold&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D&xhStatsUid=682aaa694a0058.30329266db2&xhSessionToken=d130f9051797c3dc7c83795c0cf189c8d6236912&xhSessionStartedAt=1747626601. Didn't pass first allows/blocks test.
+======== We are on link 52 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 53 of 168
+========== raw link https://xhamster.com/categories/mature
+============ Checking for Redirections: https://xhamster.com/categories/mature
+============ Link unchanged
+========== link already checked
+======== We are on link 54 of 168
+========== raw link https://xhamster.com/categories/amateur
+============ Checking for Redirections: https://xhamster.com/categories/amateur
+============ Link unchanged
+========== link already checked
+======== We are on link 55 of 168
+========== raw link https://xhamster.com/categories/homemade
+============ Checking for Redirections: https://xhamster.com/categories/homemade
+============ Link unchanged
+========== link already checked
+======== We are on link 56 of 168
+========== raw link https://xhamster.com/categories/anal
+============ Checking for Redirections: https://xhamster.com/categories/anal
+============ Link unchanged
+========== link already checked
+======== We are on link 57 of 168
+========== raw link https://xhamster.com/categories/18-year-old
+============ Checking for Redirections: https://xhamster.com/categories/18-year-old
+============ Link unchanged
+========== link already checked
+======== We are on link 58 of 168
+========== raw link https://xhamster.com/categories
+============ Checking for Redirections: https://xhamster.com/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 59 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== link already checked
+======== We are on link 60 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+============ Link unchanged
+========== link already checked
+======== We are on link 61 of 168
+========== raw link https://xhamster.com/celebrities
+============ Checking for Redirections: https://xhamster.com/celebrities
+============ Link unchanged
+========== link already checked
+======== We are on link 62 of 168
+========== raw link https://xhamster.com/pornstars/all/countries
+============ Checking for Redirections: https://xhamster.com/pornstars/all/countries
+============ Link unchanged
+========== link already checked
+======== We are on link 63 of 168
+========== raw link https://xhamster.com/creators
+============ Checking for Redirections: https://xhamster.com/creators
+============ Link unchanged
+========== link already checked
+======== We are on link 64 of 168
+========== raw link https://xhamster.com/creators/contest/naoc
+============ Checking for Redirections: https://xhamster.com/creators/contest/naoc
+============ Link unchanged
+========== link already checked
+======== We are on link 65 of 168
+========== raw link https://xhamster.com/creators/contest/naoc
+============ Checking for Redirections: https://xhamster.com/creators/contest/naoc
+============ Link unchanged
+========== link already checked
+======== We are on link 66 of 168
+========== raw link https://xhamster.com/creators/videos/naoc
+========== dropped link https://xhamster.com/creators/videos/naoc. Didn't pass first allows/blocks test.
+======== We are on link 67 of 168
+========== raw link https://xhamster.com/awards?source=sidebar&medium=tab
+============ Checking for Redirections: https://xhamster.com/awards?source=sidebar&medium=tab
+============ Link after cleaning: https://xhamster.com/awards
+========== link already checked
+======== We are on link 68 of 168
+========== raw link https://xhamster.com/creators
+============ Checking for Redirections: https://xhamster.com/creators
+============ Link unchanged
+========== link already checked
+======== We are on link 69 of 168
+========== raw link https://xhamster.com/creators/all/countries
+============ Checking for Redirections: https://xhamster.com/creators/all/countries
+============ Link unchanged
+========== link already checked
+======== We are on link 70 of 168
+========== raw link https://xhamster.com/creator-signup?source=creators
+============ Checking for Redirections: https://xhamster.com/creator-signup?source=creators
+============ Followed Redirection to https://xhamster.com/creator?source=creators
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 71 of 168
+========== raw link https://xhamster.com/channels
+============ Checking for Redirections: https://xhamster.com/channels
+============ Link unchanged
+========== link already checked
+======== We are on link 72 of 168
+========== raw link https://xhamster.com/photos
+============ Checking for Redirections: https://xhamster.com/photos
+============ Link unchanged
+========== link already checked
+======== We are on link 73 of 168
+========== raw link https://xhamster.com/photos/categories/mature
+============ Checking for Redirections: https://xhamster.com/photos/categories/mature
+============ Link unchanged
+========== link already checked
+======== We are on link 74 of 168
+========== raw link https://xhamster.com/photos/categories/milf
+============ Checking for Redirections: https://xhamster.com/photos/categories/milf
+============ Link unchanged
+========== link already checked
+======== We are on link 75 of 168
+========== raw link https://xhamster.com/photos/categories/hentai
+============ Checking for Redirections: https://xhamster.com/photos/categories/hentai
+============ Link unchanged
+========== link already checked
+======== We are on link 76 of 168
+========== raw link https://xhamster.com/photos/categories/big-tits
+============ Checking for Redirections: https://xhamster.com/photos/categories/big-tits
+============ Link unchanged
+========== link already checked
+======== We are on link 77 of 168
+========== raw link https://xhamster.com/photos/categories/granny
+============ Checking for Redirections: https://xhamster.com/photos/categories/granny
+============ Link unchanged
+========== link already checked
+======== We are on link 78 of 168
+========== raw link https://xhamster.com/photos/categories
+============ Checking for Redirections: https://xhamster.com/photos/categories
+============ Link unchanged
+========== link already checked
+======== We are on link 79 of 168
+========== raw link /ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Found Relative: joining https://xhamster.com/info/terms and /ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Checking for Redirections: https://xhamster.com/ff/out?utm_source=xhamster&utm_medium=menu&utm_campaign=guest&utm_content=otherPages&xhStatsUid=682aaa694a0058.30329266db2&xhExp=%7B%223001%22%3A%7B%22group%22%3A%22g%22%2C%22version%22%3A8%7D%2C%223005%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A2%7D%2C%228031%22%3A%7B%22group%22%3A%22a%22%2C%22version%22%3A1%7D%7D
+============ Followed Redirection to https://flirtify.com/?utm_campaign=guest&utm_content=otherPages&utm_medium=menu&utm_source=xhamster&xhExp=%257B%25223001%2522%253A%257B%2522group%2522%253A%2522g%2522%252C%2522version%2522%253A8%257D%252C%25223005%2522%253A%257B%2522group%2522%253A%2522a%2522%252C%2522version%2522%253A2%257D%252C%25228031%2522%253A%257B%2522group%2522%253A%2522a%2522%252C%2522version%2522%253A1%257D%257D&xhStatsUid=682aaa694a0058.30329266db2
+============ Link after cleaning: https://flirtify.com/
+============ Excluded based on allow/block list.
+======== We are on link 80 of 168
+========== raw link https://faphouse.com/?utm_term=en-us&utm_source=xhamster&utm_medium=button&utm_campaign=guest&utm_content=landingpage&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D
+========== dropped link https://faphouse.com/?utm_term=en-us&utm_source=xhamster&utm_medium=button&utm_campaign=guest&utm_content=landingpage&exp=%7B%223001%22%3A%7B%22g%22%3A%22g%22%2C%22v%22%3A8%7D%2C%223005%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A2%7D%2C%228031%22%3A%7B%22g%22%3A%22a%22%2C%22v%22%3A1%7D%7D. Didn't pass first allows/blocks test.
+======== We are on link 81 of 168
+========== raw link https://xhamster.com/dating
+============ Checking for Redirections: https://xhamster.com/dating
+============ Link unchanged
+========== link already checked
+======== We are on link 82 of 168
+========== raw link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink
+========== dropped link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink. Didn't pass first allows/blocks test.
+======== We are on link 83 of 168
+========== raw link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g
+========== dropped link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g. Didn't pass first allows/blocks test.
+======== We are on link 84 of 168
+========== raw link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0
+========== dropped link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0. Didn't pass first allows/blocks test.
+======== We are on link 85 of 168
+========== raw link https://xhamster.com/my/subscriptions
+============ Checking for Redirections: https://xhamster.com/my/subscriptions
+============ Link unchanged
+========== link already checked
+======== We are on link 86 of 168
+========== raw link https://xhamster.com/photos
+============ Checking for Redirections: https://xhamster.com/photos
+============ Link unchanged
+========== link already checked
+======== We are on link 87 of 168
+========== raw link https://xhamster.com/dating
+============ Checking for Redirections: https://xhamster.com/dating
+============ Link unchanged
+========== link already checked
+======== We are on link 88 of 168
+========== raw link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink
+========== dropped link https://priorityvpn.app/?utm_source=xh&utm_medium=desktop&utm_campaign=tablink. Didn't pass first allows/blocks test.
+======== We are on link 89 of 168
+========== raw link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g
+========== dropped link https://xh.lustyheroes.com/?pid=xh_tablink_desktop_anon_exp3001_g. Didn't pass first allows/blocks test.
+======== We are on link 90 of 168
+========== raw link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0
+========== dropped link https://lovescape.com/?userId=9841b8dfe0948b15d2ade18982de21bd51281c1ac5b753838d55a4d0e0ff4985&isUserLogged=2&platform=desktop&campaignId=xhamster_tablink&creativeId=xhamster_ai_girlfriend&sourceId=xhamster_widgets&p1=xhamster_a000001&p2=xhamster_b000001&p3=xhamster-to-index&utm_source=xhamster&utm_medium=xhamster_widgets&utm_campaign=xhamster_tablink&pageType=otherPages&xoc=straight&xvr=0. Didn't pass first allows/blocks test.
+======== We are on link 91 of 168
+========== raw link https://xhamster.com/my/subscriptions
+============ Checking for Redirections: https://xhamster.com/my/subscriptions
+============ Link unchanged
+========== link already checked
+======== We are on link 92 of 168
+========== raw link https://xhamster.com/creator-signup?source=uploadHeader
+============ Checking for Redirections: https://xhamster.com/creator-signup?source=uploadHeader
+============ Followed Redirection to https://xhamster.com/creator?source=uploadHeader
+============ Link after cleaning: https://xhamster.com/creator
+========== link already checked
+======== We are on link 93 of 168
+========== raw link https://faphouse.com/?utm_source=xhamster-headline&utm_campaign=seasonofsavings-2025&utm_medium=desktop-headline
+========== dropped link https://faphouse.com/?utm_source=xhamster-headline&utm_campaign=seasonofsavings-2025&utm_medium=desktop-headline. Didn't pass first allows/blocks test.
+======== We are on link 94 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 95 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 96 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+============ Link unchanged
+========== link already checked
+======== We are on link 97 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 98 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+============ Link unchanged
+========== link already checked
+======== We are on link 99 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+============ Link unchanged
+========== link already checked
+======== We are on link 100 of 168
+========== raw link https://xhamster.com/app
+============ Checking for Redirections: https://xhamster.com/app
+============ Link unchanged
+========== link already checked
+======== We are on link 101 of 168
+========== raw link https://xhamster.com/notifications
+============ Checking for Redirections: https://xhamster.com/notifications
+========== dropped link https://xhamster.com/notifications. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 102 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+========== dropped link https://xhamster.com/password-recovery. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 103 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 104 of 168
+========== raw link https://xhamster.com/blocked_users.php
+============ Checking for Redirections: https://xhamster.com/blocked_users.php
+========== dropped link https://xhamster.com/blocked_users.php. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 105 of 168
+========== raw link https://xhamster.com/my/edit/profile
+============ Checking for Redirections: https://xhamster.com/my/edit/profile
+========== dropped link https://xhamster.com/my/edit/profile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 106 of 168
+========== raw link https://xhamster.com/info/privacy
+============ Checking for Redirections: https://xhamster.com/info/privacy
+========== dropped link https://xhamster.com/info/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 107 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 108 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+========== dropped link https://xhamster.com/pornstars. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 109 of 168
+========== raw link https://xhamsterlive.com/girls/pornstars
+========== dropped link https://xhamsterlive.com/girls/pornstars. Didn't pass first allows/blocks test.
+======== We are on link 110 of 168
+========== raw link mailto:pornstar@stripchat.com
+========== dropped link (either fragment ("#"), js, mailto, comment, pdf, or empty)
+======== We are on link 111 of 168
+========== raw link https://xhamster.com/info/contact?subject=ccp&requestType=ccp
+============ Checking for Redirections: https://xhamster.com/info/contact?subject=ccp&requestType=ccp
+========== dropped link https://xhamster.com/info/contact?subject=ccp&requestType=ccp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 112 of 168
+========== raw link https://xhamster.com/pornstars
+============ Checking for Redirections: https://xhamster.com/pornstars
+========== dropped link https://xhamster.com/pornstars. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 113 of 168
+========== raw link https://www.xHamsterLive.com/girls/pornstars
+========== dropped link https://www.xHamsterLive.com/girls/pornstars. Didn't pass first allows/blocks test.
+======== We are on link 114 of 168
+========== raw link https://xhamster.com/account_settings.php?tab=email
+============ Checking for Redirections: https://xhamster.com/account_settings.php?tab=email
+========== dropped link https://xhamster.com/account_settings.php?tab=email. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 115 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 116 of 168
+========== raw link https://m.xhamster.com/
+============ Checking for Redirections: https://m.xhamster.com/
+========== dropped link https://m.xhamster.com/. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 117 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 118 of 168
+========== raw link https://xhamster.com/password-recovery
+============ Checking for Redirections: https://xhamster.com/password-recovery
+========== dropped link https://xhamster.com/password-recovery. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 119 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+========== dropped link https://xhamster.com/info/cookie-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 120 of 168
+========== raw link https://www.google.com/cookies.html
+========== dropped link https://www.google.com/cookies.html. Didn't pass first allows/blocks test.
+======== We are on link 121 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 122 of 168
+========== raw link https://xhamster.com/creator-signup
+============ Checking for Redirections: https://xhamster.com/creator-signup
+========== dropped link https://xhamster.com/creator-signup. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 123 of 168
+========== raw link https://xhamster.com/my/favorites/videos
+============ Checking for Redirections: https://xhamster.com/my/favorites/videos
+========== dropped link https://xhamster.com/my/favorites/videos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 124 of 168
+========== raw link https://xhamster.com/my/favorites/galleries
+============ Checking for Redirections: https://xhamster.com/my/favorites/galleries
+========== dropped link https://xhamster.com/my/favorites/galleries. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 125 of 168
+========== raw link https://xhamster.com/my/favorites/photos
+============ Checking for Redirections: https://xhamster.com/my/favorites/photos
+========== dropped link https://xhamster.com/my/favorites/photos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 126 of 168
+========== raw link https://xhamster.com/edit_profile.php
+============ Checking for Redirections: https://xhamster.com/edit_profile.php
+========== dropped link https://xhamster.com/edit_profile.php. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 127 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+========== dropped link https://xhamster.com/info/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 128 of 168
+========== raw link https://xhamster.com/my_vids/public/1.html
+============ Checking for Redirections: https://xhamster.com/my_vids/public/1.html
+========== dropped link https://xhamster.com/my_vids/public/1.html. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 129 of 168
+========== raw link https://xhamster.com/codecs.php
+============ Checking for Redirections: https://xhamster.com/codecs.php
+========== dropped link https://xhamster.com/codecs.php. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 130 of 168
+========== raw link https://www.videohelp.com/tools/sections/codec-video-identifiers
+========== dropped link https://www.videohelp.com/tools/sections/codec-video-identifiers. Didn't pass first allows/blocks test.
+======== We are on link 131 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 132 of 168
+========== raw link https://xhamster.com/my/videos
+============ Checking for Redirections: https://xhamster.com/my/videos
+========== dropped link https://xhamster.com/my/videos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 133 of 168
+========== raw link https://xhamster.com/creator-signup
+============ Checking for Redirections: https://xhamster.com/creator-signup
+========== dropped link https://xhamster.com/creator-signup. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 134 of 168
+========== raw link https://xhamster.com/my/edit/introduction
+============ Checking for Redirections: https://xhamster.com/my/edit/introduction
+========== dropped link https://xhamster.com/my/edit/introduction. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 135 of 168
+========== raw link https://xhamster.com/my/photos
+============ Checking for Redirections: https://xhamster.com/my/photos
+========== dropped link https://xhamster.com/my/photos. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 136 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+========== dropped link https://xhamster.com/info/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 137 of 168
+========== raw link https://xhamstershop.com/?utm_medium=footer&utm_source=xhamster
+========== dropped link https://xhamstershop.com/?utm_medium=footer&utm_source=xhamster. Didn't pass first allows/blocks test.
+======== We are on link 138 of 168
+========== raw link https://xhamster.com/media/press
+============ Checking for Redirections: https://xhamster.com/media/press
+========== dropped link https://xhamster.com/media/press. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 139 of 168
+========== raw link https://xhamster.com/blog
+============ Checking for Redirections: https://xhamster.com/blog
+========== dropped link https://xhamster.com/blog. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 140 of 168
+========== raw link https://xhamstercreators.com
+========== dropped link https://xhamstercreators.com. Didn't pass first allows/blocks test.
+======== We are on link 141 of 168
+========== raw link https://trafficstars.com/product/xhamster-ads?p1=xHAdsBy&utm_source=xhamster&utm_medium=referral&utm_campaign=adsbyadult
+========== dropped link https://trafficstars.com/product/xhamster-ads?p1=xHAdsBy&utm_source=xhamster&utm_medium=referral&utm_campaign=adsbyadult. Didn't pass first allows/blocks test.
+======== We are on link 142 of 168
+========== raw link https://xhamsternft.com
+========== dropped link https://xhamsternft.com. Didn't pass first allows/blocks test.
+======== We are on link 143 of 168
+========== raw link https://xhamster.com/awards/2024
+============ Checking for Redirections: https://xhamster.com/awards/2024
+========== dropped link https://xhamster.com/awards/2024. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 144 of 168
+========== raw link https://xhamster.com/info/faq
+============ Checking for Redirections: https://xhamster.com/info/faq
+========== dropped link https://xhamster.com/info/faq. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 145 of 168
+========== raw link https://xhamster.com/info/contact
+============ Checking for Redirections: https://xhamster.com/info/contact
+========== dropped link https://xhamster.com/info/contact. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 146 of 168
+========== raw link https://xhamster.com/info/contact?subject=abuse
+============ Checking for Redirections: https://xhamster.com/info/contact?subject=abuse
+========== dropped link https://xhamster.com/info/contact?subject=abuse. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 147 of 168
+========== raw link https://xhamster.uservoice.com
+========== dropped link https://xhamster.uservoice.com. Didn't pass first allows/blocks test.
+======== We are on link 148 of 168
+========== raw link https://xhamster.com/info/terms
+============ Checking for Redirections: https://xhamster.com/info/terms
+========== dropped link https://xhamster.com/info/terms. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 149 of 168
+========== raw link https://xhamster.com/info/privacy
+============ Checking for Redirections: https://xhamster.com/info/privacy
+========== dropped link https://xhamster.com/info/privacy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 150 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+========== dropped link https://xhamster.com/info/cookie-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 151 of 168
+========== raw link https://xhamster.com/info/dmca
+============ Checking for Redirections: https://xhamster.com/info/dmca
+========== dropped link https://xhamster.com/info/dmca. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 152 of 168
+========== raw link https://xhamster.com/info/parentalcontrol
+============ Checking for Redirections: https://xhamster.com/info/parentalcontrol
+========== dropped link https://xhamster.com/info/parentalcontrol. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 153 of 168
+========== raw link https://xhamster.com/info/eu-digital-services-act
+============ Checking for Redirections: https://xhamster.com/info/eu-digital-services-act
+========== dropped link https://xhamster.com/info/eu-digital-services-act. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 154 of 168
+========== raw link https://xhamster.com/info/trust-and-safety
+============ Checking for Redirections: https://xhamster.com/info/trust-and-safety
+========== dropped link https://xhamster.com/info/trust-and-safety. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 155 of 168
+========== raw link https://xhamster.com/ff/out?base=join&utm_medium=footer&utm_source=xhamster-desktop
+============ Checking for Redirections: https://xhamster.com/ff/out?base=join&utm_medium=footer&utm_source=xhamster-desktop
+========== dropped link https://xhamster.com/ff/out?base=join&utm_medium=footer&utm_source=xhamster-desktop. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 156 of 168
+========== raw link https://xhamster.com/creators/contest
+============ Checking for Redirections: https://xhamster.com/creators/contest
+========== dropped link https://xhamster.com/creators/contest. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 157 of 168
+========== raw link https://xhamster.com/creator?source=footerCcp
+============ Checking for Redirections: https://xhamster.com/creator?source=footerCcp
+========== dropped link https://xhamster.com/creator?source=footerCcp. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 158 of 168
+========== raw link https://xhamster.com/creator?source=footerBecomeACreator
+============ Checking for Redirections: https://xhamster.com/creator?source=footerBecomeACreator
+========== dropped link https://xhamster.com/creator?source=footerBecomeACreator. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 159 of 168
+========== raw link https://xhamster.com/info/faq?x_platform_switch=mobile
+============ Checking for Redirections: https://xhamster.com/info/faq?x_platform_switch=mobile
+========== dropped link https://xhamster.com/info/faq?x_platform_switch=mobile. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 160 of 168
+========== raw link https://twitter.com/xhamstercom
+========== dropped link https://twitter.com/xhamstercom. Didn't pass first allows/blocks test.
+======== We are on link 161 of 168
+========== raw link https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA
+========== dropped link https://www.youtube.com/channel/UCQ20nmJ5yQH7amlpg6pbwyA. Didn't pass first allows/blocks test.
+======== We are on link 162 of 168
+========== raw link https://discord.gg/xHamsterNFT
+========== dropped link https://discord.gg/xHamsterNFT. Didn't pass first allows/blocks test.
+======== We are on link 163 of 168
+========== raw link https://twitter.com/xHamsterNFTcom
+========== dropped link https://twitter.com/xHamsterNFTcom. Didn't pass first allows/blocks test.
+======== We are on link 164 of 168
+========== raw link https://xhamster.com/info/2257
+============ Checking for Redirections: https://xhamster.com/info/2257
+========== dropped link https://xhamster.com/info/2257. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 165 of 168
+========== raw link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa
+========== dropped link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa. Didn't pass first allows/blocks test.
+======== We are on link 166 of 168
+========== raw link https://xhamster.com/info/parentalcontrol
+============ Checking for Redirections: https://xhamster.com/info/parentalcontrol
+========== dropped link https://xhamster.com/info/parentalcontrol. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+======== We are on link 167 of 168
+========== raw link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa
+========== dropped link https://www.asacp.org/?content=validate&ql=0b38b549f187edb883db00b7b057cbaa. Didn't pass first allows/blocks test.
+======== We are on link 168 of 168
+========== raw link https://xhamster.com/info/cookie-policy
+============ Checking for Redirections: https://xhamster.com/info/cookie-policy
+========== dropped link https://xhamster.com/info/cookie-policy. Could not follow redirection (or it was a meaninglessly small page or bot blocked by sessionID).
+==== Number of new pages added: 50
+==== We are at iteration 2 (tree depth).
+====== We are on page 1 of 50: https://xhamster.com/
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 2 of 50: https://xhamster.com/gay
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 3 of 50: https://xhamster.com/shemale
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 4 of 50: https://xhamster.com/password-recovery
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 5 of 50: https://xhamster.com/signup
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 6 of 50: https://xhamster.com/shemale/best/weekly
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 7 of 50: https://xhamster.com/moments/bdsm-dirty-talk-oil-handjob-xhGsdRC
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 8 of 50: https://xhamster.com/my/watch-history
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 9 of 50: https://xhamster.com/categories/american
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 10 of 50: https://xhamster.com/categories/amateur
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 11 of 50: https://xhamster.com/categories/mature
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 12 of 50: https://xhamster.com/categories/old-young
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 13 of 50: https://xhamster.com/categories/lesbian
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 14 of 50: https://xhamster.com/categories
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 15 of 50: https://xhamster.com/categories/homemade
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 16 of 50: https://xhamster.com/categories/anal
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 17 of 50: https://xhamster.com/categories/18-year-old
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 18 of 50: https://xhamster.com/pornstars
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 19 of 50: https://xhamster.com/celebrities
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 20 of 50: https://xhamster.com/pornstars/all/countries
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 21 of 50: https://xhamster.com/creators
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 22 of 50: https://xhamster.com/creators/contest/naoc
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 23 of 50: https://xhamster.com/awards
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 24 of 50: https://xhamster.com/creators/all/countries
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 25 of 50: https://xhamster.com/creator
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 26 of 50: https://xhamster.com/channels
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 27 of 50: https://xhamster.com/photos
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 28 of 50: https://xhamster.com/photos/categories/mature
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 29 of 50: https://xhamster.com/photos/categories/milf
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 30 of 50: https://xhamster.com/photos/categories/hentai
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 31 of 50: https://xhamster.com/photos/categories/big-tits
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 32 of 50: https://xhamster.com/photos/categories/granny
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 33 of 50: https://xhamster.com/photos/categories
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 34 of 50: https://xhamster.com/dating
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 35 of 50: https://xhamster.com/my/subscriptions
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 36 of 50: https://xhamster.com/info/contact
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 37 of 50: https://xhamster.com/info/dmca
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 38 of 50: https://xhamster.com/app
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 39 of 50: https://xhamster.com/login
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 40 of 50: https://xhamster.com/info/privacy
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 41 of 50: https://xhamster.com/info/cookie-policy
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 42 of 50: https://xhamster.com/edit_profile.php
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 43 of 50: https://xhamster.com/my_vids/public/1.html
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 44 of 50: https://xhamster.com/codecs.php
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 45 of 50: https://xhamster.com/awards/2024
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 46 of 50: https://xhamster.com/info/parentalcontrol
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 47 of 50: https://xhamster.com/info/eu-digital-services-act
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 48 of 50: https://xhamster.com/info/trust-and-safety
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 49 of 50: https://xhamster.com/creators/contest
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+====== We are on page 50 of 50: https://xhamster.com/info/2257
+ERROR: Somehow this page has no links... 
+====== Number of Links on this Page: 0
+==== Number of new pages added: 0
+== Finished scraping xhamster.com-AI_Moderation in 5500.5694 seconds.
+== Writing to db file
+== Done (/home/margauxreyl/ContentMod/data/05_18_25_22_49/all_htmls/AI_Moderation_xhamster_com_05_18_25_22_49.json)
+== Completed with Errors, search for error in logs
