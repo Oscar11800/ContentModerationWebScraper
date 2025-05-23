@@ -12,7 +12,7 @@
       },
       "filters": {
         "allows": ["stackoverflow"],
-        "blocks": ["/login", "/chat", "/teams", "linkedin.com", "twitter.com", "stackexchange.com", "cloud.google.com", "questions"]
+        "blocks": ["stackoverflow.co/", "stackoverflow.blog/", "/login", "/chat", "/teams", "linkedin.com", "twitter.com", "stackexchange.com", "cloud.google.com", "questions"]
       }
     },
   
