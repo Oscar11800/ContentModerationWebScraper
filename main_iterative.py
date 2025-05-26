@@ -1,3 +1,4 @@
+
 import pandas as pd
 import json
 import util.build_data as build_data
@@ -298,7 +299,16 @@ def run_row(row, area, search_terms, date_time,  allow_block_dict, output_dir, s
                                 tag.decompose()
                             for tag in next_soup.find_all("div", class_="sidebar-container"):
                                 tag.decompose()
-                                
+
+			#vimeo
+                        if row["site_name"] == "vimeo.com":
+                            for tag in next_soup.find_all("div", class_="container-v3 w-full bg-container-background white"):
+                                tag.decompose()
+
+			#stackoverflow
+                        if row["site_name"] == "stackoverflow.com":
+                            for tag in next_soup.find_all("div", class_="s-sidebarwidget--content s-sidebarwidget__items p0"):
+                                tag.decompose()
                         ########## Curations for different sites end ##########
 
 

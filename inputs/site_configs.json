@@ -3,16 +3,16 @@
       "row": {
         "site_id": "stackoverflow",
         "site_name": "stackoverflow.com",
-        "site_url": "https://policies.stackoverflow.co/teams/basic-terms-of-service/",
+        "site_url": "https://stackoverflow.com/legal/terms-of-service/public",
         "seed_1": "https://stackoverflow.com/help",
-        "seed_2": "https://stackoverflow.blog/",
-        "seed_3": "https://stackoverflow.com/help/gen-ai-policy",
-        "seed_4": "https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned",
-        "seed_5": "https://stackoverflow.blog/2023/07/27/announcing-overflowai/"
+        "seed_2": "https://stackoverflow.com/help/gen-ai-policy",
+        "seed_3": "https://meta.stackoverflow.com/questions/421831/policy-generative-ai-e-g-chatgpt-is-banned",
+        "seed_4": "https://stackoverflow.com/legal/acceptable-use-policy",
+	"seed_5": "https://meta.stackoverflow.com/questions/tagged/ai-generated-content"
       },
       "filters": {
-        "allows": ["stackoverflow"],
-        "blocks": ["stackoverflow.co/", "stackoverflow.blog/", "/login", "/chat", "/teams", "linkedin.com", "twitter.com", "stackexchange.com", "cloud.google.com", "questions"]
+        "allows": ["stackoverflow.com"],
+        "blocks": ["/login", "/chat", "/teams", "linkedin.com", "twitter.com", "stackexchange.com", "cloud.google.com", "questions"]
       }
     },
   
